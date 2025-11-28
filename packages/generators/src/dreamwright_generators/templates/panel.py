@@ -15,26 +15,21 @@ LIGHTING: Night scene - cool blue moonlight or warm artificial lights, deep shad
 {% endif %}
 
 {% if continuity %}
-## VISUAL CONTINUITY (CRITICAL)
-This panel continues from the previous panel. You MUST maintain consistency:
+## VISUAL CONTINUITY (from previous panel)
+This panel continues from the previous panel.
 
-KEEP IDENTICAL:
+MATCH FROM PREVIOUS PANEL:
 - Art style, line weight, coloring technique
-- Character appearance (face, hair, clothes, accessories)
 - Color palette and lighting direction
 - Background style and detail level
-- PROPS AND OBJECTS: Any items (bags, boxes, food, weapons, etc.) must have the EXACT same shape, color, and design as in the previous panel
+- Props/objects: same shape, color, design
 
 CREATE NEW:
 - Fresh pose and body position for this action
 - New camera angle as specified
-- Natural progression of the scene
-
 {% if continuity_note %}
-SPECIFIC CONTINUITY: {{ continuity_note }}
+- {{ continuity_note }}
 {% endif %}
-
-IMPORTANT: If a prop/object appeared in the previous panel (e.g., a takeout bag, box, or item being handed over), it MUST look identical in this panel - same shape, color, wrapping, and details.
 {% endif %}
 
 ## COMPOSITION
@@ -43,12 +38,14 @@ IMPORTANT: If a prop/object appeared in the previous panel (e.g., a takeout bag,
 - Location: {% if location %}{{ location.name }}{% if location.description %} ({{ location.description }}){% endif %}{% if location.visual_tags %} - Visual elements: {{ location.visual_tags[:4] | join(', ') }}{% endif %}{% else %}unspecified{% endif %}
 
 {% if characters %}
-## CHARACTERS (CRITICAL: Match reference images EXACTLY)
-For each character, you MUST:
-- Use the EXACT same costume/outfit as shown in their reference image
-- Match hair color, style, and accessories exactly
-- Keep facial features consistent with reference
-- Only change: expression, pose, and camera angle as specified
+## CHARACTERS (CRITICAL - Reference sheet is the authority)
+CHARACTER APPEARANCE MUST MATCH REFERENCE SHEET EXACTLY:
+- OUTFIT: Exact same clothes, colors, patterns as reference sheet
+- HAIR: Same color, style, length as reference sheet
+- ACCESSORIES: Same glasses, jewelry, items as reference sheet
+- FACE: Same features, proportions as reference sheet
+
+Only change from reference: expression, pose, camera angle
 
 {% for char_desc in characters %}
 {{ char_desc }}
