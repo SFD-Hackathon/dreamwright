@@ -16,12 +16,12 @@
     "personality": "Territorial but easily distracted by shiny objects. Speaks in riddles."
   },
   "asset_type": "portrait",
-  "reference_sheet": "characters/moss/sheet.png",
+  "reference_sheet": "assets/characters/moss/sheet.png",
   "gemini": {
     "type": "character_portrait",
     "character_id": "char_moss",
     "character_name": "Moss",
-    "prompt": "Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Moss\nAge: Timeless\nPhysical appearance: A forest spirit made of river stones and moss.\nVisual details: Body: Humanoid shape made of grey stones and green moss, Eyes: Glowing blue mushrooms, Accessory: Wearing a discarded rusted bucket as a hat, Aura: Surrounded by floating fireflies\nPersonality (for expression): Territorial but easily distracted by shiny objects. Speaks in riddles.",
+    "prompt": "Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Moss\nAge: Timeless\nPhysical appearance: A forest spirit made of river stones and moss.\n\nVisual details (MUST include all):\n  - Body: Humanoid shape made of grey stones and green moss\n  - Eyes: Glowing blue mushrooms\n  - Accessory: Wearing a discarded rusted bucket as a hat\n  - Aura: Surrounded by floating fireflies\n\nPersonality (for expression): Territorial but easily distracted by shiny objects. Speaks in riddles.",
     "parameters": {
       "aspect_ratio": "9:16",
       "resolution": "1K",
@@ -30,10 +30,10 @@
       "reference_image": "characters/moss/sheet.png"
     },
     "response": {
-      "timestamp": "2025-11-28T03:11:33.276287+00:00",
+      "timestamp": "2025-11-28T06:37:56.520560+00:00",
       "input": {
-        "prompt": "webtoon style. Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Moss\nAge: Timeless\nPhysical appearance: A forest spirit made of river stones and moss.\nVisual details: Body: Humanoid shape made of grey stones and green moss, Eyes: Glowing blue mushrooms, Accessory: Wearing a discarded rusted bucket as a hat, Aura: Surrounded by floating fireflies\nPersonality (for expression): Territorial but easily distracted by shiny objects. Speaks in riddles.",
-        "final_prompt": "Using the labeled reference images above to maintain visual consistency: webtoon style. Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Moss\nAge: Timeless\nPhysical appearance: A forest spirit made of river stones and moss.\nVisual details: Body: Humanoid shape made of grey stones and green moss, Eyes: Glowing blue mushrooms, Accessory: Wearing a discarded rusted bucket as a hat, Aura: Surrounded by floating fireflies\nPersonality (for expression): Territorial but easily distracted by shiny objects. Speaks in riddles.",
+        "prompt": "webtoon style. Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Moss\nAge: Timeless\nPhysical appearance: A forest spirit made of river stones and moss.\n\nVisual details (MUST include all):\n  - Body: Humanoid shape made of grey stones and green moss\n  - Eyes: Glowing blue mushrooms\n  - Accessory: Wearing a discarded rusted bucket as a hat\n  - Aura: Surrounded by floating fireflies\n\nPersonality (for expression): Territorial but easily distracted by shiny objects. Speaks in riddles.",
+        "final_prompt": "Using the labeled reference images above to maintain visual consistency: webtoon style. Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Moss\nAge: Timeless\nPhysical appearance: A forest spirit made of river stones and moss.\n\nVisual details (MUST include all):\n  - Body: Humanoid shape made of grey stones and green moss\n  - Eyes: Glowing blue mushrooms\n  - Accessory: Wearing a discarded rusted bucket as a hat\n  - Aura: Surrounded by floating fireflies\n\nPersonality (for expression): Territorial but easily distracted by shiny objects. Speaks in riddles.",
         "references": [
           {
             "path": "characters/moss/sheet.png",
@@ -51,12 +51,12 @@
       "output": {
         "finish_reason": "FinishReason.STOP",
         "usage": {
-          "prompt_tokens": 445,
-          "candidates_tokens": 1260,
-          "total_tokens": 1874
+          "prompt_tokens": 458,
+          "candidates_tokens": 1293,
+          "total_tokens": 1932
         }
       }
     }
   },
-  "generated_at": "2025-11-28T11:11:33.277629"
+  "generated_at": "2025-11-28T14:37:56.525670"
 }

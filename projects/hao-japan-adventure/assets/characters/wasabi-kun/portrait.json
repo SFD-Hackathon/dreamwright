@@ -1,0 +1,63 @@
+{
+  "type": "character",
+  "character_id": "char_wasabi_kun",
+  "character_name": "Wasabi-Kun",
+  "role": "supporting",
+  "age": "3",
+  "style": "webtoon",
+  "visual_tags": [
+    "Body: Translucent bright green slime body",
+    "Face: Simple black dots for eyes and mouth",
+    "Accessories: Wears a tiny white headband that says 'FIGHT'",
+    "Texture: Shiny and dripping"
+  ],
+  "description": {
+    "physical": "A small, green, gelatinous blob with a face.",
+    "personality": "Chaotic, mute (makes squeaky noises), helpful."
+  },
+  "asset_type": "portrait",
+  "reference_sheet": "assets/characters/wasabi-kun/sheet.png",
+  "gemini": {
+    "type": "character_portrait",
+    "character_id": "char_wasabi_kun",
+    "character_name": "Wasabi-Kun",
+    "prompt": "Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Wasabi-Kun\nAge: 3\nPhysical appearance: A small, green, gelatinous blob with a face.\n\nVisual details (MUST include all):\n  - Body: Translucent bright green slime body\n  - Face: Simple black dots for eyes and mouth\n  - Accessories: Wears a tiny white headband that says 'FIGHT'\n  - Texture: Shiny and dripping\n\nPersonality (for expression): Chaotic, mute (makes squeaky noises), helpful.",
+    "parameters": {
+      "aspect_ratio": "9:16",
+      "resolution": "1K",
+      "style": "webtoon",
+      "model": "gemini-3-pro-image-preview",
+      "reference_image": "assets/characters/wasabi-kun/sheet.png"
+    },
+    "response": {
+      "timestamp": "2025-11-28T09:01:54.987587+00:00",
+      "input": {
+        "prompt": "webtoon style. Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Wasabi-Kun\nAge: 3\nPhysical appearance: A small, green, gelatinous blob with a face.\n\nVisual details (MUST include all):\n  - Body: Translucent bright green slime body\n  - Face: Simple black dots for eyes and mouth\n  - Accessories: Wears a tiny white headband that says 'FIGHT'\n  - Texture: Shiny and dripping\n\nPersonality (for expression): Chaotic, mute (makes squeaky noises), helpful.",
+        "final_prompt": "webtoon style. Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Wasabi-Kun\nAge: 3\nPhysical appearance: A small, green, gelatinous blob with a face.\n\nVisual details (MUST include all):\n  - Body: Translucent bright green slime body\n  - Face: Simple black dots for eyes and mouth\n  - Accessories: Wears a tiny white headband that says 'FIGHT'\n  - Texture: Shiny and dripping\n\nPersonality (for expression): Chaotic, mute (makes squeaky noises), helpful.",
+        "references": [
+          {
+            "path": "assets/characters/wasabi-kun/sheet.png",
+            "role": "existing portrait of Wasabi-Kun for consistency",
+            "loaded": false,
+            "error": "File not found or could not be loaded"
+          }
+        ],
+        "model": "gemini-3-pro-image-preview",
+        "config": {
+          "aspect_ratio": "9:16",
+          "resolution": "1K",
+          "style": "webtoon"
+        }
+      },
+      "output": {
+        "finish_reason": "FinishReason.STOP",
+        "usage": {
+          "prompt_tokens": 186,
+          "candidates_tokens": 1285,
+          "total_tokens": 1676
+        }
+      }
+    }
+  },
+  "generated_at": "2025-11-28T17:01:55.003449"
+}

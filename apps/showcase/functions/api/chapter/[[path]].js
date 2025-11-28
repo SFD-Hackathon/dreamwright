@@ -44,12 +44,17 @@ export async function onRequest(context) {
       }
     }
 
-    // Check all images in parallel for speed
+    // Check all images in parallel for speed (try both .png and .jpg)
     const imageChecks = await Promise.all(
       segmentData.map(async ({ segment }) => {
-        const imagePath = `${webtoonId}/assets/chapters/ch${chapterNum}/${segment.id}.jpg`;
-        const imgObj = await env.WEBTOONS_BUCKET.head(imagePath);
-        return { id: segment.id, exists: !!imgObj, path: imagePath };
+        const pngPath = `${webtoonId}/assets/chapters/ch${chapterNum}/${segment.id}.png`;
+        const jpgPath = `${webtoonId}/assets/chapters/ch${chapterNum}/${segment.id}.jpg`;
+        const pngObj = await env.WEBTOONS_BUCKET.head(pngPath);
+        if (pngObj) {
+          return { id: segment.id, exists: true, path: pngPath };
+        }
+        const jpgObj = await env.WEBTOONS_BUCKET.head(jpgPath);
+        return { id: segment.id, exists: !!jpgObj, path: jpgPath };
       })
     );
 

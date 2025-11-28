@@ -131,6 +131,85 @@ class WebtoonHandler(http.server.SimpleHTTPRequestHandler):
         except Exception as e:
             self.send_error(500, f"Server error: {type(e).__name__}")
 
+    def do_POST(self):
+        """Handle POST requests for regeneration."""
+        parsed = urlparse(self.path)
+        path = unquote(parsed.path)
+
+        try:
+            if path.startswith("/api/regenerate-panel/"):
+                # /api/regenerate-panel/{project_id}/chapter/{N}/scene/{S}/panel/{P}
+                parts = path.split("/")
+                if len(parts) >= 10:
+                    project_id = parts[3]
+                    if not validate_project_id(project_id):
+                        self.send_error(400, "Invalid project ID")
+                        return
+                    try:
+                        chapter_num = int(parts[5])
+                        scene_num = int(parts[7])
+                        panel_num = int(parts[9])
+                    except (ValueError, IndexError):
+                        self.send_error(400, "Invalid panel path")
+                        return
+                    self.regenerate_panel(project_id, chapter_num, scene_num, panel_num)
+                else:
+                    self.send_error(400, "Invalid regenerate request")
+            else:
+                self.send_error(404, "Not found")
+        except Exception as e:
+            self.send_error(500, f"Server error: {type(e).__name__}")
+
+    def regenerate_panel(self, project_id: str, chapter_num: int, scene_num: int, panel_num: int):
+        """Trigger panel regeneration via DreamWright REST API."""
+        import urllib.request
+        import threading
+
+        project_path = safe_project_path(project_id)
+        if not project_path:
+            self.send_error(400, "Invalid project ID")
+            return
+
+        # DreamWright API endpoint (configurable via env)
+        import os
+        api_base = os.environ.get("DREAMWRIGHT_API_URL", "http://localhost:8000")
+        api_url = f"{api_base}/projects/{project_id}/chapters/{chapter_num}/scenes/{scene_num}/panels/{panel_num}/image"
+
+        def call_api():
+            try:
+                data = json.dumps({"overwrite": True}).encode()
+                req = urllib.request.Request(
+                    api_url,
+                    data=data,
+                    headers={"Content-Type": "application/json"},
+                    method="POST"
+                )
+                with urllib.request.urlopen(req, timeout=30) as resp:
+                    result = json.loads(resp.read().decode())
+                    print(f"API response: {result}")
+            except urllib.error.HTTPError as e:
+                error_body = e.read().decode() if e.fp else ""
+                print(f"API error {e.code}: {error_body}")
+            except Exception as e:
+                print(f"Regeneration API error: {e}")
+
+        # Start API call in background thread
+        thread = threading.Thread(target=call_api)
+        thread.start()
+
+        # Return immediately with accepted status
+        response = json.dumps({
+            "status": "started",
+            "message": f"Regenerating panel {panel_num} in scene {scene_num}, chapter {chapter_num}",
+            "project": project_id,
+            "api_url": api_url
+        })
+        self.send_response(202)
+        self.send_header("Content-type", "application/json")
+        self.send_header("Content-Length", len(response))
+        self.end_headers()
+        self.wfile.write(response.encode())
+
     def serve_project_asset(self, path: str):
         """Serve static assets from projects directory with path validation."""
         # Remove leading /projects/
@@ -333,9 +412,15 @@ class WebtoonHandler(http.server.SimpleHTTPRequestHandler):
             first_char = characters[0]
             portrait_rel = first_char.get("assets", {}).get("portrait", "")
             if portrait_rel:
-                portrait_path = PROJECTS_DIR / project_id / "assets" / portrait_rel
-                if portrait_path.exists():
+                # Handle paths that already start with 'assets/'
+                if portrait_rel.startswith("assets/"):
+                    portrait_path = PROJECTS_DIR / project_id / portrait_rel
+                    cover_img = f"/projects/{project_id}/{portrait_rel}"
+                else:
+                    portrait_path = PROJECTS_DIR / project_id / "assets" / portrait_rel
                     cover_img = f"/projects/{project_id}/assets/{portrait_rel}"
+                if not portrait_path.exists():
+                    cover_img = ""
 
         main_chars = [c for c in characters if c.get("role") == "protagonist"]
         supporting_chars = [c for c in characters if c.get("role") != "protagonist"]
@@ -791,8 +876,21 @@ class WebtoonHandler(http.server.SimpleHTTPRequestHandler):
             char_assets = char.get("assets", {})
             portrait_rel = char_assets.get("portrait", "")
             sheet_rel = char_assets.get("three_view", {}).get("sheet", "")
-            char_img = f"/projects/{project_id}/assets/{portrait_rel}" if portrait_rel else ""
-            char_sheet = f"/projects/{project_id}/assets/{sheet_rel}" if sheet_rel else ""
+            # Handle paths that already start with 'assets/' vs relative paths
+            if portrait_rel:
+                if portrait_rel.startswith("assets/"):
+                    char_img = f"/projects/{project_id}/{portrait_rel}"
+                else:
+                    char_img = f"/projects/{project_id}/assets/{portrait_rel}"
+            else:
+                char_img = ""
+            if sheet_rel:
+                if sheet_rel.startswith("assets/"):
+                    char_sheet = f"/projects/{project_id}/{sheet_rel}"
+                else:
+                    char_sheet = f"/projects/{project_id}/assets/{sheet_rel}"
+            else:
+                char_sheet = ""
             role = char.get("role", "supporting")
             role_class = "protagonist" if role == "protagonist" else ""
             desc = char.get("description", {})
@@ -860,11 +958,18 @@ class WebtoonHandler(http.server.SimpleHTTPRequestHandler):
             loc_ref = loc_assets.get("reference", "")
             loc_sheet_ref = loc_assets.get("reference_sheet", "")
             if loc_ref:
-                loc_img = f"/projects/{project_id}/assets/{loc_ref}"
+                # Handle paths that already start with 'assets/'
+                if loc_ref.startswith("assets/"):
+                    loc_img = f"/projects/{project_id}/{loc_ref}"
+                else:
+                    loc_img = f"/projects/{project_id}/assets/{loc_ref}"
             else:
                 loc_img = f"/projects/{project_id}/assets/locations/{loc_slug}/reference.png"
             if loc_sheet_ref:
-                loc_sheet = f"/projects/{project_id}/assets/{loc_sheet_ref}"
+                if loc_sheet_ref.startswith("assets/"):
+                    loc_sheet = f"/projects/{project_id}/{loc_sheet_ref}"
+                else:
+                    loc_sheet = f"/projects/{project_id}/assets/{loc_sheet_ref}"
             else:
                 loc_sheet = f"/projects/{project_id}/assets/locations/{loc_slug}/reference_sheet.png"
             loc_type = loc.get("type", "interior")
@@ -1027,8 +1132,21 @@ class WebtoonHandler(http.server.SimpleHTTPRequestHandler):
             char_assets = c.get("assets", {})
             portrait_rel = char_assets.get("portrait", "")
             sheet_rel = char_assets.get("three_view", {}).get("sheet", "")
-            c["portrait_url"] = f"/projects/{project_id}/assets/{portrait_rel}" if portrait_rel else ""
-            c["sheet_url"] = f"/projects/{project_id}/assets/{sheet_rel}" if sheet_rel else ""
+            # Handle paths that already start with 'assets/'
+            if portrait_rel:
+                if portrait_rel.startswith("assets/"):
+                    c["portrait_url"] = f"/projects/{project_id}/{portrait_rel}"
+                else:
+                    c["portrait_url"] = f"/projects/{project_id}/assets/{portrait_rel}"
+            else:
+                c["portrait_url"] = ""
+            if sheet_rel:
+                if sheet_rel.startswith("assets/"):
+                    c["sheet_url"] = f"/projects/{project_id}/{sheet_rel}"
+                else:
+                    c["sheet_url"] = f"/projects/{project_id}/assets/{sheet_rel}"
+            else:
+                c["sheet_url"] = ""
             char_lookup[char_id] = c
 
         # Build location lookup with reference paths
@@ -1039,7 +1157,11 @@ class WebtoonHandler(http.server.SimpleHTTPRequestHandler):
             loc_assets = loc.get("assets", {})
             loc_ref = loc_assets.get("reference", "")
             if loc_ref:
-                loc["reference_url"] = f"/projects/{project_id}/assets/{loc_ref}"
+                # Handle paths that already start with 'assets/'
+                if loc_ref.startswith("assets/"):
+                    loc["reference_url"] = f"/projects/{project_id}/{loc_ref}"
+                else:
+                    loc["reference_url"] = f"/projects/{project_id}/assets/{loc_ref}"
             else:
                 loc["reference_url"] = f"/projects/{project_id}/assets/locations/{loc_name}/reference.png"
             loc_lookup[loc_id] = loc
@@ -1183,6 +1305,57 @@ class WebtoonHandler(http.server.SimpleHTTPRequestHandler):
             word-break: break-word;
             padding-left: 8px;
             border-left: 2px solid #333;
+        }}
+        .debug-left .regenerate-btn {{
+            display: block;
+            width: 100%;
+            margin-top: 15px;
+            padding: 10px 16px;
+            background: linear-gradient(135deg, #e94560, #ff6b8a);
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 600;
+            font-family: 'JetBrains Mono', monospace;
+            cursor: pointer;
+            transition: all 0.2s;
+        }}
+        .debug-left .regenerate-btn:hover {{
+            background: linear-gradient(135deg, #ff6b8a, #e94560);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(233,69,96,0.4);
+        }}
+        .debug-left .regenerate-btn:disabled {{
+            background: #333;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }}
+        .debug-left .regenerate-btn.loading {{
+            background: #f0ad4e;
+            animation: pulse 1.5s infinite;
+        }}
+        @keyframes pulse {{
+            0%, 100% {{ opacity: 1; }}
+            50% {{ opacity: 0.7; }}
+        }}
+        .debug-left .regen-status {{
+            margin-top: 8px;
+            padding: 8px;
+            border-radius: 4px;
+            font-size: 11px;
+            display: none;
+        }}
+        .debug-left .regen-status.success {{
+            display: block;
+            background: rgba(40, 167, 69, 0.2);
+            color: #28a745;
+        }}
+        .debug-left .regen-status.error {{
+            display: block;
+            background: rgba(220, 53, 69, 0.2);
+            color: #dc3545;
         }}
 
         .panel {{
@@ -1621,6 +1794,12 @@ class WebtoonHandler(http.server.SimpleHTTPRequestHandler):
                     <div class="info-row"><span class="info-label">shot:</span><span class="info-value">{escape(str(composition.get('shot_type', 'N/A')))}</span></div>
                     <div class="info-row"><span class="info-label">angle:</span><span class="info-value">{escape(str(composition.get('angle', 'N/A')))}</span></div>
                 </div>
+                <button class="regenerate-btn"
+                        onclick="regeneratePanel(this, '{project_id}', {chapter_num}, {p['scene_num']}, {p['panel_num']})"
+                        data-image-url="{p['url']}">
+                    Regenerate Panel
+                </button>
+                <div class="regen-status" id="regen-status-{p['scene_num']}-{p['panel_num']}"></div>
             </div>
 """
 
@@ -1953,6 +2132,84 @@ class WebtoonHandler(http.server.SimpleHTTPRequestHandler):
         document.addEventListener('keydown', function(e) {
             if (e.key === 'Escape') closeJsonModal();
         });
+
+        // Panel regeneration
+        async function regeneratePanel(btn, projectId, chapterNum, sceneNum, panelNum) {
+            const statusEl = document.getElementById(`regen-status-${sceneNum}-${panelNum}`);
+            const imageUrl = btn.dataset.imageUrl;
+
+            // Find the panel image element
+            const panelRow = btn.closest('.panel-row');
+            const panelImg = panelRow.querySelector('.panel img, .panel .placeholder');
+
+            // Update UI
+            btn.disabled = true;
+            btn.classList.add('loading');
+            btn.textContent = 'Regenerating...';
+            statusEl.className = 'regen-status';
+            statusEl.style.display = 'none';
+
+            try {
+                const response = await fetch(
+                    `/api/regenerate-panel/${projectId}/chapter/${chapterNum}/scene/${sceneNum}/panel/${panelNum}`,
+                    { method: 'POST' }
+                );
+
+                if (response.ok) {
+                    const data = await response.json();
+                    statusEl.textContent = data.message + ' - Polling for completion...';
+                    statusEl.className = 'regen-status success';
+
+                    // Poll for the new image
+                    let attempts = 0;
+                    const maxAttempts = 60; // 5 minutes max
+                    const pollInterval = setInterval(async () => {
+                        attempts++;
+                        try {
+                            const imgResponse = await fetch(imageUrl + '?t=' + Date.now(), { method: 'HEAD' });
+                            if (imgResponse.ok) {
+                                // Check if it's actually a new image by forcing reload
+                                if (panelImg.tagName === 'IMG') {
+                                    panelImg.src = imageUrl + '?t=' + Date.now();
+                                } else {
+                                    // Replace placeholder with image
+                                    const newImg = document.createElement('img');
+                                    newImg.src = imageUrl + '?t=' + Date.now();
+                                    newImg.alt = `Scene ${sceneNum} Panel ${panelNum}`;
+                                    newImg.loading = 'lazy';
+                                    panelImg.parentNode.replaceChild(newImg, panelImg);
+                                }
+                                clearInterval(pollInterval);
+                                btn.disabled = false;
+                                btn.classList.remove('loading');
+                                btn.textContent = 'Regenerate Panel';
+                                statusEl.textContent = 'Regeneration complete!';
+                            }
+                        } catch (e) {
+                            // Image not ready yet
+                        }
+
+                        if (attempts >= maxAttempts) {
+                            clearInterval(pollInterval);
+                            btn.disabled = false;
+                            btn.classList.remove('loading');
+                            btn.textContent = 'Regenerate Panel';
+                            statusEl.textContent = 'Generation in progress. Refresh page to see result.';
+                        } else {
+                            statusEl.textContent = `Generating... (${attempts * 5}s)`;
+                        }
+                    }, 5000);
+                } else {
+                    throw new Error(`Server returned ${response.status}`);
+                }
+            } catch (err) {
+                btn.disabled = false;
+                btn.classList.remove('loading');
+                btn.textContent = 'Regenerate Panel';
+                statusEl.textContent = 'Error: ' + err.message;
+                statusEl.className = 'regen-status error';
+            }
+        }
     </script>
 </body>
 </html>

@@ -277,8 +277,14 @@ class JSONStorage(StorageBackend):
         return self.assets_path / asset_type / filename
 
     def get_absolute_asset_path(self, relative_path: str) -> Path:
-        """Convert relative asset path to absolute."""
-        return self.base_path / relative_path
+        """Convert relative asset path to absolute.
+
+        Handles paths that either start with 'assets/' or are relative to assets/.
+        """
+        # Strip leading 'assets/' if present to avoid double-nesting
+        if relative_path.startswith(f"{self.ASSETS_DIR}/"):
+            relative_path = relative_path[len(self.ASSETS_DIR) + 1:]
+        return self.assets_path / relative_path
 
     def delete_asset(self, relative_path: str) -> bool:
         """Delete an asset file.

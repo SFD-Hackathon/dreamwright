@@ -17,12 +17,12 @@
     "personality": "Over-enthusiastic, dim-witted but golden-hearted. Treats every minor inconvenience like an epic quest."
   },
   "asset_type": "portrait",
-  "reference_sheet": "characters/marcus/sheet.png",
+  "reference_sheet": "assets/characters/marcus/sheet.png",
   "gemini": {
     "type": "character_portrait",
     "character_id": "char_marcus",
     "character_name": "Marcus",
-    "prompt": "Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Marcus\nAge: 21\nPhysical appearance: Tall, broad-shouldered, classic 'hero' jawline. Blonde hair styled perfectly.\nVisual details: Hair: Spiky blonde hair, always shiny, Outfit: Polished silver chest plate over a red tunic, Accessory: A ridiculously long red cape that he constantly trips over, Weapon: An oversized broadsword he struggles to unsheathe, Build: Muscular but stiff posture\nPersonality (for expression): Over-enthusiastic, dim-witted but golden-hearted. Treats every minor inconvenience like an epic quest.",
+    "prompt": "Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Marcus\nAge: 21\nPhysical appearance: Tall, broad-shouldered, classic 'hero' jawline. Blonde hair styled perfectly.\n\nVisual details (MUST include all):\n  - Hair: Spiky blonde hair, always shiny\n  - Outfit: Polished silver chest plate over a red tunic\n  - Accessory: A ridiculously long red cape that he constantly trips over\n  - Weapon: An oversized broadsword he struggles to unsheathe\n  - Build: Muscular but stiff posture\n\nPersonality (for expression): Over-enthusiastic, dim-witted but golden-hearted. Treats every minor inconvenience like an epic quest.",
     "parameters": {
       "aspect_ratio": "9:16",
       "resolution": "1K",
@@ -31,10 +31,10 @@
       "reference_image": "characters/marcus/sheet.png"
     },
     "response": {
-      "timestamp": "2025-11-28T03:26:40.255461+00:00",
+      "timestamp": "2025-11-28T06:37:23.633715+00:00",
       "input": {
-        "prompt": "webtoon style. Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Marcus\nAge: 21\nPhysical appearance: Tall, broad-shouldered, classic 'hero' jawline. Blonde hair styled perfectly.\nVisual details: Hair: Spiky blonde hair, always shiny, Outfit: Polished silver chest plate over a red tunic, Accessory: A ridiculously long red cape that he constantly trips over, Weapon: An oversized broadsword he struggles to unsheathe, Build: Muscular but stiff posture\nPersonality (for expression): Over-enthusiastic, dim-witted but golden-hearted. Treats every minor inconvenience like an epic quest.",
-        "final_prompt": "Using the labeled reference images above to maintain visual consistency: webtoon style. Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Marcus\nAge: 21\nPhysical appearance: Tall, broad-shouldered, classic 'hero' jawline. Blonde hair styled perfectly.\nVisual details: Hair: Spiky blonde hair, always shiny, Outfit: Polished silver chest plate over a red tunic, Accessory: A ridiculously long red cape that he constantly trips over, Weapon: An oversized broadsword he struggles to unsheathe, Build: Muscular but stiff posture\nPersonality (for expression): Over-enthusiastic, dim-witted but golden-hearted. Treats every minor inconvenience like an epic quest.",
+        "prompt": "webtoon style. Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Marcus\nAge: 21\nPhysical appearance: Tall, broad-shouldered, classic 'hero' jawline. Blonde hair styled perfectly.\n\nVisual details (MUST include all):\n  - Hair: Spiky blonde hair, always shiny\n  - Outfit: Polished silver chest plate over a red tunic\n  - Accessory: A ridiculously long red cape that he constantly trips over\n  - Weapon: An oversized broadsword he struggles to unsheathe\n  - Build: Muscular but stiff posture\n\nPersonality (for expression): Over-enthusiastic, dim-witted but golden-hearted. Treats every minor inconvenience like an epic quest.",
+        "final_prompt": "Using the labeled reference images above to maintain visual consistency: webtoon style. Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Marcus\nAge: 21\nPhysical appearance: Tall, broad-shouldered, classic 'hero' jawline. Blonde hair styled perfectly.\n\nVisual details (MUST include all):\n  - Hair: Spiky blonde hair, always shiny\n  - Outfit: Polished silver chest plate over a red tunic\n  - Accessory: A ridiculously long red cape that he constantly trips over\n  - Weapon: An oversized broadsword he struggles to unsheathe\n  - Build: Muscular but stiff posture\n\nPersonality (for expression): Over-enthusiastic, dim-witted but golden-hearted. Treats every minor inconvenience like an epic quest.",
         "references": [
           {
             "path": "characters/marcus/sheet.png",
@@ -52,12 +52,12 @@
       "output": {
         "finish_reason": "FinishReason.STOP",
         "usage": {
-          "prompt_tokens": 484,
-          "candidates_tokens": 1308,
-          "total_tokens": 1976
+          "prompt_tokens": 499,
+          "candidates_tokens": 1296,
+          "total_tokens": 2010
         }
       }
     }
   },
-  "generated_at": "2025-11-28T11:26:40.258966"
+  "generated_at": "2025-11-28T14:37:23.638799"
 }

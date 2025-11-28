@@ -1,0 +1,65 @@
+{
+  "type": "character",
+  "character_id": "char_hao",
+  "character_name": "Hao",
+  "role": "protagonist",
+  "age": "24",
+  "style": "webtoon",
+  "visual_tags": [
+    "Hair: Short black hair, slightly messy texture (MATCH REFERENCE PHOTO EXACTLY)",
+    "Face: Oval face shape, warm friendly smile, Asian features (MATCH REFERENCE PHOTO EXACTLY)",
+    "Eyes: Natural eye shape with rimless/thin-framed glasses (MATCH REFERENCE PHOTO EXACTLY)",
+    "Top: Bright yellow Hawaiian shirt with blue palm trees",
+    "Bottom: Beige cargo shorts with pockets",
+    "Accessories: DSLR camera on a strap around neck",
+    "Footwear: Red high-top sneakers"
+  ],
+  "description": {
+    "physical": "Average height, slightly chubby build, round expressive face. messy dark hair.",
+    "personality": "Optimistic, oblivious, cowardly but motivated by food, quick-witted when panicked."
+  },
+  "asset_type": "character_sheet",
+  "reference_input": "/Users/long/Downloads/hao2.jpg",
+  "gemini": {
+    "type": "character_sheet",
+    "character_id": "char_hao",
+    "character_name": "Hao",
+    "prompt": "Create a CHARACTER TURNAROUND SHEET in webtoon art style.\n\n## LAYOUT\nCreate a SINGLE IMAGE showing the SAME character THREE times side by side with labels:\n- LEFT: Full body FRONT view (facing viewer) - label \"FRONT VIEW\" below\n- CENTER: Full body SIDE view (profile, facing right) - label \"SIDE VIEW\" below\n- RIGHT: Full body BACK view (facing away) - label \"BACK VIEW\" below\n\n## POSE REQUIREMENTS (CRITICAL FOR NATURAL LOOK)\n- NATURAL STANDING POSE with weight on both feet, feet flat on ground\n- Both feet must be PLANTED FIRMLY on the same ground plane (not floating)\n- Arms relaxed at sides or slightly away from body - NOT T-pose\n- For SIDE VIEW: show one leg slightly in front of the other for natural stance\n- For SIDE VIEW: feet should be visible and grounded, not cut off or floating\n- Include subtle ground shadow under each pose for visual grounding\n- Shoulders relaxed, not stiff or rigid\n\n## VISUAL REQUIREMENTS\n- All three views show the EXACT SAME character with IDENTICAL outfit\n- Full body from head to feet clearly visible in each view\n- Clean white or light gray background\n- Character sheet/model sheet style for animation reference\n- All views at the same scale and horizontally aligned at feet level\n- Show clothing, hair, and accessories clearly from all angles\n- Professional quality suitable for production reference\n\n## CONSISTENCY IS CRITICAL\n- Same hair style/color in all views\n- Same outfit in all views (every detail must match)\n- Same accessories and items in all views\n- Same body proportions in all views\n\n\n## FACE REFERENCE (CRITICAL - HIGHEST PRIORITY)\nThe reference photo shows the REAL PERSON this character is based on.\n\nLIKENESS PRESERVATION IS THE #1 PRIORITY - more important than style consistency.\n\nYou MUST preserve these EXACT features from the reference photo:\n1. FACE SHAPE: Copy the exact face shape, jawline, and proportions\n2. EYES: Match the exact eye shape, size, spacing, and how they look when smiling\n3. EYEBROWS: Match the exact eyebrow shape, thickness, and arch\n4. NOSE: Match the nose shape, bridge, and tip exactly\n5. MOUTH/SMILE: Match their smile shape, lip thickness, and expression\n6. GLASSES: If wearing glasses, match the exact frame style (rimless, thick, etc.)\n7. HAIR: Match the hairline, hair texture, and styling\n8. SKIN TONE: Preserve their skin tone accurately\n9. EXPRESSION STYLE: Capture how they naturally smile/express\n\nThe final character MUST be immediately recognizable as the same person.\nSomeone who knows this person should say \"That's definitely them!\"\nApply minimal stylization to the FACE - keep it close to realistic.\nThe body/outfit can be more stylized, but the FACE must preserve likeness.\n\n\nCharacter: Hao\nAge: 24\nPhysical appearance: Average height, slightly chubby build, round expressive face. messy dark hair.\n\nVisual details (MUST include all):\n  - Hair: Short black hair, slightly messy texture (MATCH REFERENCE PHOTO EXACTLY)\n  - Face: Oval face shape, warm friendly smile, Asian features (MATCH REFERENCE PHOTO EXACTLY)\n  - Eyes: Natural eye shape with rimless/thin-framed glasses (MATCH REFERENCE PHOTO EXACTLY)\n  - Top: Bright yellow Hawaiian shirt with blue palm trees\n  - Bottom: Beige cargo shorts with pockets\n  - Accessories: DSLR camera on a strap around neck\n  - Footwear: Red high-top sneakers\n\nPersonality (for expression): Optimistic, oblivious, cowardly but motivated by food, quick-witted when panicked.",
+    "parameters": {
+      "aspect_ratio": "16:9",
+      "resolution": "1K",
+      "style": "webtoon",
+      "model": "gemini-3-pro-image-preview",
+      "reference_image": "/Users/long/Downloads/hao2.jpg"
+    },
+    "response": {
+      "timestamp": "2025-11-28T09:26:18.117087+00:00",
+      "input": {
+        "prompt": "webtoon style. Create a CHARACTER TURNAROUND SHEET in webtoon art style.\n\n## LAYOUT\nCreate a SINGLE IMAGE showing the SAME character THREE times side by side with labels:\n- LEFT: Full body FRONT view (facing viewer) - label \"FRONT VIEW\" below\n- CENTER: Full body SIDE view (profile, facing right) - label \"SIDE VIEW\" below\n- RIGHT: Full body BACK view (facing away) - label \"BACK VIEW\" below\n\n## POSE REQUIREMENTS (CRITICAL FOR NATURAL LOOK)\n- NATURAL STANDING POSE with weight on both feet, feet flat on ground\n- Both feet must be PLANTED FIRMLY on the same ground plane (not floating)\n- Arms relaxed at sides or slightly away from body - NOT T-pose\n- For SIDE VIEW: show one leg slightly in front of the other for natural stance\n- For SIDE VIEW: feet should be visible and grounded, not cut off or floating\n- Include subtle ground shadow under each pose for visual grounding\n- Shoulders relaxed, not stiff or rigid\n\n## VISUAL REQUIREMENTS\n- All three views show the EXACT SAME character with IDENTICAL outfit\n- Full body from head to feet clearly visible in each view\n- Clean white or light gray background\n- Character sheet/model sheet style for animation reference\n- All views at the same scale and horizontally aligned at feet level\n- Show clothing, hair, and accessories clearly from all angles\n- Professional quality suitable for production reference\n\n## CONSISTENCY IS CRITICAL\n- Same hair style/color in all views\n- Same outfit in all views (every detail must match)\n- Same accessories and items in all views\n- Same body proportions in all views\n\n\n## FACE REFERENCE (CRITICAL - HIGHEST PRIORITY)\nThe reference photo shows the REAL PERSON this character is based on.\n\nLIKENESS PRESERVATION IS THE #1 PRIORITY - more important than style consistency.\n\nYou MUST preserve these EXACT features from the reference photo:\n1. FACE SHAPE: Copy the exact face shape, jawline, and proportions\n2. EYES: Match the exact eye shape, size, spacing, and how they look when smiling\n3. EYEBROWS: Match the exact eyebrow shape, thickness, and arch\n4. NOSE: Match the nose shape, bridge, and tip exactly\n5. MOUTH/SMILE: Match their smile shape, lip thickness, and expression\n6. GLASSES: If wearing glasses, match the exact frame style (rimless, thick, etc.)\n7. HAIR: Match the hairline, hair texture, and styling\n8. SKIN TONE: Preserve their skin tone accurately\n9. EXPRESSION STYLE: Capture how they naturally smile/express\n\nThe final character MUST be immediately recognizable as the same person.\nSomeone who knows this person should say \"That's definitely them!\"\nApply minimal stylization to the FACE - keep it close to realistic.\nThe body/outfit can be more stylized, but the FACE must preserve likeness.\n\n\nCharacter: Hao\nAge: 24\nPhysical appearance: Average height, slightly chubby build, round expressive face. messy dark hair.\n\nVisual details (MUST include all):\n  - Hair: Short black hair, slightly messy texture (MATCH REFERENCE PHOTO EXACTLY)\n  - Face: Oval face shape, warm friendly smile, Asian features (MATCH REFERENCE PHOTO EXACTLY)\n  - Eyes: Natural eye shape with rimless/thin-framed glasses (MATCH REFERENCE PHOTO EXACTLY)\n  - Top: Bright yellow Hawaiian shirt with blue palm trees\n  - Bottom: Beige cargo shorts with pockets\n  - Accessories: DSLR camera on a strap around neck\n  - Footwear: Red high-top sneakers\n\nPersonality (for expression): Optimistic, oblivious, cowardly but motivated by food, quick-witted when panicked.",
+        "final_prompt": "Using the labeled reference images above to maintain visual consistency: webtoon style. Create a CHARACTER TURNAROUND SHEET in webtoon art style.\n\n## LAYOUT\nCreate a SINGLE IMAGE showing the SAME character THREE times side by side with labels:\n- LEFT: Full body FRONT view (facing viewer) - label \"FRONT VIEW\" below\n- CENTER: Full body SIDE view (profile, facing right) - label \"SIDE VIEW\" below\n- RIGHT: Full body BACK view (facing away) - label \"BACK VIEW\" below\n\n## POSE REQUIREMENTS (CRITICAL FOR NATURAL LOOK)\n- NATURAL STANDING POSE with weight on both feet, feet flat on ground\n- Both feet must be PLANTED FIRMLY on the same ground plane (not floating)\n- Arms relaxed at sides or slightly away from body - NOT T-pose\n- For SIDE VIEW: show one leg slightly in front of the other for natural stance\n- For SIDE VIEW: feet should be visible and grounded, not cut off or floating\n- Include subtle ground shadow under each pose for visual grounding\n- Shoulders relaxed, not stiff or rigid\n\n## VISUAL REQUIREMENTS\n- All three views show the EXACT SAME character with IDENTICAL outfit\n- Full body from head to feet clearly visible in each view\n- Clean white or light gray background\n- Character sheet/model sheet style for animation reference\n- All views at the same scale and horizontally aligned at feet level\n- Show clothing, hair, and accessories clearly from all angles\n- Professional quality suitable for production reference\n\n## CONSISTENCY IS CRITICAL\n- Same hair style/color in all views\n- Same outfit in all views (every detail must match)\n- Same accessories and items in all views\n- Same body proportions in all views\n\n\n## FACE REFERENCE (CRITICAL - HIGHEST PRIORITY)\nThe reference photo shows the REAL PERSON this character is based on.\n\nLIKENESS PRESERVATION IS THE #1 PRIORITY - more important than style consistency.\n\nYou MUST preserve these EXACT features from the reference photo:\n1. FACE SHAPE: Copy the exact face shape, jawline, and proportions\n2. EYES: Match the exact eye shape, size, spacing, and how they look when smiling\n3. EYEBROWS: Match the exact eyebrow shape, thickness, and arch\n4. NOSE: Match the nose shape, bridge, and tip exactly\n5. MOUTH/SMILE: Match their smile shape, lip thickness, and expression\n6. GLASSES: If wearing glasses, match the exact frame style (rimless, thick, etc.)\n7. HAIR: Match the hairline, hair texture, and styling\n8. SKIN TONE: Preserve their skin tone accurately\n9. EXPRESSION STYLE: Capture how they naturally smile/express\n\nThe final character MUST be immediately recognizable as the same person.\nSomeone who knows this person should say \"That's definitely them!\"\nApply minimal stylization to the FACE - keep it close to realistic.\nThe body/outfit can be more stylized, but the FACE must preserve likeness.\n\n\nCharacter: Hao\nAge: 24\nPhysical appearance: Average height, slightly chubby build, round expressive face. messy dark hair.\n\nVisual details (MUST include all):\n  - Hair: Short black hair, slightly messy texture (MATCH REFERENCE PHOTO EXACTLY)\n  - Face: Oval face shape, warm friendly smile, Asian features (MATCH REFERENCE PHOTO EXACTLY)\n  - Eyes: Natural eye shape with rimless/thin-framed glasses (MATCH REFERENCE PHOTO EXACTLY)\n  - Top: Bright yellow Hawaiian shirt with blue palm trees\n  - Bottom: Beige cargo shorts with pockets\n  - Accessories: DSLR camera on a strap around neck\n  - Footwear: Red high-top sneakers\n\nPersonality (for expression): Optimistic, oblivious, cowardly but motivated by food, quick-witted when panicked.",
+        "references": [
+          {
+            "path": "/Users/long/Downloads/hao2.jpg",
+            "role": "FACE REFERENCE PHOTO of Hao - PRESERVE EXACT FACIAL FEATURES AND LIKENESS",
+            "loaded": true
+          }
+        ],
+        "model": "gemini-3-pro-image-preview",
+        "config": {
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "style": "webtoon"
+        }
+      },
+      "output": {
+        "finish_reason": "FinishReason.STOP",
+        "usage": {
+          "prompt_tokens": 1091,
+          "candidates_tokens": 1447,
+          "total_tokens": 2792
+        }
+      }
+    }
+  },
+  "generated_at": "2025-11-28T17:26:18.139578"
+}

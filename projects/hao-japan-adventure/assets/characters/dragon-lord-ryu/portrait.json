@@ -1,0 +1,64 @@
+{
+  "type": "character",
+  "character_id": "char_dragon_lord_ryu",
+  "character_name": "Dragon Lord (Ryu)",
+  "role": "supporting",
+  "age": "Ancient",
+  "style": "webtoon",
+  "visual_tags": [
+    "Hair: Mane of flowing red fire/hair",
+    "Face: Patches of gold scales on cheeks, two long black horns",
+    "Top: Black silk kimono embroidered with gold dragons, open at chest",
+    "Accessories: Long pipe that smokes purple vapor",
+    "Build: Muscular, towering build"
+  ],
+  "description": {
+    "physical": "Imposing, 7-foot tall humanoid with scales and horns.",
+    "personality": "Aristocratic, bored, terrifying, secretly emotional about food."
+  },
+  "asset_type": "portrait",
+  "reference_sheet": "assets/characters/dragon-lord-ryu/sheet.png",
+  "gemini": {
+    "type": "character_portrait",
+    "character_id": "char_dragon_lord_ryu",
+    "character_name": "Dragon Lord (Ryu)",
+    "prompt": "Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Dragon Lord (Ryu)\nAge: Ancient\nPhysical appearance: Imposing, 7-foot tall humanoid with scales and horns.\n\nVisual details (MUST include all):\n  - Hair: Mane of flowing red fire/hair\n  - Face: Patches of gold scales on cheeks, two long black horns\n  - Top: Black silk kimono embroidered with gold dragons, open at chest\n  - Accessories: Long pipe that smokes purple vapor\n  - Build: Muscular, towering build\n\nPersonality (for expression): Aristocratic, bored, terrifying, secretly emotional about food.",
+    "parameters": {
+      "aspect_ratio": "9:16",
+      "resolution": "1K",
+      "style": "webtoon",
+      "model": "gemini-3-pro-image-preview",
+      "reference_image": "assets/characters/dragon-lord-ryu/sheet.png"
+    },
+    "response": {
+      "timestamp": "2025-11-28T09:01:08.365767+00:00",
+      "input": {
+        "prompt": "webtoon style. Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Dragon Lord (Ryu)\nAge: Ancient\nPhysical appearance: Imposing, 7-foot tall humanoid with scales and horns.\n\nVisual details (MUST include all):\n  - Hair: Mane of flowing red fire/hair\n  - Face: Patches of gold scales on cheeks, two long black horns\n  - Top: Black silk kimono embroidered with gold dragons, open at chest\n  - Accessories: Long pipe that smokes purple vapor\n  - Build: Muscular, towering build\n\nPersonality (for expression): Aristocratic, bored, terrifying, secretly emotional about food.",
+        "final_prompt": "webtoon style. Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Dragon Lord (Ryu)\nAge: Ancient\nPhysical appearance: Imposing, 7-foot tall humanoid with scales and horns.\n\nVisual details (MUST include all):\n  - Hair: Mane of flowing red fire/hair\n  - Face: Patches of gold scales on cheeks, two long black horns\n  - Top: Black silk kimono embroidered with gold dragons, open at chest\n  - Accessories: Long pipe that smokes purple vapor\n  - Build: Muscular, towering build\n\nPersonality (for expression): Aristocratic, bored, terrifying, secretly emotional about food.",
+        "references": [
+          {
+            "path": "assets/characters/dragon-lord-ryu/sheet.png",
+            "role": "existing portrait of Dragon Lord (Ryu) for consistency",
+            "loaded": false,
+            "error": "File not found or could not be loaded"
+          }
+        ],
+        "model": "gemini-3-pro-image-preview",
+        "config": {
+          "aspect_ratio": "9:16",
+          "resolution": "1K",
+          "style": "webtoon"
+        }
+      },
+      "output": {
+        "finish_reason": "FinishReason.STOP",
+        "usage": {
+          "prompt_tokens": 208,
+          "candidates_tokens": 1272,
+          "total_tokens": 1736
+        }
+      }
+    }
+  },
+  "generated_at": "2025-11-28T17:01:08.380589"
+}

@@ -48,10 +48,34 @@ This generates:
 dreamwright generate character --name "Mina"
 dreamwright generate character --all
 
+# Generate character from a reference photo
+dreamwright generate character --name "Mina" --reference /path/to/photo.jpg
+
 # Generate location backgrounds
 dreamwright generate location --name "School" --time day
 dreamwright generate location --all
 ```
+
+#### Character Reference Images
+
+You can use reference photos to generate characters that match a specific person's appearance:
+
+**During story expansion:**
+```bash
+# Include characters with reference images when creating a story
+dreamwright expand "A story about a young artist" \
+  -c "Lily:/path/to/photo.png" \
+  -c "Max" \
+  --genre drama --episodes 5
+```
+
+**For existing characters:**
+```bash
+# Regenerate an existing character using a reference photo
+dreamwright generate character --name "Mina" -r /path/to/reference.png
+```
+
+The AI will use the reference image to maintain the person's likeness in the generated character sheet and portrait.
 
 ### 3. Chapter Generation
 

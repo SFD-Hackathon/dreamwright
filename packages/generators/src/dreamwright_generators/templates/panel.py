@@ -38,12 +38,12 @@ CREATE NEW:
 - Location: {% if location %}{{ location.name }}{% if location.description %} ({{ location.description }}){% endif %}{% if location.visual_tags %} - Visual elements: {{ location.visual_tags[:4] | join(', ') }}{% endif %}{% else %}unspecified{% endif %}
 
 {% if characters %}
-## CHARACTERS (PRIORITY ORDER FOR APPEARANCE)
-1. PREVIOUS PANEL (highest) - If character appeared in previous panel, match that exactly
-2. CHARACTER REFERENCE SHEET - Match outfit, hair, accessories, face from reference
-3. TEXT DESCRIPTION (lowest) - Only use if not visible in above references
+## CHARACTERS (PRIORITY PER CHARACTER)
+Each character below has a specific priority instruction based on whether they appeared in the previous panel.
+- If a character WAS in previous panel: match their appearance from previous panel exactly
+- If a character was NOT in previous panel: match their CHARACTER REFERENCE SHEET exactly (highest priority)
+- Text descriptions are supplementary only
 
-For each character, match appearance in this priority order.
 Only change: expression, pose, camera angle as specified below.
 
 {% for char_desc in characters %}

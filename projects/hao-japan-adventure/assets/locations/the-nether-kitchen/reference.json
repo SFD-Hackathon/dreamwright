@@ -1,0 +1,51 @@
+{
+  "type": "location",
+  "location_id": "loc_the_nether_kitchen",
+  "location_name": "The Nether-Kitchen",
+  "location_type": "interior",
+  "style": "webtoon",
+  "description": "Behind the curtain. A chaotic, industrial space with magical fires and live ingredients.",
+  "visual_tags": [
+    "Lighting: Harsh blue magical flames and steam",
+    "Key Object: A tank of water that contains a mini-ocean",
+    "Atmosphere: High-pressure, dangerous, wet",
+    "Colors: Cold blues, steely grays, splashes of neon green blood",
+    "Sensory: Sound of sizzling, screaming, and chopping"
+  ],
+  "gemini": {
+    "type": "location_reference",
+    "location_id": "loc_the_nether_kitchen",
+    "location_name": "The Nether-Kitchen",
+    "location_type": "interior",
+    "prompt": "Create a background/environment illustration in webtoon art style.\n\nRequirements:\n- Establishing shot of the location\n- Bright daylight, clear visibility, natural lighting\n- Clear sky\n- No characters in the scene\n- Detailed environment suitable for webtoon backgrounds\n- Wide composition showing the space\n- Atmospheric and immersive\n\nIMPORTANT - Background Only Rules:\n- Focus on ENVIRONMENTAL elements: walls, floors, ceilings, architecture, lighting, atmosphere\n- DO NOT include interactive objects that characters would use (cars, furniture, seats, steering wheels, etc.)\n- If the location is a vehicle interior (car, train, etc.), show ONLY the environment (windows, walls, ambient lighting) without seats or controls\n- Interactive props and character positioning will be handled separately during panel composition\n- This is a STATIC BACKGROUND reference that panels will composite characters onto\n\n\nLocation: The Nether-Kitchen\nType: interior\nDescription: Behind the curtain. A chaotic, industrial space with magical fires and live ingredients.\nVisual details: Lighting: Harsh blue magical flames and steam, Key Object: A tank of water that contains a mini-ocean, Atmosphere: High-pressure, dangerous, wet, Colors: Cold blues, steely grays, splashes of neon green blood, Sensory: Sound of sizzling, screaming, and chopping",
+    "parameters": {
+      "aspect_ratio": "16:9",
+      "resolution": "1K",
+      "style": "webtoon",
+      "model": "gemini-3-pro-image-preview"
+    },
+    "response": {
+      "timestamp": "2025-11-28T09:03:32.222740+00:00",
+      "input": {
+        "prompt": "webtoon style. Create a background/environment illustration in webtoon art style.\n\nRequirements:\n- Establishing shot of the location\n- Bright daylight, clear visibility, natural lighting\n- Clear sky\n- No characters in the scene\n- Detailed environment suitable for webtoon backgrounds\n- Wide composition showing the space\n- Atmospheric and immersive\n\nIMPORTANT - Background Only Rules:\n- Focus on ENVIRONMENTAL elements: walls, floors, ceilings, architecture, lighting, atmosphere\n- DO NOT include interactive objects that characters would use (cars, furniture, seats, steering wheels, etc.)\n- If the location is a vehicle interior (car, train, etc.), show ONLY the environment (windows, walls, ambient lighting) without seats or controls\n- Interactive props and character positioning will be handled separately during panel composition\n- This is a STATIC BACKGROUND reference that panels will composite characters onto\n\n\nLocation: The Nether-Kitchen\nType: interior\nDescription: Behind the curtain. A chaotic, industrial space with magical fires and live ingredients.\nVisual details: Lighting: Harsh blue magical flames and steam, Key Object: A tank of water that contains a mini-ocean, Atmosphere: High-pressure, dangerous, wet, Colors: Cold blues, steely grays, splashes of neon green blood, Sensory: Sound of sizzling, screaming, and chopping",
+        "final_prompt": "webtoon style. Create a background/environment illustration in webtoon art style.\n\nRequirements:\n- Establishing shot of the location\n- Bright daylight, clear visibility, natural lighting\n- Clear sky\n- No characters in the scene\n- Detailed environment suitable for webtoon backgrounds\n- Wide composition showing the space\n- Atmospheric and immersive\n\nIMPORTANT - Background Only Rules:\n- Focus on ENVIRONMENTAL elements: walls, floors, ceilings, architecture, lighting, atmosphere\n- DO NOT include interactive objects that characters would use (cars, furniture, seats, steering wheels, etc.)\n- If the location is a vehicle interior (car, train, etc.), show ONLY the environment (windows, walls, ambient lighting) without seats or controls\n- Interactive props and character positioning will be handled separately during panel composition\n- This is a STATIC BACKGROUND reference that panels will composite characters onto\n\n\nLocation: The Nether-Kitchen\nType: interior\nDescription: Behind the curtain. A chaotic, industrial space with magical fires and live ingredients.\nVisual details: Lighting: Harsh blue magical flames and steam, Key Object: A tank of water that contains a mini-ocean, Atmosphere: High-pressure, dangerous, wet, Colors: Cold blues, steely grays, splashes of neon green blood, Sensory: Sound of sizzling, screaming, and chopping",
+        "references": [],
+        "model": "gemini-3-pro-image-preview",
+        "config": {
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "style": "webtoon"
+        }
+      },
+      "output": {
+        "finish_reason": "FinishReason.STOP",
+        "usage": {
+          "prompt_tokens": 270,
+          "candidates_tokens": 1309,
+          "total_tokens": 1804
+        }
+      }
+    }
+  },
+  "generated_at": "2025-11-28T17:03:32.237184"
+}

@@ -1,0 +1,1062 @@
+{
+  "title": "The Ghost of 4:44 PM",
+  "description": "Mina Kim was always the 'invisible girl' at school, too shy to speak up. But after surviving a catastrophic bus accident that should have killed her, she returns to school with a terrifying new ability: she can see the dead. While trying to ignore the grotesque spirits wandering the halls, she stumbles upon Kai, a ghost different from the others. He looks human, retains his sanity, and haunts the abandoned music room.\n\nKai has no memory of who he was or how he died; he only knows he's been waiting for someone to hear him. Despite her fear, Mina agrees to be his bridge to the living world. As they uncover clues\u2014an old yearbook, a dusty guitar, and a suppressed police report\u2014they realize Kai's death wasn't an accident. With a dark entity known as a 'Hollow' tracking Kai to consume his fading soul, Mina must find the courage to confront the truth of the past, connecting Kai's tragedy to the very accident that changed her life.",
+  "premise": "After barely surviving a traffic accident, a shy high schooler gains the ability to see spirits and must help a charming amnesiac ghost solve the mystery of his death before he turns into a vengeful spirit.",
+  "genre": "drama",
+  "tags": [
+    "Overcoming Trauma",
+    "Memory and Identity",
+    "Unspoken Love",
+    "Letting Go"
+  ],
+  "style": {
+    "tone": "dramatic",
+    "target_audience": "Young Adult (15-25)"
+  },
+  "characters": [
+    {
+      "id": "mina_kim",
+      "name": "Mina Kim",
+      "description": "Introverted, observant, compassionate but fearful.",
+      "visual_traits": "short black bob hair, pale skin, large white headphones",
+      "age": "17",
+      "main": true
+    },
+    {
+      "id": "kai",
+      "name": "Kai",
+      "description": "Charming, slightly mischievous to hide his sadness, protective.",
+      "visual_traits": "messy silver-tinted hair, piercing blue ghostly eyes, unbuttoned school blazer",
+      "age": "18 (at time of death)",
+      "main": false
+    },
+    {
+      "id": "jin_ho",
+      "name": "Jin-ho",
+      "description": "Skeptical, rational, secretly sensitive.",
+      "visual_traits": "neatly styled brown hair, glasses, perfectly worn uniform",
+      "age": "17",
+      "main": false
+    },
+    {
+      "id": "yuna",
+      "name": "Yuna",
+      "description": "Bubbly, superstitious, loyal.",
+      "visual_traits": "long hair with pink highlights, colorful hair clips, holding tarot cards",
+      "age": "17",
+      "main": false
+    }
+  ],
+  "chapters": [
+    {
+      "title": "The Silent Hour",
+      "summary": "Mina navigates a hallway filled with spirits she tries to ignore, seeking refuge in an abandoned music room as the clock ticks toward a fateful time.",
+      "scenes": [
+        {
+          "id": "s1",
+          "title": "Mina navigates the hallway.",
+          "segments": [
+            {
+              "id": "ch1_s1_p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Students are bustling through the hallway, laughing and talking. It looks like a typical slice-of-life anime scene.",
+              "characters": [],
+              "dialogues": [
+                {
+                  "character_id": "",
+                  "text": "Did you see the test results?",
+                  "type": "speech"
+                },
+                {
+                  "character_id": "",
+                  "text": "Total disaster!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "CHATTER SLAM",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s1_p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Mina walks through the crowd. She wears large, over-ear noise-canceling headphones. Her gaze is fixed strictly on the floor tiles.",
+              "characters": [
+                "mina_kim"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "mina_kim",
+                  "text": "Just keep walking. Don't make eye contact. Don't acknowledge them.",
+                  "type": "thought"
+                }
+              ],
+              "narration": null,
+              "sfx": "WUB WUB",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s1_p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "The camera pans slightly to reveal what Mina is ignoring. Grotesque, shadowy spirits are clinging to the lockers and hanging upside down from the ceiling tiles, reaching out toward passing students.",
+              "characters": [
+                "mina_kim"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "GURGLE HISS",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s1_p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "A distorted, smoky hand reaches out from a locker right next to Mina's face. Mina clutches her backpack straps tighter, eyes squeezed slightly shut.",
+              "characters": [
+                "mina_kim"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "",
+                  "text": "Lo...oke... at... m...ee...",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "SCREECH",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s1_p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Yuna pops out from a classroom door, waving cheerfully. The spirit dissipates/fades into the background noise as reality asserts itself.",
+              "characters": [
+                "yuna",
+                "mina_kim"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "yuna",
+                  "text": "Mina! Wait up!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s1_p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Mina pretends not to hear Yuna (blaming the headphones) and speeds up, turning a corner sharply.",
+              "characters": [
+                "mina_kim"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "mina_kim",
+                  "text": "Sorry, Yuna. Not today. It's almost time.",
+                  "type": "thought"
+                }
+              ],
+              "narration": null,
+              "sfx": "FAST STEPS",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "A quiet, dusty sanctuary where the afternoon sun creates harsh beams of light.",
+          "segments": [
+            {
+              "id": "ch1_s2_p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Mina slides the heavy door shut and leans her back against it, exhaling deeply. The room is filled with covered instruments.",
+              "characters": [
+                "mina_kim"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "mina_kim",
+                  "text": "Safe.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "CLICK SIGH",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s2_p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Mina pulls her headphones down around her neck. She looks at her wristwatch.",
+              "characters": [
+                "mina_kim"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s2_p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Focus on the watch face. The digital numbers flip.",
+              "characters": [],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "BEEP",
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s2_p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "From Mina's perspective looking into the room. A boy (Kai) is now sitting on top of the grand piano, legs crossed, looking out the window. He is slightly translucent.",
+              "characters": [
+                "kai"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "SHIMMER",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s2_p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Mina freezes, staring at the floor, trying to look like she's just resting her eyes. She knows he is there.",
+              "characters": [
+                "mina_kim"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "mina_kim",
+                  "text": "He's here. Just ignore him. If you acknowledge them, they never leave.",
+                  "type": "thought"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s2_p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Kai turns his head toward Mina, smiling charmingly despite being a ghost.",
+              "characters": [
+                "kai"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "kai",
+                  "text": "You're early today, headphone girl.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Kai tries to get a reaction out of Mina, testing the boundaries of her 'invisibility'.",
+          "segments": [
+            {
+              "id": "ch1_s3_p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Mina takes a book out of her bag, deliberately not looking at the piano. Her hands are trembling slightly.",
+              "characters": [
+                "mina_kim"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "RUSTLE",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s3_p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Kai floats down from the piano, drifting closer to her. He waves a hand in front of her face.",
+              "characters": [
+                "kai",
+                "mina_kim"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "kai",
+                  "text": "Hello? Earth to Living Person? Can you hear me?",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "WHOOSH",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s3_p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Mina stares right through him, focusing on a dust bunny on the floor behind him. It takes immense effort.",
+              "characters": [
+                "mina_kim"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "mina_kim",
+                  "text": "I can't see anything. I can't hear anything.",
+                  "type": "thought"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s3_p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "Kai sighs dramatically, floating back to a vertical position, looking disappointed.",
+              "characters": [
+                "kai"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "kai",
+                  "text": "Guess not. Just another day talking to myself. Being dead is so boring.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s3_p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Kai suddenly leans in very close to her ear, his face serious.",
+              "characters": [
+                "kai",
+                "mina_kim"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "kai",
+                  "text": "BOO!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s3_p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Focus on Mina's eyes. Her pupils dilate and she flinches visibly, dropping her book.",
+              "characters": [
+                "mina_kim"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "kai",
+                  "text": "Aha!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "THUD",
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The Boy in the Sunbeam",
+      "summary": "Mina seeks sanctuary in the abandoned music room, thinking she has escaped the horrors of the hallway. However, she finds the room occupied by a different kind of spirit. In a moment of frustration, she breaks her cardinal rule: never acknowledge the dead.",
+      "scenes": [
+        {
+          "id": "s1",
+          "title": "The room is bathed in golden hour light, dust motes dancing in the air. It contrasts sharply with the dark, crowded hallway.",
+          "segments": []
+        },
+        {
+          "id": "s1",
+          "title": "Mina catches her breath, thinking she is alone, but spots a figure by the piano.",
+          "segments": [
+            {
+              "id": "ch2_s1_p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Mina is leaning back against the closed door, sliding down slightly. The room stretches out before her, filled with draped instruments and golden light.",
+              "characters": [
+                "mina_kim"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "mina_kim",
+                  "text": "Gone... they're gone.",
+                  "type": "thought"
+                },
+                {
+                  "character_id": "mina_kim",
+                  "text": "Hah...",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "THUD (softly against door) Haaa...",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch2_s1_p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Mina opens her eyes, looking at the room. She clutches her chest.",
+              "characters": [
+                "mina_kim"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "mina_kim",
+                  "text": "Just wait for the bell. Just wait it out.",
+                  "type": "thought"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch2_s1_p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "POV from Mina. Looking towards the grand piano near the window. A boy (Kai) is sitting on the piano bench, back to her, looking out the window. He is glowing slightly.",
+              "characters": [
+                "kai"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "Ting... (very faint piano note)",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch2_s1_p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "Mina's eyes widen. She freezes.",
+              "characters": [
+                "mina_kim"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "mina_kim",
+                  "text": "Another one?",
+                  "type": "thought"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch2_s1_p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Kai sitting on the piano. He looks pristine, unlike the other ghosts. Sunlight passes slightly through his shoulder.",
+              "characters": [
+                "kai"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "mina_kim",
+                  "text": "He's not... scary. No blood. No missing eyes.",
+                  "type": "thought"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch2_s1_p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Kai turns his head lazily, noticing someone is at the door.",
+              "characters": [
+                "kai"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "kai",
+                  "text": "Hmm?",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Kai investigates the new arrival, assuming he is invisible. Mina tries to maintain her facade but fails.",
+          "segments": [
+            {
+              "id": "ch2_s2_p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Kai floats off the bench, drifting toward Mina upside down in the air, looking bored.",
+              "characters": [
+                "kai",
+                "mina_kim"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "kai",
+                  "text": "A student? In my dusty kingdom?",
+                  "type": "speech"
+                },
+                {
+                  "character_id": "mina_kim",
+                  "text": "Don't look. Don't react. He's just air.",
+                  "type": "thought"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch2_s2_p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Kai's face is right in front of Mina's. He waves a hand in front of her eyes.",
+              "characters": [
+                "kai"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "kai",
+                  "text": "Hello? Earth to Living Person? Can you hear me?",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch2_s2_p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Mina walks past him towards a desk, stiffly. Kai floats behind her, looking annoyed.",
+              "characters": [
+                "mina_kim",
+                "kai"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "kai",
+                  "text": "Wow, the silent treatment. How original. I haven't had a conversation in three years, give me a break!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch2_s2_p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "Kai leans over her shoulder as she sets her bag down. He shouts right into her ear.",
+              "characters": [
+                "kai",
+                "mina_kim"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "kai",
+                  "text": "BOO!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "SHOUT",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch2_s2_p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Mina whips around, glaring directly at Kai.",
+              "characters": [
+                "mina_kim",
+                "kai"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "mina_kim",
+                  "text": "Would you just shut up?!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "SLAM (Bag hitting desk)",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch2_s2_p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Total stillness. Kai is floating mid-air, frozen. Mina is standing there, furious.",
+              "characters": [
+                "mina_kim",
+                "kai"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "...",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch2_s2_p7",
+              "sequence": 7,
+              "segment_type": "panel",
+              "description": "Kai drifts closer, eyes wide with disbelief and hope.",
+              "characters": [
+                "kai"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "kai",
+                  "text": "You...",
+                  "type": "speech"
+                },
+                {
+                  "character_id": "kai",
+                  "text": "You can see me?",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch2_s2_p8",
+              "sequence": 8,
+              "segment_type": "panel",
+              "description": "Focus on Mina's eyes dilating in horror. Her hands fly up to cover her mouth.",
+              "characters": [
+                "mina_kim"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "mina_kim",
+                  "text": "No.",
+                  "type": "thought"
+                },
+                {
+                  "character_id": "mina_kim",
+                  "text": "I messed up.",
+                  "type": "thought"
+                }
+              ],
+              "narration": null,
+              "sfx": "GASP",
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Rising Action",
+      "summary": "Mina deals with the consequences of acknowledging Kai. Together, they uncover his identity from an old yearbook found in the music room, revealing a tragic past. However, Mina's prolonged interaction with the spirit world attracts a dangerous entity in the hallway.",
+      "scenes": [
+        {
+          "id": "s1",
+          "title": "The immediate aftermath of Mina speaking to Kai. The golden hour light is fading into a deeper orange.",
+          "segments": []
+        },
+        {
+          "id": "s2",
+          "title": "Mina and Kai look through old records found in the room's storage closet.",
+          "segments": [
+            {
+              "id": "ch3_s2_p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Mina is sitting on the piano bench, a dusty yearbook spread open on her lap. Kai is floating upside down above it, looking at the pages.",
+              "characters": [
+                "mina_kim",
+                "kai"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "mina_kim",
+                  "text": "You said you've been here about five years? That would make you class of 2019.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "Rustle",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch3_s2_p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Focus on a black and white yearbook photo. A boy who looks exactly like Kai, but happier, holding a trophy.",
+              "characters": [],
+              "dialogues": [
+                {
+                  "character_id": "mina_kim",
+                  "text": "Here.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch3_s2_p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Kai stares at the photo, his spectral form flickering slightly like a glitchy screen.",
+              "characters": [
+                "kai"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "kai",
+                  "text": "Kaiden Park... 'The Piano Prince'.",
+                  "type": "speech"
+                },
+                {
+                  "character_id": "kai",
+                  "text": "I remember that tie. I hated that tie.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "Bzzt Static",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch3_s2_p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "Mina reads the text below the photo. Kai looks away, clutching his head.",
+              "characters": [
+                "mina_kim",
+                "kai"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "mina_kim",
+                  "text": "'Passed away tragically before the Winter Gala.' It doesn't say how.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch3_s2_p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Kai's face is shadowed. He looks intense, a rare moment of seriousness.",
+              "characters": [
+                "kai"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "kai",
+                  "text": "It wasn't an accident, Mina. I can feel it. Someone stopped me from playing.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch3_s2_p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Mina closes the book, looking uneasy but resolved. She stands up.",
+              "characters": [
+                "mina_kim"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "mina_kim",
+                  "text": "I have to go before the janitor locks the building. We'll... we'll talk tomorrow.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "Thud",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Mina leaves the safety of the music room and enters the hallway. The atmosphere has shifted drastically.",
+          "segments": [
+            {
+              "id": "ch3_s3_p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Mina steps out of the music room door. The hallway is unnaturally long and dark. The lights are buzzing.",
+              "characters": [
+                "mina_kim"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "mina_kim",
+                  "text": "Why is it so cold?",
+                  "type": "thought"
+                }
+              ],
+              "narration": null,
+              "sfx": "Hummmmm",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch3_s3_p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Mina walks, hugging her bag tight. Behind her, shadows on the wall seem to stretch and detach from objects.",
+              "characters": [
+                "mina_kim"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "Step Step",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch3_s3_p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Mina stops. She sees her breath fogging up in the air.",
+              "characters": [
+                "mina_kim"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "mina_kim",
+                  "text": "It's 4:44...",
+                  "type": "thought"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch3_s3_p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "From a ceiling corner view looking down. A massive, inky black sludge monster (The Hollow) is slithering on the ceiling directly above Mina. She hasn't looked up yet.",
+              "characters": [
+                "mina_kim"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "Drip Drip",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch3_s3_p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "A single drop of black liquid lands on the floor in front of Mina's shoe.",
+              "characters": [],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "SPLAT",
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch3_s3_p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Mina looks up slowly, her eyes wide with terror. The reflection of a giant white eye is visible in her pupil.",
+              "characters": [
+                "mina_kim"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "",
+                  "text": "Foooouuunnd... Yoooouuu...",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "SCREEE",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

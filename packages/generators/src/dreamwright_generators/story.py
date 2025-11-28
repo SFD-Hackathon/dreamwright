@@ -143,6 +143,7 @@ class StoryGenerator:
         genre_hint: Optional[Genre] = None,
         tone_hint: Optional[Tone] = None,
         episode_count: int = 10,
+        predefined_characters: Optional[list[str]] = None,
     ) -> tuple[Story, list[Character], list[Location]]:
         """Expand a prompt into a full story structure.
 
@@ -151,6 +152,7 @@ class StoryGenerator:
             genre_hint: Optional genre suggestion
             tone_hint: Optional tone suggestion
             episode_count: Target number of episodes
+            predefined_characters: Optional list of character names that MUST be included
 
         Returns:
             Tuple of (Story, list of Characters, list of Locations)
@@ -168,6 +170,13 @@ STORY IDEA:
             expansion_prompt += f"SUGGESTED TONE: {tone_hint.value}\n"
 
         expansion_prompt += f"TARGET EPISODES: {episode_count}\n"
+
+        # Add predefined characters requirement
+        if predefined_characters:
+            expansion_prompt += f"\nREQUIRED CHARACTERS (MUST include these characters in the story):\n"
+            for char_name in predefined_characters:
+                expansion_prompt += f"- {char_name}\n"
+            expansion_prompt += "Create detailed descriptions and visual tags for these characters. You may add additional characters as needed.\n"
 
         expansion_prompt += """
 Please create:

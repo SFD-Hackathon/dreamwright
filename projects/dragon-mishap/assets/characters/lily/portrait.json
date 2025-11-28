@@ -7,6 +7,7 @@
   "style": "webtoon",
   "visual_tags": [
     "Hair: Rose-gold, messy side braid with loose strands",
+    "Face: Round slightly crooked glasses, ink smudges on cheek",
     "Outfit: Oversized navy blue wizard robe with gold constellation patches",
     "Accessory: A battered wooden staff held together with duct tape",
     "Footwear: Mismatched brown leather boots",
@@ -17,12 +18,12 @@
     "personality": "Anxious but determined. Highly empathetic. Prone to catastrophic clumsiness but possesses raw, unrefined power."
   },
   "asset_type": "portrait",
-  "reference_sheet": "characters/lily/sheet.png",
+  "reference_sheet": "assets/characters/lily/sheet.png",
   "gemini": {
     "type": "character_portrait",
     "character_id": "char_lily",
     "character_name": "Lily",
-    "prompt": "Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Lily\nAge: 19\nPhysical appearance: Petite, messy rose-gold hair tied in a loose side braid. Large, expressive teal eyes behind round, slightly crooked glasses. Always has ink smudges on her cheek.\nVisual details: Hair: Rose-gold, messy side braid with loose strands, Outfit: Oversized navy blue wizard robe with gold constellation patches, Accessory: A battered wooden staff held together with duct tape, Footwear: Mismatched brown leather boots, Build: Short, constantly tripping or hunched over books\nPersonality (for expression): Anxious but determined. Highly empathetic. Prone to catastrophic clumsiness but possesses raw, unrefined power.",
+    "prompt": "Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Lily\nAge: 19\nPhysical appearance: Petite, messy rose-gold hair tied in a loose side braid. Large, expressive teal eyes behind round, slightly crooked glasses. Always has ink smudges on her cheek.\n\nVisual details (MUST include all):\n  - Hair: Rose-gold, messy side braid with loose strands\n  - Face: Round slightly crooked glasses, ink smudges on cheek\n  - Outfit: Oversized navy blue wizard robe with gold constellation patches\n  - Accessory: A battered wooden staff held together with duct tape\n  - Footwear: Mismatched brown leather boots\n  - Build: Short, constantly tripping or hunched over books\n\nPersonality (for expression): Anxious but determined. Highly empathetic. Prone to catastrophic clumsiness but possesses raw, unrefined power.",
     "parameters": {
       "aspect_ratio": "9:16",
       "resolution": "1K",
@@ -31,10 +32,10 @@
       "reference_image": "characters/lily/sheet.png"
     },
     "response": {
-      "timestamp": "2025-11-28T03:09:45.475091+00:00",
+      "timestamp": "2025-11-28T06:36:05.389053+00:00",
       "input": {
-        "prompt": "webtoon style. Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Lily\nAge: 19\nPhysical appearance: Petite, messy rose-gold hair tied in a loose side braid. Large, expressive teal eyes behind round, slightly crooked glasses. Always has ink smudges on her cheek.\nVisual details: Hair: Rose-gold, messy side braid with loose strands, Outfit: Oversized navy blue wizard robe with gold constellation patches, Accessory: A battered wooden staff held together with duct tape, Footwear: Mismatched brown leather boots, Build: Short, constantly tripping or hunched over books\nPersonality (for expression): Anxious but determined. Highly empathetic. Prone to catastrophic clumsiness but possesses raw, unrefined power.",
-        "final_prompt": "Using the labeled reference images above to maintain visual consistency: webtoon style. Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Lily\nAge: 19\nPhysical appearance: Petite, messy rose-gold hair tied in a loose side braid. Large, expressive teal eyes behind round, slightly crooked glasses. Always has ink smudges on her cheek.\nVisual details: Hair: Rose-gold, messy side braid with loose strands, Outfit: Oversized navy blue wizard robe with gold constellation patches, Accessory: A battered wooden staff held together with duct tape, Footwear: Mismatched brown leather boots, Build: Short, constantly tripping or hunched over books\nPersonality (for expression): Anxious but determined. Highly empathetic. Prone to catastrophic clumsiness but possesses raw, unrefined power.",
+        "prompt": "webtoon style. Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Lily\nAge: 19\nPhysical appearance: Petite, messy rose-gold hair tied in a loose side braid. Large, expressive teal eyes behind round, slightly crooked glasses. Always has ink smudges on her cheek.\n\nVisual details (MUST include all):\n  - Hair: Rose-gold, messy side braid with loose strands\n  - Face: Round slightly crooked glasses, ink smudges on cheek\n  - Outfit: Oversized navy blue wizard robe with gold constellation patches\n  - Accessory: A battered wooden staff held together with duct tape\n  - Footwear: Mismatched brown leather boots\n  - Build: Short, constantly tripping or hunched over books\n\nPersonality (for expression): Anxious but determined. Highly empathetic. Prone to catastrophic clumsiness but possesses raw, unrefined power.",
+        "final_prompt": "Using the labeled reference images above to maintain visual consistency: webtoon style. Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Lily\nAge: 19\nPhysical appearance: Petite, messy rose-gold hair tied in a loose side braid. Large, expressive teal eyes behind round, slightly crooked glasses. Always has ink smudges on her cheek.\n\nVisual details (MUST include all):\n  - Hair: Rose-gold, messy side braid with loose strands\n  - Face: Round slightly crooked glasses, ink smudges on cheek\n  - Outfit: Oversized navy blue wizard robe with gold constellation patches\n  - Accessory: A battered wooden staff held together with duct tape\n  - Footwear: Mismatched brown leather boots\n  - Build: Short, constantly tripping or hunched over books\n\nPersonality (for expression): Anxious but determined. Highly empathetic. Prone to catastrophic clumsiness but possesses raw, unrefined power.",
         "references": [
           {
             "path": "characters/lily/sheet.png",
@@ -52,12 +53,12 @@
       "output": {
         "finish_reason": "FinishReason.STOP",
         "usage": {
-          "prompt_tokens": 502,
-          "candidates_tokens": 1323,
-          "total_tokens": 2018
+          "prompt_tokens": 532,
+          "candidates_tokens": 1276,
+          "total_tokens": 1983
         }
       }
     }
   },
-  "generated_at": "2025-11-28T11:09:45.476595"
+  "generated_at": "2025-11-28T14:36:05.393024"
 }

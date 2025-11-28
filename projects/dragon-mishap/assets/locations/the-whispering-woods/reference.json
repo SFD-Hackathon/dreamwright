@@ -25,7 +25,7 @@
       "model": "gemini-3-pro-image-preview"
     },
     "response": {
-      "timestamp": "2025-11-28T03:12:17.666103+00:00",
+      "timestamp": "2025-11-28T06:38:52.237931+00:00",
       "input": {
         "prompt": "webtoon style. Create a background/environment illustration in webtoon art style.\n\nRequirements:\n- Establishing shot of the location\n- Bright daylight, clear visibility, natural lighting\n- Clear sky\n- No characters in the scene\n- Detailed environment suitable for webtoon backgrounds\n- Wide composition showing the space\n- Atmospheric and immersive\n\nIMPORTANT - Background Only Rules:\n- Focus on ENVIRONMENTAL elements: walls, floors, ceilings, architecture, lighting, atmosphere\n- DO NOT include interactive objects that characters would use (cars, furniture, seats, steering wheels, etc.)\n- If the location is a vehicle interior (car, train, etc.), show ONLY the environment (windows, walls, ambient lighting) without seats or controls\n- Interactive props and character positioning will be handled separately during panel composition\n- This is a STATIC BACKGROUND reference that panels will composite characters onto\n\n\nLocation: The Whispering Woods\nType: interior\nDescription: A forest where the flora reacts to emotions. Beautiful but disorienting.\nVisual details: Lighting: Bioluminescent purple and blue glow from plants, Object: Trees with bark patterns that look like faces, Atmosphere: Ethereal and slightly ominous, Color Palette: Cool purples, teals, and neon pinks, Sensory: Low humming sound visualization",
         "final_prompt": "webtoon style. Create a background/environment illustration in webtoon art style.\n\nRequirements:\n- Establishing shot of the location\n- Bright daylight, clear visibility, natural lighting\n- Clear sky\n- No characters in the scene\n- Detailed environment suitable for webtoon backgrounds\n- Wide composition showing the space\n- Atmospheric and immersive\n\nIMPORTANT - Background Only Rules:\n- Focus on ENVIRONMENTAL elements: walls, floors, ceilings, architecture, lighting, atmosphere\n- DO NOT include interactive objects that characters would use (cars, furniture, seats, steering wheels, etc.)\n- If the location is a vehicle interior (car, train, etc.), show ONLY the environment (windows, walls, ambient lighting) without seats or controls\n- Interactive props and character positioning will be handled separately during panel composition\n- This is a STATIC BACKGROUND reference that panels will composite characters onto\n\n\nLocation: The Whispering Woods\nType: interior\nDescription: A forest where the flora reacts to emotions. Beautiful but disorienting.\nVisual details: Lighting: Bioluminescent purple and blue glow from plants, Object: Trees with bark patterns that look like faces, Atmosphere: Ethereal and slightly ominous, Color Palette: Cool purples, teals, and neon pinks, Sensory: Low humming sound visualization",
@@ -41,11 +41,11 @@
         "finish_reason": "FinishReason.STOP",
         "usage": {
           "prompt_tokens": 262,
-          "candidates_tokens": 1284,
-          "total_tokens": 1889
+          "candidates_tokens": 1303,
+          "total_tokens": 1790
         }
       }
     }
   },
-  "generated_at": "2025-11-28T11:12:17.667688"
+  "generated_at": "2025-11-28T14:38:52.244432"
 }

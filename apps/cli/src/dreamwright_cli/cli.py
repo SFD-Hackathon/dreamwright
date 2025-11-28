@@ -41,6 +41,49 @@ def get_project_path() -> Path:
     return Path.cwd()
 
 
+def parse_panel_id(panel_id: str) -> tuple[Optional[int], Optional[int], Optional[int]]:
+    """Parse a panel ID string into chapter, scene, panel numbers.
+
+    Supports formats:
+        ch2         -> (2, None, None)
+        ch2_s1      -> (2, 1, None)
+        ch2_s1_p3   -> (2, 1, 3)
+
+    Args:
+        panel_id: The panel ID string to parse
+
+    Returns:
+        Tuple of (chapter, scene, panel) where None means not specified
+
+    Raises:
+        ValueError: If the format is invalid
+    """
+    import re
+
+    panel_id = panel_id.strip().lower()
+
+    # Match patterns like ch2, ch2_s1, ch2_s1_p3
+    pattern = r'^ch(\d+)(?:_s(\d+))?(?:_p(\d+))?$'
+    match = re.match(pattern, panel_id)
+
+    if not match:
+        raise ValueError(
+            f"Invalid ID format: '{panel_id}'. "
+            "Expected format: ch<N>, ch<N>_s<N>, or ch<N>_s<N>_p<N> "
+            "(e.g., ch2, ch2_s1, ch2_s1_p3)"
+        )
+
+    chapter = int(match.group(1))
+    scene = int(match.group(2)) if match.group(2) else None
+    panel = int(match.group(3)) if match.group(3) else None
+
+    # Validate: panel requires scene
+    if panel is not None and scene is None:
+        raise ValueError("Panel number requires scene number (e.g., ch2_s1_p3)")
+
+    return chapter, scene, panel
+
+
 def resolve_project_path(project: Optional[str] = None) -> Path:
     """Resolve project path from project ID or use current directory.
 
@@ -178,15 +221,59 @@ def init(
     console.print('  2. dreamwright expand "Your story idea..."')
 
 
+def parse_character_spec(spec: str) -> tuple[str, Optional[Path]]:
+    """Parse a character specification string.
+
+    Formats:
+        "Name" -> (Name, None)
+        "Name:path/to/image.png" -> (Name, Path)
+
+    Returns:
+        Tuple of (name, optional_image_path)
+    """
+    if ":" in spec:
+        parts = spec.split(":", 1)
+        name = parts[0].strip()
+        image_path = Path(parts[1].strip())
+        return name, image_path
+    return spec.strip(), None
+
+
 @app.command()
 def expand(
     prompt: str = typer.Argument(..., help="Story prompt/idea to expand"),
     genre: Optional[str] = typer.Option(None, help="Genre hint (romance, action, fantasy, etc.)"),
     tone: Optional[str] = typer.Option(None, help="Tone hint (comedic, dramatic, dark, etc.)"),
     episodes: int = typer.Option(10, help="Target number of episodes"),
+    character: Optional[list[str]] = typer.Option(None, "--character", "-c", help="Character to include (format: 'Name' or 'Name:path/to/image.png')"),
     project: Optional[str] = typer.Option(None, "--project", "-p", help="Project ID or path (uses current directory if not specified)"),
 ):
-    """Expand a story prompt into full story structure."""
+    """Expand a story prompt into full story structure.
+
+    Use --character to specify characters that MUST be included in the story.
+    You can also provide a reference image for each character.
+
+    Examples:
+        dreamwright expand "A story about..." --character "Lily"
+        dreamwright expand "A story about..." -c "Lily:/path/to/image.png" -c "Max"
+    """
+    # Parse character specifications
+    character_specs: list[tuple[str, Optional[Path]]] = []
+    if character:
+        for spec in character:
+            name, image_path = parse_character_spec(spec)
+            if image_path and not image_path.exists():
+                console.print(f"[red]Error: Character image not found: {image_path}[/red]")
+                raise typer.Exit(1)
+            character_specs.append((name, image_path))
+
+        console.print("[cyan]Characters to include:[/cyan]")
+        for name, img in character_specs:
+            if img:
+                console.print(f"  - {name} (reference: {img})")
+            else:
+                console.print(f"  - {name}")
+
     manager = load_project(project)
 
     # Parse hints
@@ -206,14 +293,34 @@ def expand(
 
     console.print(Panel(prompt, title="Story Prompt", border_style="blue"))
 
-    async def do_expand():
+    # Extract character names for the generator
+    predefined_char_names = [name for name, _ in character_specs] if character_specs else None
+    # Build lookup from character name to reference image
+    char_refs = {name.lower(): img for name, img in character_specs if img} if character_specs else {}
+
+    async def do_expand_and_generate():
+        """Expand story and generate character sheets in one async context."""
+        from dreamwright_services import CharacterService
+
+        # Step 1: Expand story
         generator = StoryGenerator()
-        return await generator.expand(
+        story, characters, locations = await generator.expand(
             prompt=prompt,
             genre_hint=genre_hint,
             tone_hint=tone_hint,
             episode_count=episodes,
+            predefined_characters=predefined_char_names,
         )
+
+        # Step 2: Generate character sheets from references (if any)
+        chars_to_generate = []
+        if char_refs:
+            for char in characters:
+                ref_img = char_refs.get(char.name.lower())
+                if ref_img:
+                    chars_to_generate.append((char, ref_img))
+
+        return story, characters, locations, chars_to_generate
 
     with Progress(
         SpinnerColumn(),
@@ -221,7 +328,7 @@ def expand(
         console=console,
     ) as progress:
         progress.add_task("Expanding story with AI...", total=None)
-        story, characters, locations = run_async(do_expand())
+        story, characters, locations, chars_to_generate = run_async(do_expand_and_generate())
 
     # Update project
     manager.project.original_prompt = prompt
@@ -233,6 +340,29 @@ def expand(
 
     # Display results
     console.print("\n[green]Story expanded successfully![/green]\n")
+
+    # Process character reference images (generate styled character sheets)
+    if chars_to_generate:
+        from dreamwright_services import CharacterService
+        service = CharacterService(manager)
+
+        console.print("\n[cyan]Generating character sheets from reference images...[/cyan]")
+
+        async def generate_from_refs():
+            for char, ref_img in chars_to_generate:
+                console.print(f"  [dim]Processing {char.name} with reference...[/dim]")
+                try:
+                    await service.generate_asset(
+                        char.id,
+                        style="webtoon",
+                        overwrite=True,
+                        reference_image=ref_img,
+                    )
+                    console.print(f"  [green]✓ {char.name} sheet generated[/green]")
+                except Exception as e:
+                    console.print(f"  [red]✗ {char.name} failed: {e}[/red]")
+
+        run_async(generate_from_refs())
 
     console.print(Panel(
         f"[bold]{story.title}[/bold]\n\n{story.logline}",
@@ -286,6 +416,7 @@ def expand(
 def generate_character(
     name: Optional[str] = typer.Option(None, help="Character name (generates all if not specified)"),
     style: str = typer.Option("webtoon", help="Art style"),
+    reference: Optional[Path] = typer.Option(None, "--reference", "-r", help="Input image to use as reference"),
     overwrite: bool = typer.Option(False, "--overwrite", help="Regenerate even if exists (bypass cache)"),
     project: Optional[str] = typer.Option(None, "--project", "-p", help="Project ID or path (uses current directory if not specified)"),
 ):
@@ -294,9 +425,22 @@ def generate_character(
     Creates a single image showing front, side, and back views of each character.
     This provides the best reference for panel generation with consistent
     costume and appearance from all angles.
+
+    Use --reference to provide an input photo/image that the AI will use as
+    a reference when generating the character's appearance.
     """
     from dreamwright_services import CharacterService
     from dreamwright_services.exceptions import NotFoundError
+
+    # Validate reference option
+    if reference:
+        if not name:
+            console.print("[red]Error: --reference requires --name (can't use reference for all characters)[/red]")
+            raise typer.Exit(1)
+        if not reference.exists():
+            console.print(f"[red]Error: Reference image not found: {reference}[/red]")
+            raise typer.Exit(1)
+        console.print(f"[cyan]Using reference image:[/cyan] {reference}")
 
     manager = load_project(project)
     service = CharacterService(manager)
@@ -339,6 +483,7 @@ def generate_character(
                 character_ids[0],
                 style=style,
                 overwrite=overwrite,
+                reference_image=reference,
                 on_start=on_start,
                 on_complete=on_complete,
                 on_progress=on_progress,
@@ -494,6 +639,7 @@ def confirm_result(result: str, title: str = "RESULT") -> bool:
 
 @generate_app.command("script")
 def generate_script_cmd(
+    id: Optional[str] = typer.Argument(None, help="Panel ID (e.g., ch2, ch2_s1, ch2_s1_p3)"),
     chapter: Optional[int] = typer.Option(None, "--chapter", "-c", help="Chapter number (generates from story beat)"),
     scene: Optional[int] = typer.Option(None, "--scene", "-s", help="Scene number (requires --chapter)"),
     panel: Optional[int] = typer.Option(None, "--panel", "-n", help="Panel number (requires --scene)"),
@@ -508,28 +654,35 @@ def generate_script_cmd(
     actions, camera directions). Image generation depends on script being ready.
 
     Examples:
-        dreamwright generate script --chapter 1              # Generate chapter 1 from story beat
-        dreamwright generate script --chapter 1 --scene 4    # Regenerate scene 4 script
-        dreamwright generate script -c 1 -s 4 -n 6           # Regenerate panel 6 script
+        dreamwright generate script ch2                      # Generate chapter 2 from story beat
+        dreamwright generate script ch2_s1                   # Regenerate scene 1 script
+        dreamwright generate script ch2_s1_p3                # Regenerate panel 3 script
         dreamwright generate script --all                    # Generate all remaining chapters
-        dreamwright generate script -c 1 -f "More action"    # With feedback
+        dreamwright generate script ch2 -f "More action"     # With feedback
     """
+    # Parse ID argument if provided
+    if id:
+        try:
+            id_chapter, id_scene, id_panel = parse_panel_id(id)
+            # ID takes precedence, but warn if flags also provided
+            if chapter is not None or scene is not None or panel is not None:
+                console.print("[yellow]Warning: ID argument overrides --chapter/--scene/--panel flags[/yellow]")
+            chapter = id_chapter
+            scene = id_scene
+            panel = id_panel
+        except ValueError as e:
+            console.print(f"[red]Error: {e}[/red]")
+            raise typer.Exit(1)
+    # Validate option combinations
+    if all_chapters and chapter is not None:
+        console.print("[red]Error: --all cannot be used with chapter ID or --chapter[/red]")
+        raise typer.Exit(1)
+
     from dreamwright_services import ScriptService
     from dreamwright_services.exceptions import DependencyError, NotFoundError, ValidationError
 
     manager = load_project(project)
     service = ScriptService(manager)
-
-    # Validate option combinations
-    if panel is not None and scene is None:
-        console.print("[red]Error: --panel requires --scene[/red]")
-        raise typer.Exit(1)
-    if scene is not None and chapter is None:
-        console.print("[red]Error: --scene requires --chapter[/red]")
-        raise typer.Exit(1)
-    if all_chapters and chapter is not None:
-        console.print("[red]Error: --all cannot be used with --chapter[/red]")
-        raise typer.Exit(1)
 
     # No arguments - show status
     if not all_chapters and chapter is None:
@@ -641,7 +794,8 @@ def generate_script_cmd(
 
 @generate_app.command("image")
 def generate_image_cmd(
-    chapter: int = typer.Option(..., "--chapter", "-c", help="Chapter number"),
+    id: Optional[str] = typer.Argument(None, help="Panel ID (e.g., ch2, ch2_s1, ch2_s1_p3)"),
+    chapter: Optional[int] = typer.Option(None, "--chapter", "-c", help="Chapter number"),
     scene: Optional[int] = typer.Option(None, "--scene", "-s", help="Scene number (generates only this scene)"),
     panel: Optional[int] = typer.Option(None, "--panel", "-n", help="Panel number (requires --scene)"),
     style: str = typer.Option("webtoon", help="Art style"),
@@ -656,11 +810,30 @@ def generate_image_cmd(
     - Location reference assets
 
     Examples:
-        dreamwright generate image --chapter 1              # Generate all chapter 1 images
-        dreamwright generate image --chapter 1 --scene 4    # Generate scene 4 images
-        dreamwright generate image -c 1 -s 4 -n 6           # Generate single panel image
-        dreamwright generate image -c 1 --overwrite         # Regenerate all
+        dreamwright generate image ch2                      # Generate all chapter 2 images
+        dreamwright generate image ch2_s1                   # Generate scene 1 images
+        dreamwright generate image ch2_s1_p3                # Generate single panel image
+        dreamwright generate image ch2 --overwrite          # Regenerate all
+        dreamwright generate image --chapter 1 --scene 4    # Using flags instead
     """
+    # Parse ID argument if provided
+    if id:
+        try:
+            id_chapter, id_scene, id_panel = parse_panel_id(id)
+            # ID takes precedence, but warn if flags also provided
+            if chapter is not None or scene is not None or panel is not None:
+                console.print("[yellow]Warning: ID argument overrides --chapter/--scene/--panel flags[/yellow]")
+            chapter = id_chapter
+            scene = id_scene
+            panel = id_panel
+        except ValueError as e:
+            console.print(f"[red]Error: {e}[/red]")
+            raise typer.Exit(1)
+
+    # Require chapter
+    if chapter is None:
+        console.print("[red]Error: Chapter is required. Use ID (e.g., ch2) or --chapter flag.[/red]")
+        raise typer.Exit(1)
     from dreamwright_generators.image import PanelResult
     from dreamwright_services import ImageService
     from dreamwright_services.exceptions import DependencyError, NotFoundError

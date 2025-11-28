@@ -1,0 +1,78 @@
+{
+  "type": "panel",
+  "panel_id": "ch2_s1_p1",
+  "panel_number": 1,
+  "scene_number": 1,
+  "chapter_number": 2,
+  "prompt": "Create a webtoon/manga panel in webtoon art style.\n\n## ATMOSPHERE & MOOD\nLIGHTING: Bright natural daylight - warm golden tones, soft shadows, clear visibility\n\n\n## COMPOSITION\n- Shot: medium shot showing characters from waist up\n- Angle: eye level, straight on view\n- Location: The Nether-Kitchen (Behind the curtain. A chaotic, industrial space with magical fires and live ingredients.) - Visual elements: Lighting: Harsh blue magical flames and steam, Key Object: A tank of water that contains a mini-ocean, Atmosphere: High-pressure, dangerous, wet, Colors: Cold blues, steely grays, splashes of neon green blood\n## CHARACTERS (PRIORITY PER CHARACTER)\nEach character below has a specific priority instruction based on whether they appeared in the previous panel.\n- If a character WAS in previous panel: match their appearance from previous panel exactly\n- If a character was NOT in previous panel: match their CHARACTER REFERENCE SHEET exactly (highest priority)\n- Text descriptions are supplementary only\n\nOnly change: expression, pose, camera angle as specified below.\n\n**Hao** (Priority: CHARACTER REFERENCE SHEET (highest - not in previous panel))\n  Physical: Average height, slightly chubby build, round expressive face. messy dark hair.\n  - Hair: Short black hair, slightly messy texture (MATCH REFERENCE PHOTO EXACTLY)\n  - Face: Oval face shape, warm friendly smile, Asian features (MATCH REFERENCE PHOTO EXACTLY)\n  - Eyes: Natural eye shape with rimless/thin-framed glasses (MATCH REFERENCE PHOTO EXACTLY)\n  - Top: Bright yellow Hawaiian shirt with blue palm trees\n  - Bottom: Beige cargo shorts with pockets\n  - Accessories: DSLR camera on a strap around neck\n  - Footwear: Red high-top sneakers\n  Expression: scared\n  Position: left of frame\n\n## ACTION & EMOTION\nHao scrambles away from the bone-bar, his hand reaching for the exit curtain. A blood-stained white apron levitates off a hook in the background, moving like a snake.\n\n## VISUAL EFFECTS (if appropriate)\n- Motion lines for movement\n- Speed lines for action\n- Sparkles/glow for magical/emotional moments\n- Dramatic lighting for tension\n\n## TECHNICAL REQUIREMENTS\n- FULL BLEED composition (art to all edges, NO white borders)\n- NO text, speech bubbles, or sound effects in image\n- Clean professional linework\n- Expressive faces with clear emotions\n- Dynamic poses with weight and balance\n- Rich background detail that supports the mood",
+  "parameters": {
+    "aspect_ratio": "3:4",
+    "resolution": "1K",
+    "style": "webtoon",
+    "panel_type": "panel",
+    "model": "gemini-3-pro-image-preview"
+  },
+  "references": [
+    {
+      "path": "characters/hao/sheet.png",
+      "role": "character reference for Hao"
+    },
+    {
+      "path": "locations/the-nether-kitchen/reference.png",
+      "role": "location/background reference"
+    }
+  ],
+  "panel_data": {
+    "action": "Hao scrambles away from the bone-bar, his hand reaching for the exit curtain. A blood-stained white apron levitates off a hook in the background, moving like a snake.",
+    "composition": {
+      "shot_type": "medium",
+      "angle": "eye_level"
+    },
+    "characters": [
+      {
+        "character_id": "char_hao",
+        "expression": "scared",
+        "position": "left"
+      }
+    ],
+    "continues_from_previous": true,
+    "continuity_note": "Hao is still wearing his tourist clothes."
+  },
+  "location_id": "loc_the_nether_kitchen",
+  "location_name": "The Nether-Kitchen",
+  "time_of_day": "day",
+  "response": {
+    "timestamp": "2025-11-28T09:38:09.205286+00:00",
+    "input": {
+      "prompt": "webtoon style. Create a webtoon/manga panel in webtoon art style.\n\n## ATMOSPHERE & MOOD\nLIGHTING: Bright natural daylight - warm golden tones, soft shadows, clear visibility\n\n\n## COMPOSITION\n- Shot: medium shot showing characters from waist up\n- Angle: eye level, straight on view\n- Location: The Nether-Kitchen (Behind the curtain. A chaotic, industrial space with magical fires and live ingredients.) - Visual elements: Lighting: Harsh blue magical flames and steam, Key Object: A tank of water that contains a mini-ocean, Atmosphere: High-pressure, dangerous, wet, Colors: Cold blues, steely grays, splashes of neon green blood\n## CHARACTERS (PRIORITY PER CHARACTER)\nEach character below has a specific priority instruction based on whether they appeared in the previous panel.\n- If a character WAS in previous panel: match their appearance from previous panel exactly\n- If a character was NOT in previous panel: match their CHARACTER REFERENCE SHEET exactly (highest priority)\n- Text descriptions are supplementary only\n\nOnly change: expression, pose, camera angle as specified below.\n\n**Hao** (Priority: CHARACTER REFERENCE SHEET (highest - not in previous panel))\n  Physical: Average height, slightly chubby build, round expressive face. messy dark hair.\n  - Hair: Short black hair, slightly messy texture (MATCH REFERENCE PHOTO EXACTLY)\n  - Face: Oval face shape, warm friendly smile, Asian features (MATCH REFERENCE PHOTO EXACTLY)\n  - Eyes: Natural eye shape with rimless/thin-framed glasses (MATCH REFERENCE PHOTO EXACTLY)\n  - Top: Bright yellow Hawaiian shirt with blue palm trees\n  - Bottom: Beige cargo shorts with pockets\n  - Accessories: DSLR camera on a strap around neck\n  - Footwear: Red high-top sneakers\n  Expression: scared\n  Position: left of frame\n\n## ACTION & EMOTION\nHao scrambles away from the bone-bar, his hand reaching for the exit curtain. A blood-stained white apron levitates off a hook in the background, moving like a snake.\n\n## VISUAL EFFECTS (if appropriate)\n- Motion lines for movement\n- Speed lines for action\n- Sparkles/glow for magical/emotional moments\n- Dramatic lighting for tension\n\n## TECHNICAL REQUIREMENTS\n- FULL BLEED composition (art to all edges, NO white borders)\n- NO text, speech bubbles, or sound effects in image\n- Clean professional linework\n- Expressive faces with clear emotions\n- Dynamic poses with weight and balance\n- Rich background detail that supports the mood",
+      "final_prompt": "Using the labeled reference images above to maintain visual consistency: webtoon style. Create a webtoon/manga panel in webtoon art style.\n\n## ATMOSPHERE & MOOD\nLIGHTING: Bright natural daylight - warm golden tones, soft shadows, clear visibility\n\n\n## COMPOSITION\n- Shot: medium shot showing characters from waist up\n- Angle: eye level, straight on view\n- Location: The Nether-Kitchen (Behind the curtain. A chaotic, industrial space with magical fires and live ingredients.) - Visual elements: Lighting: Harsh blue magical flames and steam, Key Object: A tank of water that contains a mini-ocean, Atmosphere: High-pressure, dangerous, wet, Colors: Cold blues, steely grays, splashes of neon green blood\n## CHARACTERS (PRIORITY PER CHARACTER)\nEach character below has a specific priority instruction based on whether they appeared in the previous panel.\n- If a character WAS in previous panel: match their appearance from previous panel exactly\n- If a character was NOT in previous panel: match their CHARACTER REFERENCE SHEET exactly (highest priority)\n- Text descriptions are supplementary only\n\nOnly change: expression, pose, camera angle as specified below.\n\n**Hao** (Priority: CHARACTER REFERENCE SHEET (highest - not in previous panel))\n  Physical: Average height, slightly chubby build, round expressive face. messy dark hair.\n  - Hair: Short black hair, slightly messy texture (MATCH REFERENCE PHOTO EXACTLY)\n  - Face: Oval face shape, warm friendly smile, Asian features (MATCH REFERENCE PHOTO EXACTLY)\n  - Eyes: Natural eye shape with rimless/thin-framed glasses (MATCH REFERENCE PHOTO EXACTLY)\n  - Top: Bright yellow Hawaiian shirt with blue palm trees\n  - Bottom: Beige cargo shorts with pockets\n  - Accessories: DSLR camera on a strap around neck\n  - Footwear: Red high-top sneakers\n  Expression: scared\n  Position: left of frame\n\n## ACTION & EMOTION\nHao scrambles away from the bone-bar, his hand reaching for the exit curtain. A blood-stained white apron levitates off a hook in the background, moving like a snake.\n\n## VISUAL EFFECTS (if appropriate)\n- Motion lines for movement\n- Speed lines for action\n- Sparkles/glow for magical/emotional moments\n- Dramatic lighting for tension\n\n## TECHNICAL REQUIREMENTS\n- FULL BLEED composition (art to all edges, NO white borders)\n- NO text, speech bubbles, or sound effects in image\n- Clean professional linework\n- Expressive faces with clear emotions\n- Dynamic poses with weight and balance\n- Rich background detail that supports the mood",
+      "references": [
+        {
+          "path": "/Users/long/Documents/Github/dreamwright/projects/hao-japan-adventure/assets/characters/hao/sheet.png",
+          "role": "character reference for Hao",
+          "loaded": true
+        },
+        {
+          "path": "/Users/long/Documents/Github/dreamwright/projects/hao-japan-adventure/assets/locations/the-nether-kitchen/reference.png",
+          "role": "location/background reference",
+          "loaded": true
+        }
+      ],
+      "model": "gemini-3-pro-image-preview",
+      "config": {
+        "aspect_ratio": "3:4",
+        "resolution": "1K",
+        "style": "webtoon"
+      }
+    },
+    "output": {
+      "finish_reason": "FinishReason.STOP",
+      "usage": {
+        "prompt_tokens": 1083,
+        "candidates_tokens": 1342,
+        "total_tokens": 2619
+      }
+    }
+  },
+  "generated_at": "2025-11-28T17:38:09.229372"
+}

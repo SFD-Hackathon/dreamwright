@@ -1,0 +1,56 @@
+{
+  "type": "character",
+  "character_id": "char_wasabi_kun",
+  "character_name": "Wasabi-Kun",
+  "role": "supporting",
+  "age": "3",
+  "style": "webtoon",
+  "visual_tags": [
+    "Body: Translucent bright green slime body",
+    "Face: Simple black dots for eyes and mouth",
+    "Accessories: Wears a tiny white headband that says 'FIGHT'",
+    "Texture: Shiny and dripping"
+  ],
+  "description": {
+    "physical": "A small, green, gelatinous blob with a face.",
+    "personality": "Chaotic, mute (makes squeaky noises), helpful."
+  },
+  "asset_type": "character_sheet",
+  "reference_input": null,
+  "gemini": {
+    "type": "character_sheet",
+    "character_id": "char_wasabi_kun",
+    "character_name": "Wasabi-Kun",
+    "prompt": "Create a CHARACTER TURNAROUND SHEET in webtoon art style.\n\n## LAYOUT\nCreate a SINGLE IMAGE showing the SAME character THREE times side by side with labels:\n- LEFT: Full body FRONT view (facing viewer) - label \"FRONT VIEW\" below\n- CENTER: Full body SIDE view (profile, facing right) - label \"SIDE VIEW\" below\n- RIGHT: Full body BACK view (facing away) - label \"BACK VIEW\" below\n\n## POSE REQUIREMENTS (CRITICAL FOR NATURAL LOOK)\n- NATURAL STANDING POSE with weight on both feet, feet flat on ground\n- Both feet must be PLANTED FIRMLY on the same ground plane (not floating)\n- Arms relaxed at sides or slightly away from body - NOT T-pose\n- For SIDE VIEW: show one leg slightly in front of the other for natural stance\n- For SIDE VIEW: feet should be visible and grounded, not cut off or floating\n- Include subtle ground shadow under each pose for visual grounding\n- Shoulders relaxed, not stiff or rigid\n\n## VISUAL REQUIREMENTS\n- All three views show the EXACT SAME character with IDENTICAL outfit\n- Full body from head to feet clearly visible in each view\n- Clean white or light gray background\n- Character sheet/model sheet style for animation reference\n- All views at the same scale and horizontally aligned at feet level\n- Show clothing, hair, and accessories clearly from all angles\n- Professional quality suitable for production reference\n\n## CONSISTENCY IS CRITICAL\n- Same hair style/color in all views\n- Same outfit in all views (every detail must match)\n- Same accessories and items in all views\n- Same body proportions in all views\n\n\nCharacter: Wasabi-Kun\nAge: 3\nPhysical appearance: A small, green, gelatinous blob with a face.\n\nVisual details (MUST include all):\n  - Body: Translucent bright green slime body\n  - Face: Simple black dots for eyes and mouth\n  - Accessories: Wears a tiny white headband that says 'FIGHT'\n  - Texture: Shiny and dripping\n\nPersonality (for expression): Chaotic, mute (makes squeaky noises), helpful.",
+    "parameters": {
+      "aspect_ratio": "16:9",
+      "resolution": "1K",
+      "style": "webtoon",
+      "model": "gemini-3-pro-image-preview",
+      "reference_image": null
+    },
+    "response": {
+      "timestamp": "2025-11-28T09:01:37.822394+00:00",
+      "input": {
+        "prompt": "webtoon style. Create a CHARACTER TURNAROUND SHEET in webtoon art style.\n\n## LAYOUT\nCreate a SINGLE IMAGE showing the SAME character THREE times side by side with labels:\n- LEFT: Full body FRONT view (facing viewer) - label \"FRONT VIEW\" below\n- CENTER: Full body SIDE view (profile, facing right) - label \"SIDE VIEW\" below\n- RIGHT: Full body BACK view (facing away) - label \"BACK VIEW\" below\n\n## POSE REQUIREMENTS (CRITICAL FOR NATURAL LOOK)\n- NATURAL STANDING POSE with weight on both feet, feet flat on ground\n- Both feet must be PLANTED FIRMLY on the same ground plane (not floating)\n- Arms relaxed at sides or slightly away from body - NOT T-pose\n- For SIDE VIEW: show one leg slightly in front of the other for natural stance\n- For SIDE VIEW: feet should be visible and grounded, not cut off or floating\n- Include subtle ground shadow under each pose for visual grounding\n- Shoulders relaxed, not stiff or rigid\n\n## VISUAL REQUIREMENTS\n- All three views show the EXACT SAME character with IDENTICAL outfit\n- Full body from head to feet clearly visible in each view\n- Clean white or light gray background\n- Character sheet/model sheet style for animation reference\n- All views at the same scale and horizontally aligned at feet level\n- Show clothing, hair, and accessories clearly from all angles\n- Professional quality suitable for production reference\n\n## CONSISTENCY IS CRITICAL\n- Same hair style/color in all views\n- Same outfit in all views (every detail must match)\n- Same accessories and items in all views\n- Same body proportions in all views\n\n\nCharacter: Wasabi-Kun\nAge: 3\nPhysical appearance: A small, green, gelatinous blob with a face.\n\nVisual details (MUST include all):\n  - Body: Translucent bright green slime body\n  - Face: Simple black dots for eyes and mouth\n  - Accessories: Wears a tiny white headband that says 'FIGHT'\n  - Texture: Shiny and dripping\n\nPersonality (for expression): Chaotic, mute (makes squeaky noises), helpful.",
+        "final_prompt": "webtoon style. Create a CHARACTER TURNAROUND SHEET in webtoon art style.\n\n## LAYOUT\nCreate a SINGLE IMAGE showing the SAME character THREE times side by side with labels:\n- LEFT: Full body FRONT view (facing viewer) - label \"FRONT VIEW\" below\n- CENTER: Full body SIDE view (profile, facing right) - label \"SIDE VIEW\" below\n- RIGHT: Full body BACK view (facing away) - label \"BACK VIEW\" below\n\n## POSE REQUIREMENTS (CRITICAL FOR NATURAL LOOK)\n- NATURAL STANDING POSE with weight on both feet, feet flat on ground\n- Both feet must be PLANTED FIRMLY on the same ground plane (not floating)\n- Arms relaxed at sides or slightly away from body - NOT T-pose\n- For SIDE VIEW: show one leg slightly in front of the other for natural stance\n- For SIDE VIEW: feet should be visible and grounded, not cut off or floating\n- Include subtle ground shadow under each pose for visual grounding\n- Shoulders relaxed, not stiff or rigid\n\n## VISUAL REQUIREMENTS\n- All three views show the EXACT SAME character with IDENTICAL outfit\n- Full body from head to feet clearly visible in each view\n- Clean white or light gray background\n- Character sheet/model sheet style for animation reference\n- All views at the same scale and horizontally aligned at feet level\n- Show clothing, hair, and accessories clearly from all angles\n- Professional quality suitable for production reference\n\n## CONSISTENCY IS CRITICAL\n- Same hair style/color in all views\n- Same outfit in all views (every detail must match)\n- Same accessories and items in all views\n- Same body proportions in all views\n\n\nCharacter: Wasabi-Kun\nAge: 3\nPhysical appearance: A small, green, gelatinous blob with a face.\n\nVisual details (MUST include all):\n  - Body: Translucent bright green slime body\n  - Face: Simple black dots for eyes and mouth\n  - Accessories: Wears a tiny white headband that says 'FIGHT'\n  - Texture: Shiny and dripping\n\nPersonality (for expression): Chaotic, mute (makes squeaky noises), helpful.",
+        "references": [],
+        "model": "gemini-3-pro-image-preview",
+        "config": {
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "style": "webtoon"
+        }
+      },
+      "output": {
+        "finish_reason": "FinishReason.STOP",
+        "usage": {
+          "prompt_tokens": 456,
+          "candidates_tokens": 1648,
+          "total_tokens": 2333
+        }
+      }
+    }
+  },
+  "generated_at": "2025-11-28T17:01:37.841022"
+}

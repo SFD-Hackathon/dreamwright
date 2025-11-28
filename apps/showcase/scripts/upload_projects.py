@@ -119,8 +119,10 @@ def transform_project_to_webtoon(project_data: dict) -> dict:
     # Transform chapters with scenes and segments
     chapters = []
     for chapter in project_data.get("chapters", []):
+        chapter_num = chapter.get("number", 1)
         scenes = []
         for scene in chapter.get("scenes", []):
+            scene_num = scene.get("number", 1)
             segments = []
             for panel in scene.get("panels", []):
                 # Transform dialogues
@@ -134,8 +136,12 @@ def transform_project_to_webtoon(project_data: dict) -> dict:
                         "type": dlg.get("type", "speech")
                     })
 
+                # Generate segment ID that matches uploaded image filename
+                panel_num = panel.get("number", 0)
+                segment_id = f"ch{chapter_num}_s{scene_num}_p{panel_num}"
+
                 segments.append({
-                    "id": panel["id"],
+                    "id": segment_id,
                     "sequence": panel.get("number", 0),
                     "segment_type": panel.get("type", "panel"),
                     "description": panel.get("action", ""),
@@ -269,7 +275,9 @@ def upload_project(project_dir: Path):
                             if ".backup" not in str(panel_file):
                                 panel_num = panel_file.stem.replace("panel-", "")
                                 segment_id = f"ch{chapter_num}_s{scene_num}_p{panel_num}"
-                                r2_path = f"{project_name}/assets/chapters/ch{chapter_num}/{segment_id}.jpg"
+                                # Keep original extension
+                                ext = panel_file.suffix.lower()
+                                r2_path = f"{project_name}/assets/chapters/ch{chapter_num}/{segment_id}{ext}"
                                 upload_to_r2(str(panel_file), r2_path)
 
     # Upload cover if exists (use main character portrait as fallback)

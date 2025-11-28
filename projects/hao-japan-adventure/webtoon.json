@@ -1,0 +1,2150 @@
+{
+  "title": "The Midnight Omakase",
+  "description": "Hao, a hapless but enthusiastic food blogger, is on a solo trip to Tokyo. Obsessed with finding a 'hidden gem' sushi bar mentioned on a dark web forum, he follows a trail of glowing lanterns down a disappearing alleyway in Shinjuku. He enters 'Iso-ya,' a restaurant that smells divine but feels wrong. He sits down, expecting Michelin stars, but realizes too late that the other patrons are Yokai (spirits) and the chef has just been devoured by his own ingredients.\n\nMistaken for the legendary 'Iron Gut' human chef promised to cater the night's banquet, Hao is thrust into the kitchen. He must team up with Yumi, a disgraced half-demon sous-chef, to prepare a meal for the terrifying Dragon Lord. If the food isn't perfect, Hao is on the menu. Armed only with his travel snacks, a camera, and a terrifyingly sharp magical knife, Hao must slice, dice, and survive the night.",
+  "premise": "A foodie tourist looking for the ultimate sushi experience accidentally stumbles into a restaurant for man-eating monsters and must fake his way as a legendary chef to avoid becoming the main course.",
+  "genre": "drama",
+  "tags": [
+    "Survival through Improvisation",
+    "The Universal Language of Food",
+    "Hidden Worlds",
+    "Unlikely Friendships"
+  ],
+  "style": {
+    "tone": "dramatic",
+    "target_audience": "Young Adults (16-30), fans of Spirited Away and Food Wars"
+  },
+  "characters": [
+    {
+      "id": "hao",
+      "name": "Hao",
+      "description": "Optimistic, oblivious, cowardly but motivated by food, quick-witted when panicked.",
+      "visual_traits": "Hair: Short black hair, slightly messy texture, Face: Oval face shape, warm friendly smile, Asian features, Eyes: Natural eye shape with rimless/thin-framed glasses",
+      "age": "24",
+      "main": true
+    },
+    {
+      "id": "yumi",
+      "name": "Yumi",
+      "description": "Tsundere, serious, perfectionist, hates humans (initially).",
+      "visual_traits": "Hair: Long silver hair tied back in a high, severe ponytail, Eyes: Heterochromia (Left eye Blue, Right eye Red and glowing), Top: Traditional white chef's happi coat with torn sleeves",
+      "age": "Unknown (Looks 20)",
+      "main": false
+    },
+    {
+      "id": "dragon_lord_ryu",
+      "name": "Dragon Lord (Ryu)",
+      "description": "Aristocratic, bored, terrifying, secretly emotional about food.",
+      "visual_traits": "Hair: Mane of flowing red fire/hair, Face: Patches of gold scales on cheeks, two long black horns, Top: Black silk kimono embroidered with gold dragons, open at chest",
+      "age": "Ancient",
+      "main": false
+    },
+    {
+      "id": "wasabi_kun",
+      "name": "Wasabi-Kun",
+      "description": "Chaotic, mute (makes squeaky noises), helpful.",
+      "visual_traits": "Body: Translucent bright green slime body, Face: Simple black dots for eyes and mouth, Accessories: Wears a tiny white headband that says 'FIGHT'",
+      "age": "3",
+      "main": false
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Hook",
+      "summary": "Hao stumbles into a spirit world restaurant, eats a forbidden delicacy, and is mistaken for the new chef just as the previous one explodes.",
+      "scenes": [
+        {
+          "id": "ch1_s1",
+          "title": "Hao is lost in a narrow, rain-slicked alleyway that seems to stretch infinitely. The neon lights of Tokyo are fading behind him.",
+          "segments": []
+        },
+        {
+          "id": "ch1_s2",
+          "title": "Hao finds the entrance to the restaurant.",
+          "segments": [
+            {
+              "id": "ch1_s2_p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Hao stands alone in the rain, holding his phone. The alley is dark except for a single red lantern ahead.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "Google Maps says there's a 5-star spot here... but this looks like a dead end.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "shhh (rain)",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s2_p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Hao's phone screen glitches and turns to static.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "Great. Just great. No signal.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "bzzzt",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s2_p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Hao looks up at a tattered red lantern hanging over a wooden door. The kanji on it glows faintly.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "hummm",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s2_p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "Hao sniffs the air, eyes widening. Steam is leaking from under the door.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "Wait... is that... bluefin fatty tuna? With a hint of... ozone?",
+                  "type": "thought"
+                }
+              ],
+              "narration": null,
+              "sfx": "sniff sniff",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s2_p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Hao reaches for the noren (curtain). The fabric looks old and heavy.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "Hello? One for dinner?",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s2_p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Hao's hand pushes the curtain aside. Darkness swallows his hand.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "swish",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        },
+        {
+          "id": "ch1_s3",
+          "title": "Hao is seated at the bar. To his human eyes, it looks like a high-end, rustic sushi bar. The other patrons are blurry shapes.",
+          "segments": [
+            {
+              "id": "ch1_s3_p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Hao sits at the wooden counter. Yumi (appearing human but with intense eyes) places a piece of nigiri in front of him.",
+              "characters": [
+                "hao",
+                "yumi"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "yumi",
+                  "text": "The Chef's special. Eat quickly.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "clack",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s3_p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "The sushi piece. It glows with an unnatural pink sheen. It looks incredibly delicious.",
+              "characters": [],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "glisten",
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s3_p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Hao puts the piece in his mouth. His face is pure ecstasy. Background is flowery and bright (visual metaphor).",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "It... it melts! I can taste the ocean's soul!",
+                  "type": "thought"
+                }
+              ],
+              "narration": null,
+              "sfx": "chew",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s3_p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "Hao wipes his mouth, satisfied. He raises a hand to signal Yumi.",
+              "characters": [
+                "hao",
+                "yumi"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "Incredible. Check, please! I need to blog about this.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s3_p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "The atmosphere shifts. The warm lighting turns sickly green. Hao blinks, vision blurring.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "Huh?",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "wump... wump...",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s3_p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Hao looks down at his plate. The remaining ginger is actually a small, living blob looking back at him.",
+              "characters": [
+                "hao",
+                "wasabi_kun"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "wasabi_kun",
+                  "text": "Don't eat me, buddy.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "squish",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        },
+        {
+          "id": "ch1_s4",
+          "title": "The illusion is gone. The restaurant is made of bone and dark wood. The patrons are monsters.",
+          "segments": [
+            {
+              "id": "ch1_s4_p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "The 'businessmen' next to Hao are revealed. Dragon Lord (Ryu) towers over him, holding a massive sake cup. He has scales and horns.",
+              "characters": [
+                "hao",
+                "dragon_lord_ryu"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "dragon_lord_ryu",
+                  "text": "WHERE IS THE NEXT COURSE?!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "ROAR",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s4_p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Hao scrambles back on his stool, knocking over chopsticks. Wasabi-Kun bounces away.",
+              "characters": [
+                "hao",
+                "wasabi_kun"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "M-m-monsters?!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "crash",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s4_p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Behind the counter, the kitchen curtain bursts into magical purple flames. An explosion rocks the room.",
+              "characters": [
+                "yumi"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "KA-BOOM",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s4_p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "A charred, traditional chef's hat flies through the air and lands perfectly on Hao's head.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "plop",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s4_p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Yumi steps forward, looming over Hao. Her eyes (one red, one blue) glow. She points a sharp finger at him.",
+              "characters": [
+                "hao",
+                "yumi"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "yumi",
+                  "text": "The last guy couldn't handle the heat. You're late...",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s4_p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Focus on Yumi's eyes as she finishes her sentence. Intense dramatic shading.",
+              "characters": [
+                "yumi"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "yumi",
+                  "text": "CHEF!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "DOOOM",
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Kitchen Nightmares",
+      "summary": "Hao tries to escape the spirit restaurant but is bound by a cursed apron and forced to cook by the intense sous-chef Yumi. Using his camera flash as a weapon, he survives the first dish, only to face the arrival of the terrifying Dragon Lord.",
+      "scenes": [
+        {
+          "id": "ch2_s1",
+          "title": "Hao is forced into the kitchen.",
+          "segments": [
+            {
+              "id": "ch2_s1_p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Hao scrambles away from the bone-bar, his hand reaching for the exit curtain. A blood-stained white apron levitates off a hook in the background, moving like a snake.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "Nope! No thanks! I'm leaving a zero-star review!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "SLITHER WHOOSH",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch2_s1_p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "The apron wraps itself violently around Hao's waist, cinching tight. He is yanked backward off his feet, blurring toward the kitchen entrance.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "GHK\u2014?!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "SNAP DRAG",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch2_s1_p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Hao lands face-first on the metal floor of the Nether-Kitchen. The room is filled with blue flames, floating knives, and hanging carcasses of unidentifiable beasts. Steam hisses everywhere.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "THUD HISS",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch2_s1_p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "Hao looks up from the floor. Yumi stands over him, sharpening a massive cleaver. Her mismatched eyes glow in the dim light. Wasabi-Kun sits on her shoulder, trembling.",
+              "characters": [
+                "hao",
+                "yumi",
+                "wasabi_kun"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "yumi",
+                  "text": "You're late, 'Chef'.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "SHING SHING",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch2_s1_p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Close up on a jagged order ticket slamming onto a metal spike. The text on the ticket glows red.",
+              "characters": [
+                "yumi"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "yumi",
+                  "text": "Table 4. Live Poison Pufferfish. They want it screaming.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "SLAM",
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch2_s1_p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Yumi points the cleaver at Hao's nose. Hao holds up his hands defensively, sweating profusely.",
+              "characters": [
+                "hao",
+                "yumi"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "Pufferfish? I don't have a license! I don't even have a hairnet!",
+                  "type": "speech"
+                },
+                {
+                  "character_id": "yumi",
+                  "text": "Cook or be cooked. Your choice.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        },
+        {
+          "id": "ch2_s2",
+          "title": "The cooking battle begins. Hao uses accidental skills to assist Yumi.",
+          "segments": [
+            {
+              "id": "ch2_s2_p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "A tank explodes open. A monstrous, spiky Pufferfish with human teeth lunges out at Hao. It is huge.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "SPLASH ROAR",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch2_s2_p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Hao flinches, instinctively raising his heavy DSLR camera like a shield. His finger slips onto the shutter button.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "STAY BACK!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "CLICK",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch2_s2_p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "The camera flash goes off. A blinding white light fills the panel, whiting out the details of the monster.",
+              "characters": [],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "FLASH ZZZT",
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch2_s2_p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "The Pufferfish is stunned, eyes swirling, floating mid-air in a daze. Hao peeks out from behind the camera, surprised.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "...Did I kill it with exposure settings?",
+                  "type": "thought"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch2_s2_p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Yumi is mid-air, silhouetted against the blue kitchen fire. She performs a horizontal slash with incredible speed.",
+              "characters": [
+                "yumi"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "SLASH",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch2_s2_p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Perfectly translucent slices of sashimi fan out onto a black ceramic plate held by Yumi. The fish is gone.",
+              "characters": [
+                "yumi"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "PLATING",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch2_s2_p7",
+              "sequence": 7,
+              "segment_type": "panel",
+              "description": "Yumi hands the plate to a skeletal waiter's hand reaching through the pass. She glances back at Hao with a mix of confusion and respect.",
+              "characters": [
+                "hao",
+                "yumi"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "yumi",
+                  "text": "Stunning the prey with light magic... Unorthodox. But acceptable.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        },
+        {
+          "id": "ch2_s3",
+          "title": "The Dragon Lord arrives, shifting the atmosphere from frantic to oppressive.",
+          "segments": [
+            {
+              "id": "ch2_s3_p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Hao slides down the kitchen counter, relieved. Yumi is wiping her blade.",
+              "characters": [
+                "hao",
+                "yumi"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "Okay. One dish down. Can I go home now?",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch2_s3_p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "The main doors to the Iso-ya (visible through the pass) burst open. A heavy, purple fog rolls in across the floor.",
+              "characters": [],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "BOOM CREAK",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch2_s3_p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Yumi freezes. Her eyes widen in genuine fear. She grabs Hao's shoulder tight.",
+              "characters": [
+                "hao",
+                "yumi"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "yumi",
+                  "text": "Don't. Move.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch2_s3_p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "Dragon Lord (Ryu) steps into the restaurant. He is massive, horns scraping the ceiling, wearing an expensive suit. The other monster patrons bow their heads to the tables.",
+              "characters": [
+                "dragon_lord_ryu"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "THUD THUD",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch2_s3_p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Dragon Lord (Ryu) sits at the center of the bar. He stares directly at the kitchen curtain (and the reader). His eyes are reptilian vertical slits.",
+              "characters": [
+                "dragon_lord_ryu"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "dragon_lord_ryu",
+                  "text": "I smell a new Chef.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch2_s3_p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Ryu slams a gold coin onto the counter.",
+              "characters": [
+                "dragon_lord_ryu"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "dragon_lord_ryu",
+                  "text": "Bring me the Impossible Sashimi. The one that swims in lava.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "CLINK",
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Sugar & Magma",
+      "summary": "Hao and Yumi descend into the Nether-Kitchen's deep larder to hunt the volatile Lava Bass. Amidst the danger, they share a brief moment of connection over a human chocolate bar. The hunt turns chaotic when the fish burns through their equipment, forcing Hao to use his tourist gear to capture it. The victory is short-lived as Yumi is knocked unconscious, leaving Hao to face the Dragon Lord alone.",
+      "scenes": [
+        {
+          "id": "ch3_s1",
+          "title": "Hao and Yumi act as the hunters in the dark recess of the kitchen.",
+          "segments": [
+            {
+              "id": "ch3_s1_p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Hao and Yumi stand at the edge of a bubbling magma pool. The environment is dark, lit only by the red glow of the lava.",
+              "characters": [
+                "hao",
+                "yumi"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "So... the fish lives in boiling lava. Of course it does.",
+                  "type": "speech"
+                },
+                {
+                  "character_id": "yumi",
+                  "text": "Focus, 'Chef'. The Lava Bass is fast. We have one shot.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "BUBBLE HISS",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch3_s1_p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Hao rummages through his pocket and pulls out a half-melted chocolate bar. He breaks a piece off.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "Blood sugar is low. Need a boost before I die.",
+                  "type": "speech"
+                },
+                {
+                  "character_id": "hao",
+                  "text": "Want some? It's... uh, darker than the abyss?",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "CRINKLE",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch3_s1_p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Yumi hesitates, looking at the chocolate like it's an alien artifact, then takes a small bite.",
+              "characters": [
+                "yumi",
+                "hao"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "yumi",
+                  "text": "Human rations...",
+                  "type": "speech"
+                },
+                {
+                  "character_id": "yumi",
+                  "text": "...",
+                  "type": "thought"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch3_s1_p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "Focus on Yumi's eyes widening. The pupil dilates. The background turns into abstract sparkles/flowers for a split second (shoujo manga style parody).",
+              "characters": [
+                "yumi"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "yumi",
+                  "text": "Complex bitterness... creamy texture... excessive sweetness masking a hint of... vanilla?",
+                  "type": "thought"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch3_s1_p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Yumi looks at Hao with a new, intense curiosity. Hao looks awkward.",
+              "characters": [
+                "yumi",
+                "hao"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "yumi",
+                  "text": "This flavor profile... is acceptable.",
+                  "type": "speech"
+                },
+                {
+                  "character_id": "hao",
+                  "text": "It's just a convenience store bar, Yumi.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch3_s1_p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Sudden explosion of lava behind them. A massive, glowing silhouette rises.",
+              "characters": [
+                "hao",
+                "yumi"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "ROAR SPLASH",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        },
+        {
+          "id": "ch3_s2",
+          "title": "The Magma Pool area. Intense heat, flying sparks, and dynamic movement.",
+          "segments": [
+            {
+              "id": "ch3_s2_p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Yumi swings a spirit-iron net at the Lava Bass. The fish is wreathed in blue flame.",
+              "characters": [
+                "yumi"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "yumi",
+                  "text": "HOLD STILL!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "SWISH",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch3_s2_p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "The net touches the fish and instantly disintegrates into ash. Yumi recoils.",
+              "characters": [
+                "yumi"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "yumi",
+                  "text": "It's burning through the spirit-weave?!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "FWOOSH CRACKLE",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch3_s2_p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "The fish dives toward Hao. Hao frantically digs into his backpack, pulling out a sleek, silver travel thermos.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "Wait! Wait! Thermodynamics!",
+                  "type": "speech"
+                },
+                {
+                  "character_id": "hao",
+                  "text": "Double-wall vacuum insulation, don't fail me now!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch3_s2_p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "Hao thrusts the open thermos forward like a sword. The Lava Bass, in mid-air arc, flies straight into the opening.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "GLOOP SLAM",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch3_s2_p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Hao slams the lid shut. The bottle vibrates violently in his hands, glowing red hot but holding.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "Gotcha... ow! Hot!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "RATTLE VMMMMM",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch3_s2_p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "The final thrash of the fish inside the bottle releases a shockwave of steam. Yumi is blasted backward, her head hitting a stone pillar hard.",
+              "characters": [
+                "hao",
+                "yumi"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "YUMI!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "WHAM THUD",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        },
+        {
+          "id": "ch3_s3",
+          "title": "Near the curtain leading to the dining area. The adrenaline has faded, replaced by fear.",
+          "segments": [
+            {
+              "id": "ch3_s3_p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Hao is kneeling next to Yumi. She is slumped against the wall, unconscious but breathing. The thermos sits on the floor, still vibrating.",
+              "characters": [
+                "hao",
+                "yumi"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "Hey, wake up... we need to plate this...",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch3_s3_p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Wasabi-Kun slides into frame, trembling, pointing a gelatinous nub toward the dining room curtain.",
+              "characters": [
+                "wasabi_kun"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "wasabi_kun",
+                  "text": "Pii... Piii!!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "JIGGLE",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch3_s3_p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "The curtain to the dining area ripples. A massive, shadowy aura seeps through from the other side.",
+              "characters": [],
+              "dialogues": [
+                {
+                  "character_id": "dragon_lord_ryu",
+                  "text": "My patience grows thin, Chef.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch3_s3_p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "Hao looks at his trembling hands, then at the unconscious Yumi. He realizes he's on his own.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "I can't do this without her. I don't know how to cook magic fish!",
+                  "type": "thought"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch3_s3_p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Hao picks up the vibrating thermos. His face hardens slightly\u2014a mix of fear and resignation.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "Just... fake it 'til you make it. Or 'til you get eaten.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch3_s3_p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Hao steps through the curtain, leaving Yumi behind in the dark kitchen. The light from the dining area washes over him.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "Order up!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The Golden Slice",
+      "summary": "With Yumi unconscious and the Dragon Lord losing patience, Hao is forced to prepare the volatile Lava Bass alone. Drawing on his tourist instincts, he combines the magical ingredient with human convenience store snacks, creating a high-stakes fusion dish that will determine his fate.",
+      "scenes": [
+        {
+          "id": "ch4_s1",
+          "title": "The kitchen is stiflingly hot. Yumi is unconscious on the floor. Hao is alone with the dangerous ingredient while the Dragon Lord waits outside.",
+          "segments": [
+            {
+              "id": "ch4_s1_p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Yumi is slumped against the prep counter, unconscious. Hao is kneeling beside her, frantic. In the foreground, out of focus, the Lava Bass glows with an intense heat, distorting the air around it.",
+              "characters": [
+                "hao",
+                "yumi"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "Yumi? Hey! Wake up!",
+                  "type": "speech"
+                },
+                {
+                  "character_id": "hao",
+                  "text": "You can't take a nap now! The customer is a literal monster!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "SIZZLE THUMP",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch4_s1_p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Hao slaps Yumi's cheek lightly, trying to rouse her. Her head lolls to the side. Wasabi-Kun is trembling on Yumi's shoulder.",
+              "characters": [
+                "hao",
+                "yumi",
+                "wasabi_kun"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "Come on, ninja-girl... I don't know how to prep a fish that's actively trying to burn the building down!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch4_s1_p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "The noren (curtain) separating the kitchen from the dining area ripples violently. A massive, terrifying silhouette of the Dragon Lord is cast against the fabric.",
+              "characters": [
+                "dragon_lord_ryu"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "dragon_lord_ryu",
+                  "text": "CHEF! My patience burns shorter than a human lifespan!",
+                  "type": "speech"
+                },
+                {
+                  "character_id": "dragon_lord_ryu",
+                  "text": "Where is my Golden Slice?!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "BOOM RATTLE",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch4_s1_p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "Focus on the Lava Bass on the cutting board. Its scales are like cooling magma, cracking to reveal molten orange light underneath. A drop of oil hits it and instantly vaporizes.",
+              "characters": [],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "HSSSSS POP",
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch4_s1_p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Hao stands up, backing away from the fish until he hits the back counter. He looks sweaty and exhausted. He clutches his chest.",
+              "characters": [
+                "hao",
+                "yumi"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "I review ramen shops... I have a food blog with twelve followers...",
+                  "type": "thought"
+                },
+                {
+                  "character_id": "hao",
+                  "text": "I'm going to die here. I'm going to be the dessert.",
+                  "type": "thought"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch4_s1_p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Hao's expression shifts from panic to a shaky determination. He tightens the strings of his apron. The red light of the fish reflects in his eyes.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "No. I watched every episode of 'Iron Chef' three times.",
+                  "type": "speech"
+                },
+                {
+                  "character_id": "hao",
+                  "text": "Let's cook.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "TIGHTEN",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        },
+        {
+          "id": "ch4_s2",
+          "title": "Hao attempts to cook the volatile Lava Bass using his limited culinary knowledge and a packet of convenience store snacks.",
+          "segments": [
+            {
+              "id": "ch4_s2_p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Hao stares in horror at the Lava Bass on the counter, which is bubbling and emitting thick red steam. In the background, Yumi's unconscious feet are visible sticking out from behind a counter.",
+              "characters": [
+                "hao",
+                "yumi"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "Okay. Okay. Just a fish made of... actual lava. No pressure.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "BUBBLE HISS",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch4_s2_p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Hao frantically pats down his pockets and pulls out a crumpled bag of 'Spicy Seaweed Chips' from the human world. A lightbulb moment hits him.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "Wait. The guidebook said Nether-creatures hate artificial preservatives...",
+                  "type": "thought"
+                },
+                {
+                  "character_id": "hao",
+                  "text": "If I coat it in MSG, it might seal the heat inside!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "CRINKLE",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch4_s2_p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Hao's knife slices through the Lava Bass meat. Sparks fly instead of blood. The blade glows red hot.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "SKREE-CHK SIZZLE",
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch4_s2_p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "Hao dramatically crumbles the chips over the glowing fillets like a celebrity chef. Wasabi-Kun is on the counter, vibrating with intensity.",
+              "characters": [
+                "hao",
+                "wasabi_kun"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "wasabi_kun",
+                  "text": "Master! You cannot defile the sacred Bass with convenience store trash!",
+                  "type": "speech"
+                },
+                {
+                  "character_id": "hao",
+                  "text": "It's called 'molecular gastronomy', Wasabi! Look!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "CRUNCH POWDER",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch4_s2_p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "A massive pillar of golden light erupts from the mixing bowl as the ingredients react. Hao shields his eyes. The kitchen is illuminated in blinding gold.",
+              "characters": [
+                "hao",
+                "wasabi_kun"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "FWOOOOSH SHINE",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch4_s2_p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "The light fades. Hao holds up a perfectly plated, glowing golden sashimi dish. He is sweating profusely and looks towards the kitchen exit.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "The 'Golden Inferno Crisp'.",
+                  "type": "speech"
+                },
+                {
+                  "character_id": "hao",
+                  "text": "Time to feed the beast.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "GLIMMER",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        },
+        {
+          "id": "ch4_s3",
+          "title": "Hao emerges from the kitchen to present his improvised masterpiece to the terrifying Dragon Lord, knowing his life depends on the taste test.",
+          "segments": [
+            {
+              "id": "ch4_s3_p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Hao pushes through the noren curtains from the kitchen, holding a ceramic platter with trembling hands. Thick, glowing steam billows out from behind him, framing him in a dramatic, almost heroic silhouette.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "Order up...",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "SWISH HISS",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch4_s3_p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "The Dragon Lord (Ryu) looms over the counter, his massive shadow swallowing the space. He taps a razor-sharp claw against the wood, leaving deep gouges. Wasabi-Kun is visible peeking out from behind a sake bottle, shaking.",
+              "characters": [
+                "dragon_lord_ryu",
+                "wasabi_kun"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "dragon_lord_ryu",
+                  "text": "For a 'legendary' chef, you move with the speed of a dying snail.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "TAP TAP CRACK",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch4_s3_p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Hao slams the plate down onto the counter. The sushi piece is glowing with volatile heat, topped with crumbled orange spicy chips (from the convenience store packet). The contrast between the elegant plating and the junk food topping is stark.",
+              "characters": [
+                "hao",
+                "dragon_lord_ryu"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "I present... The Spicy Magma Crunch Roll.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "CLACK SIZZLE",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch4_s3_p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "Focus on Ryu's snout and eyes as he leans in to inspect the food. The heat from the sushi is so intense it's singeing the edges of his scales. The orange dust on top sparkles dangerously.",
+              "characters": [
+                "dragon_lord_ryu"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "dragon_lord_ryu",
+                  "text": "It smells... chaotic. Like brimstone and... MSG?",
+                  "type": "thought"
+                }
+              ],
+              "narration": null,
+              "sfx": "SNIFF",
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch4_s3_p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Ryu picks up the sushi with his chopsticks. The wood of the chopsticks instantly begins to char and smoke from the heat of the Lava Bass. Hao is sweating profusely, holding his breath.",
+              "characters": [
+                "dragon_lord_ryu",
+                "hao"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "FZZZT SMOKE",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch4_s3_p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Ryu opens his maw, sharp teeth glistening, about to drop the glowing, explosive sushi into his mouth. The light from the food illuminates the inside of his throat.",
+              "characters": [
+                "dragon_lord_ryu"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "dragon_lord_ryu",
+                  "text": "Impress me, mortal.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "GULP",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Resolution",
+      "summary": "The Dragon Lord's judgment brings unexpected tears of joy, reminding him of his volcanic home. Hao receives a Spirit Pass instead of death, and Yumi finally achieves her dream. Returning to the human world, Hao discovers the only proof of his adventure is a single photo.",
+      "scenes": [
+        {
+          "id": "ch5_s1",
+          "title": "The Dragon Lord tastes the dish.",
+          "segments": [
+            {
+              "id": "ch5_s1_p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Focus on the Dragon Lord's mouth as he swallows. Silence fills the room. Hao is sweating profusely in the background, terrified.",
+              "characters": [
+                "dragon_lord_ryu",
+                "hao"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "GULP ...",
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch5_s1_p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Steam suddenly erupts from the Dragon Lord's nostrils. His eyes widen, glowing intensely.",
+              "characters": [
+                "dragon_lord_ryu"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "HSSSSSS RUMBLE",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch5_s1_p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Thick tears made of molten lava roll down the Dragon Lord's cheeks, sizzling as they hit the bone-wood counter. He looks genuinely moved.",
+              "characters": [
+                "dragon_lord_ryu"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "dragon_lord_ryu",
+                  "text": "This heat... this artificial, chemical burn...",
+                  "type": "speech"
+                },
+                {
+                  "character_id": "dragon_lord_ryu",
+                  "text": "It tastes just like the sulfur pits of my childhood.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "SIZZLE DRIP",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch5_s1_p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "Yumi stumbles in from the kitchen curtain, holding her head, looking battered. She sees the Dragon Lord crying and freezes. Wasabi-Kun peeks out from behind a cup.",
+              "characters": [
+                "yumi",
+                "hao",
+                "dragon_lord_ryu",
+                "wasabi_kun"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "yumi",
+                  "text": "Hao... are you... dead?",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch5_s1_p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "The Dragon Lord slams a massive hand on the counter (gently for him), smiling with sharp teeth. He points at Hao.",
+              "characters": [
+                "dragon_lord_ryu",
+                "hao"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "dragon_lord_ryu",
+                  "text": "Magnificent! A flavor profile only a true outsider could conceive!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "BAM!",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch5_s1_p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Hao slumps against the counter, sliding down in pure relief. Wasabi-Kun pats his head.",
+              "characters": [
+                "hao",
+                "wasabi_kun"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "Oh thank god. It was just Spicy Cheetos dust...",
+                  "type": "thought"
+                }
+              ],
+              "narration": null,
+              "sfx": "SLUMP",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        },
+        {
+          "id": "ch5_s2",
+          "title": "The rewards are distributed. Farewells are exchanged.",
+          "segments": [
+            {
+              "id": "ch5_s2_p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "The Dragon Lord holds out a glowing, wooden ticket with runes on it toward Hao.",
+              "characters": [
+                "dragon_lord_ryu",
+                "hao"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "dragon_lord_ryu",
+                  "text": "For satisfying my ancient palate, take this Spirit Pass. It grants you sight of our world, should you wish to return.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "GLOW",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch5_s2_p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Hao takes the pass hesitantly. His hands are still shaking.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "Uh, thanks? But I think I'll stick to conveyor belt sushi for a while.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch5_s2_p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "The Dragon Lord turns to Yumi, who is standing at attention, though still wobbly. He gestures to the empty spot behind the counter.",
+              "characters": [
+                "dragon_lord_ryu",
+                "yumi"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "dragon_lord_ryu",
+                  "text": "And you, Sous-Chef. You managed not to die while wrangling this human.",
+                  "type": "speech"
+                },
+                {
+                  "character_id": "dragon_lord_ryu",
+                  "text": "The kitchen is yours. Head Chef Yumi.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch5_s2_p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "Yumi bows deeply, hiding her face. A small tear forms in her eye (the human one).",
+              "characters": [
+                "yumi"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "yumi",
+                  "text": "Thank you, my Lord. I won't fail.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch5_s2_p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Hao is at the door/curtain, waving. Yumi looks up, crossing her arms but smirking.",
+              "characters": [
+                "hao",
+                "yumi"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "Guess I'm fired then? Good luck, Chef!",
+                  "type": "speech"
+                },
+                {
+                  "character_id": "yumi",
+                  "text": "Don't come back, tourist. Unless you want to be on the menu.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch5_s2_p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Silhouette of Hao running out into the light of the alley. Yumi watches him go, holding the cursed apron he left behind.",
+              "characters": [
+                "yumi",
+                "hao"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "FWOOSH",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        },
+        {
+          "id": "ch5_s3",
+          "title": "Hao returns to the human world and checks his photos.",
+          "segments": [
+            {
+              "id": "ch5_s3_p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Hao stumbles out of the fog. The eerie lanterns are fading, replaced by normal electric streetlights. The sun is rising.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "Tokyo... normal, boring Tokyo.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "CITY NOISES",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch5_s3_p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "He frantically grabs his camera hanging around his neck, checking the display screen.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "Please tell me I got proof. No one is going to believe this.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "CLICK BEEP",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch5_s3_p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "View of the camera screen. It shows a grid of photos, but they are all black or corrupted static.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "Blank?! The kitchen... the Dragon... all blank?",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch5_s3_p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "Hao's thumb presses the 'Next' button one last time.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "CLICK",
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch5_s3_p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "The camera screen shows one clear photo: A selfie. Hao looks terrified, and Yumi is in the background, rolling her eyes but doing a tiny peace sign.",
+              "characters": [
+                "hao",
+                "yumi"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch5_s3_p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Hao lowers the camera, looking at the sunrise with a satisfied smile. He walks into the crowd.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "Best. Omakase. Ever.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

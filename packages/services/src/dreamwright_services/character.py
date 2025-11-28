@@ -159,6 +159,7 @@ class CharacterService:
         character_id: str,
         style: str = "webtoon",
         overwrite: bool = False,
+        reference_image: Optional[Path] = None,
         on_start: Optional[OnCharacterStart] = None,
         on_complete: Optional[OnCharacterComplete] = None,
         on_progress: Optional[Callable[[str], None]] = None,
@@ -173,6 +174,7 @@ class CharacterService:
             character_id: Character ID
             style: Art style
             overwrite: Whether to overwrite existing
+            reference_image: Optional input image to use as reference for generation
             on_start: Callback when generation starts
             on_complete: Callback when generation completes
             on_progress: Callback for progress updates (step description)
@@ -201,10 +203,14 @@ class CharacterService:
 
         # Step 1: Generate three-view character sheet first (establishes full body design)
         if on_progress:
-            on_progress("Step 1/2: Generating full-body three-view sheet...")
+            if reference_image:
+                on_progress("Step 1/2: Generating full-body three-view sheet (using reference image)...")
+            else:
+                on_progress("Step 1/2: Generating full-body three-view sheet...")
 
         sheet_data, sheet_info = await generator.generate_character_sheet(
             char,
+            reference_image=reference_image,
             style=style,
             overwrite_cache=overwrite,
         )
@@ -223,8 +229,13 @@ class CharacterService:
                 "personality": char.description.personality,
             },
             "asset_type": "character_sheet",
+            "reference_input": str(reference_image) if reference_image else None,
             "gemini": sheet_info,
         }
+
+        # Store reference input path if provided
+        if reference_image:
+            char.assets.reference_input = str(reference_image)
 
         sheet_path = self.manager.save_asset(
             char_folder,

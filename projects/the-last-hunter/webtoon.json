@@ -1,0 +1,1111 @@
+{
+  "title": "System: Reawakening",
+  "description": "In a world where strength is fixed at awakening, Jin-woo is the 'World's Weakest Hunter,' risking his life in low-rank dungeons to pay for his mother's life-support. During a raid on a D-Rank dungeon, his party stumbles into a hidden 'Double Dungeon'\u2014a terrifying temple filled with god-like statues. The raid leader, Kang, betrays the group to escape, leaving Jin-woo and a timid healer named Hana to die. As a massive stone statue brings its blade down, a holographic screen freezes time: [You have met the hidden requirements. Will you accept the Player role?]. Jin-woo accepts, escaping death but waking up in a hospital three days later. Now, he sees 'Quests' floating in the air. To survive the penalties and save his mother, he must enter an 'Instance Dungeon' located inside a subway station and kill the boss, transforming from prey into the ultimate predator.",
+  "premise": "Betrayed in a dungeon and left for dead, the world's weakest hunter unlocks a unique interface that turns reality into a game where he alone can level up.",
+  "genre": "drama",
+  "tags": [
+    "Transformation through trauma",
+    "The cruelty of the strong against the weak",
+    "Protecting family at all costs",
+    "Gamification of survival"
+  ],
+  "style": {
+    "tone": "dramatic",
+    "target_audience": "Young Adult / Shonen fans (15-30)"
+  },
+  "characters": [
+    {
+      "id": "sung_jin_woo",
+      "name": "Sung Jin-woo",
+      "description": "Resilient, observant, protective, initially timid but becomes cold and calculated in combat.",
+      "visual_traits": "Hair: Shaggy black hair that hangs over eyes, Eyes: Dark grey, glowing blue when System activates, Top: Faded grey oversized hoodie with a small rip on the shoulder",
+      "age": "24",
+      "main": true
+    },
+    {
+      "id": "lee_hana",
+      "name": "Lee Hana",
+      "description": "Compassionate but easily frightened. The moral compass of the raid.",
+      "visual_traits": "Hair: Short strawberry-blonde bob cut with blunt bangs, Eyes: Large amber eyes, often teary, Top: White cleric-style robe with gold trim",
+      "age": "20",
+      "main": false
+    },
+    {
+      "id": "hwang_kang",
+      "name": "Hwang Kang",
+      "description": "Arrogant, selfish, believes the weak exist to serve the strong.",
+      "visual_traits": "Hair: Buzz-cut blonde hair, Eyes: Narrow, predatory eyes with a scar across the left eyebrow, Top: Silver breastplate armor over a red tight-fitting shirt",
+      "age": "30",
+      "main": false
+    }
+  ],
+  "chapters": [
+    {
+      "title": "The Double Dungeon",
+      "summary": "In the depths of a D-Rank dungeon, Sung Jin-woo faces imminent death. A flashback reveals how his party stumbled into the Cartenon Temple, a hidden chamber that traps them inside with ancient, terrifying statues.",
+      "scenes": [
+        {
+          "id": "s1",
+          "title": "The climax of the failed raid. Dust fills the air, mixed with the metallic scent of blood. The massive chamber is dimly lit by eerie blue flames.",
+          "segments": [
+            {
+              "id": "p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Focus on Jin-woo's right eye. The pupil is dilated to the max, trembling. Reflecting in his iris is a massive stone sword descending rapidly.",
+              "characters": [
+                "sung_jin_woo"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "sung_jin_woo",
+                  "text": "I died today.",
+                  "type": "thought"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "A massive stone statue, resembling a cruel god, fills the frame. It is swinging a sword down towards the viewer (Jin-woo). The scale is overwhelming.",
+              "characters": [],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "SWOOOOOSH",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Jin-woo's face is covered in dust and blood. He looks up, frozen, realizing there is no escape. Time seems to slow down.",
+              "characters": [
+                "sung_jin_woo"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "sung_jin_woo",
+                  "text": "Is this... really it?",
+                  "type": "thought"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "Impact frame. The screen goes mostly black with kinetic impact lines. The sound of crushing stone dominates.",
+              "characters": [],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "CRUNCH SPLAT",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Pitch black panel. Just white text in the center.",
+              "characters": [],
+              "dialogues": [
+                {
+                  "character_id": "",
+                  "text": "1 Hour Earlier.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "The party is walking through the entrance tunnel of the dungeon. It is damp, dark, and ancient. They are approaching the double doors.",
+          "segments": [
+            {
+              "id": "p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "The hunting party walks down a long, torch-lit corridor. Hwang Kang leads confidently. Jin-woo trails behind, carrying a large backpack of supplies.",
+              "characters": [
+                "hwang_kang",
+                "sung_jin_woo",
+                "lee_hana"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hwang_kang",
+                  "text": "Tch. Why did the Association send us an E-Rank? He's just dead weight.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "Step Step",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Lee Hana slows down to walk beside Jin-woo. She glows with a faint healing light, offering a kind smile.",
+              "characters": [
+                "lee_hana",
+                "sung_jin_woo"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "lee_hana",
+                  "text": "Don't listen to him, Mr. Sung. Are you hurt from the last fight?",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Jin-woo looks down, gripping the strap of his heavy bag. He looks tired and resigned.",
+              "characters": [
+                "sung_jin_woo"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "sung_jin_woo",
+                  "text": "I'm used to it. I need the raid money for my mother's hospital bills...",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "The group stops in front of a massive pair of double doors. The doors are intricately carved with ominous designs.",
+              "characters": [
+                "hwang_kang"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hwang_kang",
+                  "text": "Jackpot. This hasn't been looted yet. We're going to be rich.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Jin-woo stares at the door handles. He feels a chill. A subtle visual effect of 'shivering' lines around him.",
+              "characters": [
+                "sung_jin_woo"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "sung_jin_woo",
+                  "text": "Wait... something feels wrong. The air is too heavy.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Hwang Kang pushes the heavy doors open with a grunt. Darkness spills out from the gap.",
+              "characters": [
+                "hwang_kang"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hwang_kang",
+                  "text": "Quit whining, weakling. We're going in.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "CREAAAK RUMBLE",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Inside the main chamber. The scale is immense. Giant statues line the walls. The atmosphere shifts from exploration to entrapment.",
+          "segments": [
+            {
+              "id": "p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Establishing shot of the interior. It is a coliseum-sized room. Statues of hooded figures holding instruments and weapons line the walls. At the far end sits the main Statue of God.",
+              "characters": [],
+              "dialogues": [
+                {
+                  "character_id": "lee_hana",
+                  "text": "It's... huge.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Jin-woo is looking around nervously. He spots a tablet with inscriptions near the center.",
+              "characters": [
+                "sung_jin_woo"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "sung_jin_woo",
+                  "text": "'Commandments of the Cartenon Temple'...",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Sudden sharp sound. The heavy doors they entered through slam shut with incredible force.",
+              "characters": [],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "SLAM! BOOM",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "Hwang Kang rushes to the door and tries to pull it open. It doesn't budge. He looks back, angry.",
+              "characters": [
+                "hwang_kang"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hwang_kang",
+                  "text": "What the hell? It won't open!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "Rattle Rattle",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "The torches lining the walls suddenly flare to life, but the fire is an unnatural, sickly blue. The shadows lengthen and distort.",
+              "characters": [],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "FWOOSH",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Focus on the eyes of the main Statue of God. They shift. The stone pupil moves to look directly at the party.",
+              "characters": [],
+              "dialogues": [
+                {
+                  "character_id": "sung_jin_woo",
+                  "text": "The eyes... they're moving!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "GRIND",
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The First Commandment",
+      "summary": "Trapped in the Cartenon Temple, the raid party is decimated by the awakening statues. In a moment of desperation, Hwang Kang betrays Sung Jin-woo to secure his own escape. Left for dead as the God Statue descends, Jin-woo receives a mysterious system prompt.",
+      "scenes": [
+        {
+          "id": "s1",
+          "title": "The massive stone doors have slammed shut. The blue flames of the torches flare violently, casting long, dancing shadows. The atmosphere has shifted from ancient mystery to active malice.",
+          "segments": []
+        },
+        {
+          "id": "s2",
+          "title": "The chaos of the massacre. Dust and debris fill the air. The survivors are scrambling toward the exit, but the statues are faster.",
+          "segments": [
+            {
+              "id": "p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Hwang Kang stops running, looking back at the pursuing stone guard. He looks at the heavy stone door that is slowly closing.",
+              "characters": [
+                "hwang_kang",
+                "sung_jin_woo"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hwang_kang",
+                  "text": "It's too fast. We can't all make it through the gap.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "THUD THUD",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Kang grabs Jin-woo by the collar. A dark shadow falls over his face.",
+              "characters": [
+                "hwang_kang"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hwang_kang",
+                  "text": "Someone needs to draw its aggro, Mr. Sung.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Kang's heavy boot stomps directly onto Jin-woo's right knee.",
+              "characters": [],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "CRACK SNAP",
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "Jin-woo collapses to the floor, clutching his leg. Kang shoves him backward toward the approaching statue.",
+              "characters": [
+                "sung_jin_woo",
+                "hwang_kang"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "sung_jin_woo",
+                  "text": "AHHHH!",
+                  "type": "speech"
+                },
+                {
+                  "character_id": "hwang_kang",
+                  "text": "Thanks for your sacrifice, E-Rank!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Lee Hana tries to turn back, tears streaming, but Kang drags her through the closing gap in the door.",
+              "characters": [
+                "lee_hana",
+                "hwang_kang"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "lee_hana",
+                  "text": "Mr. Sung! NO!",
+                  "type": "speech"
+                },
+                {
+                  "character_id": "hwang_kang",
+                  "text": "Don't look back! Move!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Jin-woo is left alone in the center of the vast chamber. The door shuts completely. He is small and broken against the cold stone floor.",
+              "characters": [
+                "sung_jin_woo"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "BOOM",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "The climax. Time seems to slow down. The God Statue moves to deliver the killing blow.",
+          "segments": [
+            {
+              "id": "p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "POV from Jin-woo looking up. The massive God Statue looms directly overhead, a stone tablet raised to crush him.",
+              "characters": [],
+              "dialogues": [
+                {
+                  "character_id": "sung_jin_woo",
+                  "text": "So... this is it. Used and thrown away again.",
+                  "type": "thought"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Jin-woo's face is bloodied. He stares death in the face, not with fear, but with resentment.",
+              "characters": [
+                "sung_jin_woo"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "sung_jin_woo",
+                  "text": "If I had one more chance...",
+                  "type": "thought"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Just as the stone descends, the world turns grey (motion stop). A holographic blue window pops into existence in front of Jin-woo's face.",
+              "characters": [
+                "sung_jin_woo"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "PING WHIRR",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "Focus on the System text. It glows with an ethereal light.",
+              "characters": [],
+              "dialogues": [
+                {
+                  "character_id": "",
+                  "text": "[SECRET QUEST UNLOCKED: COURAGE OF THE WEAK]",
+                  "type": "speech"
+                },
+                {
+                  "character_id": "",
+                  "text": "You have acquired the qualifications to become a 'Player'. Will you accept?",
+                  "type": "speech"
+                },
+                {
+                  "character_id": "",
+                  "text": "Time remaining: 00:02",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Jin-woo reaches out with a trembling, bloody hand.",
+              "characters": [
+                "sung_jin_woo"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "sung_jin_woo",
+                  "text": "I accept.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "A blinding white light explodes from the panel, engulfing Jin-woo and the descending stone weapon. The screen goes completely white.",
+              "characters": [],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "FLASH",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The Player",
+      "summary": "Jin-woo wakes up in a hospital, his injuries miraculously healed. Skeptical of a mysterious 'System' interface only he can see, he ignores a daily quest and is punished by being transported to a deadly desert penalty zone. Upon surviving, he realizes this power is real and receives a key to a hidden dungeon.",
+      "scenes": [
+        {
+          "id": "s1",
+          "title": "Jin-woo wakes up in a clean, white hospital room. The horror of the dungeon is replaced by blinding sunlight and the smell of antiseptic.",
+          "segments": [
+            {
+              "id": "p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Jin-woo's eyes snap open. The frame is flooded with harsh white light, blurring the edges of his vision.",
+              "characters": [
+                "sung_jin_woo"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "sung_jin_woo",
+                  "text": "Gah...!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "GASP",
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Jin-woo sits up violently in the hospital bed, his hands frantically grasping at his right leg\u2014the one that was severed in the dungeon.",
+              "characters": [
+                "sung_jin_woo"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "sung_jin_woo",
+                  "text": "My leg... the statue... where is it?!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "RUSTLE THUMP",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "POV shot looking down at his legs. Both are perfectly intact under the thin blanket. There isn't even a scar.",
+              "characters": [
+                "sung_jin_woo"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "sung_jin_woo",
+                  "text": "It's... fine? Was it a dream?",
+                  "type": "thought"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "A semi-transparent blue hologram abruptly materializes in the air right in front of Jin-woo's face.",
+              "characters": [
+                "sung_jin_woo"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "",
+                  "text": "[You have unread mail.]",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "TING WOOSH",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Focus on the screen interface. It lists 'Daily Quest: Strength Training' with a list: Push-ups (0/100), Sit-ups (0/100), Running (0/10km).",
+              "characters": [],
+              "dialogues": [
+                {
+                  "character_id": "",
+                  "text": "WARNING: Failure to complete within the time limit will result in a Penalty.",
+                  "type": "speech"
+                },
+                {
+                  "character_id": "sung_jin_woo",
+                  "text": "A game interface? I must have hit my head harder than I thought.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Jin-woo lies back down, pulling the covers up, ignoring the floating screen hovering persistently above his bed.",
+              "characters": [
+                "sung_jin_woo"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "sung_jin_woo",
+                  "text": "I'm going back to sleep. This hallucination can deal with itself.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "The transition from the safety of the hospital to the penalty zone. The consequences of ignoring the system become real.",
+          "segments": [
+            {
+              "id": "p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "The digital clock on the hologram hits 00:00:00. The light in the room shifts from the cool blue of night to an alarming, strobe-light red.",
+              "characters": [],
+              "dialogues": [
+                {
+                  "character_id": "",
+                  "text": "[Daily Quest Failed.]",
+                  "type": "speech"
+                },
+                {
+                  "character_id": "",
+                  "text": "Initiating Penalty Quest: Survival.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "WEE-OO WEE-OO DZRT",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Jin-woo is jolted awake as the hospital bed dissolves into digital particles beneath him. Gravity shifts.",
+              "characters": [
+                "sung_jin_woo"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "sung_jin_woo",
+                  "text": "What?! The floor\u2014!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "CRACKLE ZAP",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Abrupt cut. Jin-woo is standing in an endless desert of red sand. The sky is purple. A massive, scorching sun beats down.",
+              "characters": [
+                "sung_jin_woo"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "sung_jin_woo",
+                  "text": "Hot... it's incredibly hot. This isn't the hospital.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "WIND_HOWL",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "Jin-woo's bare foot sinks into the burning sand. He winces.",
+              "characters": [
+                "sung_jin_woo"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "sung_jin_woo",
+                  "text": "The heat... the grit... it's too detailed for a dream.",
+                  "type": "thought"
+                }
+              ],
+              "narration": null,
+              "sfx": "SIZZLE",
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Behind Jin-woo, a massive dune explodes outward. A Giant Centipede (size of a bus) rears up, mandibles clicking.",
+              "characters": [
+                "sung_jin_woo"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "",
+                  "text": "Goal: Survive for 4 Hours.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "KRRR-KRRR BOOM",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Jin-woo starts running, sweat pouring down his face, terror in his eyes. The shadow of the monster looms over him.",
+              "characters": [
+                "sung_jin_woo"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "sung_jin_woo",
+                  "text": "It's real! If I get caught, I die!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "THUD THUD",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Jin-woo returns from the penalty zone, battered but alive. He accepts the reality of the System and receives his first item.",
+          "segments": [
+            {
+              "id": "p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Jin-woo crashes onto the tiled floor of the hospital room. He is covered in red sand, his gown torn, gasping for air.",
+              "characters": [
+                "sung_jin_woo"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "sung_jin_woo",
+                  "text": "Haa... Haa... I'm... alive...",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "CRASH PANT",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Jin-woo stares at his trembling hands. They are dirty and scraped. He clenches a fist.",
+              "characters": [
+                "sung_jin_woo"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "sung_jin_woo",
+                  "text": "It's not a hallucination. This 'System' has control over my life.",
+                  "type": "thought"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "The System window pops up again with a cheerful chime.",
+              "characters": [],
+              "dialogues": [
+                {
+                  "character_id": "",
+                  "text": "[Penalty Quest Completed.]",
+                  "type": "speech"
+                },
+                {
+                  "character_id": "",
+                  "text": "Rewards have been delivered.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "DING-DONG",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "A small, glowing 'Loot Box' icon floats in the air. Jin-woo reaches out and taps it tentatively.",
+              "characters": [
+                "sung_jin_woo"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "sung_jin_woo",
+                  "text": "Rewards...?",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "TAP",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "The box opens with a golden light. An old-fashioned iron key materializes in his hand.",
+              "characters": [
+                "sung_jin_woo"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "SHING",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Focus on the key. The item description box appears next to it.",
+              "characters": [],
+              "dialogues": [
+                {
+                  "character_id": "",
+                  "text": "[Item: Key to the Instance Dungeon]",
+                  "type": "speech"
+                },
+                {
+                  "character_id": "",
+                  "text": "Location: Hapjeong Subway Station.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

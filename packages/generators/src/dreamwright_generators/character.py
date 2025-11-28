@@ -109,10 +109,36 @@ Create a SINGLE IMAGE showing the SAME character THREE times side by side with l
 - Same body proportions in all views
 """
 
+        # Add face matching instructions if reference image provided
+        if reference_image:
+            base_prompt += """
+
+## FACE REFERENCE (CRITICAL - HIGHEST PRIORITY)
+The reference photo shows the REAL PERSON this character is based on.
+
+LIKENESS PRESERVATION IS THE #1 PRIORITY - more important than style consistency.
+
+You MUST preserve these EXACT features from the reference photo:
+1. FACE SHAPE: Copy the exact face shape, jawline, and proportions
+2. EYES: Match the exact eye shape, size, spacing, and how they look when smiling
+3. EYEBROWS: Match the exact eyebrow shape, thickness, and arch
+4. NOSE: Match the nose shape, bridge, and tip exactly
+5. MOUTH/SMILE: Match their smile shape, lip thickness, and expression
+6. GLASSES: If wearing glasses, match the exact frame style (rimless, thick, etc.)
+7. HAIR: Match the hairline, hair texture, and styling
+8. SKIN TONE: Preserve their skin tone accurately
+9. EXPRESSION STYLE: Capture how they naturally smile/express
+
+The final character MUST be immediately recognizable as the same person.
+Someone who knows this person should say "That's definitely them!"
+Apply minimal stylization to the FACE - keep it close to realistic.
+The body/outfit can be more stylized, but the FACE must preserve likeness.
+"""
+
         prompt = self._build_character_prompt(character, base_prompt)
 
         refs = (
-            [(reference_image, f"existing reference of {character.name} - match appearance exactly")]
+            [(reference_image, f"FACE REFERENCE PHOTO of {character.name} - PRESERVE EXACT FACIAL FEATURES AND LIKENESS")]
             if reference_image
             else None
         )

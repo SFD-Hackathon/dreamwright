@@ -1,0 +1,65 @@
+{
+  "type": "character",
+  "character_id": "char_yumi",
+  "character_name": "Yumi",
+  "role": "supporting",
+  "age": "Unknown (Looks 20)",
+  "style": "webtoon",
+  "visual_tags": [
+    "Hair: Long silver hair tied back in a high, severe ponytail",
+    "Eyes: Heterochromia (Left eye Blue, Right eye Red and glowing)",
+    "Top: Traditional white chef's happi coat with torn sleeves",
+    "Bottom: Dark navy hakama pants",
+    "Accessories: A giant cleaver sword strapped to her back",
+    "Footwear: Wooden geta sandals"
+  ],
+  "description": {
+    "physical": "Tall, athletic build, sharp features. One red eye, one blue eye.",
+    "personality": "Tsundere, serious, perfectionist, hates humans (initially)."
+  },
+  "asset_type": "portrait",
+  "reference_sheet": "assets/characters/yumi/sheet.png",
+  "gemini": {
+    "type": "character_portrait",
+    "character_id": "char_yumi",
+    "character_name": "Yumi",
+    "prompt": "Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Yumi\nAge: Unknown (Looks 20)\nPhysical appearance: Tall, athletic build, sharp features. One red eye, one blue eye.\n\nVisual details (MUST include all):\n  - Hair: Long silver hair tied back in a high, severe ponytail\n  - Eyes: Heterochromia (Left eye Blue, Right eye Red and glowing)\n  - Top: Traditional white chef's happi coat with torn sleeves\n  - Bottom: Dark navy hakama pants\n  - Accessories: A giant cleaver sword strapped to her back\n  - Footwear: Wooden geta sandals\n\nPersonality (for expression): Tsundere, serious, perfectionist, hates humans (initially).",
+    "parameters": {
+      "aspect_ratio": "9:16",
+      "resolution": "1K",
+      "style": "webtoon",
+      "model": "gemini-3-pro-image-preview",
+      "reference_image": "assets/characters/yumi/sheet.png"
+    },
+    "response": {
+      "timestamp": "2025-11-28T09:00:29.668110+00:00",
+      "input": {
+        "prompt": "webtoon style. Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Yumi\nAge: Unknown (Looks 20)\nPhysical appearance: Tall, athletic build, sharp features. One red eye, one blue eye.\n\nVisual details (MUST include all):\n  - Hair: Long silver hair tied back in a high, severe ponytail\n  - Eyes: Heterochromia (Left eye Blue, Right eye Red and glowing)\n  - Top: Traditional white chef's happi coat with torn sleeves\n  - Bottom: Dark navy hakama pants\n  - Accessories: A giant cleaver sword strapped to her back\n  - Footwear: Wooden geta sandals\n\nPersonality (for expression): Tsundere, serious, perfectionist, hates humans (initially).",
+        "final_prompt": "webtoon style. Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Yumi\nAge: Unknown (Looks 20)\nPhysical appearance: Tall, athletic build, sharp features. One red eye, one blue eye.\n\nVisual details (MUST include all):\n  - Hair: Long silver hair tied back in a high, severe ponytail\n  - Eyes: Heterochromia (Left eye Blue, Right eye Red and glowing)\n  - Top: Traditional white chef's happi coat with torn sleeves\n  - Bottom: Dark navy hakama pants\n  - Accessories: A giant cleaver sword strapped to her back\n  - Footwear: Wooden geta sandals\n\nPersonality (for expression): Tsundere, serious, perfectionist, hates humans (initially).",
+        "references": [
+          {
+            "path": "assets/characters/yumi/sheet.png",
+            "role": "existing portrait of Yumi for consistency",
+            "loaded": false,
+            "error": "File not found or could not be loaded"
+          }
+        ],
+        "model": "gemini-3-pro-image-preview",
+        "config": {
+          "aspect_ratio": "9:16",
+          "resolution": "1K",
+          "style": "webtoon"
+        }
+      },
+      "output": {
+        "finish_reason": "FinishReason.STOP",
+        "usage": {
+          "prompt_tokens": 234,
+          "candidates_tokens": 1293,
+          "total_tokens": 1756
+        }
+      }
+    }
+  },
+  "generated_at": "2025-11-28T17:00:29.682048"
+}

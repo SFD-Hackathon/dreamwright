@@ -17,12 +17,12 @@
     "personality": "Sarcastic, lazy, gourmet. Secretly enjoys the lack of responsibility that comes with being a cat."
   },
   "asset_type": "portrait",
-  "reference_sheet": "characters/ember-formerly-ignis/sheet.png",
+  "reference_sheet": "assets/characters/ember-formerly-ignis/sheet.png",
   "gemini": {
     "type": "character_portrait",
     "character_id": "char_ember_formerly_ignis",
     "character_name": "Ember (formerly Ignis)",
-    "prompt": "Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Ember (formerly Ignis)\nAge: Ancient (visually 3)\nPhysical appearance: A morbidly obese orange tabby cat. His eyes are vertical dragon slits (glowing gold).\nVisual details: Body: Fat orange tabby cat, Distinctive Feature: Tiny, useless membranous dragon wings on his back, Accessory: A red velvet collar with a heavy gold coin pendant, Expression: Perpetually unimpressed / half-lidded eyes, Movement: Floats slightly when too lazy to walk\nPersonality (for expression): Sarcastic, lazy, gourmet. Secretly enjoys the lack of responsibility that comes with being a cat.",
+    "prompt": "Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Ember (formerly Ignis)\nAge: Ancient (visually 3)\nPhysical appearance: A morbidly obese orange tabby cat. His eyes are vertical dragon slits (glowing gold).\n\nVisual details (MUST include all):\n  - Body: Fat orange tabby cat\n  - Distinctive Feature: Tiny, useless membranous dragon wings on his back\n  - Accessory: A red velvet collar with a heavy gold coin pendant\n  - Expression: Perpetually unimpressed / half-lidded eyes\n  - Movement: Floats slightly when too lazy to walk\n\nPersonality (for expression): Sarcastic, lazy, gourmet. Secretly enjoys the lack of responsibility that comes with being a cat.",
     "parameters": {
       "aspect_ratio": "9:16",
       "resolution": "1K",
@@ -31,10 +31,10 @@
       "reference_image": "characters/ember-formerly-ignis/sheet.png"
     },
     "response": {
-      "timestamp": "2025-11-28T03:25:55.976776+00:00",
+      "timestamp": "2025-11-28T06:36:40.861261+00:00",
       "input": {
-        "prompt": "webtoon style. Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Ember (formerly Ignis)\nAge: Ancient (visually 3)\nPhysical appearance: A morbidly obese orange tabby cat. His eyes are vertical dragon slits (glowing gold).\nVisual details: Body: Fat orange tabby cat, Distinctive Feature: Tiny, useless membranous dragon wings on his back, Accessory: A red velvet collar with a heavy gold coin pendant, Expression: Perpetually unimpressed / half-lidded eyes, Movement: Floats slightly when too lazy to walk\nPersonality (for expression): Sarcastic, lazy, gourmet. Secretly enjoys the lack of responsibility that comes with being a cat.",
-        "final_prompt": "Using the labeled reference images above to maintain visual consistency: webtoon style. Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Ember (formerly Ignis)\nAge: Ancient (visually 3)\nPhysical appearance: A morbidly obese orange tabby cat. His eyes are vertical dragon slits (glowing gold).\nVisual details: Body: Fat orange tabby cat, Distinctive Feature: Tiny, useless membranous dragon wings on his back, Accessory: A red velvet collar with a heavy gold coin pendant, Expression: Perpetually unimpressed / half-lidded eyes, Movement: Floats slightly when too lazy to walk\nPersonality (for expression): Sarcastic, lazy, gourmet. Secretly enjoys the lack of responsibility that comes with being a cat.",
+        "prompt": "webtoon style. Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Ember (formerly Ignis)\nAge: Ancient (visually 3)\nPhysical appearance: A morbidly obese orange tabby cat. His eyes are vertical dragon slits (glowing gold).\n\nVisual details (MUST include all):\n  - Body: Fat orange tabby cat\n  - Distinctive Feature: Tiny, useless membranous dragon wings on his back\n  - Accessory: A red velvet collar with a heavy gold coin pendant\n  - Expression: Perpetually unimpressed / half-lidded eyes\n  - Movement: Floats slightly when too lazy to walk\n\nPersonality (for expression): Sarcastic, lazy, gourmet. Secretly enjoys the lack of responsibility that comes with being a cat.",
+        "final_prompt": "Using the labeled reference images above to maintain visual consistency: webtoon style. Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Ember (formerly Ignis)\nAge: Ancient (visually 3)\nPhysical appearance: A morbidly obese orange tabby cat. His eyes are vertical dragon slits (glowing gold).\n\nVisual details (MUST include all):\n  - Body: Fat orange tabby cat\n  - Distinctive Feature: Tiny, useless membranous dragon wings on his back\n  - Accessory: A red velvet collar with a heavy gold coin pendant\n  - Expression: Perpetually unimpressed / half-lidded eyes\n  - Movement: Floats slightly when too lazy to walk\n\nPersonality (for expression): Sarcastic, lazy, gourmet. Secretly enjoys the lack of responsibility that comes with being a cat.",
         "references": [
           {
             "path": "characters/ember-formerly-ignis/sheet.png",
@@ -52,12 +52,12 @@
       "output": {
         "finish_reason": "FinishReason.STOP",
         "usage": {
-          "prompt_tokens": 498,
-          "candidates_tokens": 1290,
-          "total_tokens": 1979
+          "prompt_tokens": 513,
+          "candidates_tokens": 1306,
+          "total_tokens": 2029
         }
       }
     }
   },
-  "generated_at": "2025-11-28T11:25:55.979682"
+  "generated_at": "2025-11-28T14:36:40.865508"
 }

@@ -130,15 +130,27 @@ class ImageGenerator:
         self,
         panel_char: PanelCharacter,
         character: Optional[Character],
+        in_previous_panel: bool = False,
     ) -> str:
         """Build description for a character in the panel.
 
         Includes FULL appearance details to ensure costume/look consistency.
+
+        Args:
+            panel_char: Panel character specification
+            character: Full character data
+            in_previous_panel: Whether this character appeared in the previous panel.
+                Used to determine reference priority.
         """
         lines = []
 
         if character:
-            lines.append(f"**{character.name}** (MUST match reference image exactly)")
+            # Add character-specific priority instruction
+            if in_previous_panel:
+                priority_note = "Priority: PREVIOUS PANEL (match exactly)"
+            else:
+                priority_note = "Priority: CHARACTER REFERENCE SHEET (highest - not in previous panel)"
+            lines.append(f"**{character.name}** ({priority_note})")
 
             # Include physical description for appearance consistency
             if character.description.physical:
@@ -170,6 +182,7 @@ class ImageGenerator:
         character_references: Optional[dict[str, Path]] = None,
         location_reference: Optional[Path] = None,
         previous_panel_image: Optional[Path] = None,
+        previous_panel_characters: Optional[set[str]] = None,
         style: str = "webtoon",
         resolution: str = "1K",
         scene_number: Optional[int] = None,
@@ -186,6 +199,8 @@ class ImageGenerator:
             character_references: Dict of character_id -> reference image path
             location_reference: Reference image for location
             previous_panel_image: Path to previous panel image (for continuity)
+            previous_panel_characters: Set of character IDs that appeared in the
+                previous panel. Used for character-specific priority ordering.
             style: Art style
             resolution: Image resolution (1K, 2K, 4K)
             scene_number: Scene number for organizing output
@@ -196,12 +211,16 @@ class ImageGenerator:
             the prompt, parameters, references, and response metadata
         """
         characters = characters or {}
+        previous_panel_characters = previous_panel_characters or set()
 
-        # Build character descriptions
+        # Build character descriptions with priority based on previous panel
         char_descriptions = []
         for panel_char in panel.characters:
             char = characters.get(panel_char.character_id)
-            char_descriptions.append(self._build_character_description(panel_char, char))
+            in_previous = panel_char.character_id in previous_panel_characters
+            char_descriptions.append(
+                self._build_character_description(panel_char, char, in_previous_panel=in_previous)
+            )
 
         # Render prompt from template
         prompt = render(
@@ -420,6 +439,23 @@ class ImageGenerator:
         # Track previous panel path for continuity
         # Start with initial_previous_panel if provided (cross-chapter continuity)
         previous_panel_path: Optional[Path] = initial_previous_panel
+        # Track characters in previous panel for per-character priority
+        previous_panel_characters: set[str] = set()
+
+        # If we have an initial previous panel, try to load its character list
+        if initial_previous_panel and initial_previous_panel.exists():
+            import json
+            metadata_path = initial_previous_panel.with_suffix(".json")
+            if metadata_path.exists():
+                try:
+                    with open(metadata_path) as f:
+                        prev_meta = json.load(f)
+                    if "panel_data" in prev_meta and "characters" in prev_meta["panel_data"]:
+                        previous_panel_characters = {
+                            c["character_id"] for c in prev_meta["panel_data"]["characters"]
+                        }
+                except Exception:
+                    pass  # If we can't load, just continue without
 
         # Generate panels SEQUENTIALLY for continuity
         for panel in scene.panels:
@@ -443,6 +479,8 @@ class ImageGenerator:
                     skipped=True,
                 )
                 previous_panel_path = panel_path
+                # Update previous panel characters from this skipped panel
+                previous_panel_characters = {pc.character_id for pc in panel.characters}
                 panel_results.append(result)
                 if on_panel_complete:
                     on_panel_complete(result)
@@ -479,6 +517,7 @@ class ImageGenerator:
                     character_references=panel_char_refs,
                     location_reference=location_ref,
                     previous_panel_image=previous_panel_path if use_previous else None,
+                    previous_panel_characters=previous_panel_characters if use_previous else None,
                     style=style,
                     scene_number=scene.number,
                     chapter_number=chapter_number,
@@ -511,6 +550,8 @@ class ImageGenerator:
 
                 panel.image_path = str(panel_path.relative_to(output_dir.parent))
                 previous_panel_path = panel_path
+                # Update previous panel characters for next panel's priority ordering
+                previous_panel_characters = {pc.character_id for pc in panel.characters}
 
                 result = PanelResult(
                     panel=panel,

@@ -1,0 +1,1156 @@
+{
+  "title": "My Dragon is a Cat?!",
+  "description": "Lily is the worst student at the Royal Magic Academy, not because she lacks power, but because she lacks control. During a routine polishing of the Guardian Dragon's scales, a sneeze-induced spell transforms the majestic beast, Ignis, into a chubby, sarcastic orange tabby cat who prefers to be called Ember. With the Grand Dragon Festival only three days away, Lily faces exile if the kingdom discovers the Guardian is missing.\n\nDesperate, Lily drags the complaining cat-dragon on a quest to the Whispering Mountains to find a Reversal Crystal. They are intercepted by Marcus, a knight with too much enthusiasm and zero sense of direction, who insists on 'escorting' them. As they navigate forests that feed on insecurity and spirits that hoard memories, Lily discovers that Ignis (now Ember) was actually lonely at the top. The journey forces Lily to embrace her chaotic magic rather than suppress it, realizing that a perfect wizard isn't as useful as a brave one.",
+  "premise": "After accidentally transforming the kingdom's terrifying guardian dragon into a sarcastic house cat, a clumsy wizard apprentice has three days to reverse the spell before the Royal Festival reveals her disaster.",
+  "genre": "drama",
+  "tags": [
+    "Self-acceptance vs. Perfectionism",
+    "Unlikely Friendship",
+    "Responsibility"
+  ],
+  "style": {
+    "tone": "dramatic",
+    "target_audience": "Young Adult / General (Webtoon readers who enjoy 'Konosuba' or 'Little Witch Academia')"
+  },
+  "characters": [
+    {
+      "id": "lily",
+      "name": "Lily",
+      "description": "Anxious but determined. Highly empathetic. Prone to catastrophic clumsiness but possesses raw, unrefined power.",
+      "visual_traits": "Hair: Rose-gold, messy side braid with loose strands, Face: Round slightly crooked glasses, ink smudges on cheek, Outfit: Oversized navy blue wizard robe with gold constellation patches",
+      "age": "19",
+      "main": true
+    },
+    {
+      "id": "ember_formerly_ignis",
+      "name": "Ember (formerly Ignis)",
+      "description": "Sarcastic, lazy, gourmet. Secretly enjoys the lack of responsibility that comes with being a cat.",
+      "visual_traits": "Body: Fat orange tabby cat, Distinctive Feature: Tiny, useless membranous dragon wings on his back, Accessory: A red velvet collar with a heavy gold coin pendant",
+      "age": "Ancient (visually 3)",
+      "main": false
+    },
+    {
+      "id": "marcus",
+      "name": "Marcus",
+      "description": "Over-enthusiastic, dim-witted but golden-hearted. Treats every minor inconvenience like an epic quest.",
+      "visual_traits": "Hair: Spiky blonde hair, always shiny, Outfit: Polished silver chest plate over a red tunic, Accessory: A ridiculously long red cape that he constantly trips over",
+      "age": "21",
+      "main": false
+    },
+    {
+      "id": "moss",
+      "name": "Moss",
+      "description": "Territorial but easily distracted by shiny objects. Speaks in riddles.",
+      "visual_traits": "Body: Humanoid shape made of grey stones and green moss, Eyes: Glowing blue mushrooms, Accessory: Wearing a discarded rusted bucket as a hat",
+      "age": "Timeless",
+      "main": false
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Episode 1: The Poof",
+      "summary": "Lily's attempt to cure the kingdom's guardian dragon goes horribly wrong when a sneeze interrupts her spell, transforming the terrifying beast into a sarcastic house cat just days before the Royal Festival.",
+      "scenes": [
+        {
+          "id": "ch1_s1",
+          "title": "A cluttered magical workspace filled with scrolls and a massive dragon hoard.",
+          "segments": [
+            {
+              "id": "ch1_s1_p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "A massive, vertical reptilian pupil dominates the frame, glowing with molten gold light. It narrows slightly, focusing on something small off-screen.",
+              "characters": [
+                "ember_formerly_ignis"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "RUMBLE HISS",
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s1_p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Lily stands trembling, holding a glowing wand. Her nose is scrunching up, eyes watering, fighting a massive sneeze. Magical sparks float around her chaotic hair.",
+              "characters": [
+                "lily"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "lily",
+                  "text": "Just... a... little... more...",
+                  "type": "thought"
+                },
+                {
+                  "character_id": "lily",
+                  "text": "Ah...",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "Zzzzt Inhale",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s1_p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Lily sneezes violently. The wand erupts with a chaotic burst of pink and green smoke that engulfs the entire room, obscuring the dragon.",
+              "characters": [
+                "lily"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "lily",
+                  "text": "CHOO!!!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "KA-POOF! CRACKLE",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s1_p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "The smoke begins to clear. In the center of the massive pile of gold where the dragon was, there is now a small, fat orange silhouette sitting amidst the coins.",
+              "characters": [
+                "ember_formerly_ignis"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "Cough Sizzle",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s1_p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Ember (the cat) lifts a paw, inspecting it with disdain. His eyes are still the glowing vertical dragon slits.",
+              "characters": [
+                "ember_formerly_ignis"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "ember_formerly_ignis",
+                  "text": "Fur? Whiskers?",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s1_p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Ember looks up at Lily (off-panel) with deadpan judgment. The background shows the ridiculous contrast of a small cat on a dragon's hoard.",
+              "characters": [
+                "ember_formerly_ignis"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "ember_formerly_ignis",
+                  "text": "Well, this is humiliating.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        },
+        {
+          "id": "ch1_s2",
+          "title": "Lily scrambles to hide her mistake as authority knocks at the door.",
+          "segments": [
+            {
+              "id": "ch1_s2_p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Lily is pulling at her hair, staring at the cat in horror. Ember is licking his paw nonchalantly.",
+              "characters": [
+                "lily",
+                "ember_formerly_ignis"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "lily",
+                  "text": "I fixed the scale rot... by removing the scales?!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s2_p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "The heavy wooden door to the attic vibrates with a powerful knock. Dust falls from the frame.",
+              "characters": [],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "BOOM BOOM BOOM",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s2_p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Lily freezes, looking at the door. A speech bubble comes from the door.",
+              "characters": [
+                "lily"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "marcus",
+                  "text": "Lily? The High Wizard wants a status report. The Festival is in three days.",
+                  "type": "speech"
+                },
+                {
+                  "character_id": "marcus",
+                  "text": "Is the Guardian ready for display?",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s2_p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "Lily grabs Ember under the armpits. Ember's body is long and heavy, dragging down.",
+              "characters": [
+                "lily",
+                "ember_formerly_ignis"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "ember_formerly_ignis",
+                  "text": "Unhand me, peasant! I am the terror of the skies!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s2_p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Lily violently stuffs Ember into her leather backpack. Only his annoyed face is visible sticking out of the top flap.",
+              "characters": [
+                "lily",
+                "ember_formerly_ignis"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "lily",
+                  "text": "We are leaving. NOW.",
+                  "type": "speech"
+                },
+                {
+                  "character_id": "ember_formerly_ignis",
+                  "text": "Mmph!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "ZIP STUFF",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s2_p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Silhouette of Lily jumping out the attic window with the backpack, framed against a giant full moon. The door in the background bursts open.",
+              "characters": [
+                "lily"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "marcus",
+                  "text": "Lily?!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "CRASH WHOOSH",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Episode 2: The Knight in Shining Error",
+      "summary": "Lily and Ember argue in the woods about his new form until a misguided knight, Marcus, attacks the 'demon cat.' After a magical mishap, Marcus joins their quest just as their map is stolen by the forest itself.",
+      "scenes": [
+        {
+          "id": "ch2_s1",
+          "title": "Lily paces frantically while Ember grooms himself.",
+          "segments": [
+            {
+              "id": "ch2_s1_p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Lily is pacing in a circle, pulling at her braid. Ember is sitting in the center of her path, licking a paw, completely unbothered.",
+              "characters": [
+                "lily",
+                "ember_formerly_ignis"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "lily",
+                  "text": "Three days! We have three days until the King expects a giant fire-breathing reptile, and I have a... a lasagna magnet!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch2_s1_p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Ember looks up at Lily with glowing slit eyes, looking annoyed.",
+              "characters": [
+                "lily",
+                "ember_formerly_ignis"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "ember_formerly_ignis",
+                  "text": "Will you stop pacing? You're making me dizzy. Besides, being a cat isn't the worst fate.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch2_s1_p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Lily stops dead, leaning down to stare at Ember.",
+              "characters": [
+                "lily",
+                "ember_formerly_ignis"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "lily",
+                  "text": "Excuse me? You're the Guardian of the Realm! You're supposed to be terrifying!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch2_s1_p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "Focus on Ember's face. He looks strangely content.",
+              "characters": [
+                "ember_formerly_ignis"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "ember_formerly_ignis",
+                  "text": "Do you have any idea how drafty that cave was? No pillows. No sunbeams. My sciatica was killing me.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch2_s1_p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Sudden motion blur as a sword blade slices through the thick brush right next to Lily's head. Leaves explode into the air.",
+              "characters": [
+                "lily"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "SHING! SLASH",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch2_s1_p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "A figure steps out from the foliage, silhouetted by the sun, holding a sword high.",
+              "characters": [
+                "marcus"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "marcus",
+                  "text": "UNHAND THE MAIDEN, FOUL BEAST!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        },
+        {
+          "id": "ch2_s2",
+          "title": "Marcus confronts Lily and Ember, mistaking the situation entirely.",
+          "segments": [
+            {
+              "id": "ch2_s2_p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Marcus points his sword directly at Ember. Lily steps in front of the cat, hands raised defensively.",
+              "characters": [
+                "lily",
+                "ember_formerly_ignis",
+                "marcus"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "lily",
+                  "text": "Wait! No! He's not a beast, he's just... fluffy!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch2_s2_p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Marcus narrows his eyes, his hair flowing perfectly in a non-existent wind.",
+              "characters": [
+                "marcus"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "marcus",
+                  "text": "Do not be deceived, citizen! I see the glowing eyes of a demon within that ginger husk!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch2_s2_p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Marcus lunges. Lily panics and snaps her fingers to cast a spell. Sparks fly from her hand.",
+              "characters": [
+                "lily",
+                "marcus"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "SNAP ZAP!",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch2_s2_p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "The spell hits Ember instead of Marcus. Ember is now floating upside down, legs stiff, five feet in the air.",
+              "characters": [
+                "lily",
+                "ember_formerly_ignis",
+                "marcus"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "ember_formerly_ignis",
+                  "text": "Oh, wonderful. Now I'm a balloon.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch2_s2_p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Marcus drops his sword, staring up at the floating cat with pure awe. The background sparkles.",
+              "characters": [
+                "marcus"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "marcus",
+                  "text": "By the Stars... a levitating familiar? You are a powerful sorceress on a grand quest!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch2_s2_p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Marcus grabs Lily's hand (she looks sweaty and awkward) and shakes it vigorously. Ember is still floating in the background.",
+              "characters": [
+                "lily",
+                "marcus",
+                "ember_formerly_ignis"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "marcus",
+                  "text": "I, Marcus the Bold, pledge my blade to your journey! Whatever it is!",
+                  "type": "speech"
+                },
+                {
+                  "character_id": "lily",
+                  "text": "Uh... sure. Welcome aboard?",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        },
+        {
+          "id": "ch2_s3",
+          "title": "The wind picks up as the group tries to get their bearings.",
+          "segments": [
+            {
+              "id": "ch2_s3_p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Lily is holding an old parchment map. Ember (no longer floating) is on her shoulder. Marcus peers over.",
+              "characters": [
+                "lily",
+                "ember_formerly_ignis",
+                "marcus"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "lily",
+                  "text": "Okay, the reversal spell requires a shard from the Crystal Cavern. It should be...",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch2_s3_p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Focus on the map. The trees around them in the background seem to lean in closer.",
+              "characters": [
+                "lily"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "rustle whisper",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch2_s3_p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "A sudden, unnatural gust of wind rips the map from Lily's hands. Her hair whips across her face.",
+              "characters": [
+                "lily",
+                "marcus"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "WOOSH",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch2_s3_p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "The map flies high up and spirals down into a dark, thorny section of the woods where the trees are twisted.",
+              "characters": [],
+              "dialogues": [],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch2_s3_p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Ember's eyes widen, pupils shrinking to thin slits.",
+              "characters": [
+                "ember_formerly_ignis"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "ember_formerly_ignis",
+                  "text": "Oh no. Not there.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch2_s3_p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "The three characters stand small at the edge of the dark path, looking into the deep, scary woods where the map vanished.",
+              "characters": [
+                "lily",
+                "ember_formerly_ignis",
+                "marcus"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "marcus",
+                  "text": "The wind... it sounded like it was laughing.",
+                  "type": "speech"
+                },
+                {
+                  "character_id": "lily",
+                  "text": "We have to go in.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Episode 3: Echoes of Doubt",
+      "summary": "The group enters the Whispering Woods, where Lily is tormented by magical manifestations of her own insecurity. Ember breaks the tension with a surprising confession, leading them to the Crystal Cavern where a massive obstacle awaits.",
+      "scenes": [
+        {
+          "id": "ch3_s1",
+          "title": "The forest reacts to Lily's anxiety.",
+          "segments": [
+            {
+              "id": "ch3_s1_p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "The trees elongate and twist. The path ahead is obscured by a creeping, dark fog. Lily looks small in the center of the frame.",
+              "characters": [
+                "lily",
+                "ember_formerly_ignis",
+                "marcus"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "ssssshhh wrrrrip",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch3_s1_p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Marcus swings his sword violently at a wispy shadow that isn't really there. Lily clutches her head.",
+              "characters": [
+                "marcus",
+                "lily"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "marcus",
+                  "text": "Show yourself, phantom! My blade knows no fear!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "SWISH WHOOSH",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch3_s1_p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Focus on Lily. Black, scratchy scribbles (visual motif) begin to surround her head, obscuring the background. Her eyes are wide with panic.",
+              "characters": [
+                "lily"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "",
+                  "text": "Failure...",
+                  "type": "speech"
+                },
+                {
+                  "character_id": "",
+                  "text": "Fake wizard...",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch3_s1_p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "Lily sinks to her knees, the scribbles becoming a dense cage around her. Ember sits in the foreground, licking his paw, completely unaffected by the magic.",
+              "characters": [
+                "lily",
+                "ember_formerly_ignis"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "lily",
+                  "text": "I can't fix this... I ruin everything.",
+                  "type": "speech"
+                },
+                {
+                  "character_id": "ember_formerly_ignis",
+                  "text": "Are you quite finished wallowing?",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch3_s1_p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Ember headbutts Lily's hand, forcing his way into her personal space. His glowing eyes cut through the static scribbles.",
+              "characters": [
+                "lily",
+                "ember_formerly_ignis"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "ember_formerly_ignis",
+                  "text": "Pick me up. The ground is damp.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch3_s1_p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Ember's throat as he begins to purr. Visually represented as golden ripple waves radiating outward.",
+              "characters": [
+                "ember_formerly_ignis"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "RUMBLE PURRRRR",
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        },
+        {
+          "id": "ch3_s2",
+          "title": "The static clears as Ember's presence grounds Lily.",
+          "segments": [
+            {
+              "id": "ch3_s2_p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Lily holds the heavy cat against her chest. The golden ripples of the purr shatter the black static scribbles like glass.",
+              "characters": [
+                "lily",
+                "ember_formerly_ignis"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "CRACK SHATTER",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch3_s2_p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Lily buries her face in Ember's fur. Ember looks away, looking slightly embarrassed (ears back).",
+              "characters": [
+                "lily",
+                "ember_formerly_ignis"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "lily",
+                  "text": "The voices... they stopped.",
+                  "type": "thought"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch3_s2_p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Marcus lowers his sword in the background, looking confused but relieved. Lily looks down at Ember.",
+              "characters": [
+                "lily",
+                "ember_formerly_ignis",
+                "marcus"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "lily",
+                  "text": "Thanks, Ignis. Even if you just wanted a ride.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch3_s2_p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "Ember looks directly at Lily, a rare moment of vulnerability.",
+              "characters": [
+                "ember_formerly_ignis",
+                "lily"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "ember_formerly_ignis",
+                  "text": "It is not merely a ride.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch3_s2_p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Ember rests his chin on her arm, eyes half-closed.",
+              "characters": [
+                "ember_formerly_ignis",
+                "lily"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "ember_formerly_ignis",
+                  "text": "As a dragon, everyone feared my touch. Being small enough to be held... is not entirely unpleasant.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch3_s2_p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "The moment is broken as Marcus points his sword forward dramatically. A bright blue light spills from a cave entrance ahead.",
+              "characters": [
+                "marcus",
+                "lily",
+                "ember_formerly_ignis"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "marcus",
+                  "text": "Behold! The beast's lair lies ahead!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        },
+        {
+          "id": "ch3_s3",
+          "title": "A massive cavern filled with mirror-like crystals. The light source is revealed.",
+          "segments": [
+            {
+              "id": "ch3_s3_p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Establishing shot of the cavern interior. Giant crystals jut from the walls, reflecting a soft blue light. The group stands tiny at the entrance.",
+              "characters": [
+                "lily",
+                "ember_formerly_ignis",
+                "marcus"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch3_s3_p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Lily scans the room, Ember still in her arms. Marcus holds his shield up.",
+              "characters": [
+                "lily",
+                "ember_formerly_ignis",
+                "marcus"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "lily",
+                  "text": "The map said the Crystal would be on a pedestal...",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch3_s3_p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Reveal of Moss. He is gigantic, sitting against a wall, made of boulders and river stones. He is asleep.",
+              "characters": [
+                "moss"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "ZZZZZZ RUMBLE",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch3_s3_p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "Zoom in on Moss's massive stone hand. The glowing blue Crystal is resting there, casting a gentle light on his mossy face like a nightlight.",
+              "characters": [
+                "moss"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch3_s3_p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Reaction shot. Lily is terrified, Marcus is ready to charge, Ember looks annoyed.",
+              "characters": [
+                "lily",
+                "ember_formerly_ignis",
+                "marcus"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "marcus",
+                  "text": "A Stone Golem! Foul construct!",
+                  "type": "speech"
+                },
+                {
+                  "character_id": "lily",
+                  "text": "Shhh! You'll wake him!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch3_s3_p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "One of Moss's eyelids (made of stone) slides open with a grinding sound. A bright yellow eye stares directly at the reader.",
+              "characters": [
+                "moss"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "GRIND K-CHUNK",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "id": "proj_dragon_mishap",
   "name": "dragon-mishap",
   "created_at": "2025-11-28T11:07:54.248373",
-  "updated_at": "2025-11-28T14:13:27.499292",
+  "updated_at": "2025-11-28T16:23:34.319474",
   "format": "webtoon",
   "status": "in_progress",
   "story": {
@@ -751,7 +751,7 @@
               "sfx": [],
               "continues_from_previous": true,
               "continuity_note": "",
-              "image_path": null,
+              "image_path": "assets/panels/chapter-2/scene-1/panel-2.png",
               "video_path": null
             },
             {
@@ -1125,7 +1125,7 @@
               "sfx": [],
               "continues_from_previous": true,
               "continuity_note": "Ember remains floating upside down.",
-              "image_path": null,
+              "image_path": "assets/panels/chapter-2/scene-2/panel-6.png",
               "video_path": null
             }
           ],
@@ -1185,7 +1185,7 @@
               "sfx": [],
               "continues_from_previous": false,
               "continuity_note": "Lighting has shifted to be darker, more orange/purple.",
-              "image_path": null,
+              "image_path": "assets/panels/chapter-2/scene-3/panel-1.png",
               "video_path": null
             },
             {
@@ -1213,7 +1213,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "",
-              "image_path": null,
+              "image_path": "assets/panels/chapter-2/scene-3/panel-2.png",
               "video_path": null
             },
             {
@@ -1246,7 +1246,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "",
-              "image_path": null,
+              "image_path": "assets/panels/chapter-2/scene-3/panel-3.png",
               "video_path": null
             },
             {
@@ -1264,7 +1264,7 @@
               "sfx": [],
               "continues_from_previous": true,
               "continuity_note": "",
-              "image_path": null,
+              "image_path": "assets/panels/chapter-2/scene-3/panel-4.png",
               "video_path": null
             },
             {
@@ -1295,7 +1295,7 @@
               "sfx": [],
               "continues_from_previous": true,
               "continuity_note": "",
-              "image_path": null,
+              "image_path": "assets/panels/chapter-2/scene-3/panel-5.png",
               "video_path": null
             },
             {
@@ -1343,7 +1343,7 @@
               "sfx": [],
               "continues_from_previous": true,
               "continuity_note": "End of chapter cliffhanger shot.",
-              "image_path": null,
+              "image_path": "assets/panels/chapter-2/scene-3/panel-6.png",
               "video_path": null
             }
           ],

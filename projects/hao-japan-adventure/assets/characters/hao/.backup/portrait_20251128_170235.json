@@ -1,0 +1,65 @@
+{
+  "type": "character",
+  "character_id": "char_hao",
+  "character_name": "Hao",
+  "role": "protagonist",
+  "age": "24",
+  "style": "webtoon",
+  "visual_tags": [
+    "Hair: Messy dark brown hair with a cowlick sticking up",
+    "Eyes: Large, expressive black eyes behind thick-rimmed glasses",
+    "Top: Bright yellow Hawaiian shirt with blue palm trees (stained with soy sauce later)",
+    "Bottom: Beige cargo shorts with too many pockets",
+    "Accessories: Bulky DSLR camera on a rainbow strap around neck",
+    "Footwear: Red high-top sneakers with white soles"
+  ],
+  "description": {
+    "physical": "Average height, slightly chubby build, round expressive face. messy dark hair.",
+    "personality": "Optimistic, oblivious, cowardly but motivated by food, quick-witted when panicked."
+  },
+  "asset_type": "portrait",
+  "reference_sheet": "assets/characters/hao/sheet.png",
+  "gemini": {
+    "type": "character_portrait",
+    "character_id": "char_hao",
+    "character_name": "Hao",
+    "prompt": "Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Hao\nAge: 24\nPhysical appearance: Average height, slightly chubby build, round expressive face. messy dark hair.\n\nVisual details (MUST include all):\n  - Hair: Messy dark brown hair with a cowlick sticking up\n  - Eyes: Large, expressive black eyes behind thick-rimmed glasses\n  - Top: Bright yellow Hawaiian shirt with blue palm trees (stained with soy sauce later)\n  - Bottom: Beige cargo shorts with too many pockets\n  - Accessories: Bulky DSLR camera on a rainbow strap around neck\n  - Footwear: Red high-top sneakers with white soles\n\nPersonality (for expression): Optimistic, oblivious, cowardly but motivated by food, quick-witted when panicked.",
+    "parameters": {
+      "aspect_ratio": "9:16",
+      "resolution": "1K",
+      "style": "webtoon",
+      "model": "gemini-3-pro-image-preview",
+      "reference_image": "assets/characters/hao/sheet.png"
+    },
+    "response": {
+      "timestamp": "2025-11-28T08:58:54.094638+00:00",
+      "input": {
+        "prompt": "webtoon style. Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Hao\nAge: 24\nPhysical appearance: Average height, slightly chubby build, round expressive face. messy dark hair.\n\nVisual details (MUST include all):\n  - Hair: Messy dark brown hair with a cowlick sticking up\n  - Eyes: Large, expressive black eyes behind thick-rimmed glasses\n  - Top: Bright yellow Hawaiian shirt with blue palm trees (stained with soy sauce later)\n  - Bottom: Beige cargo shorts with too many pockets\n  - Accessories: Bulky DSLR camera on a rainbow strap around neck\n  - Footwear: Red high-top sneakers with white soles\n\nPersonality (for expression): Optimistic, oblivious, cowardly but motivated by food, quick-witted when panicked.",
+        "final_prompt": "webtoon style. Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Hao\nAge: 24\nPhysical appearance: Average height, slightly chubby build, round expressive face. messy dark hair.\n\nVisual details (MUST include all):\n  - Hair: Messy dark brown hair with a cowlick sticking up\n  - Eyes: Large, expressive black eyes behind thick-rimmed glasses\n  - Top: Bright yellow Hawaiian shirt with blue palm trees (stained with soy sauce later)\n  - Bottom: Beige cargo shorts with too many pockets\n  - Accessories: Bulky DSLR camera on a rainbow strap around neck\n  - Footwear: Red high-top sneakers with white soles\n\nPersonality (for expression): Optimistic, oblivious, cowardly but motivated by food, quick-witted when panicked.",
+        "references": [
+          {
+            "path": "assets/characters/hao/sheet.png",
+            "role": "existing portrait of Hao for consistency",
+            "loaded": false,
+            "error": "File not found or could not be loaded"
+          }
+        ],
+        "model": "gemini-3-pro-image-preview",
+        "config": {
+          "aspect_ratio": "9:16",
+          "resolution": "1K",
+          "style": "webtoon"
+        }
+      },
+      "output": {
+        "finish_reason": "FinishReason.STOP",
+        "usage": {
+          "prompt_tokens": 239,
+          "candidates_tokens": 1310,
+          "total_tokens": 1771
+        }
+      }
+    }
+  },
+  "generated_at": "2025-11-28T16:58:54.103167"
+}

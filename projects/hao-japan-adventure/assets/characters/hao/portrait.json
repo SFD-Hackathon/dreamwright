@@ -1,0 +1,65 @@
+{
+  "type": "character",
+  "character_id": "char_hao",
+  "character_name": "Hao",
+  "role": "protagonist",
+  "age": "24",
+  "style": "webtoon",
+  "visual_tags": [
+    "Hair: Short black hair, slightly messy texture (MATCH REFERENCE PHOTO EXACTLY)",
+    "Face: Oval face shape, warm friendly smile, Asian features (MATCH REFERENCE PHOTO EXACTLY)",
+    "Eyes: Natural eye shape with rimless/thin-framed glasses (MATCH REFERENCE PHOTO EXACTLY)",
+    "Top: Bright yellow Hawaiian shirt with blue palm trees",
+    "Bottom: Beige cargo shorts with pockets",
+    "Accessories: DSLR camera on a strap around neck",
+    "Footwear: Red high-top sneakers"
+  ],
+  "description": {
+    "physical": "Average height, slightly chubby build, round expressive face. messy dark hair.",
+    "personality": "Optimistic, oblivious, cowardly but motivated by food, quick-witted when panicked."
+  },
+  "asset_type": "portrait",
+  "reference_sheet": "assets/characters/hao/sheet.png",
+  "gemini": {
+    "type": "character_portrait",
+    "character_id": "char_hao",
+    "character_name": "Hao",
+    "prompt": "Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Hao\nAge: 24\nPhysical appearance: Average height, slightly chubby build, round expressive face. messy dark hair.\n\nVisual details (MUST include all):\n  - Hair: Short black hair, slightly messy texture (MATCH REFERENCE PHOTO EXACTLY)\n  - Face: Oval face shape, warm friendly smile, Asian features (MATCH REFERENCE PHOTO EXACTLY)\n  - Eyes: Natural eye shape with rimless/thin-framed glasses (MATCH REFERENCE PHOTO EXACTLY)\n  - Top: Bright yellow Hawaiian shirt with blue palm trees\n  - Bottom: Beige cargo shorts with pockets\n  - Accessories: DSLR camera on a strap around neck\n  - Footwear: Red high-top sneakers\n\nPersonality (for expression): Optimistic, oblivious, cowardly but motivated by food, quick-witted when panicked.",
+    "parameters": {
+      "aspect_ratio": "9:16",
+      "resolution": "1K",
+      "style": "webtoon",
+      "model": "gemini-3-pro-image-preview",
+      "reference_image": "characters/hao/sheet.png"
+    },
+    "response": {
+      "timestamp": "2025-11-28T09:26:35.809286+00:00",
+      "input": {
+        "prompt": "webtoon style. Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Hao\nAge: 24\nPhysical appearance: Average height, slightly chubby build, round expressive face. messy dark hair.\n\nVisual details (MUST include all):\n  - Hair: Short black hair, slightly messy texture (MATCH REFERENCE PHOTO EXACTLY)\n  - Face: Oval face shape, warm friendly smile, Asian features (MATCH REFERENCE PHOTO EXACTLY)\n  - Eyes: Natural eye shape with rimless/thin-framed glasses (MATCH REFERENCE PHOTO EXACTLY)\n  - Top: Bright yellow Hawaiian shirt with blue palm trees\n  - Bottom: Beige cargo shorts with pockets\n  - Accessories: DSLR camera on a strap around neck\n  - Footwear: Red high-top sneakers\n\nPersonality (for expression): Optimistic, oblivious, cowardly but motivated by food, quick-witted when panicked.",
+        "final_prompt": "Using the labeled reference images above to maintain visual consistency: webtoon style. Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Hao\nAge: 24\nPhysical appearance: Average height, slightly chubby build, round expressive face. messy dark hair.\n\nVisual details (MUST include all):\n  - Hair: Short black hair, slightly messy texture (MATCH REFERENCE PHOTO EXACTLY)\n  - Face: Oval face shape, warm friendly smile, Asian features (MATCH REFERENCE PHOTO EXACTLY)\n  - Eyes: Natural eye shape with rimless/thin-framed glasses (MATCH REFERENCE PHOTO EXACTLY)\n  - Top: Bright yellow Hawaiian shirt with blue palm trees\n  - Bottom: Beige cargo shorts with pockets\n  - Accessories: DSLR camera on a strap around neck\n  - Footwear: Red high-top sneakers\n\nPersonality (for expression): Optimistic, oblivious, cowardly but motivated by food, quick-witted when panicked.",
+        "references": [
+          {
+            "path": "characters/hao/sheet.png",
+            "role": "existing portrait of Hao for consistency",
+            "loaded": true
+          }
+        ],
+        "model": "gemini-3-pro-image-preview",
+        "config": {
+          "aspect_ratio": "9:16",
+          "resolution": "1K",
+          "style": "webtoon"
+        }
+      },
+      "output": {
+        "finish_reason": "FinishReason.STOP",
+        "usage": {
+          "prompt_tokens": 533,
+          "candidates_tokens": 1285,
+          "total_tokens": 1971
+        }
+      }
+    }
+  },
+  "generated_at": "2025-11-28T17:26:35.834360"
+}
