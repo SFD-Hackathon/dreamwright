@@ -18,7 +18,7 @@
     "personality": "Compassionate but easily frightened. The moral compass of the raid."
   },
   "asset_type": "character_sheet",
-  "reference_portrait": "assets/characters/lee-hana/portrait.png",
+  "reference_portrait": "characters/lee-hana/portrait.png",
   "gemini": {
     "type": "character_sheet",
     "character_id": "char_lee_hana",
@@ -29,7 +29,7 @@
       "resolution": "1K",
       "style": "webtoon",
       "model": "gemini-3-pro-image-preview",
-      "reference_image": "/Users/long/Documents/Github/dreamright-20251126/projects/the-last-hunter/assets/characters/lee-hana/portrait.png"
+      "reference_image": "characters/lee-hana/portrait.png"
     },
     "response": {
       "finish_reason": "FinishReason.STOP",

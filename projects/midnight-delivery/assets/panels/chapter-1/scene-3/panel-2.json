@@ -14,11 +14,11 @@
   },
   "references": [
     {
-      "path": "/Users/long/Documents/Github/dreamright-20251126/projects/midnight-delivery/assets/panels/chapter-1/scene-3/panel-1.png",
+      "path": "panels/chapter-1/scene-3/panel-1.png",
       "role": "previous panel for visual continuity"
     },
     {
-      "path": "/Users/long/Documents/Github/dreamright-20251126/projects/midnight-delivery/assets/locations/the-rain-slicked-intersection/reference.png",
+      "path": "locations/the-rain-slicked-intersection/reference.png",
       "role": "location/background reference"
     }
   ],
@@ -42,12 +42,12 @@
       "final_prompt": "Using the labeled reference images above to maintain visual consistency: webtoon style. Create a webtoon/manga panel in webtoon art style.\n\n## ATMOSPHERE & MOOD\nLIGHTING: Bright natural daylight - warm golden tones, soft shadows, clear visibility\n\n## VISUAL CONTINUITY (CRITICAL)\nMatch the reference image for:\n- Art style, line weight, coloring technique\n- Character appearance (face, hair, clothes)\n- Color palette and lighting direction\n- Background style and detail level\n\nCreate NEW composition showing:\n- Fresh pose and body position for this action\n- New camera angle as specified\nMAINTAIN: Rain droplets on screen\n\n## COMPOSITION\n- Shot: close-up shot focusing on face and expressions\n- Angle: high angle looking down, shows vulnerability or overview\n- Location: The Rain-Slicked Intersection (A busy city intersection that becomes deadly silent during the Witching Hour. Where Ren died.) - Visual elements: Lighting: Harsh yellow streetlamps casting long shadows, Atmosphere: Cold, empty, ominous, Palette: Greys, blacks, and stark yellow light, Sensory: The sound of a single dripping drain\n\n## ACTION & EMOTION\nLooking down at the phone mounted on the handlebars. The clock changes from 11:59 to 00:00.\n\n## VISUAL EFFECTS (if appropriate)\n- Motion lines for movement\n- Speed lines for action\n- Sparkles/glow for magical/emotional moments\n- Dramatic lighting for tension\n\n## TECHNICAL REQUIREMENTS\n- FULL BLEED composition (art to all edges, NO white borders)\n- NO text, speech bubbles, or sound effects in image\n- Clean professional linework\n- Expressive faces with clear emotions\n- Dynamic poses with weight and balance\n- Rich background detail that supports the mood",
       "references": [
         {
-          "path": "/Users/long/Documents/Github/dreamright-20251126/projects/midnight-delivery/assets/panels/chapter-1/scene-3/panel-1.png",
+          "path": "panels/chapter-1/scene-3/panel-1.png",
           "role": "previous panel for visual continuity",
           "loaded": true
         },
         {
-          "path": "/Users/long/Documents/Github/dreamright-20251126/projects/midnight-delivery/assets/locations/the-rain-slicked-intersection/reference.png",
+          "path": "locations/the-rain-slicked-intersection/reference.png",
           "role": "location/background reference",
           "loaded": true
         }

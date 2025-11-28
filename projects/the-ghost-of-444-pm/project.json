@@ -19,7 +19,7 @@
     ],
     "target_audience": "Young Adult (15-25)",
     "episode_count": 5,
-    "synopsis": "Mina Kim was always the 'invisible girl' at school, too shy to speak up. But after surviving a catastrophic bus accident that should have killed her, she returns to school with a terrifying new ability: she can see the dead. While trying to ignore the grotesque spirits wandering the halls, she stumbles upon Kai, a ghost different from the others. He looks human, retains his sanity, and haunts the abandoned music room.\n\nKai has no memory of who he was or how he died; he only knows he's been waiting for someone to hear him. Despite her fear, Mina agrees to be his bridge to the living world. As they uncover clues—an old yearbook, a dusty guitar, and a suppressed police report—they realize Kai's death wasn't an accident. With a dark entity known as a 'Hollow' tracking Kai to consume his fading soul, Mina must find the courage to confront the truth of the past, connecting Kai's tragedy to the very accident that changed her life.",
+    "synopsis": "Mina Kim was always the 'invisible girl' at school, too shy to speak up. But after surviving a catastrophic bus accident that should have killed her, she returns to school with a terrifying new ability: she can see the dead. While trying to ignore the grotesque spirits wandering the halls, she stumbles upon Kai, a ghost different from the others. He looks human, retains his sanity, and haunts the abandoned music room.\n\nKai has no memory of who he was or how he died; he only knows he's been waiting for someone to hear him. Despite her fear, Mina agrees to be his bridge to the living world. As they uncover clues\u2014an old yearbook, a dusty guitar, and a suppressed police report\u2014they realize Kai's death wasn't an accident. With a dark entity known as a 'Hollow' tracking Kai to consume his fading soul, Mina must find the courage to confront the truth of the past, connecting Kai's tragedy to the very accident that changed her life.",
     "story_beats": [
       {
         "beat": "Hook",
@@ -35,7 +35,7 @@
       },
       {
         "beat": "Climax",
-        "description": "The Hollow corners them on the school rooftop during a storm. To save Mina, Kai nearly succumbs to corruption. Mina finds the missing piece of the puzzle: Kai didn't die by accident; he died saving a child from a car crash—a child who grew up to be Mina's best friend. The realization restores Kai's memory and power."
+        "description": "The Hollow corners them on the school rooftop during a storm. To save Mina, Kai nearly succumbs to corruption. Mina finds the missing piece of the puzzle: Kai didn't die by accident; he died saving a child from a car crash\u2014a child who grew up to be Mina's best friend. The realization restores Kai's memory and power."
       },
       {
         "beat": "Resolution",
@@ -65,12 +65,12 @@
       ],
       "assets": {
         "reference_input": null,
-        "portrait": "assets/characters/mina-kim/portrait.png",
+        "portrait": "characters/mina-kim/portrait.png",
         "three_view": {
           "front": null,
           "side": null,
           "back": null,
-          "sheet": "assets/characters/mina-kim/sheet.png"
+          "sheet": "characters/mina-kim/sheet.png"
         }
       },
       "voice_description": ""
@@ -95,12 +95,12 @@
       ],
       "assets": {
         "reference_input": null,
-        "portrait": "assets/characters/kai/portrait.png",
+        "portrait": "characters/kai/portrait.png",
         "three_view": {
           "front": null,
           "side": null,
           "back": null,
-          "sheet": "assets/characters/kai/sheet.png"
+          "sheet": "characters/kai/sheet.png"
         }
       },
       "voice_description": ""
@@ -125,12 +125,12 @@
       ],
       "assets": {
         "reference_input": null,
-        "portrait": "assets/characters/jin-ho/portrait.png",
+        "portrait": "characters/jin-ho/portrait.png",
         "three_view": {
           "front": null,
           "side": null,
           "back": null,
-          "sheet": "assets/characters/jin-ho/sheet.png"
+          "sheet": "characters/jin-ho/sheet.png"
         }
       },
       "voice_description": ""
@@ -155,12 +155,12 @@
       ],
       "assets": {
         "reference_input": null,
-        "portrait": "assets/characters/yuna/portrait.png",
+        "portrait": "characters/yuna/portrait.png",
         "three_view": {
           "front": null,
           "side": null,
           "back": null,
-          "sheet": "assets/characters/yuna/sheet.png"
+          "sheet": "characters/yuna/sheet.png"
         }
       },
       "voice_description": ""
@@ -180,8 +180,8 @@
         "peaceful atmosphere"
       ],
       "assets": {
-        "reference": "assets/locations/the-abandoned-music-room/reference.png",
-        "reference_sheet": "assets/locations/the-abandoned-music-room/reference_sheet.png"
+        "reference": "locations/the-abandoned-music-room/reference.png",
+        "reference_sheet": "locations/the-abandoned-music-room/reference_sheet.png"
       }
     },
     {
@@ -197,7 +197,7 @@
         "distant city lights"
       ],
       "assets": {
-        "reference": "assets/locations/school-rooftop/reference.png",
+        "reference": "locations/school-rooftop/reference.png",
         "reference_sheet": null
       }
     },
@@ -214,7 +214,7 @@
         "claustrophobic perspective"
       ],
       "assets": {
-        "reference": "assets/locations/the-school-hallway/reference.png",
+        "reference": "locations/the-school-hallway/reference.png",
         "reference_sheet": null
       }
     }
@@ -269,7 +269,7 @@
               ],
               "continues_from_previous": false,
               "continuity_note": "Bright, cheerful lighting initially.",
-              "image_path": "assets/panels/chapter-1/scene-1/panel-1.png",
+              "image_path": "panels/chapter-1/scene-1/panel-1.png",
               "video_path": null
             },
             {
@@ -302,7 +302,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "Mina is isolated from the background noise.",
-              "image_path": "assets/panels/chapter-1/scene-1/panel-2.png",
+              "image_path": "panels/chapter-1/scene-1/panel-2.png",
               "video_path": null
             },
             {
@@ -330,7 +330,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "Same location, but lighting shifts to a cooler, sickly tone in the periphery.",
-              "image_path": "assets/panels/chapter-1/scene-1/panel-3.png",
+              "image_path": "panels/chapter-1/scene-1/panel-3.png",
               "video_path": null
             },
             {
@@ -363,7 +363,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "Mina must not react visibly to the spirit.",
-              "image_path": "assets/panels/chapter-1/scene-1/panel-4.png",
+              "image_path": "panels/chapter-1/scene-1/panel-4.png",
               "video_path": null
             },
             {
@@ -400,7 +400,7 @@
               "sfx": [],
               "continues_from_previous": true,
               "continuity_note": "Lighting returns to normal/warm.",
-              "image_path": "assets/panels/chapter-1/scene-1/panel-5.png",
+              "image_path": "panels/chapter-1/scene-1/panel-5.png",
               "video_path": null
             },
             {
@@ -433,7 +433,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "Mina is moving away from camera.",
-              "image_path": "assets/panels/chapter-1/scene-1/panel-6.png",
+              "image_path": "panels/chapter-1/scene-1/panel-6.png",
               "video_path": null
             }
           ],
@@ -483,7 +483,7 @@
               ],
               "continues_from_previous": false,
               "continuity_note": "Lighting is golden hour, heavy dust particles.",
-              "image_path": "assets/panels/chapter-1/scene-2/panel-1.png",
+              "image_path": "panels/chapter-1/scene-2/panel-1.png",
               "video_path": null
             },
             {
@@ -508,7 +508,7 @@
               "sfx": [],
               "continues_from_previous": true,
               "continuity_note": "Watch reads 4:43:55.",
-              "image_path": "assets/panels/chapter-1/scene-2/panel-2.png",
+              "image_path": "panels/chapter-1/scene-2/panel-2.png",
               "video_path": null
             },
             {
@@ -528,7 +528,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "Watch reads 4:44:00.",
-              "image_path": "assets/panels/chapter-1/scene-2/panel-3.png",
+              "image_path": "panels/chapter-1/scene-2/panel-3.png",
               "video_path": null
             },
             {
@@ -555,7 +555,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "Kai glows faintly.",
-              "image_path": "assets/panels/chapter-1/scene-2/panel-4.png",
+              "image_path": "panels/chapter-1/scene-2/panel-4.png",
               "video_path": null
             },
             {
@@ -586,7 +586,7 @@
               "sfx": [],
               "continues_from_previous": true,
               "continuity_note": "Mina maintains a rigid posture.",
-              "image_path": "assets/panels/chapter-1/scene-2/panel-5.png",
+              "image_path": "panels/chapter-1/scene-2/panel-5.png",
               "video_path": null
             },
             {
@@ -617,7 +617,7 @@
               "sfx": [],
               "continues_from_previous": true,
               "continuity_note": "Kai's position on the piano remains.",
-              "image_path": "assets/panels/chapter-1/scene-2/panel-6.png",
+              "image_path": "panels/chapter-1/scene-2/panel-6.png",
               "video_path": null
             }
           ],
@@ -660,7 +660,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "Mina is still by the door.",
-              "image_path": "assets/panels/chapter-1/scene-3/panel-1.png",
+              "image_path": "panels/chapter-1/scene-3/panel-1.png",
               "video_path": null
             },
             {
@@ -699,7 +699,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "Kai is upside down in the air now.",
-              "image_path": "assets/panels/chapter-1/scene-3/panel-2.png",
+              "image_path": "panels/chapter-1/scene-3/panel-2.png",
               "video_path": null
             },
             {
@@ -730,7 +730,7 @@
               "sfx": [],
               "continues_from_previous": true,
               "continuity_note": "Eye lines must not match.",
-              "image_path": "assets/panels/chapter-1/scene-3/panel-3.png",
+              "image_path": "panels/chapter-1/scene-3/panel-3.png",
               "video_path": null
             },
             {
@@ -761,7 +761,7 @@
               "sfx": [],
               "continues_from_previous": true,
               "continuity_note": "Kai's translucency flickers with his mood.",
-              "image_path": "assets/panels/chapter-1/scene-3/panel-4.png",
+              "image_path": "panels/chapter-1/scene-3/panel-4.png",
               "video_path": null
             },
             {
@@ -798,7 +798,7 @@
               "sfx": [],
               "continues_from_previous": true,
               "continuity_note": "Sudden movement.",
-              "image_path": "assets/panels/chapter-1/scene-3/panel-5.png",
+              "image_path": "panels/chapter-1/scene-3/panel-5.png",
               "video_path": null
             },
             {
@@ -831,7 +831,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "The facade is broken.",
-              "image_path": "assets/panels/chapter-1/scene-3/panel-6.png",
+              "image_path": "panels/chapter-1/scene-3/panel-6.png",
               "video_path": null
             }
           ],
@@ -910,7 +910,7 @@
               ],
               "continues_from_previous": false,
               "continuity_note": "Mina is still wearing her school uniform, slightly disheveled from running.",
-              "image_path": "assets/panels/chapter-2/scene-1/panel-1.png",
+              "image_path": "panels/chapter-2/scene-1/panel-1.png",
               "video_path": null
             },
             {
@@ -941,7 +941,7 @@
               "sfx": [],
               "continues_from_previous": true,
               "continuity_note": "Same lighting, golden hour sun hitting her face.",
-              "image_path": "assets/panels/chapter-2/scene-1/panel-2.png",
+              "image_path": "panels/chapter-2/scene-1/panel-2.png",
               "video_path": null
             },
             {
@@ -968,7 +968,7 @@
               ],
               "continues_from_previous": false,
               "continuity_note": "The room layout matches established setting.",
-              "image_path": "assets/panels/chapter-2/scene-1/panel-3.png",
+              "image_path": "panels/chapter-2/scene-1/panel-3.png",
               "video_path": null
             },
             {
@@ -999,7 +999,7 @@
               "sfx": [],
               "continues_from_previous": false,
               "continuity_note": "",
-              "image_path": "assets/panels/chapter-2/scene-1/panel-4.png",
+              "image_path": "panels/chapter-2/scene-1/panel-4.png",
               "video_path": null
             },
             {
@@ -1030,7 +1030,7 @@
               "sfx": [],
               "continues_from_previous": false,
               "continuity_note": "Kai is wearing a slightly older style school uniform.",
-              "image_path": "assets/panels/chapter-2/scene-1/panel-5.png",
+              "image_path": "panels/chapter-2/scene-1/panel-5.png",
               "video_path": null
             },
             {
@@ -1061,7 +1061,7 @@
               "sfx": [],
               "continues_from_previous": true,
               "continuity_note": "Kai remains on the piano bench.",
-              "image_path": "assets/panels/chapter-2/scene-1/panel-6.png",
+              "image_path": "panels/chapter-2/scene-1/panel-6.png",
               "video_path": null
             }
           ],
@@ -1119,7 +1119,7 @@
               "sfx": [],
               "continues_from_previous": false,
               "continuity_note": "Mina stares straight ahead, eyes unfocused.",
-              "image_path": "assets/panels/chapter-2/scene-2/panel-1.png",
+              "image_path": "panels/chapter-2/scene-2/panel-1.png",
               "video_path": null
             },
             {
@@ -1150,7 +1150,7 @@
               "sfx": [],
               "continues_from_previous": true,
               "continuity_note": "Mina must not blink or focus on him.",
-              "image_path": "assets/panels/chapter-2/scene-2/panel-2.png",
+              "image_path": "panels/chapter-2/scene-2/panel-2.png",
               "video_path": null
             },
             {
@@ -1187,7 +1187,7 @@
               "sfx": [],
               "continues_from_previous": false,
               "continuity_note": "",
-              "image_path": "assets/panels/chapter-2/scene-2/panel-3.png",
+              "image_path": "panels/chapter-2/scene-2/panel-3.png",
               "video_path": null
             },
             {
@@ -1226,7 +1226,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "Mina's patience is snapping.",
-              "image_path": "assets/panels/chapter-2/scene-2/panel-4.png",
+              "image_path": "panels/chapter-2/scene-2/panel-4.png",
               "video_path": null
             },
             {
@@ -1265,7 +1265,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "Direct eye contact established.",
-              "image_path": "assets/panels/chapter-2/scene-2/panel-5.png",
+              "image_path": "panels/chapter-2/scene-2/panel-5.png",
               "video_path": null
             },
             {
@@ -1298,7 +1298,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "Positions locked.",
-              "image_path": "assets/panels/chapter-2/scene-2/panel-6.png",
+              "image_path": "panels/chapter-2/scene-2/panel-6.png",
               "video_path": null
             },
             {
@@ -1334,7 +1334,7 @@
               "sfx": [],
               "continues_from_previous": true,
               "continuity_note": "Lighting focuses on Kai's face.",
-              "image_path": "assets/panels/chapter-2/scene-2/panel-7.png",
+              "image_path": "panels/chapter-2/scene-2/panel-7.png",
               "video_path": null
             },
             {
@@ -1372,7 +1372,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "",
-              "image_path": "assets/panels/chapter-2/scene-2/panel-8.png",
+              "image_path": "panels/chapter-2/scene-2/panel-8.png",
               "video_path": null
             }
           ],
@@ -1451,7 +1451,7 @@
               ],
               "continues_from_previous": false,
               "continuity_note": "Light is getting more orange/dim.",
-              "image_path": "assets/panels/chapter-3/scene-2/panel-1.png",
+              "image_path": "panels/chapter-3/scene-2/panel-1.png",
               "video_path": null
             },
             {
@@ -1475,7 +1475,7 @@
               "sfx": [],
               "continues_from_previous": true,
               "continuity_note": "Focus on the page detail.",
-              "image_path": "assets/panels/chapter-3/scene-2/panel-2.png",
+              "image_path": "panels/chapter-3/scene-2/panel-2.png",
               "video_path": null
             },
             {
@@ -1514,7 +1514,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "Kai's outline wavers.",
-              "image_path": "assets/panels/chapter-3/scene-2/panel-3.png",
+              "image_path": "panels/chapter-3/scene-2/panel-3.png",
               "video_path": null
             },
             {
@@ -1551,7 +1551,7 @@
               "sfx": [],
               "continues_from_previous": true,
               "continuity_note": "Same positions.",
-              "image_path": "assets/panels/chapter-3/scene-2/panel-4.png",
+              "image_path": "panels/chapter-3/scene-2/panel-4.png",
               "video_path": null
             },
             {
@@ -1582,7 +1582,7 @@
               "sfx": [],
               "continues_from_previous": true,
               "continuity_note": "Background darkens slightly to reflect mood.",
-              "image_path": "assets/panels/chapter-3/scene-2/panel-5.png",
+              "image_path": "panels/chapter-3/scene-2/panel-5.png",
               "video_path": null
             },
             {
@@ -1615,7 +1615,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "Mina is now standing.",
-              "image_path": "assets/panels/chapter-3/scene-2/panel-6.png",
+              "image_path": "panels/chapter-3/scene-2/panel-6.png",
               "video_path": null
             }
           ],
@@ -1663,7 +1663,7 @@
               ],
               "continues_from_previous": false,
               "continuity_note": "Sudden color palette shift to blues and greys.",
-              "image_path": "assets/panels/chapter-3/scene-3/panel-1.png",
+              "image_path": "panels/chapter-3/scene-3/panel-1.png",
               "video_path": null
             },
             {
@@ -1691,7 +1691,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "Maintain the oppressive atmosphere.",
-              "image_path": "assets/panels/chapter-3/scene-3/panel-2.png",
+              "image_path": "panels/chapter-3/scene-3/panel-2.png",
               "video_path": null
             },
             {
@@ -1722,7 +1722,7 @@
               "sfx": [],
               "continues_from_previous": true,
               "continuity_note": "Focus on the cold breath.",
-              "image_path": "assets/panels/chapter-3/scene-3/panel-3.png",
+              "image_path": "panels/chapter-3/scene-3/panel-3.png",
               "video_path": null
             },
             {
@@ -1750,7 +1750,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "Mina is small in the frame.",
-              "image_path": "assets/panels/chapter-3/scene-3/panel-4.png",
+              "image_path": "panels/chapter-3/scene-3/panel-4.png",
               "video_path": null
             },
             {
@@ -1770,7 +1770,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "Focus on the black liquid.",
-              "image_path": "assets/panels/chapter-3/scene-3/panel-5.png",
+              "image_path": "panels/chapter-3/scene-3/panel-5.png",
               "video_path": null
             },
             {
@@ -1803,7 +1803,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "Lighting creates high contrast horror look.",
-              "image_path": "assets/panels/chapter-3/scene-3/panel-6.png",
+              "image_path": "panels/chapter-3/scene-3/panel-6.png",
               "video_path": null
             }
           ],

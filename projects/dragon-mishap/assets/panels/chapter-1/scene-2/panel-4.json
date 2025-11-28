@@ -1,0 +1,92 @@
+{
+  "type": "panel",
+  "panel_id": "ch1_s2_p4",
+  "panel_number": 4,
+  "scene_number": 2,
+  "chapter_number": 1,
+  "prompt": "Create a webtoon/manga panel in webtoon art style.\n\n## ATMOSPHERE & MOOD\nLIGHTING: Night scene - cool blue moonlight or warm artificial lights, deep shadows, high contrast\n\n\n## COMPOSITION\n- Shot: medium shot showing characters from waist up\n- Angle: high angle looking down, shows vulnerability or overview\n- Location: The Academy Attic (Lily's living quarters. Cramped, chaotic, and magical.) - Visual elements: Lighting: Golden hour dust motes dancing in light beams, Object: Stacks of floating books that form a staircase, Atmosphere: Cozy but claustrophobic, Color Palette: Warm browns, parchment beige, ink black\n## CHARACTERS (CRITICAL - Reference sheet is the authority)\nCHARACTER APPEARANCE MUST MATCH REFERENCE SHEET EXACTLY:\n- OUTFIT: Exact same clothes, colors, patterns as reference sheet\n- HAIR: Same color, style, length as reference sheet\n- ACCESSORIES: Same glasses, jewelry, items as reference sheet\n- FACE: Same features, proportions as reference sheet\n\nOnly change from reference: expression, pose, camera angle\n\n**Lily** (MUST match reference image exactly)\n  Physical: Petite, messy rose-gold hair tied in a loose side braid. Large, expressive teal eyes behind round, slightly crooked glasses. Always has ink smudges on her cheek.\n  - Hair: Rose-gold, messy side braid with loose strands\n  - Face: Round slightly crooked glasses, ink smudges on cheek\n  - Outfit: Oversized navy blue wizard robe with gold constellation patches\n  - Accessory: A battered wooden staff held together with duct tape\n  - Footwear: Mismatched brown leather boots\n  - Build: Short, constantly tripping or hunched over books\n  Expression: determined\n  Position: left of frame\n**Ember (formerly Ignis)** (MUST match reference image exactly)\n  Physical: A morbidly obese orange tabby cat. His eyes are vertical dragon slits (glowing gold).\n  - Body: Fat orange tabby cat\n  - Distinctive Feature: Tiny, useless membranous dragon wings on his back\n  - Accessory: A red velvet collar with a heavy gold coin pendant\n  - Expression: Perpetually unimpressed / half-lidded eyes\n  - Movement: Floats slightly when too lazy to walk\n  Expression: angry\n  Position: center of frame\n\n## ACTION & EMOTION\nLily grabs Ember under the armpits. Ember's body is long and heavy, dragging down.\n\n## VISUAL EFFECTS (if appropriate)\n- Motion lines for movement\n- Speed lines for action\n- Sparkles/glow for magical/emotional moments\n- Dramatic lighting for tension\n\n## TECHNICAL REQUIREMENTS\n- FULL BLEED composition (art to all edges, NO white borders)\n- NO text, speech bubbles, or sound effects in image\n- Clean professional linework\n- Expressive faces with clear emotions\n- Dynamic poses with weight and balance\n- Rich background detail that supports the mood",
+  "parameters": {
+    "aspect_ratio": "3:4",
+    "resolution": "1K",
+    "style": "webtoon",
+    "panel_type": "panel",
+    "model": "gemini-3-pro-image-preview"
+  },
+  "references": [
+    {
+      "path": "characters/lily/sheet.png",
+      "role": "character reference for Lily"
+    },
+    {
+      "path": "characters/ember-formerly-ignis/sheet.png",
+      "role": "character reference for Ember (formerly Ignis)"
+    },
+    {
+      "path": "locations/the-academy-attic/reference.png",
+      "role": "location/background reference"
+    }
+  ],
+  "panel_data": {
+    "action": "Lily grabs Ember under the armpits. Ember's body is long and heavy, dragging down.",
+    "composition": {
+      "shot_type": "medium",
+      "angle": "high"
+    },
+    "characters": [
+      {
+        "character_id": "char_lily",
+        "expression": "determined",
+        "position": "left"
+      },
+      {
+        "character_id": "char_ember_formerly_ignis",
+        "expression": "angry",
+        "position": "center"
+      }
+    ],
+    "continues_from_previous": false,
+    "continuity_note": "Ember is limp."
+  },
+  "location_id": "loc_the_academy_attic",
+  "location_name": "The Academy Attic",
+  "time_of_day": "night",
+  "response": {
+    "timestamp": "2025-11-28T05:34:04.737832+00:00",
+    "input": {
+      "prompt": "webtoon style. Create a webtoon/manga panel in webtoon art style.\n\n## ATMOSPHERE & MOOD\nLIGHTING: Night scene - cool blue moonlight or warm artificial lights, deep shadows, high contrast\n\n\n## COMPOSITION\n- Shot: medium shot showing characters from waist up\n- Angle: high angle looking down, shows vulnerability or overview\n- Location: The Academy Attic (Lily's living quarters. Cramped, chaotic, and magical.) - Visual elements: Lighting: Golden hour dust motes dancing in light beams, Object: Stacks of floating books that form a staircase, Atmosphere: Cozy but claustrophobic, Color Palette: Warm browns, parchment beige, ink black\n## CHARACTERS (CRITICAL - Reference sheet is the authority)\nCHARACTER APPEARANCE MUST MATCH REFERENCE SHEET EXACTLY:\n- OUTFIT: Exact same clothes, colors, patterns as reference sheet\n- HAIR: Same color, style, length as reference sheet\n- ACCESSORIES: Same glasses, jewelry, items as reference sheet\n- FACE: Same features, proportions as reference sheet\n\nOnly change from reference: expression, pose, camera angle\n\n**Lily** (MUST match reference image exactly)\n  Physical: Petite, messy rose-gold hair tied in a loose side braid. Large, expressive teal eyes behind round, slightly crooked glasses. Always has ink smudges on her cheek.\n  - Hair: Rose-gold, messy side braid with loose strands\n  - Face: Round slightly crooked glasses, ink smudges on cheek\n  - Outfit: Oversized navy blue wizard robe with gold constellation patches\n  - Accessory: A battered wooden staff held together with duct tape\n  - Footwear: Mismatched brown leather boots\n  - Build: Short, constantly tripping or hunched over books\n  Expression: determined\n  Position: left of frame\n**Ember (formerly Ignis)** (MUST match reference image exactly)\n  Physical: A morbidly obese orange tabby cat. His eyes are vertical dragon slits (glowing gold).\n  - Body: Fat orange tabby cat\n  - Distinctive Feature: Tiny, useless membranous dragon wings on his back\n  - Accessory: A red velvet collar with a heavy gold coin pendant\n  - Expression: Perpetually unimpressed / half-lidded eyes\n  - Movement: Floats slightly when too lazy to walk\n  Expression: angry\n  Position: center of frame\n\n## ACTION & EMOTION\nLily grabs Ember under the armpits. Ember's body is long and heavy, dragging down.\n\n## VISUAL EFFECTS (if appropriate)\n- Motion lines for movement\n- Speed lines for action\n- Sparkles/glow for magical/emotional moments\n- Dramatic lighting for tension\n\n## TECHNICAL REQUIREMENTS\n- FULL BLEED composition (art to all edges, NO white borders)\n- NO text, speech bubbles, or sound effects in image\n- Clean professional linework\n- Expressive faces with clear emotions\n- Dynamic poses with weight and balance\n- Rich background detail that supports the mood",
+      "final_prompt": "Using the labeled reference images above to maintain visual consistency: webtoon style. Create a webtoon/manga panel in webtoon art style.\n\n## ATMOSPHERE & MOOD\nLIGHTING: Night scene - cool blue moonlight or warm artificial lights, deep shadows, high contrast\n\n\n## COMPOSITION\n- Shot: medium shot showing characters from waist up\n- Angle: high angle looking down, shows vulnerability or overview\n- Location: The Academy Attic (Lily's living quarters. Cramped, chaotic, and magical.) - Visual elements: Lighting: Golden hour dust motes dancing in light beams, Object: Stacks of floating books that form a staircase, Atmosphere: Cozy but claustrophobic, Color Palette: Warm browns, parchment beige, ink black\n## CHARACTERS (CRITICAL - Reference sheet is the authority)\nCHARACTER APPEARANCE MUST MATCH REFERENCE SHEET EXACTLY:\n- OUTFIT: Exact same clothes, colors, patterns as reference sheet\n- HAIR: Same color, style, length as reference sheet\n- ACCESSORIES: Same glasses, jewelry, items as reference sheet\n- FACE: Same features, proportions as reference sheet\n\nOnly change from reference: expression, pose, camera angle\n\n**Lily** (MUST match reference image exactly)\n  Physical: Petite, messy rose-gold hair tied in a loose side braid. Large, expressive teal eyes behind round, slightly crooked glasses. Always has ink smudges on her cheek.\n  - Hair: Rose-gold, messy side braid with loose strands\n  - Face: Round slightly crooked glasses, ink smudges on cheek\n  - Outfit: Oversized navy blue wizard robe with gold constellation patches\n  - Accessory: A battered wooden staff held together with duct tape\n  - Footwear: Mismatched brown leather boots\n  - Build: Short, constantly tripping or hunched over books\n  Expression: determined\n  Position: left of frame\n**Ember (formerly Ignis)** (MUST match reference image exactly)\n  Physical: A morbidly obese orange tabby cat. His eyes are vertical dragon slits (glowing gold).\n  - Body: Fat orange tabby cat\n  - Distinctive Feature: Tiny, useless membranous dragon wings on his back\n  - Accessory: A red velvet collar with a heavy gold coin pendant\n  - Expression: Perpetually unimpressed / half-lidded eyes\n  - Movement: Floats slightly when too lazy to walk\n  Expression: angry\n  Position: center of frame\n\n## ACTION & EMOTION\nLily grabs Ember under the armpits. Ember's body is long and heavy, dragging down.\n\n## VISUAL EFFECTS (if appropriate)\n- Motion lines for movement\n- Speed lines for action\n- Sparkles/glow for magical/emotional moments\n- Dramatic lighting for tension\n\n## TECHNICAL REQUIREMENTS\n- FULL BLEED composition (art to all edges, NO white borders)\n- NO text, speech bubbles, or sound effects in image\n- Clean professional linework\n- Expressive faces with clear emotions\n- Dynamic poses with weight and balance\n- Rich background detail that supports the mood",
+      "references": [
+        {
+          "path": "characters/lily/sheet.png",
+          "role": "character reference for Lily",
+          "loaded": true
+        },
+        {
+          "path": "characters/ember-formerly-ignis/sheet.png",
+          "role": "character reference for Ember (formerly Ignis)",
+          "loaded": true
+        },
+        {
+          "path": "locations/the-academy-attic/reference.png",
+          "role": "location/background reference",
+          "loaded": true
+        }
+      ],
+      "model": "gemini-3-pro-image-preview",
+      "config": {
+        "aspect_ratio": "3:4",
+        "resolution": "1K",
+        "style": "webtoon"
+      }
+    },
+    "output": {
+      "finish_reason": "FinishReason.STOP",
+      "usage": {
+        "prompt_tokens": 1441,
+        "candidates_tokens": 1367,
+        "total_tokens": 3008
+      }
+    }
+  },
+  "generated_at": "2025-11-28T13:34:04.748510"
+}

@@ -14,11 +14,11 @@
   },
   "references": [
     {
-      "path": "/Users/long/Documents/Github/dreamright-20251126/projects/the-last-hunter/assets/panels/chapter-2/scene-2/panel-2.png",
+      "path": "panels/chapter-2/scene-2/panel-2.png",
       "role": "previous panel for visual continuity"
     },
     {
-      "path": "/Users/long/Documents/Github/dreamright-20251126/projects/the-last-hunter/assets/locations/cartenon-temple-the-double-dungeon/reference.png",
+      "path": "locations/cartenon-temple-the-double-dungeon/reference.png",
       "role": "location/background reference"
     }
   ],

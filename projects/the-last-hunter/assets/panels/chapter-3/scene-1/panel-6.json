@@ -14,15 +14,15 @@
   },
   "references": [
     {
-      "path": "/Users/long/Documents/Github/dreamright-20251126/projects/the-last-hunter/assets/panels/chapter-3/scene-1/panel-5.png",
+      "path": "panels/chapter-3/scene-1/panel-5.png",
       "role": "previous panel for visual continuity"
     },
     {
-      "path": "/Users/long/Documents/Github/dreamright-20251126/projects/the-last-hunter/assets/characters/sung-jin-woo/sheet.png",
+      "path": "characters/sung-jin-woo/sheet.png",
       "role": "character reference for Sung Jin-woo"
     },
     {
-      "path": "/Users/long/Documents/Github/dreamright-20251126/projects/the-last-hunter/assets/locations/seoul-general-hospital-room-305/reference.png",
+      "path": "locations/seoul-general-hospital-room-305/reference.png",
       "role": "location/background reference"
     }
   ],

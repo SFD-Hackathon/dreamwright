@@ -17,7 +17,7 @@
     "personality": "Skeptical, rational, secretly sensitive."
   },
   "asset_type": "character_sheet",
-  "reference_portrait": "assets/characters/jin-ho/portrait.png",
+  "reference_portrait": "characters/jin-ho/portrait.png",
   "gemini": {
     "type": "character_sheet",
     "character_id": "char_jin_ho",
@@ -28,7 +28,7 @@
       "resolution": "1K",
       "style": "webtoon",
       "model": "gemini-3-pro-image-preview",
-      "reference_image": "/Users/long/Documents/Github/dreamright-20251126/test-webtoon/assets/characters/jin-ho/portrait.png"
+      "reference_image": "characters/jin-ho/portrait.png"
     },
     "response": {
       "finish_reason": "FinishReason.STOP",

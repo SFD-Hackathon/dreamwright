@@ -18,7 +18,7 @@
     "personality": "Resilient, observant, protective, initially timid but becomes cold and calculated in combat."
   },
   "asset_type": "character_sheet",
-  "reference_portrait": "assets/characters/sung-jin-woo/portrait.png",
+  "reference_portrait": "characters/sung-jin-woo/portrait.png",
   "gemini": {
     "type": "character_sheet",
     "character_id": "char_sung_jin_woo",
@@ -29,7 +29,7 @@
       "resolution": "1K",
       "style": "webtoon",
       "model": "gemini-3-pro-image-preview",
-      "reference_image": "/Users/long/Documents/Github/dreamright-20251126/projects/the-last-hunter/assets/characters/sung-jin-woo/portrait.png"
+      "reference_image": "characters/sung-jin-woo/portrait.png"
     },
     "response": {
       "finish_reason": "FinishReason.STOP",

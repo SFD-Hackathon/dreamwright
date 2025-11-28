@@ -14,11 +14,11 @@
   },
   "references": [
     {
-      "path": "/Users/long/Documents/Github/dreamright-20251126/projects/the-ghost-of-444-pm/assets/panels/chapter-3/scene-3/panel-4.png",
+      "path": "panels/chapter-3/scene-3/panel-4.png",
       "role": "previous panel for visual continuity"
     },
     {
-      "path": "/Users/long/Documents/Github/dreamright-20251126/projects/the-ghost-of-444-pm/assets/locations/the-school-hallway/reference.png",
+      "path": "locations/the-school-hallway/reference.png",
       "role": "location/background reference"
     }
   ],

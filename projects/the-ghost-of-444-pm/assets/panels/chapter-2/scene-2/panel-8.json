@@ -14,15 +14,15 @@
   },
   "references": [
     {
-      "path": "/Users/long/Documents/Github/dreamright-20251126/projects/the-ghost-of-444-pm/assets/panels/chapter-2/scene-2/panel-7.png",
+      "path": "panels/chapter-2/scene-2/panel-7.png",
       "role": "previous panel for visual continuity"
     },
     {
-      "path": "/Users/long/Documents/Github/dreamright-20251126/projects/the-ghost-of-444-pm/assets/characters/mina-kim/sheet.png",
+      "path": "characters/mina-kim/sheet.png",
       "role": "character reference for Mina Kim"
     },
     {
-      "path": "/Users/long/Documents/Github/dreamright-20251126/projects/the-ghost-of-444-pm/assets/locations/the-abandoned-music-room/reference.png",
+      "path": "locations/the-abandoned-music-room/reference.png",
       "role": "location/background reference"
     }
   ],

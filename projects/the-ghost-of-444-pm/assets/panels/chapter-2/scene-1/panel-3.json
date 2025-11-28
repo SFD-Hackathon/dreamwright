@@ -14,11 +14,11 @@
   },
   "references": [
     {
-      "path": "/Users/long/Documents/Github/dreamright-20251126/test-webtoon/assets/characters/kai/portrait.png",
+      "path": "characters/kai/portrait.png",
       "role": "character reference for Kai"
     },
     {
-      "path": "/Users/long/Documents/Github/dreamright-20251126/test-webtoon/assets/locations/the-abandoned-music-room/reference.png",
+      "path": "locations/the-abandoned-music-room/reference.png",
       "role": "location/background reference"
     }
   ],

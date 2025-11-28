@@ -14,15 +14,15 @@
   },
   "references": [
     {
-      "path": "/Users/long/Documents/Github/dreamright-20251126/test-webtoon/assets/panels/chapter-2/scene-1/panel-1.png",
+      "path": "panels/chapter-2/scene-1/panel-1.png",
       "role": "previous panel for visual continuity"
     },
     {
-      "path": "/Users/long/Documents/Github/dreamright-20251126/test-webtoon/assets/characters/mina-kim/portrait.png",
+      "path": "characters/mina-kim/portrait.png",
       "role": "character reference for Mina Kim"
     },
     {
-      "path": "/Users/long/Documents/Github/dreamright-20251126/test-webtoon/assets/locations/the-abandoned-music-room/reference.png",
+      "path": "locations/the-abandoned-music-room/reference.png",
       "role": "location/background reference"
     }
   ],

@@ -14,11 +14,11 @@
   },
   "references": [
     {
-      "path": "/Users/long/Documents/Github/dreamright-20251126/projects/the-last-hunter/assets/characters/sung-jin-woo/sheet.png",
+      "path": "characters/sung-jin-woo/sheet.png",
       "role": "character reference for Sung Jin-woo"
     },
     {
-      "path": "/Users/long/Documents/Github/dreamright-20251126/projects/the-last-hunter/assets/locations/cartenon-temple-the-double-dungeon/reference.png",
+      "path": "locations/cartenon-temple-the-double-dungeon/reference.png",
       "role": "location/background reference"
     }
   ],

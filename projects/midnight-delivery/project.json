@@ -19,7 +19,7 @@
     ],
     "target_audience": "Young Adults (18-30), fans of 'Hotel del Luna' or 'Mystic Pop-up Bar'",
     "episode_count": 3,
-    "synopsis": "Kai, an exhausted engineering student drowning in debt, works the graveyard shift for a generic food delivery app. One rainy night, his app glitches, turning a ghostly blue and displaying high-paying orders from a restaurant that doesn't exist on any map: 'The Midnight Wok.' Desperate for the payout, he accepts.\n\nHe discovers that between 12:00 AM and 1:00 AM, the veil between the living and the dead thins. His customers are spirits who cannot move on until they taste the specific meal that ties them to their biggest regret. If Kai fails to deliver before the clock strikes 1:00 AM, the spirits become Wandering Shades, trapped forever. \n\nThe episodic jobs escalate until Kai receives an order from a 'User_Ren'—his estranged older brother who died in a motorcycle accident three years ago. The order is simple: 'Mom's Spicy Tofu Stew.' To complete the delivery, Kai must confront the guilt he’s been harboring since the night his brother died.",
+    "synopsis": "Kai, an exhausted engineering student drowning in debt, works the graveyard shift for a generic food delivery app. One rainy night, his app glitches, turning a ghostly blue and displaying high-paying orders from a restaurant that doesn't exist on any map: 'The Midnight Wok.' Desperate for the payout, he accepts.\n\nHe discovers that between 12:00 AM and 1:00 AM, the veil between the living and the dead thins. His customers are spirits who cannot move on until they taste the specific meal that ties them to their biggest regret. If Kai fails to deliver before the clock strikes 1:00 AM, the spirits become Wandering Shades, trapped forever. \n\nThe episodic jobs escalate until Kai receives an order from a 'User_Ren'\u2014his estranged older brother who died in a motorcycle accident three years ago. The order is simple: 'Mom's Spicy Tofu Stew.' To complete the delivery, Kai must confront the guilt he\u2019s been harboring since the night his brother died.",
     "story_beats": [
       {
         "beat": "Hook (Episode 1)",
@@ -35,7 +35,7 @@
       },
       {
         "beat": "Climax (Episode 3)",
-        "description": "Kai races to the location—the intersection where Ren died. It's 12:50 AM. His scooter breaks down (Time Pressure). He runs the last mile on foot. He meets Ren's spirit under the streetlamp. Ren isn't angry; he's waiting. Kai admits he blamed himself for the accident."
+        "description": "Kai races to the location\u2014the intersection where Ren died. It's 12:50 AM. His scooter breaks down (Time Pressure). He runs the last mile on foot. He meets Ren's spirit under the streetlamp. Ren isn't angry; he's waiting. Kai admits he blamed himself for the accident."
       },
       {
         "beat": "Resolution (Episode 3)",
@@ -65,12 +65,12 @@
       ],
       "assets": {
         "reference_input": null,
-        "portrait": "assets/characters/kai/portrait.png",
+        "portrait": "characters/kai/portrait.png",
         "three_view": {
           "front": null,
           "side": null,
           "back": null,
-          "sheet": "assets/characters/kai/sheet.png"
+          "sheet": "characters/kai/sheet.png"
         }
       },
       "voice_description": ""
@@ -96,12 +96,12 @@
       ],
       "assets": {
         "reference_input": null,
-        "portrait": "assets/characters/ren/portrait.png",
+        "portrait": "characters/ren/portrait.png",
         "three_view": {
           "front": null,
           "side": null,
           "back": null,
-          "sheet": "assets/characters/ren/sheet.png"
+          "sheet": "characters/ren/sheet.png"
         }
       },
       "voice_description": ""
@@ -126,12 +126,12 @@
       ],
       "assets": {
         "reference_input": null,
-        "portrait": "assets/characters/madam-zhu/portrait.png",
+        "portrait": "characters/madam-zhu/portrait.png",
         "three_view": {
           "front": null,
           "side": null,
           "back": null,
-          "sheet": "assets/characters/madam-zhu/sheet.png"
+          "sheet": "characters/madam-zhu/sheet.png"
         }
       },
       "voice_description": ""
@@ -150,7 +150,7 @@
         "Sound: Sizzling oil that sounds like whispering voices"
       ],
       "assets": {
-        "reference": "assets/locations/the-midnight-wok/reference.png",
+        "reference": "locations/the-midnight-wok/reference.png",
         "reference_sheet": null
       }
     },
@@ -166,7 +166,7 @@
         "Sensory: The sound of a single dripping drain"
       ],
       "assets": {
-        "reference": "assets/locations/the-rain-slicked-intersection/reference.png",
+        "reference": "locations/the-rain-slicked-intersection/reference.png",
         "reference_sheet": null
       }
     },
@@ -182,7 +182,7 @@
         "Palette: Muted browns and greys"
       ],
       "assets": {
-        "reference": "assets/locations/kais-apartment/reference.png",
+        "reference": "locations/kais-apartment/reference.png",
         "reference_sheet": null
       }
     }
@@ -246,7 +246,7 @@
               ],
               "continues_from_previous": false,
               "continuity_note": "",
-              "image_path": "assets/panels/chapter-1/scene-2/panel-1.png",
+              "image_path": "panels/chapter-1/scene-2/panel-1.png",
               "video_path": null
             },
             {
@@ -264,7 +264,7 @@
               "sfx": [],
               "continues_from_previous": true,
               "continuity_note": "Phone screen light reflects on Kai's face",
-              "image_path": "assets/panels/chapter-1/scene-2/panel-2.png",
+              "image_path": "panels/chapter-1/scene-2/panel-2.png",
               "video_path": null
             },
             {
@@ -295,7 +295,7 @@
               "sfx": [],
               "continues_from_previous": true,
               "continuity_note": "",
-              "image_path": "assets/panels/chapter-1/scene-2/panel-3.png",
+              "image_path": "panels/chapter-1/scene-2/panel-3.png",
               "video_path": null
             },
             {
@@ -328,7 +328,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "",
-              "image_path": "assets/panels/chapter-1/scene-2/panel-4.png",
+              "image_path": "panels/chapter-1/scene-2/panel-4.png",
               "video_path": null
             },
             {
@@ -355,7 +355,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "",
-              "image_path": "assets/panels/chapter-1/scene-2/panel-5.png",
+              "image_path": "panels/chapter-1/scene-2/panel-5.png",
               "video_path": null
             }
           ],
@@ -397,7 +397,7 @@
               ],
               "continues_from_previous": false,
               "continuity_note": "",
-              "image_path": "assets/panels/chapter-1/scene-3/panel-1.png",
+              "image_path": "panels/chapter-1/scene-3/panel-1.png",
               "video_path": null
             },
             {
@@ -417,7 +417,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "Rain droplets on screen",
-              "image_path": "assets/panels/chapter-1/scene-3/panel-2.png",
+              "image_path": "panels/chapter-1/scene-3/panel-2.png",
               "video_path": null
             },
             {
@@ -445,7 +445,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "",
-              "image_path": "assets/panels/chapter-1/scene-3/panel-3.png",
+              "image_path": "panels/chapter-1/scene-3/panel-3.png",
               "video_path": null
             },
             {
@@ -465,7 +465,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "",
-              "image_path": "assets/panels/chapter-1/scene-3/panel-4.png",
+              "image_path": "panels/chapter-1/scene-3/panel-4.png",
               "video_path": null
             },
             {
@@ -496,7 +496,7 @@
               "sfx": [],
               "continues_from_previous": true,
               "continuity_note": "Blue light on face",
-              "image_path": "assets/panels/chapter-1/scene-3/panel-5.png",
+              "image_path": "panels/chapter-1/scene-3/panel-5.png",
               "video_path": null
             },
             {
@@ -516,7 +516,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "",
-              "image_path": "assets/panels/chapter-1/scene-3/panel-6.png",
+              "image_path": "panels/chapter-1/scene-3/panel-6.png",
               "video_path": null
             }
           ],
@@ -563,7 +563,7 @@
               "sfx": [],
               "continues_from_previous": false,
               "continuity_note": "",
-              "image_path": "assets/panels/chapter-1/scene-4/panel-1.png",
+              "image_path": "panels/chapter-1/scene-4/panel-1.png",
               "video_path": null
             },
             {
@@ -583,14 +583,14 @@
                   "position": "left"
                 }
               ],
-              "action": "Kai walks the bike closer. Steam rises from a wok. The smell is intense—spices and something metallic like ozone.",
+              "action": "Kai walks the bike closer. Steam rises from a wok. The smell is intense\u2014spices and something metallic like ozone.",
               "dialogue": [],
               "sfx": [
                 "SIZZLE"
               ],
               "continues_from_previous": true,
               "continuity_note": "",
-              "image_path": "assets/panels/chapter-1/scene-4/panel-2.png",
+              "image_path": "panels/chapter-1/scene-4/panel-2.png",
               "video_path": null
             },
             {
@@ -621,7 +621,7 @@
               "sfx": [],
               "continues_from_previous": true,
               "continuity_note": "",
-              "image_path": "assets/panels/chapter-1/scene-4/panel-3.png",
+              "image_path": "panels/chapter-1/scene-4/panel-3.png",
               "video_path": null
             },
             {
@@ -652,7 +652,7 @@
               "sfx": [],
               "continues_from_previous": true,
               "continuity_note": "",
-              "image_path": "assets/panels/chapter-1/scene-4/panel-4.png",
+              "image_path": "panels/chapter-1/scene-4/panel-4.png",
               "video_path": null
             },
             {
@@ -685,7 +685,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "",
-              "image_path": "assets/panels/chapter-1/scene-4/panel-5.png",
+              "image_path": "panels/chapter-1/scene-4/panel-5.png",
               "video_path": null
             },
             {
@@ -711,7 +711,7 @@
                   "position": "center"
                 }
               ],
-              "action": "Madam Zhu thrusts the takeout box into Kai's hands. The box is distinct—cardboard tied with a thick red string instead of tape. Kai instinctively grabs it, looking bewildered by her intensity. Steam from the wok curls around their joined hands like a binding rope, obscuring the counter between them.",
+              "action": "Madam Zhu thrusts the takeout box into Kai's hands. The box is distinct\u2014cardboard tied with a thick red string instead of tape. Kai instinctively grabs it, looking bewildered by her intensity. Steam from the wok curls around their joined hands like a binding rope, obscuring the counter between them.",
               "dialogue": [
                 {
                   "character_id": "char_madam_zhu",
@@ -730,7 +730,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "The takeout box retains the red string detail from panel 5. Both characters are visible for the exchange.",
-              "image_path": "assets/panels/chapter-1/scene-4/panel-6.png",
+              "image_path": "panels/chapter-1/scene-4/panel-6.png",
               "video_path": null
             }
           ],
@@ -1265,7 +1265,7 @@
               "dialogue": [
                 {
                   "character_id": "char_kai",
-                  "text": "Hey! Where did you—",
+                  "text": "Hey! Where did you\u2014",
                   "type": "speech"
                 }
               ],
@@ -1793,7 +1793,7 @@
                   "position": "left"
                 }
               ],
-              "action": "Madam Zhu hands over a bag. It smells distinctly of spicy chili oil—a very specific scent.",
+              "action": "Madam Zhu hands over a bag. It smells distinctly of spicy chili oil\u2014a very specific scent.",
               "dialogue": [
                 {
                   "character_id": "char_madam_zhu",
@@ -2104,7 +2104,7 @@
                   "position": "left"
                 }
               ],
-              "action": "The figure hops off the guardrail and turns around. It is Ren. He looks exactly as he did three years ago—wearing his favorite varsity jacket. He is smiling casually.",
+              "action": "The figure hops off the guardrail and turns around. It is Ren. He looks exactly as he did three years ago\u2014wearing his favorite varsity jacket. He is smiling casually.",
               "dialogue": [
                 {
                   "character_id": "char_ren",

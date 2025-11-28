@@ -14,11 +14,11 @@
   },
   "references": [
     {
-      "path": "/Users/long/Documents/Github/dreamright-20251126/projects/the-ghost-of-444-pm/assets/panels/chapter-3/scene-2/panel-1.png",
+      "path": "panels/chapter-3/scene-2/panel-1.png",
       "role": "previous panel for visual continuity"
     },
     {
-      "path": "/Users/long/Documents/Github/dreamright-20251126/projects/the-ghost-of-444-pm/assets/locations/the-abandoned-music-room/reference.png",
+      "path": "locations/the-abandoned-music-room/reference.png",
       "role": "location/background reference"
     }
   ],

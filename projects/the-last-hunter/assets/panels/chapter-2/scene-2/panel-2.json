@@ -14,15 +14,15 @@
   },
   "references": [
     {
-      "path": "/Users/long/Documents/Github/dreamright-20251126/projects/the-last-hunter/assets/panels/chapter-2/scene-2/panel-1.png",
+      "path": "panels/chapter-2/scene-2/panel-1.png",
       "role": "previous panel for visual continuity"
     },
     {
-      "path": "/Users/long/Documents/Github/dreamright-20251126/projects/the-last-hunter/assets/characters/hwang-kang/sheet.png",
+      "path": "characters/hwang-kang/sheet.png",
       "role": "character reference for Hwang Kang"
     },
     {
-      "path": "/Users/long/Documents/Github/dreamright-20251126/projects/the-last-hunter/assets/locations/cartenon-temple-the-double-dungeon/reference.png",
+      "path": "locations/cartenon-temple-the-double-dungeon/reference.png",
       "role": "location/background reference"
     }
   ],

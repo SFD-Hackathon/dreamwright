@@ -19,7 +19,7 @@
     ],
     "target_audience": "Young Adult / Shonen fans (15-30)",
     "episode_count": 3,
-    "synopsis": "In a world where strength is fixed at awakening, Jin-woo is the 'World's Weakest Hunter,' risking his life in low-rank dungeons to pay for his mother's life-support. During a raid on a D-Rank dungeon, his party stumbles into a hidden 'Double Dungeon'—a terrifying temple filled with god-like statues. The raid leader, Kang, betrays the group to escape, leaving Jin-woo and a timid healer named Hana to die. As a massive stone statue brings its blade down, a holographic screen freezes time: [You have met the hidden requirements. Will you accept the Player role?]. Jin-woo accepts, escaping death but waking up in a hospital three days later. Now, he sees 'Quests' floating in the air. To survive the penalties and save his mother, he must enter an 'Instance Dungeon' located inside a subway station and kill the boss, transforming from prey into the ultimate predator.",
+    "synopsis": "In a world where strength is fixed at awakening, Jin-woo is the 'World's Weakest Hunter,' risking his life in low-rank dungeons to pay for his mother's life-support. During a raid on a D-Rank dungeon, his party stumbles into a hidden 'Double Dungeon'\u2014a terrifying temple filled with god-like statues. The raid leader, Kang, betrays the group to escape, leaving Jin-woo and a timid healer named Hana to die. As a massive stone statue brings its blade down, a holographic screen freezes time: [You have met the hidden requirements. Will you accept the Player role?]. Jin-woo accepts, escaping death but waking up in a hospital three days later. Now, he sees 'Quests' floating in the air. To survive the penalties and save his mother, he must enter an 'Instance Dungeon' located inside a subway station and kill the boss, transforming from prey into the ultimate predator.",
     "story_beats": [
       {
         "beat": "Hook (Episode 1)",
@@ -69,12 +69,12 @@
       ],
       "assets": {
         "reference_input": null,
-        "portrait": "assets/characters/sung-jin-woo/portrait.png",
+        "portrait": "characters/sung-jin-woo/portrait.png",
         "three_view": {
           "front": null,
           "side": null,
           "back": null,
-          "sheet": "assets/characters/sung-jin-woo/sheet.png"
+          "sheet": "characters/sung-jin-woo/sheet.png"
         }
       },
       "voice_description": ""
@@ -100,12 +100,12 @@
       ],
       "assets": {
         "reference_input": null,
-        "portrait": "assets/characters/lee-hana/portrait.png",
+        "portrait": "characters/lee-hana/portrait.png",
         "three_view": {
           "front": null,
           "side": null,
           "back": null,
-          "sheet": "assets/characters/lee-hana/sheet.png"
+          "sheet": "characters/lee-hana/sheet.png"
         }
       },
       "voice_description": ""
@@ -131,12 +131,12 @@
       ],
       "assets": {
         "reference_input": null,
-        "portrait": "assets/characters/hwang-kang/portrait.png",
+        "portrait": "characters/hwang-kang/portrait.png",
         "three_view": {
           "front": null,
           "side": null,
           "back": null,
-          "sheet": "assets/characters/hwang-kang/sheet.png"
+          "sheet": "characters/hwang-kang/sheet.png"
         }
       },
       "voice_description": ""
@@ -155,8 +155,8 @@
         "Palette: Cold blues and stone greys"
       ],
       "assets": {
-        "reference": "assets/locations/cartenon-temple-the-double-dungeon/reference.png",
-        "reference_sheet": "assets/locations/cartenon-temple-the-double-dungeon/reference_sheet.png"
+        "reference": "locations/cartenon-temple-the-double-dungeon/reference.png",
+        "reference_sheet": "locations/cartenon-temple-the-double-dungeon/reference_sheet.png"
       }
     },
     {
@@ -171,8 +171,8 @@
         "Palette: Sickly greens and rust oranges"
       ],
       "assets": {
-        "reference": "assets/locations/hapjeong-subway-station/reference.png",
-        "reference_sheet": "assets/locations/hapjeong-subway-station/reference_sheet.png"
+        "reference": "locations/hapjeong-subway-station/reference.png",
+        "reference_sheet": "locations/hapjeong-subway-station/reference_sheet.png"
       }
     },
     {
@@ -187,8 +187,8 @@
         "Palette: Clinical white and pale blue"
       ],
       "assets": {
-        "reference": "assets/locations/seoul-general-hospital-room-305/reference.png",
-        "reference_sheet": "assets/locations/seoul-general-hospital-room-305/reference_sheet.png"
+        "reference": "locations/seoul-general-hospital-room-305/reference.png",
+        "reference_sheet": "locations/seoul-general-hospital-room-305/reference_sheet.png"
       }
     }
   ],
@@ -240,7 +240,7 @@
               "sfx": [],
               "continues_from_previous": false,
               "continuity_note": "High contrast lighting, extreme detail on the eye.",
-              "image_path": "assets/panels/chapter-1/scene-1/panel-1.png",
+              "image_path": "panels/chapter-1/scene-1/panel-1.png",
               "video_path": null
             },
             {
@@ -260,7 +260,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "The reflection from panel 1 is now the reality.",
-              "image_path": "assets/panels/chapter-1/scene-1/panel-2.png",
+              "image_path": "panels/chapter-1/scene-1/panel-2.png",
               "video_path": null
             },
             {
@@ -291,7 +291,7 @@
               "sfx": [],
               "continues_from_previous": true,
               "continuity_note": "Blood trickling down forehead.",
-              "image_path": "assets/panels/chapter-1/scene-1/panel-3.png",
+              "image_path": "panels/chapter-1/scene-1/panel-3.png",
               "video_path": null
             },
             {
@@ -312,7 +312,7 @@
               ],
               "continues_from_previous": false,
               "continuity_note": "Violent transition.",
-              "image_path": "assets/panels/chapter-1/scene-1/panel-4.png",
+              "image_path": "panels/chapter-1/scene-1/panel-4.png",
               "video_path": null
             },
             {
@@ -336,7 +336,7 @@
               "sfx": [],
               "continues_from_previous": false,
               "continuity_note": "Time skip transition.",
-              "image_path": "assets/panels/chapter-1/scene-1/panel-5.png",
+              "image_path": "panels/chapter-1/scene-1/panel-5.png",
               "video_path": null
             }
           ],
@@ -399,7 +399,7 @@
               ],
               "continues_from_previous": false,
               "continuity_note": "Jin-woo looks physically smaller/weaker than the others.",
-              "image_path": "assets/panels/chapter-1/scene-2/panel-1.png",
+              "image_path": "panels/chapter-1/scene-2/panel-1.png",
               "video_path": null
             },
             {
@@ -436,7 +436,7 @@
               "sfx": [],
               "continues_from_previous": true,
               "continuity_note": "Hana's staff emits soft light.",
-              "image_path": "assets/panels/chapter-1/scene-2/panel-2.png",
+              "image_path": "panels/chapter-1/scene-2/panel-2.png",
               "video_path": null
             },
             {
@@ -467,7 +467,7 @@
               "sfx": [],
               "continues_from_previous": true,
               "continuity_note": "Background fades to show his isolation.",
-              "image_path": "assets/panels/chapter-1/scene-2/panel-3.png",
+              "image_path": "panels/chapter-1/scene-2/panel-3.png",
               "video_path": null
             },
             {
@@ -498,7 +498,7 @@
               "sfx": [],
               "continues_from_previous": false,
               "continuity_note": "The doors loom over them.",
-              "image_path": "assets/panels/chapter-1/scene-2/panel-4.png",
+              "image_path": "panels/chapter-1/scene-2/panel-4.png",
               "video_path": null
             },
             {
@@ -529,7 +529,7 @@
               "sfx": [],
               "continues_from_previous": false,
               "continuity_note": "Atmosphere shifts to colder tones.",
-              "image_path": "assets/panels/chapter-1/scene-2/panel-5.png",
+              "image_path": "panels/chapter-1/scene-2/panel-5.png",
               "video_path": null
             },
             {
@@ -563,7 +563,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "Dust falls from the door frame.",
-              "image_path": "assets/panels/chapter-1/scene-2/panel-6.png",
+              "image_path": "panels/chapter-1/scene-2/panel-6.png",
               "video_path": null
             }
           ],
@@ -604,7 +604,7 @@
               "sfx": [],
               "continues_from_previous": false,
               "continuity_note": "The humans are tiny dots in comparison.",
-              "image_path": "assets/panels/chapter-1/scene-3/panel-1.png",
+              "image_path": "panels/chapter-1/scene-3/panel-1.png",
               "video_path": null
             },
             {
@@ -635,7 +635,7 @@
               "sfx": [],
               "continues_from_previous": false,
               "continuity_note": "Lighting is currently dim/natural torchlight.",
-              "image_path": "assets/panels/chapter-1/scene-3/panel-2.png",
+              "image_path": "panels/chapter-1/scene-3/panel-2.png",
               "video_path": null
             },
             {
@@ -656,7 +656,7 @@
               ],
               "continues_from_previous": false,
               "continuity_note": "Dust cloud from the door.",
-              "image_path": "assets/panels/chapter-1/scene-3/panel-3.png",
+              "image_path": "panels/chapter-1/scene-3/panel-3.png",
               "video_path": null
             },
             {
@@ -690,7 +690,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "Panic starts to set in.",
-              "image_path": "assets/panels/chapter-1/scene-3/panel-4.png",
+              "image_path": "panels/chapter-1/scene-3/panel-4.png",
               "video_path": null
             },
             {
@@ -710,7 +710,7 @@
               ],
               "continues_from_previous": false,
               "continuity_note": "Color palette shift: Warm/Brown -> Cold/Blue.",
-              "image_path": "assets/panels/chapter-1/scene-3/panel-5.png",
+              "image_path": "panels/chapter-1/scene-3/panel-5.png",
               "video_path": null
             },
             {
@@ -736,7 +736,7 @@
               ],
               "continues_from_previous": false,
               "continuity_note": "The start of the horror.",
-              "image_path": "assets/panels/chapter-1/scene-3/panel-6.png",
+              "image_path": "panels/chapter-1/scene-3/panel-6.png",
               "video_path": null
             }
           ],
@@ -818,7 +818,7 @@
               ],
               "continues_from_previous": false,
               "continuity_note": "Kang is sweating heavily, armor dented.",
-              "image_path": "assets/panels/chapter-2/scene-2/panel-1.png",
+              "image_path": "panels/chapter-2/scene-2/panel-1.png",
               "video_path": null
             },
             {
@@ -849,7 +849,7 @@
               "sfx": [],
               "continues_from_previous": true,
               "continuity_note": "",
-              "image_path": "assets/panels/chapter-2/scene-2/panel-2.png",
+              "image_path": "panels/chapter-2/scene-2/panel-2.png",
               "video_path": null
             },
             {
@@ -870,7 +870,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "",
-              "image_path": "assets/panels/chapter-2/scene-2/panel-3.png",
+              "image_path": "panels/chapter-2/scene-2/panel-3.png",
               "video_path": null
             },
             {
@@ -912,7 +912,7 @@
               "sfx": [],
               "continues_from_previous": true,
               "continuity_note": "",
-              "image_path": "assets/panels/chapter-2/scene-2/panel-4.png",
+              "image_path": "panels/chapter-2/scene-2/panel-4.png",
               "video_path": null
             },
             {
@@ -954,7 +954,7 @@
               "sfx": [],
               "continues_from_previous": true,
               "continuity_note": "",
-              "image_path": "assets/panels/chapter-2/scene-2/panel-5.png",
+              "image_path": "panels/chapter-2/scene-2/panel-5.png",
               "video_path": null
             },
             {
@@ -981,7 +981,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "The lighting drops significantly as the door shuts.",
-              "image_path": "assets/panels/chapter-2/scene-2/panel-6.png",
+              "image_path": "panels/chapter-2/scene-2/panel-6.png",
               "video_path": null
             }
           ],
@@ -1020,7 +1020,7 @@
               "sfx": [],
               "continues_from_previous": false,
               "continuity_note": "",
-              "image_path": "assets/panels/chapter-2/scene-3/panel-1.png",
+              "image_path": "panels/chapter-2/scene-3/panel-1.png",
               "video_path": null
             },
             {
@@ -1051,7 +1051,7 @@
               "sfx": [],
               "continues_from_previous": true,
               "continuity_note": "",
-              "image_path": "assets/panels/chapter-2/scene-3/panel-2.png",
+              "image_path": "panels/chapter-2/scene-3/panel-2.png",
               "video_path": null
             },
             {
@@ -1079,7 +1079,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "The dust particles in the air are frozen.",
-              "image_path": "assets/panels/chapter-2/scene-3/panel-3.png",
+              "image_path": "panels/chapter-2/scene-3/panel-3.png",
               "video_path": null
             },
             {
@@ -1113,7 +1113,7 @@
               "sfx": [],
               "continues_from_previous": true,
               "continuity_note": "",
-              "image_path": "assets/panels/chapter-2/scene-3/panel-4.png",
+              "image_path": "panels/chapter-2/scene-3/panel-4.png",
               "video_path": null
             },
             {
@@ -1144,7 +1144,7 @@
               "sfx": [],
               "continues_from_previous": true,
               "continuity_note": "",
-              "image_path": "assets/panels/chapter-2/scene-3/panel-5.png",
+              "image_path": "panels/chapter-2/scene-3/panel-5.png",
               "video_path": null
             },
             {
@@ -1164,7 +1164,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "End of chapter hook.",
-              "image_path": "assets/panels/chapter-2/scene-3/panel-6.png",
+              "image_path": "panels/chapter-2/scene-3/panel-6.png",
               "video_path": null
             }
           ],
@@ -1241,7 +1241,7 @@
                   "position": "left"
                 }
               ],
-              "action": "Jin-woo sits up violently in the hospital bed, his hands frantically grasping at his right leg—the one that was severed in the dungeon.",
+              "action": "Jin-woo sits up violently in the hospital bed, his hands frantically grasping at his right leg\u2014the one that was severed in the dungeon.",
               "dialogue": [
                 {
                   "character_id": "char_sung_jin_woo",
@@ -1452,7 +1452,7 @@
               "dialogue": [
                 {
                   "character_id": "char_sung_jin_woo",
-                  "text": "What?! The floor—!",
+                  "text": "What?! The floor\u2014!",
                   "type": "speech"
                 }
               ],
@@ -1645,7 +1645,7 @@
               ],
               "continues_from_previous": false,
               "continuity_note": "The room is back to normal, but the sand on the floor proves he went somewhere.",
-              "image_path": "assets/panels/chapter-3/scene-3/panel-1.png",
+              "image_path": "panels/chapter-3/scene-3/panel-1.png",
               "video_path": null
             },
             {
@@ -1676,7 +1676,7 @@
               "sfx": [],
               "continues_from_previous": true,
               "continuity_note": "Lighting is dim hospital night lighting.",
-              "image_path": "assets/panels/chapter-3/scene-3/panel-2.png",
+              "image_path": "panels/chapter-3/scene-3/panel-2.png",
               "video_path": null
             },
             {
@@ -1707,7 +1707,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "",
-              "image_path": "assets/panels/chapter-3/scene-3/panel-3.png",
+              "image_path": "panels/chapter-3/scene-3/panel-3.png",
               "video_path": null
             },
             {
@@ -1740,7 +1740,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "",
-              "image_path": "assets/panels/chapter-3/scene-3/panel-4.png",
+              "image_path": "panels/chapter-3/scene-3/panel-4.png",
               "video_path": null
             },
             {
@@ -1767,7 +1767,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "",
-              "image_path": "assets/panels/chapter-3/scene-3/panel-5.png",
+              "image_path": "panels/chapter-3/scene-3/panel-5.png",
               "video_path": null
             },
             {
@@ -1796,7 +1796,7 @@
               "sfx": [],
               "continues_from_previous": true,
               "continuity_note": "The key glows faintly, promising a new path.",
-              "image_path": "assets/panels/chapter-3/scene-3/panel-6.png",
+              "image_path": "panels/chapter-3/scene-3/panel-6.png",
               "video_path": null
             }
           ],

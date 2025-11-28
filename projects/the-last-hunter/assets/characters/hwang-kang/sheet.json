@@ -18,7 +18,7 @@
     "personality": "Arrogant, selfish, believes the weak exist to serve the strong."
   },
   "asset_type": "character_sheet",
-  "reference_portrait": "assets/characters/hwang-kang/portrait.png",
+  "reference_portrait": "characters/hwang-kang/portrait.png",
   "gemini": {
     "type": "character_sheet",
     "character_id": "char_hwang_kang",
@@ -29,7 +29,7 @@
       "resolution": "1K",
       "style": "webtoon",
       "model": "gemini-3-pro-image-preview",
-      "reference_image": "/Users/long/Documents/Github/dreamright-20251126/projects/the-last-hunter/assets/characters/hwang-kang/portrait.png"
+      "reference_image": "characters/hwang-kang/portrait.png"
     },
     "response": {
       "finish_reason": "FinishReason.STOP",

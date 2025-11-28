@@ -17,7 +17,7 @@
     "personality": "Charming, slightly mischievous to hide his sadness, protective."
   },
   "asset_type": "character_sheet",
-  "reference_portrait": "assets/characters/kai/portrait.png",
+  "reference_portrait": "characters/kai/portrait.png",
   "gemini": {
     "type": "character_sheet",
     "character_id": "char_kai",
@@ -28,7 +28,7 @@
       "resolution": "1K",
       "style": "webtoon",
       "model": "gemini-3-pro-image-preview",
-      "reference_image": "/Users/long/Documents/Github/dreamright-20251126/test-webtoon/assets/characters/kai/portrait.png"
+      "reference_image": "characters/kai/portrait.png"
     },
     "response": {
       "finish_reason": "FinishReason.STOP",

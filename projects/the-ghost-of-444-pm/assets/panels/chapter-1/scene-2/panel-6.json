@@ -14,7 +14,7 @@
   },
   "references": [
     {
-      "path": "/Users/long/Documents/Github/dreamright-20251126/test-webtoon/assets/panels/chapter-1/scene-2/panel-5.png",
+      "path": "panels/chapter-1/scene-2/panel-5.png",
       "role": "previous panel for visual continuity"
     }
   ],
