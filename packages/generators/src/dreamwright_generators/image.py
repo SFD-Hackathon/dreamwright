@@ -489,9 +489,22 @@ class ImageGenerator:
                 with open(panel_path, "wb") as f:
                     f.write(image_data)
 
-                # Save metadata
+                # Save metadata with relative paths
                 import json
                 from datetime import datetime
+
+                # Convert absolute paths to relative paths in references
+                if "references" in metadata and metadata["references"]:
+                    project_dir = output_dir.parent
+                    for ref in metadata["references"]:
+                        if "path" in ref:
+                            ref_path = Path(ref["path"])
+                            try:
+                                ref["path"] = str(ref_path.relative_to(project_dir))
+                            except ValueError:
+                                # Path not relative to project dir, keep as is
+                                pass
+
                 metadata["generated_at"] = datetime.now().isoformat()
                 with open(metadata_path, "w") as f:
                     json.dump(metadata, f, indent=2)
