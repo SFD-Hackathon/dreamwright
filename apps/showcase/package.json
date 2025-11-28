@@ -1,0 +1,14 @@
+{
+  "name": "webtoons-showcase",
+  "version": "1.0.0",
+  "description": "Cloudflare Pages webtoon showcase app with R2 storage",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler pages dev ./public --r2 WEBTOONS_BUCKET",
+    "deploy": "wrangler pages deploy ./public",
+    "build": "echo 'Static site - no build required'"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#1a1a2e">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>Webtoons Showcase</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div id="app">
+    <!-- Home View -->
+    <div id="home-view" class="view active">
+      <header class="app-header">
+        <h1>Webtoons Showcase</h1>
+      </header>
+      <main class="webtoon-grid" id="webtoon-list">
+        <div class="loading">Loading webtoons...</div>
+      </main>
+    </div>
+
+    <!-- Webtoon Detail View -->
+    <div id="webtoon-view" class="view">
+      <header class="app-header">
+        <button class="back-btn" onclick="showHome()">&larr;</button>
+        <h1 id="webtoon-title">Webtoon</h1>
+      </header>
+      <main class="webtoon-detail">
+        <div class="cover-section">
+          <img id="webtoon-cover" src="" alt="Cover">
+          <div class="webtoon-meta">
+            <p id="webtoon-premise"></p>
+            <div id="webtoon-tags" class="tags"></div>
+          </div>
+        </div>
+        <section class="characters-section" id="characters-section"></section>
+        <section class="chapter-list" id="chapter-list"></section>
+      </main>
+    </div>
+
+    <!-- Reader View -->
+    <div id="reader-view" class="view">
+      <header class="reader-header" id="reader-header">
+        <button class="back-btn" onclick="exitReader()">&larr;</button>
+        <div class="reader-title">
+          <span id="reader-webtoon-title"></span>
+          <span id="reader-chapter-title"></span>
+        </div>
+        <button class="menu-btn" onclick="toggleReaderMenu()">&#8942;</button>
+      </header>
+      <main class="reader-content" id="reader-content">
+        <div class="loading">Loading chapter...</div>
+      </main>
+      <footer class="reader-footer" id="reader-footer">
+        <button class="nav-btn" id="prev-chapter-btn" onclick="prevChapter()">&larr; Prev</button>
+        <span id="chapter-indicator">1 / 1</span>
+        <button class="nav-btn" id="next-chapter-btn" onclick="nextChapter()">Next &rarr;</button>
+      </footer>
+    </div>
+  </div>
+
+    <!-- Character Detail Modal -->
+    <div id="character-modal" class="modal" onclick="closeCharacterModal(event)">
+      <div class="modal-content" onclick="event.stopPropagation()">
+        <button class="modal-close" onclick="closeCharacterModal()">&times;</button>
+        <img id="modal-character-img" src="" alt="">
+        <div class="modal-body">
+          <h2 id="modal-character-name"></h2>
+          <p id="modal-character-desc"></p>
+          <div id="modal-character-traits"></div>
+        </div>
+      </div>
+    </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>
