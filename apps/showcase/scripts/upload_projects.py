@@ -23,6 +23,7 @@ import argparse
 import json
 import mimetypes
 import os
+import re
 import sys
 from pathlib import Path
 
@@ -94,11 +95,23 @@ def transform_project_to_webtoon(project_data: dict) -> dict:
     for char in project_data.get("characters", []):
         char_id = char["id"].replace("char_", "")
         desc = char.get("description", {})
+
+        # Clean visual traits - remove AI prompt instructions
+        visual_tags = char.get("visual_tags", [])[:3]
+        cleaned_traits = []
+        for tag in visual_tags:
+            # Remove prompt instructions in parentheses
+            clean_tag = re.sub(r'\s*\([^)]*MATCH[^)]*\)', '', tag)
+            clean_tag = re.sub(r'\s*\([^)]*EXACTLY[^)]*\)', '', clean_tag)
+            clean_tag = re.sub(r'\s*\([^)]*REFERENCE[^)]*\)', '', clean_tag)
+            if clean_tag.strip():
+                cleaned_traits.append(clean_tag.strip())
+
         characters.append({
             "id": char_id,
             "name": char["name"],
             "description": desc.get("personality", "") or desc.get("physical", ""),
-            "visual_traits": ", ".join(char.get("visual_tags", [])[:3]),
+            "visual_traits": ", ".join(cleaned_traits),
             "age": char.get("age", ""),
             "main": char.get("role") == "protagonist"
         })

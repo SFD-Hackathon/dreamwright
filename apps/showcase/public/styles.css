@@ -710,8 +710,9 @@ html, body {
 
 .modal-content img {
   width: 100%;
-  aspect-ratio: 1;
+  aspect-ratio: 3/4;
   object-fit: cover;
+  object-position: top;
   border-radius: 16px 16px 0 0;
   background: var(--bg-card);
 }
