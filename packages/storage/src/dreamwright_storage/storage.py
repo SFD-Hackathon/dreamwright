@@ -11,27 +11,35 @@ from typing import Any, Optional
 from dreamwright_core_schemas import Project
 
 
-def _convert_paths_to_relative(data: Any, base_path: Path) -> Any:
+def _convert_paths_to_relative(data: Any, base_path: Path, assets_path: Path) -> Any:
     """Recursively convert absolute paths in data to relative paths.
 
     Args:
         data: Data structure (dict, list, or value)
-        base_path: Base path to make paths relative to
+        base_path: Project base path
+        assets_path: Assets directory path (paths will be relative to this)
 
     Returns:
-        Data with paths converted to relative
+        Data with paths converted to relative (relative to assets_path)
     """
     if isinstance(data, dict):
-        return {k: _convert_paths_to_relative(v, base_path) for k, v in data.items()}
+        return {k: _convert_paths_to_relative(v, base_path, assets_path) for k, v in data.items()}
     elif isinstance(data, list):
-        return [_convert_paths_to_relative(item, base_path) for item in data]
+        return [_convert_paths_to_relative(item, base_path, assets_path) for item in data]
     elif isinstance(data, str):
         # Check if it looks like an absolute path
         if data.startswith("/") and "/" in data[1:]:
             try:
                 path = Path(data)
-                if path.exists() or str(base_path) in data:
-                    return str(path.relative_to(base_path))
+                # Try to make relative to assets path first
+                if str(assets_path) in data:
+                    return str(path.relative_to(assets_path))
+                elif str(base_path) in data:
+                    # Fallback: relative to base, then strip 'assets/' prefix
+                    rel = str(path.relative_to(base_path))
+                    if rel.startswith("assets/"):
+                        return rel[7:]  # Remove 'assets/' prefix
+                    return rel
             except (ValueError, OSError):
                 pass
         return data
@@ -249,8 +257,8 @@ class JSONStorage(StorageBackend):
         asset_dir = self.assets_path / asset_type
         asset_dir.mkdir(parents=True, exist_ok=True)
 
-        # Convert absolute paths to relative paths
-        metadata = _convert_paths_to_relative(metadata, self.base_path)
+        # Convert absolute paths to relative paths (relative to assets dir)
+        metadata = _convert_paths_to_relative(metadata, self.base_path, self.assets_path)
 
         # Add timestamp to metadata
         metadata_with_timestamp = {

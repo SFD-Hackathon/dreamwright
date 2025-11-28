@@ -493,16 +493,16 @@ class ImageGenerator:
                 import json
                 from datetime import datetime
 
-                # Convert absolute paths to relative paths in references
+                # Convert absolute paths to relative paths in references (relative to assets dir)
                 if "references" in metadata and metadata["references"]:
-                    project_dir = output_dir.parent
+                    assets_dir = output_dir  # output_dir is the assets directory
                     for ref in metadata["references"]:
                         if "path" in ref:
                             ref_path = Path(ref["path"])
                             try:
-                                ref["path"] = str(ref_path.relative_to(project_dir))
+                                ref["path"] = str(ref_path.relative_to(assets_dir))
                             except ValueError:
-                                # Path not relative to project dir, keep as is
+                                # Path not relative to assets dir, keep as is
                                 pass
 
                 metadata["generated_at"] = datetime.now().isoformat()
