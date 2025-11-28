@@ -142,11 +142,12 @@ class ImageGenerator:
 
             # Include physical description for appearance consistency
             if character.description.physical:
-                lines.append(f"  Appearance: {character.description.physical}")
+                lines.append(f"  Physical: {character.description.physical}")
 
-            # Include ALL visual tags for costume/appearance consistency
+            # Include ALL visual tags individually for better emphasis
             if character.visual_tags:
-                lines.append(f"  Visual details: {', '.join(character.visual_tags)}")
+                for tag in character.visual_tags:
+                    lines.append(f"  - {tag}")
         else:
             lines.append("Character")
 

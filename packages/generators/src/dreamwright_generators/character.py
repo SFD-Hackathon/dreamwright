@@ -43,11 +43,14 @@ class CharacterGenerator:
         if character.description.physical:
             parts.append(f"Physical appearance: {character.description.physical}")
 
+        # Include ALL visual tags individually for better emphasis
         if character.visual_tags:
-            parts.append(f"Visual details: {', '.join(character.visual_tags)}")
+            parts.append("\nVisual details (MUST include all):")
+            for tag in character.visual_tags:
+                parts.append(f"  - {tag}")
 
         if character.description.personality:
-            parts.append(f"Personality (for expression): {character.description.personality}")
+            parts.append(f"\nPersonality (for expression): {character.description.personality}")
 
         return "\n".join(parts)
 
@@ -76,18 +79,26 @@ class CharacterGenerator:
         base_prompt = f"""Create a CHARACTER TURNAROUND SHEET in {style} art style.
 
 ## LAYOUT
-Create a SINGLE IMAGE showing the SAME character THREE times side by side:
-- LEFT: Full body FRONT view (facing viewer)
-- CENTER: Full body SIDE view (profile, facing right)
-- RIGHT: Full body BACK view (facing away)
+Create a SINGLE IMAGE showing the SAME character THREE times side by side with labels:
+- LEFT: Full body FRONT view (facing viewer) - label "FRONT VIEW" below
+- CENTER: Full body SIDE view (profile, facing right) - label "SIDE VIEW" below
+- RIGHT: Full body BACK view (facing away) - label "BACK VIEW" below
 
-## REQUIREMENTS
+## POSE REQUIREMENTS (CRITICAL FOR NATURAL LOOK)
+- NATURAL STANDING POSE with weight on both feet, feet flat on ground
+- Both feet must be PLANTED FIRMLY on the same ground plane (not floating)
+- Arms relaxed at sides or slightly away from body - NOT T-pose
+- For SIDE VIEW: show one leg slightly in front of the other for natural stance
+- For SIDE VIEW: feet should be visible and grounded, not cut off or floating
+- Include subtle ground shadow under each pose for visual grounding
+- Shoulders relaxed, not stiff or rigid
+
+## VISUAL REQUIREMENTS
 - All three views show the EXACT SAME character with IDENTICAL outfit
-- Full body from head to feet in each view
-- Relaxed standing pose (arms slightly away from body to show costume)
+- Full body from head to feet clearly visible in each view
 - Clean white or light gray background
 - Character sheet/model sheet style for animation reference
-- All views at the same scale and aligned at feet level
+- All views at the same scale and horizontally aligned at feet level
 - Show clothing, hair, and accessories clearly from all angles
 - Professional quality suitable for production reference
 
