@@ -90,14 +90,30 @@ class ImageGenerator:
             client = get_client()
         self.client = client
 
-    def _get_shot_description(self, shot_type: ShotType) -> str:
-        """Get description for shot type."""
-        descriptions = {
-            ShotType.WIDE: "wide establishing shot showing full environment and characters",
-            ShotType.MEDIUM: "medium shot showing characters from waist up",
-            ShotType.CLOSE_UP: "close-up shot focusing on face and expressions",
-            ShotType.EXTREME_CLOSE_UP: "extreme close-up on specific detail (eyes, hands, object)",
-        }
+    def _get_shot_description(self, shot_type: ShotType, has_characters: bool = True) -> str:
+        """Get description for shot type.
+
+        Args:
+            shot_type: The type of shot
+            has_characters: Whether there are characters in the panel.
+                           Adjusts descriptions to avoid mentioning faces/expressions
+                           when no characters are present.
+        """
+        if has_characters:
+            descriptions = {
+                ShotType.WIDE: "wide establishing shot showing full environment and characters",
+                ShotType.MEDIUM: "medium shot showing characters from waist up",
+                ShotType.CLOSE_UP: "close-up shot focusing on face and expressions",
+                ShotType.EXTREME_CLOSE_UP: "extreme close-up on specific detail (eyes, hands, object)",
+            }
+        else:
+            # No characters - avoid mentioning faces/expressions
+            descriptions = {
+                ShotType.WIDE: "wide establishing shot showing full environment",
+                ShotType.MEDIUM: "medium shot showing the scene",
+                ShotType.CLOSE_UP: "close-up shot focusing on the subject or detail",
+                ShotType.EXTREME_CLOSE_UP: "extreme close-up on specific detail or object",
+            }
         return descriptions.get(shot_type, "medium shot")
 
     def _get_angle_description(self, angle: CameraAngle) -> str:
@@ -192,7 +208,9 @@ class ImageGenerator:
             style=style,
             continuity=panel.continues_from_previous and previous_panel_image,
             continuity_note=panel.continuity_note,
-            shot_description=self._get_shot_description(panel.composition.shot_type),
+            shot_description=self._get_shot_description(
+                panel.composition.shot_type, has_characters=bool(panel.characters)
+            ),
             angle_description=self._get_angle_description(panel.composition.angle),
             location=location,
             time_of_day=time_of_day.value,
