@@ -38,14 +38,13 @@ CREATE NEW:
 - Location: {% if location %}{{ location.name }}{% if location.description %} ({{ location.description }}){% endif %}{% if location.visual_tags %} - Visual elements: {{ location.visual_tags[:4] | join(', ') }}{% endif %}{% else %}unspecified{% endif %}
 
 {% if characters %}
-## CHARACTERS (CRITICAL - Reference sheet is the authority)
-CHARACTER APPEARANCE MUST MATCH REFERENCE SHEET EXACTLY:
-- OUTFIT: Exact same clothes, colors, patterns as reference sheet
-- HAIR: Same color, style, length as reference sheet
-- ACCESSORIES: Same glasses, jewelry, items as reference sheet
-- FACE: Same features, proportions as reference sheet
+## CHARACTERS (PRIORITY ORDER FOR APPEARANCE)
+1. PREVIOUS PANEL (highest) - If character appeared in previous panel, match that exactly
+2. CHARACTER REFERENCE SHEET - Match outfit, hair, accessories, face from reference
+3. TEXT DESCRIPTION (lowest) - Only use if not visible in above references
 
-Only change from reference: expression, pose, camera angle
+For each character, match appearance in this priority order.
+Only change: expression, pose, camera angle as specified below.
 
 {% for char_desc in characters %}
 {{ char_desc }}
