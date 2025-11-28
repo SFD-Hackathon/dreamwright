@@ -333,9 +333,9 @@ class WebtoonHandler(http.server.SimpleHTTPRequestHandler):
             first_char = characters[0]
             portrait_rel = first_char.get("assets", {}).get("portrait", "")
             if portrait_rel:
-                portrait_path = PROJECTS_DIR / project_id / portrait_rel
+                portrait_path = PROJECTS_DIR / project_id / "assets" / portrait_rel
                 if portrait_path.exists():
-                    cover_img = f"/projects/{project_id}/{portrait_rel}"
+                    cover_img = f"/projects/{project_id}/assets/{portrait_rel}"
 
         main_chars = [c for c in characters if c.get("role") == "protagonist"]
         supporting_chars = [c for c in characters if c.get("role") != "protagonist"]
@@ -791,8 +791,8 @@ class WebtoonHandler(http.server.SimpleHTTPRequestHandler):
             char_assets = char.get("assets", {})
             portrait_rel = char_assets.get("portrait", "")
             sheet_rel = char_assets.get("three_view", {}).get("sheet", "")
-            char_img = f"/projects/{project_id}/{portrait_rel}" if portrait_rel else ""
-            char_sheet = f"/projects/{project_id}/{sheet_rel}" if sheet_rel else ""
+            char_img = f"/projects/{project_id}/assets/{portrait_rel}" if portrait_rel else ""
+            char_sheet = f"/projects/{project_id}/assets/{sheet_rel}" if sheet_rel else ""
             role = char.get("role", "supporting")
             role_class = "protagonist" if role == "protagonist" else ""
             desc = char.get("description", {})
@@ -860,11 +860,11 @@ class WebtoonHandler(http.server.SimpleHTTPRequestHandler):
             loc_ref = loc_assets.get("reference", "")
             loc_sheet_ref = loc_assets.get("reference_sheet", "")
             if loc_ref:
-                loc_img = f"/projects/{project_id}/{loc_ref}"
+                loc_img = f"/projects/{project_id}/assets/{loc_ref}"
             else:
                 loc_img = f"/projects/{project_id}/assets/locations/{loc_slug}/reference.png"
             if loc_sheet_ref:
-                loc_sheet = f"/projects/{project_id}/{loc_sheet_ref}"
+                loc_sheet = f"/projects/{project_id}/assets/{loc_sheet_ref}"
             else:
                 loc_sheet = f"/projects/{project_id}/assets/locations/{loc_slug}/reference_sheet.png"
             loc_type = loc.get("type", "interior")
@@ -1027,8 +1027,8 @@ class WebtoonHandler(http.server.SimpleHTTPRequestHandler):
             char_assets = c.get("assets", {})
             portrait_rel = char_assets.get("portrait", "")
             sheet_rel = char_assets.get("three_view", {}).get("sheet", "")
-            c["portrait_url"] = f"/projects/{project_id}/{portrait_rel}" if portrait_rel else ""
-            c["sheet_url"] = f"/projects/{project_id}/{sheet_rel}" if sheet_rel else ""
+            c["portrait_url"] = f"/projects/{project_id}/assets/{portrait_rel}" if portrait_rel else ""
+            c["sheet_url"] = f"/projects/{project_id}/assets/{sheet_rel}" if sheet_rel else ""
             char_lookup[char_id] = c
 
         # Build location lookup with reference paths
@@ -1039,7 +1039,7 @@ class WebtoonHandler(http.server.SimpleHTTPRequestHandler):
             loc_assets = loc.get("assets", {})
             loc_ref = loc_assets.get("reference", "")
             if loc_ref:
-                loc["reference_url"] = f"/projects/{project_id}/{loc_ref}"
+                loc["reference_url"] = f"/projects/{project_id}/assets/{loc_ref}"
             else:
                 loc["reference_url"] = f"/projects/{project_id}/assets/locations/{loc_name}/reference.png"
             loc_lookup[loc_id] = loc
