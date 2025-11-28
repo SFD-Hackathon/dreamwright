@@ -10,6 +10,7 @@ from dreamwright_core_schemas import (
     Chapter,
     ChapterStatus,
     Character,
+    CharacterDescription,
     Dialogue,
     DialogueType,
     Location,
@@ -172,6 +173,32 @@ class ScriptGenerator:
             client = get_client()
         self.client = client
 
+    def _summarize_character(
+        self,
+        character: Character,
+        *,
+        include_id: bool = False,
+        max_length: int = 120,
+    ) -> str:
+        """Build a concise character summary for prompts."""
+        description = character.description
+        physical = ""
+        if isinstance(description, CharacterDescription):
+            physical = description.physical or description.personality
+        elif isinstance(description, dict):
+            physical = str(description.get("physical") or description.get("personality") or "")
+        else:
+            physical = str(description or "")
+
+        physical = physical.strip()
+        if len(physical) > max_length:
+            physical = physical[: max_length - 3].rstrip() + "..."
+
+        label = f"{character.name} ({character.role.value})"
+        if include_id:
+            label = f"{character.name} (id: {character.id}, {character.role.value})"
+        return f"- {label}: {physical}"
+
     def _chapter_headline(self, chapter: Chapter) -> str:
         """Create a one-line headline for a chapter (title + summary)."""
         return f"Chapter {chapter.number}: {chapter.title} - {chapter.summary}"
@@ -267,10 +294,7 @@ class ScriptGenerator:
             The prompt string that would be sent to the API
         """
         # Build character and location context
-        char_info = "\n".join(
-            f"- {c.name} ({c.role.value}): {c.description.personality}"
-            for c in characters
-        )
+        char_info = "\n".join(self._summarize_character(c) for c in characters)
         loc_info = "\n".join(f"- {loc.name}: {loc.description}" for loc in locations)
 
         # Build previous chapter context
@@ -599,12 +623,9 @@ Make sure to use the available characters and locations appropriately.
         Returns:
             Prompt string for scene regeneration
         """
-        char_info = "\n".join(
-            f"- {c.name} ({c.role}): {c.description.get('physical', '')[:100] if isinstance(c.description, dict) else ''}"
-            for c in characters
-        )
+        char_info = "\n".join(self._summarize_character(c) for c in characters)
         loc_info = "\n".join(
-            f"- {loc.name} ({loc.type}): {loc.description[:100] if loc.description else ''}"
+            f"- {loc.name} ({loc.type.value}): {loc.description[:100] if loc.description else ''}"
             for loc in locations
         )
 
@@ -707,8 +728,7 @@ Include specific dialogue, expressions, and visual directions.
             Prompt string for panel regeneration
         """
         char_info = "\n".join(
-            f"- {c.name} (id: {c.id}): {c.description.get('physical', '')[:80] if isinstance(c.description, dict) else ''}"
-            for c in characters
+            self._summarize_character(c, include_id=True, max_length=100) for c in characters
         )
 
         # Get context from surrounding panels

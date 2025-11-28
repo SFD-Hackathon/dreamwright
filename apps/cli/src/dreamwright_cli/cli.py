@@ -827,7 +827,11 @@ def status(
     # Count generated assets
     assets_path = manager.storage.assets_path
     if assets_path.exists():
-        panel_count = len(list((assets_path / "panels").glob("*.png"))) if (assets_path / "panels").exists() else 0
+        panels_dir = assets_path / "panels"
+        if panels_dir.exists():
+            panel_count = sum(1 for _ in panels_dir.rglob("*.png"))
+        else:
+            panel_count = 0
         console.print(f"\n[cyan]Generated panels:[/cyan] {panel_count}")
 
 
@@ -936,7 +940,7 @@ def serve(
 
     if reload:
         uvicorn.run(
-            "dreamwright.api.app:app",
+            "dreamwright_api.app:app",
             host=host,
             port=port,
             reload=True,

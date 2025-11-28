@@ -44,6 +44,15 @@ async def list_panels(
     except NotFoundError:
         raise HTTPException(status_code=404, detail=f"Chapter {chapter_number} not found")
 
+    if scene_number is not None:
+        try:
+            service.get_scene(chapter_number, scene_number)
+        except NotFoundError:
+            raise HTTPException(
+                status_code=404,
+                detail=f"Scene {scene_number} not found in Chapter {chapter_number}",
+            )
+
     panels, total = service.list_panels(
         chapter_number=chapter_number,
         scene_number=scene_number,
@@ -267,6 +276,22 @@ async def generate_panel_image(
         service.get_panel(chapter_number, scene_number, panel_number)
     except NotFoundError as e:
         raise HTTPException(status_code=404, detail=str(e))
+
+    # Validate dependencies for this scene/panel
+    missing = service.validate_dependencies(chapter_number, scene_number)
+    if missing:
+        raise HTTPException(
+            status_code=409,
+            detail={
+                "error": {
+                    "code": "DEPENDENCY_ERROR",
+                    "message": (
+                        f"Cannot generate image for panel {panel_number}: dependencies not met"
+                    ),
+                },
+                "missing_dependencies": missing,
+            },
+        )
 
     # Create job
     job_service = get_job_service()
