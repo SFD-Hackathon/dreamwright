@@ -2,7 +2,7 @@
   "id": "proj_hao_japan_adventure",
   "name": "hao-japan-adventure",
   "created_at": "2025-11-28T16:56:46.441336",
-  "updated_at": "2025-11-28T18:21:28.921599",
+  "updated_at": "2025-11-28T23:56:42.237442",
   "format": "webtoon",
   "status": "in_progress",
   "story": {
@@ -3008,7 +3008,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "",
-              "image_path": null,
+              "image_path": "assets/panels/chapter-5/scene-1/panel-1.png",
               "video_path": null
             },
             {
@@ -3036,7 +3036,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "",
-              "image_path": null,
+              "image_path": "assets/panels/chapter-5/scene-1/panel-2.png",
               "video_path": null
             },
             {
@@ -3075,7 +3075,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "Tears are glowing orange magma",
-              "image_path": null,
+              "image_path": "assets/panels/chapter-5/scene-1/panel-3.png",
               "video_path": null
             },
             {
@@ -3124,7 +3124,7 @@
               "sfx": [],
               "continues_from_previous": true,
               "continuity_note": "",
-              "image_path": null,
+              "image_path": "assets/panels/chapter-5/scene-1/panel-4.png",
               "video_path": null
             },
             {
@@ -3163,7 +3163,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "",
-              "image_path": null,
+              "image_path": "assets/panels/chapter-5/scene-1/panel-5.png",
               "video_path": null
             },
             {
@@ -3202,7 +3202,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "",
-              "image_path": null,
+              "image_path": "assets/panels/chapter-5/scene-1/panel-6.png",
               "video_path": null
             }
           ],
@@ -3258,7 +3258,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "",
-              "image_path": null,
+              "image_path": "assets/panels/chapter-5/scene-2/panel-1.png",
               "video_path": null
             },
             {
@@ -3289,7 +3289,7 @@
               "sfx": [],
               "continues_from_previous": true,
               "continuity_note": "",
-              "image_path": null,
+              "image_path": "assets/panels/chapter-5/scene-2/panel-2.png",
               "video_path": null
             },
             {
@@ -3331,7 +3331,7 @@
               "sfx": [],
               "continues_from_previous": true,
               "continuity_note": "",
-              "image_path": null,
+              "image_path": "assets/panels/chapter-5/scene-2/panel-3.png",
               "video_path": null
             },
             {
@@ -3362,7 +3362,7 @@
               "sfx": [],
               "continues_from_previous": true,
               "continuity_note": "",
-              "image_path": null,
+              "image_path": "assets/panels/chapter-5/scene-2/panel-4.png",
               "video_path": null
             },
             {
@@ -3404,7 +3404,7 @@
               "sfx": [],
               "continues_from_previous": true,
               "continuity_note": "",
-              "image_path": null,
+              "image_path": "assets/panels/chapter-5/scene-2/panel-5.png",
               "video_path": null
             },
             {
@@ -3437,7 +3437,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "",
-              "image_path": null,
+              "image_path": "assets/panels/chapter-5/scene-2/panel-6.png",
               "video_path": null
             }
           ],
@@ -3486,7 +3486,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "",
-              "image_path": null,
+              "image_path": "assets/panels/chapter-5/scene-3/panel-1.png",
               "video_path": null
             },
             {
@@ -3520,7 +3520,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "",
-              "image_path": null,
+              "image_path": "assets/panels/chapter-5/scene-3/panel-2.png",
               "video_path": null
             },
             {
@@ -3551,7 +3551,7 @@
               "sfx": [],
               "continues_from_previous": true,
               "continuity_note": "",
-              "image_path": null,
+              "image_path": "assets/panels/chapter-5/scene-3/panel-3.png",
               "video_path": null
             },
             {
@@ -3578,7 +3578,7 @@
               ],
               "continues_from_previous": true,
               "continuity_note": "",
-              "image_path": null,
+              "image_path": "assets/panels/chapter-5/scene-3/panel-4.png",
               "video_path": null
             },
             {
@@ -3609,7 +3609,7 @@
               "sfx": [],
               "continues_from_previous": true,
               "continuity_note": "Image is on the camera screen",
-              "image_path": null,
+              "image_path": "assets/panels/chapter-5/scene-3/panel-5.png",
               "video_path": null
             },
             {
@@ -3640,7 +3640,7 @@
               "sfx": [],
               "continues_from_previous": true,
               "continuity_note": "",
-              "image_path": null,
+              "image_path": "assets/panels/chapter-5/scene-3/panel-6.png",
               "video_path": null
             }
           ],

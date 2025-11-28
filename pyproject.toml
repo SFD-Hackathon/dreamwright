@@ -29,7 +29,9 @@ docs = [
 
 [tool.uv.workspace]
 members = [
-    "apps/*",
+    "apps/api",
+    "apps/cli",
+    "apps/viewer",
     "packages/*",
 ]
 

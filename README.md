@@ -7,7 +7,7 @@ AI-powered webtoon and short-form drama production.
 ```bash
 uv venv
 source .venv/bin/activate
-uv pip install -e .
+uv sync
 ```
 
 ## Quick Start
