@@ -1,0 +1,16 @@
+[project]
+name = "dreamwright-viewer"
+version = "0.1.0"
+description = "Web-based webtoon viewer for DreamWright"
+requires-python = ">=3.11"
+dependencies = []  # Uses only stdlib
+
+[project.scripts]
+dreamwright-viewer = "dreamwright_viewer.viewer:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/dreamwright_viewer"]
