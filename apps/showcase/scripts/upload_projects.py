@@ -272,7 +272,7 @@ def upload_project(project_dir: Path):
                                 r2_path = f"{project_name}/assets/chapters/ch{chapter_num}/{segment_id}.jpg"
                                 upload_to_r2(str(panel_file), r2_path)
 
-    # Upload cover if exists (use first character portrait as fallback)
+    # Upload cover if exists (use main character portrait as fallback)
     covers_dir = project_dir / "assets" / "covers"
     if covers_dir.exists():
         for cover_file in covers_dir.glob("*"):
@@ -280,14 +280,34 @@ def upload_project(project_dir: Path):
                 upload_to_r2(str(cover_file), f"{project_name}/assets/covers/series_cover.jpg")
                 break
     else:
-        # Use first character portrait as cover fallback
+        # Use main character (protagonist) portrait as cover fallback
         if characters_dir.exists():
+            # Find protagonist first
+            protagonist_folder = None
+            fallback_folder = None
+            for char in project_data.get("characters", []):
+                if char.get("role") == "protagonist":
+                    # Convert char ID to folder name (char_hao -> hao)
+                    char_id = char["id"].replace("char_", "")
+                    protagonist_folder = char_id.replace("_", "-")
+                    break
+
+            # Try protagonist first, then fall back to first character
             for char_dir in characters_dir.iterdir():
                 if char_dir.is_dir() and not char_dir.name.startswith("."):
-                    portrait = char_dir / "portrait.png"
+                    if fallback_folder is None:
+                        fallback_folder = char_dir.name
+                    if protagonist_folder and char_dir.name == protagonist_folder:
+                        portrait = char_dir / "portrait.png"
+                        if portrait.exists():
+                            upload_to_r2(str(portrait), f"{project_name}/assets/covers/series_cover.jpg")
+                            break
+            else:
+                # No protagonist found, use fallback
+                if fallback_folder:
+                    portrait = characters_dir / fallback_folder / "portrait.png"
                     if portrait.exists():
                         upload_to_r2(str(portrait), f"{project_name}/assets/covers/series_cover.jpg")
-                        break
 
 
 def list_available_projects() -> list[str]:
