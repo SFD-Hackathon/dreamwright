@@ -226,8 +226,8 @@ async function openChapter(webtoonId, chapterNum, pushState = true) {
             ${sceneTitleHtml}
             <div class="segment" data-id="${seg.id}">
               <img src="${seg.image_url}" alt="${seg.id}" loading="lazy">
+              ${overlayHtml}
             </div>
-            ${overlayHtml}
           `;
         } else {
           return `
@@ -236,8 +236,8 @@ async function openChapter(webtoonId, chapterNum, pushState = true) {
               <div class="segment-placeholder">
                 <span>${seg.id} - Image not available</span>
               </div>
+              ${overlayHtml}
             </div>
-            ${overlayHtml}
           `;
         }
       }).join('');

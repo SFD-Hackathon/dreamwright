@@ -562,87 +562,176 @@ html, body {
   color: var(--accent);
 }
 
-/* Text Overlays */
+/* Text Overlays - webtoon style */
 .text-overlay {
-  position: relative;
-  padding: 16px;
-  background: var(--bg-primary);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  max-width: 800px;
-  margin: 0 auto;
+  padding: 16px;
+  pointer-events: none;
+  gap: 8px;
 }
 
+.text-overlay > * {
+  pointer-events: auto;
+}
+
+/* Narration box - top of panel */
 .narration {
-  background: rgba(0, 0, 0, 0.8);
-  color: #ccc;
-  padding: 12px 16px;
-  border-radius: 4px;
-  font-style: italic;
-  font-size: 0.9rem;
+  background: rgba(0, 0, 0, 0.85);
+  color: #fff;
+  padding: 12px 18px;
+  border-radius: 0;
+  font-style: normal;
+  font-size: 0.8rem;
   line-height: 1.5;
   text-align: center;
-  border-left: 3px solid var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  align-self: center;
+  max-width: 85%;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Speech bubbles container - bottom of panel */
+.speech-bubbles-area {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .speech-bubble {
   background: white;
-  color: #222;
+  color: #111;
   padding: 12px 16px;
-  border-radius: 16px;
-  max-width: 85%;
+  border-radius: 20px;
+  max-width: 70%;
   position: relative;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  box-shadow: 0 3px 15px rgba(0,0,0,0.5);
   align-self: flex-start;
+  border: 2px solid #000;
+}
+
+.speech-bubble:first-of-type {
+  margin-top: auto;
 }
 
 .speech-bubble.right {
   align-self: flex-end;
 }
 
+/* Speech bubble tail - bottom pointing */
+.speech-bubble::after {
+  content: '';
+  position: absolute;
+  bottom: -12px;
+  left: 20px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 14px solid white;
+  filter: drop-shadow(0 2px 1px rgba(0,0,0,0.3));
+}
+
 .speech-bubble::before {
   content: '';
   position: absolute;
-  top: -8px;
-  left: 20px;
-  border-width: 0 8px 8px;
-  border-style: solid;
-  border-color: transparent transparent white;
+  bottom: -16px;
+  left: 18px;
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 16px solid #000;
 }
 
-.speech-bubble.right::before {
+.speech-bubble.right::after {
   left: auto;
   right: 20px;
 }
 
+.speech-bubble.right::before {
+  left: auto;
+  right: 18px;
+}
+
 .speech-bubble .speaker {
-  font-size: 0.75rem;
-  font-weight: 700;
+  font-size: 0.65rem;
+  font-weight: 800;
   color: var(--accent);
   margin-bottom: 4px;
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .speech-bubble .text {
-  font-size: 0.95rem;
-  line-height: 1.4;
+  font-size: 0.85rem;
+  line-height: 1.3;
   margin: 0;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
 }
 
+/* SFX - centered with comic style */
 .sfx {
-  font-size: 1.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-8deg);
+  font-size: 2.5rem;
   font-weight: 900;
   color: #fff;
   text-shadow:
-    2px 2px 0 #000,
-    -2px -2px 0 #000,
-    2px -2px 0 #000,
-    -2px 2px 0 #000,
-    0 0 10px var(--accent);
+    4px 4px 0 #000,
+    -4px -4px 0 #000,
+    4px -4px 0 #000,
+    -4px 4px 0 #000,
+    0 0 30px var(--accent),
+    0 0 60px var(--accent);
   text-align: center;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
   text-transform: uppercase;
+  white-space: nowrap;
+  -webkit-text-stroke: 2px #000;
+}
+
+/* Ensure segment is positioning context */
+.reader-content .segment {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Mobile adjustments */
+@media (max-width: 480px) {
+  .text-overlay {
+    padding: 10px;
+  }
+
+  .narration {
+    font-size: 0.7rem;
+    padding: 8px 12px;
+  }
+
+  .speech-bubble {
+    padding: 10px 12px;
+    max-width: 80%;
+  }
+
+  .speech-bubble .text {
+    font-size: 0.75rem;
+  }
+
+  .sfx {
+    font-size: 1.8rem;
+  }
 }
 
 /* Character Modal */
