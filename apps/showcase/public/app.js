@@ -169,9 +169,10 @@ async function openChapter(webtoonId, chapterNum, pushState = true) {
     // Render segments
     if (chapter.segments.length === 0) {
       content.innerHTML = `
-        <div class="error-message">
-          <h2>No Content</h2>
-          <p>This chapter has no segments yet.</p>
+        <div class="wip-message">
+          <div class="wip-icon">🎨</div>
+          <h2>Work in Progress</h2>
+          <p>This chapter is being illustrated. Check back soon!</p>
         </div>
       `;
     } else {
@@ -234,9 +235,9 @@ async function openChapter(webtoonId, chapterNum, pushState = true) {
             ${sceneTitleHtml}
             <div class="segment" data-id="${seg.id}">
               <div class="segment-placeholder">
-                <span>${seg.id} - Image not available</span>
+                <div class="placeholder-icon">🖼️</div>
+                <span>Coming Soon</span>
               </div>
-              ${overlayHtml}
             </div>
           `;
         }
