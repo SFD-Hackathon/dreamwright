@@ -1,0 +1,944 @@
+{
+  "id": "proj_faimly_chens_adventure",
+  "name": "Faimly Chen's Adventure",
+  "created_at": "2025-11-29T00:11:02.706551",
+  "updated_at": "2025-11-29T01:19:08.526839",
+  "format": "webtoon",
+  "status": "in_progress",
+  "story": {
+    "id": "story_the_market_of_stolen_shadows",
+    "title": "The Market of Stolen Shadows",
+    "logline": "When her parents trade their faces for a moment of peace in a supernatural night market, a 10-year-old girl must barter her most precious memories to buy them back before sunrise.",
+    "genre": "drama",
+    "tone": "dramatic",
+    "themes": [
+      "The value of memory versus oblivion",
+      "Parental fallibility and child resilience",
+      "Greed and consequence",
+      "Finding courage in isolation"
+    ],
+    "target_audience": "Young Adult / General Audience (Fans of Ghibli, Coraline, Stranger Things)",
+    "episode_count": 10,
+    "synopsis": "Ten-year-old Elizabeth Chen is tired of her parents, Long and Yang, constantly arguing about money. During a tense drive through a mountain tunnel, the family takes a wrong turn into a fog-covered valley that doesn't exist on any map. They stumble upon the 'Twilight Bazaar,' a sprawling, ancient marketplace run by spirits. While Elizabeth explores, her stressed parents are lured by a stall offering 'Forgetfulness Dumplings.' Desperate for relief, they eat and instantly transform into faceless, hollow laborers bound to the market.\n\nTo save them, Elizabeth strikes a deal with The Curator, the enigmatic owner of the market's Pawnshop of Souls. She has until the first rooster crows at dawn to retrieve three specific items hidden across the dangerous bazaar. If she fails, her parents remain faceless servants forever, and she becomes the Curator's new exhibits. Armed only with her wits and a strange lantern that reveals the truth, Elizabeth navigates a world of greedy spirits and dangerous bargains.",
+    "story_beats": [
+      {
+        "beat": "Hook (Episode 1)",
+        "description": "The Chen family car breaks down in a tunnel. They see lights in the distance. The First Panel shows Elizabeth staring at a sign that reads 'Open Only to the Lost.' They enter the bustling, bizarre market. The air smells of sulfur and spun sugar. Visual Motif: Blue paper lanterns light the safe path."
+      },
+      {
+        "beat": "Inciting Incident (Episode 2)",
+        "description": "Long and Yang eat the dumplings to 'forget their stress.' Their faces literally wipe clean, becoming smooth skin. They are dragged away by shadow guards. Elizabeth screams, but no one helps. She is alone. Cliffhanger: A multi-armed shadow reaches for her."
+      },
+      {
+        "beat": "Rising Action (Episode 3 - The Deal)",
+        "description": "Elizabeth is rescued by The Curator. He offers a contract: Collect three items (A Mirror of Truth, A Vial of Tears, A Clock That Ticks Backwards) in exchange for her parents. She signs. The ink glows on her skin."
+      },
+      {
+        "beat": "Rising Action (Episode 4 - The First Item)",
+        "description": "Elizabeth navigates the 'Alley of Whispers.' She retrieves the Mirror of Truth but sees a reflection of her parents arguing about divorcing, realizing why they wanted to forget. Emotional anchor: She accepts their flaws."
+      },
+      {
+        "beat": "Rising Action (Episode 5 - The Chase)",
+        "description": "She steals the Vial of Tears from a weeping giant. A high-octane chase sequence ensues through the rafters of the market. She loses her backpack but keeps the item. Visual Motif: The moon dial shows time is running out."
+      },
+      {
+        "beat": "Rising Action (Episode 6 - The Betrayal)",
+        "description": "Elizabeth meets a small spirit boy who claims to help her, but leads her into a trap to steal her items. She outsmarts him by showing him kindness. He reveals The Curator never intends to let her parents go."
+      },
+      {
+        "beat": "Rising Action (Episode 7 - The Last Item)",
+        "description": "She finds the Clock. It's guarded by her parents, who are now mindless drones. She has to fight them without hurting them. She uses the Mirror of Truth to briefly restore their memories, causing confusion in the guards."
+      },
+      {
+        "beat": "Climax (Episode 8 & 9)",
+        "description": "Elizabeth returns to The Curator. He tries to void the contract on a technicality. Elizabeth gambles her own existence: if she can identify her parents from a crowd of faceless statues, everyone goes free. She uses the scent of her mother's perfume (sensory detail) and her father's nervous habit of tapping his finger to find them."
+      },
+      {
+        "beat": "Resolution (Episode 10)",
+        "description": "The contract burns. The market begins to dissolve as the sun rises. They run to the car. They wake up in the tunnel, the car engine starting. The parents don't remember the magic, but they remember the love for Elizabeth. Elizabeth finds a single blue paper lantern ticket in her pocket."
+      }
+    ]
+  },
+  "characters": [
+    {
+      "id": "char_elizabeth_chen",
+      "name": "Elizabeth Chen",
+      "role": "protagonist",
+      "age": "10",
+      "description": {
+        "physical": "Small for her age, expressive face, hair often messy from running.",
+        "personality": "Observant, initially timid but fiercely protective, resourceful.",
+        "background": "An only child who absorbs her parents' stress. She feels invisible in their busy lives.",
+        "motivation": "To restore her family and go home."
+      },
+      "visual_tags": [
+        "Hair: Chin-length bob, jet black, with a yellow hair clip on the left side",
+        "Eyes: Large, dark brown eyes, expressive and watchful",
+        "OUTFIT: Oversized bright crimson hoodie (hood often up)",
+        "Bottom: Denim overalls with one strap always falling down",
+        "Footwear: Bright yellow rainboots",
+        "Accessory: A vintage leather satchel that looks too big for her"
+      ],
+      "assets": {
+        "reference_input": "/Users/long/Downloads/echen.jpg",
+        "portrait": "assets/characters/elizabeth-chen/portrait.png",
+        "three_view": {
+          "front": null,
+          "side": null,
+          "back": null,
+          "sheet": "assets/characters/elizabeth-chen/sheet.png"
+        }
+      },
+      "voice_description": ""
+    },
+    {
+      "id": "char_the_curator",
+      "name": "The Curator",
+      "role": "supporting",
+      "age": "Ageless (looks 30s)",
+      "description": {
+        "physical": "Tall, lanky, moves with unnatural fluidity. Pale skin.",
+        "personality": "Charismatic, transactional, manipulative but bound by rules.",
+        "background": "A spirit who collects human regrets and memories to keep the market running.",
+        "motivation": "To add Elizabeth's 'pure determination' to his collection."
+      },
+      "visual_tags": [
+        "Hair: Silver, slicked back, waist-length ponytail",
+        "Eyes: Golden irises with slit pupils (fox-like)",
+        "Face: Wears a monocle over his left eye attached by a gold chain",
+        "OUTFIT: Deep emerald green velvet tailcoat with gold embroidery",
+        "Bottom: Black fitted dress pants",
+        "Footwear: Polished black oxford shoes",
+        "Accessory: Always holding a pocket watch that runs backwards"
+      ],
+      "assets": {
+        "reference_input": null,
+        "portrait": "assets/characters/the-curator/portrait.png",
+        "three_view": {
+          "front": null,
+          "side": null,
+          "back": null,
+          "sheet": "assets/characters/the-curator/sheet.png"
+        }
+      },
+      "voice_description": ""
+    },
+    {
+      "id": "char_long_chen",
+      "name": "Long Chen",
+      "role": "supporting",
+      "age": "40",
+      "description": {
+        "physical": "Slouching posture, looks perpetually exhausted.",
+        "personality": "Workaholic, conflict-avoidant, loves his family but doesn't know how to show it.",
+        "background": "A mid-level manager facing bankruptcy.",
+        "motivation": "Initially to escape stress; later to protect Elizabeth (when memory returns)."
+      },
+      "visual_tags": [
+        "Hair: Short, thinning black hair, slightly messy",
+        "Eyes: Tired, heavy bags under eyes, wears wire-rimmed glasses",
+        "OUTFIT: Wrinkled charcoal grey business suit",
+        "Top: White dress shirt, top button undone, loose blue tie",
+        "Bottom: Matching grey suit trousers",
+        "Footwear: Scuffed brown leather loafers"
+      ],
+      "assets": {
+        "reference_input": "/Users/long/Downloads/Long.jpg",
+        "portrait": "assets/characters/long-chen/portrait.png",
+        "three_view": {
+          "front": null,
+          "side": null,
+          "back": null,
+          "sheet": "assets/characters/long-chen/sheet.png"
+        }
+      },
+      "voice_description": ""
+    },
+    {
+      "id": "char_yang_he",
+      "name": "Yang He",
+      "role": "supporting",
+      "age": "40",
+      "description": {
+        "physical": "Elegant but rigid posture, worry lines on forehead.",
+        "personality": "Perfectionist, high-strung, critical but deeply caring.",
+        "background": "Former artist who gave it up for stability.",
+        "motivation": "To maintain control; later to reclaim her identity."
+      },
+      "visual_tags": [
+        "Hair: Long black hair pulled into a tight, severe bun",
+        "Eyes: Sharp, almond-shaped eyes with subtle makeup",
+        "OUTFIT: Pale lavender silk blouse with high collar",
+        "Bottom: High-waisted beige tapered trousers",
+        "Footwear: Impractical beige heels (one heel breaks in Ep 2)",
+        "Accessory: A jade bangle on her left wrist (plot point)"
+      ],
+      "assets": {
+        "reference_input": "/Users/long/Downloads/Yang.jpeg",
+        "portrait": "assets/characters/yang-he/portrait.png",
+        "three_view": {
+          "front": null,
+          "side": null,
+          "back": null,
+          "sheet": "assets/characters/yang-he/sheet.png"
+        }
+      },
+      "voice_description": ""
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_the_twilight_bazaar",
+      "name": "The Twilight Bazaar",
+      "type": "interior",
+      "description": "An infinite street lined with multi-story wooden stalls. Lanterns float in the air without strings. Smells of incense and roasting meat.",
+      "visual_tags": [
+        "Lighting: Bioluminescent blue and red paper lanterns",
+        "Colors: Deep indigos, vibrant reds, warm gold",
+        "Atmosphere: Chaotic, crowded with shadows",
+        "Key Object: The central clock tower with thirteen numbers"
+      ],
+      "assets": {
+        "reference": "assets/locations/the-twilight-bazaar/reference.png",
+        "reference_sheet": null
+      }
+    },
+    {
+      "id": "loc_the_pawnshop_of_souls",
+      "name": "The Pawnshop of Souls",
+      "type": "interior",
+      "description": "The Curator's lair. Floor-to-ceiling shelves filled with glass jars containing glowing memories. Dust motes dance in golden light.",
+      "visual_tags": [
+        "Lighting: Dim, golden candlelight, cozy but claustrophobic",
+        "Colors: Mahogany wood, brass, emerald green",
+        "Atmosphere: Silent, timeless, dusty",
+        "Key Object: The giant ledger book on the desk"
+      ],
+      "assets": {
+        "reference": "assets/locations/the-pawnshop-of-souls/reference.png",
+        "reference_sheet": null
+      }
+    },
+    {
+      "id": "loc_the_bridge_of_echoes",
+      "name": "The Bridge of Echoes",
+      "type": "interior",
+      "description": "A rotting wooden bridge over a sea of clouds. Below the clouds, monster shapes swim. The bridge creaks and whispers the doubts of those who cross it.",
+      "visual_tags": [
+        "Lighting: Cold, pale moonlight from a massive full moon",
+        "Colors: Desaturated greys, silvers, and whites",
+        "Atmosphere: Windy, precarious, lonely",
+        "Key Object: Red prayer ribbons tied to the railings"
+      ],
+      "assets": {
+        "reference": "assets/locations/the-bridge-of-echoes/reference.png",
+        "reference_sheet": null
+      }
+    }
+  ],
+  "chapters": [
+    {
+      "id": "ch1",
+      "number": 1,
+      "title": "Open Only to the Lost",
+      "summary": "Following a breakdown in a dark tunnel, the Chen family stumbles into a supernatural market. While Elizabeth is wary of the strange sights, her exhausted parents are drawn into a mysterious shop promising the one thing they desperately crave: peace.",
+      "status": "completed",
+      "scenes": [
+        {
+          "id": "ch1_s1",
+          "number": 1,
+          "location_id": "loc_the_twilight_bazaar",
+          "time_of_day": "night",
+          "weather": "clear",
+          "character_ids": [
+            "char_elizabeth_chen",
+            "char_long_chen",
+            "char_yang_he"
+          ],
+          "description": "The transition from the dark tunnel to the entrance of the market. Fog curls around the ankles.",
+          "mood": "Eerie, Mysterious, Overwhelming",
+          "panels": [
+            {
+              "id": "ch1_s1_p1",
+              "number": 1,
+              "type": "panel",
+              "composition": {
+                "shot_type": "medium",
+                "angle": "eye_level",
+                "focus": ""
+              },
+              "characters": [
+                {
+                  "character_id": "char_elizabeth_chen",
+                  "expression": "confused",
+                  "pose": "",
+                  "position": "left"
+                }
+              ],
+              "action": "Elizabeth stands still, staring at a weathered wooden sign hanging from a jagged rock. The background is pitch black tunnel darkness.",
+              "dialogue": [
+                {
+                  "character_id": "char_elizabeth_chen",
+                  "text": "'Open... Only to the Lost.'",
+                  "type": "speech"
+                }
+              ],
+              "sfx": [
+                "Hissing steam",
+                "Distant bells"
+              ],
+              "continues_from_previous": false,
+              "continuity_note": "Elizabeth wears a yellow raincoat that stands out against the dark.",
+              "image_path": null,
+              "video_path": null
+            },
+            {
+              "id": "ch1_s1_p2",
+              "number": 2,
+              "type": "panel",
+              "composition": {
+                "shot_type": "medium",
+                "angle": "dutch",
+                "focus": ""
+              },
+              "characters": [
+                {
+                  "character_id": "char_elizabeth_chen",
+                  "expression": "neutral",
+                  "pose": "",
+                  "position": "left"
+                },
+                {
+                  "character_id": "char_long_chen",
+                  "expression": "exhausted",
+                  "pose": "",
+                  "position": "center"
+                },
+                {
+                  "character_id": "char_yang_he",
+                  "expression": "angry",
+                  "pose": "",
+                  "position": "right"
+                }
+              ],
+              "action": "Long Chen and Yang He are arguing behind Elizabeth, silhouetted against the faint headlights of their broken car in the distance. They look ragged.",
+              "dialogue": [
+                {
+                  "character_id": "char_yang_he",
+                  "text": "I told you to check the radiator, Long. I told you three times.",
+                  "type": "speech"
+                },
+                {
+                  "character_id": "char_long_chen",
+                  "text": "Just... give me a minute of silence, Yang. Please.",
+                  "type": "speech"
+                }
+              ],
+              "sfx": [],
+              "continues_from_previous": true,
+              "continuity_note": "Parents are in shadow, focus is on their tension.",
+              "image_path": null,
+              "video_path": null
+            },
+            {
+              "id": "ch1_s1_p3",
+              "number": 3,
+              "type": "panel",
+              "composition": {
+                "shot_type": "wide",
+                "angle": "low",
+                "focus": ""
+              },
+              "characters": [
+                {
+                  "character_id": "char_elizabeth_chen",
+                  "expression": "surprised",
+                  "pose": "",
+                  "position": "left"
+                },
+                {
+                  "character_id": "char_long_chen",
+                  "expression": "neutral",
+                  "pose": "",
+                  "position": "center"
+                },
+                {
+                  "character_id": "char_yang_he",
+                  "expression": "neutral",
+                  "pose": "",
+                  "position": "right"
+                }
+              ],
+              "action": "The family steps through a veil of mist. The tunnel ceiling dissolves into an infinite night sky filled with floating lanterns.",
+              "dialogue": [],
+              "sfx": [
+                "WHOOSH (wind)"
+              ],
+              "continues_from_previous": true,
+              "continuity_note": "Transition point from grey reality to colorful magic.",
+              "image_path": "assets/panels/chapter-1/scene-1/panel-3.png",
+              "video_path": null
+            },
+            {
+              "id": "ch1_s1_p4",
+              "number": 4,
+              "type": "panel",
+              "composition": {
+                "shot_type": "wide",
+                "angle": "high",
+                "focus": ""
+              },
+              "characters": [],
+              "action": "Establishing shot of the Bazaar. Endless vertical stalls made of rotting wood and red lacquer. Blue paper lanterns float everywhere, casting a ghostly glow.",
+              "dialogue": [],
+              "sfx": [],
+              "continues_from_previous": true,
+              "continuity_note": "The blue lanterns are the primary light source.",
+              "image_path": "assets/panels/chapter-1/scene-1/panel-4.png",
+              "video_path": null
+            },
+            {
+              "id": "ch1_s1_p5",
+              "number": 5,
+              "type": "panel",
+              "composition": {
+                "shot_type": "close_up",
+                "angle": "eye_level",
+                "focus": ""
+              },
+              "characters": [
+                {
+                  "character_id": "char_elizabeth_chen",
+                  "expression": "scared",
+                  "pose": "",
+                  "position": "left"
+                }
+              ],
+              "action": "Focus on a blue lantern drifting past Elizabeth's face. It pulses like a heartbeat.",
+              "dialogue": [
+                {
+                  "character_id": "char_elizabeth_chen",
+                  "text": "Mom? Dad? This isn't the highway.",
+                  "type": "speech"
+                }
+              ],
+              "sfx": [],
+              "continues_from_previous": true,
+              "continuity_note": "Blue light reflects in her eyes.",
+              "image_path": "assets/panels/chapter-1/scene-1/panel-5.png",
+              "video_path": null
+            },
+            {
+              "id": "ch1_s1_p6",
+              "number": 6,
+              "type": "panel",
+              "composition": {
+                "shot_type": "medium",
+                "angle": "eye_level",
+                "focus": ""
+              },
+              "characters": [
+                {
+                  "character_id": "char_elizabeth_chen",
+                  "expression": "neutral",
+                  "pose": "",
+                  "position": "left"
+                },
+                {
+                  "character_id": "char_long_chen",
+                  "expression": "thoughtful",
+                  "pose": "",
+                  "position": "center"
+                },
+                {
+                  "character_id": "char_yang_he",
+                  "expression": "thoughtful",
+                  "pose": "",
+                  "position": "right"
+                }
+              ],
+              "action": "Long and Yang are walking ahead, their posture slumping as if hypnotized. They are ignoring Elizabeth, drawn toward the smells of the market.",
+              "dialogue": [
+                {
+                  "character_id": "char_long_chen",
+                  "text": "Do you smell that? It smells like... sleep.",
+                  "type": "speech"
+                }
+              ],
+              "sfx": [],
+              "continues_from_previous": true,
+              "continuity_note": "Parents are moving away from the camera/Elizabeth.",
+              "image_path": null,
+              "video_path": null
+            }
+          ],
+          "continues_from_previous_chapter": false
+        },
+        {
+          "id": "ch1_s2",
+          "number": 2,
+          "location_id": "loc_the_twilight_bazaar",
+          "time_of_day": "night",
+          "weather": "clear",
+          "character_ids": [
+            "char_elizabeth_chen",
+            "char_long_chen",
+            "char_yang_he"
+          ],
+          "description": "Deep in the market crowd. Shadows and strange entities bustle past. The atmosphere is thick with sulfur and spun sugar.",
+          "mood": "Tense, Disorienting",
+          "panels": [
+            {
+              "id": "ch1_s2_p1",
+              "number": 1,
+              "type": "panel",
+              "composition": {
+                "shot_type": "medium",
+                "angle": "low",
+                "focus": ""
+              },
+              "characters": [
+                {
+                  "character_id": "char_yang_he",
+                  "expression": "sad",
+                  "pose": "",
+                  "position": "left"
+                }
+              ],
+              "action": "Yang He stops in front of a stall. She looks at her reflection in a dark mirror, but her reflection looks happy and rested while she looks haggard.",
+              "dialogue": [
+                {
+                  "character_id": "char_yang_he",
+                  "text": "I used to look like that.",
+                  "type": "thought"
+                }
+              ],
+              "sfx": [],
+              "continues_from_previous": false,
+              "continuity_note": "Lighting is sickly green here.",
+              "image_path": null,
+              "video_path": null
+            },
+            {
+              "id": "ch1_s2_p2",
+              "number": 2,
+              "type": "panel",
+              "composition": {
+                "shot_type": "medium",
+                "angle": "eye_level",
+                "focus": ""
+              },
+              "characters": [
+                {
+                  "character_id": "char_long_chen",
+                  "expression": "exhausted",
+                  "pose": "",
+                  "position": "left"
+                }
+              ],
+              "action": "Long Chen is staring at a vendor (off panel) offering a pipe of silver smoke. His eyes are heavy.",
+              "dialogue": [
+                {
+                  "character_id": "char_long_chen",
+                  "text": "So quiet here. No bills. No deadlines.",
+                  "type": "speech"
+                }
+              ],
+              "sfx": [],
+              "continues_from_previous": false,
+              "continuity_note": "Smoke curls around his head.",
+              "image_path": null,
+              "video_path": null
+            },
+            {
+              "id": "ch1_s2_p3",
+              "number": 3,
+              "type": "panel",
+              "composition": {
+                "shot_type": "medium",
+                "angle": "high",
+                "focus": ""
+              },
+              "characters": [
+                {
+                  "character_id": "char_elizabeth_chen",
+                  "expression": "determined",
+                  "pose": "",
+                  "position": "left"
+                },
+                {
+                  "character_id": "char_long_chen",
+                  "expression": "neutral",
+                  "pose": "",
+                  "position": "center"
+                },
+                {
+                  "character_id": "char_yang_he",
+                  "expression": "neutral",
+                  "pose": "",
+                  "position": "right"
+                }
+              ],
+              "action": "Elizabeth grabs both their hands, trying to anchor them. She looks small between them.",
+              "dialogue": [
+                {
+                  "character_id": "char_elizabeth_chen",
+                  "text": "We need to go back. Now!",
+                  "type": "speech"
+                }
+              ],
+              "sfx": [],
+              "continues_from_previous": true,
+              "continuity_note": "Elizabeth is the only one in sharp focus.",
+              "image_path": "assets/panels/chapter-1/scene-2/panel-3.png",
+              "video_path": null
+            },
+            {
+              "id": "ch1_s2_p4",
+              "number": 4,
+              "type": "panel",
+              "composition": {
+                "shot_type": "close_up",
+                "angle": "eye_level",
+                "focus": ""
+              },
+              "characters": [
+                {
+                  "character_id": "char_elizabeth_chen",
+                  "expression": "neutral",
+                  "pose": "",
+                  "position": "left"
+                },
+                {
+                  "character_id": "char_yang_he",
+                  "expression": "neutral",
+                  "pose": "",
+                  "position": "center"
+                }
+              ],
+              "action": "Yang He gently pulls her hand away from Elizabeth's grip. Her touch is cold.",
+              "dialogue": [
+                {
+                  "character_id": "char_yang_he",
+                  "text": "Just a moment, Lizzie. Just a moment of peace.",
+                  "type": "speech"
+                }
+              ],
+              "sfx": [],
+              "continues_from_previous": true,
+              "continuity_note": "Focus on the hands breaking contact.",
+              "image_path": "assets/panels/chapter-1/scene-2/panel-4.png",
+              "video_path": null
+            },
+            {
+              "id": "ch1_s2_p5",
+              "number": 5,
+              "type": "panel",
+              "composition": {
+                "shot_type": "wide",
+                "angle": "eye_level",
+                "focus": ""
+              },
+              "characters": [
+                {
+                  "character_id": "char_long_chen",
+                  "expression": "neutral",
+                  "pose": "",
+                  "position": "left"
+                },
+                {
+                  "character_id": "char_yang_he",
+                  "expression": "neutral",
+                  "pose": "",
+                  "position": "center"
+                },
+                {
+                  "character_id": "char_elizabeth_chen",
+                  "expression": "devastated",
+                  "pose": "",
+                  "position": "right"
+                }
+              ],
+              "action": "The parents walk towards a tall, narrow building with golden light spilling from the doorway. Above the door hangs a symbol of an hourglass.",
+              "dialogue": [],
+              "sfx": [
+                "Creak..."
+              ],
+              "continues_from_previous": true,
+              "continuity_note": "The building is The Pawnshop of Souls.",
+              "image_path": "assets/panels/chapter-1/scene-2/panel-5.png",
+              "video_path": null
+            },
+            {
+              "id": "ch1_s2_p6",
+              "number": 6,
+              "type": "panel",
+              "composition": {
+                "shot_type": "medium",
+                "angle": "dutch",
+                "focus": ""
+              },
+              "characters": [
+                {
+                  "character_id": "char_elizabeth_chen",
+                  "expression": "scared",
+                  "pose": "",
+                  "position": "left"
+                }
+              ],
+              "action": "Elizabeth chases them, but the crowd of shadows thickens, blocking her path momentarily.",
+              "dialogue": [
+                {
+                  "character_id": "char_elizabeth_chen",
+                  "text": "WAIT!",
+                  "type": "speech"
+                }
+              ],
+              "sfx": [
+                "Clamor of voices"
+              ],
+              "continues_from_previous": true,
+              "continuity_note": "Motion blur on the shadows.",
+              "image_path": "assets/panels/chapter-1/scene-2/panel-6.png",
+              "video_path": null
+            }
+          ],
+          "continues_from_previous_chapter": false
+        },
+        {
+          "id": "ch1_s3",
+          "number": 3,
+          "location_id": "loc_the_pawnshop_of_souls",
+          "time_of_day": "night",
+          "weather": "clear",
+          "character_ids": [
+            "char_elizabeth_chen",
+            "char_long_chen",
+            "char_yang_he",
+            "char_the_curator"
+          ],
+          "description": "The interior is vast, filled with floor-to-ceiling shelves of glowing jars. The air is still and dusty.",
+          "mood": "Quiet, Ancient, Unsettling",
+          "panels": [
+            {
+              "id": "ch1_s3_p1",
+              "number": 1,
+              "type": "panel",
+              "composition": {
+                "shot_type": "wide",
+                "angle": "eye_level",
+                "focus": ""
+              },
+              "characters": [
+                {
+                  "character_id": "char_long_chen",
+                  "expression": "hopeful",
+                  "pose": "",
+                  "position": "left"
+                },
+                {
+                  "character_id": "char_yang_he",
+                  "expression": "hopeful",
+                  "pose": "",
+                  "position": "center"
+                }
+              ],
+              "action": "Long and Yang stand in the center of the room, bathed in golden light, looking up at the shelves in awe.",
+              "dialogue": [],
+              "sfx": [
+                "Humming energy"
+              ],
+              "continues_from_previous": false,
+              "continuity_note": "Warm golden lighting contrasts with the blue outside.",
+              "image_path": null,
+              "video_path": null
+            },
+            {
+              "id": "ch1_s3_p2",
+              "number": 2,
+              "type": "panel",
+              "composition": {
+                "shot_type": "extreme_close_up",
+                "angle": "eye_level",
+                "focus": ""
+              },
+              "characters": [],
+              "action": "Close up on a glass jar on a shelf. Inside, a glowing blue memory swirls—a scene of a person sleeping peacefully.",
+              "dialogue": [],
+              "sfx": [],
+              "continues_from_previous": true,
+              "continuity_note": "The jar is labeled 'Saturday Morning'.",
+              "image_path": null,
+              "video_path": null
+            },
+            {
+              "id": "ch1_s3_p3",
+              "number": 3,
+              "type": "panel",
+              "composition": {
+                "shot_type": "medium",
+                "angle": "low",
+                "focus": ""
+              },
+              "characters": [
+                {
+                  "character_id": "char_elizabeth_chen",
+                  "expression": "exhausted",
+                  "pose": "",
+                  "position": "left"
+                },
+                {
+                  "character_id": "char_the_curator",
+                  "expression": "neutral",
+                  "pose": "",
+                  "position": "center"
+                }
+              ],
+              "action": "Elizabeth bursts through the door, breathless. In the foreground, a long, pale hand rests on a counter.",
+              "dialogue": [
+                {
+                  "character_id": "char_elizabeth_chen",
+                  "text": "Don't... touch... anything.",
+                  "type": "speech"
+                }
+              ],
+              "sfx": [
+                "SLAM (Door)"
+              ],
+              "continues_from_previous": true,
+              "continuity_note": "Only The Curator's hand is visible.",
+              "image_path": null,
+              "video_path": null
+            },
+            {
+              "id": "ch1_s3_p4",
+              "number": 4,
+              "type": "panel",
+              "composition": {
+                "shot_type": "medium",
+                "angle": "low",
+                "focus": ""
+              },
+              "characters": [
+                {
+                  "character_id": "char_the_curator",
+                  "expression": "neutral",
+                  "pose": "",
+                  "position": "left"
+                },
+                {
+                  "character_id": "char_long_chen",
+                  "expression": "neutral",
+                  "pose": "",
+                  "position": "center"
+                },
+                {
+                  "character_id": "char_yang_he",
+                  "expression": "neutral",
+                  "pose": "",
+                  "position": "right"
+                }
+              ],
+              "action": "The Curator steps fully into the light. He is impossibly tall, looming over the parents.",
+              "dialogue": [
+                {
+                  "character_id": "char_the_curator",
+                  "text": "Customers. It has been a long time since we had... fresh inventory.",
+                  "type": "speech"
+                }
+              ],
+              "sfx": [],
+              "continues_from_previous": true,
+              "continuity_note": "The Curator moves with unnatural fluidity.",
+              "image_path": null,
+              "video_path": null
+            },
+            {
+              "id": "ch1_s3_p5",
+              "number": 5,
+              "type": "panel",
+              "composition": {
+                "shot_type": "close_up",
+                "angle": "eye_level",
+                "focus": ""
+              },
+              "characters": [
+                {
+                  "character_id": "char_the_curator",
+                  "expression": "mischievous",
+                  "pose": "",
+                  "position": "left"
+                }
+              ],
+              "action": "The Curator smiles. It is too wide. He looks directly at the reader/Elizabeth.",
+              "dialogue": [
+                {
+                  "character_id": "char_the_curator",
+                  "text": "What are you willing to trade to forget your burdens?",
+                  "type": "speech"
+                }
+              ],
+              "sfx": [],
+              "continues_from_previous": true,
+              "continuity_note": "Focus on his eyes.",
+              "image_path": null,
+              "video_path": null
+            },
+            {
+              "id": "ch1_s3_p6",
+              "number": 6,
+              "type": "panel",
+              "composition": {
+                "shot_type": "wide",
+                "angle": "high",
+                "focus": ""
+              },
+              "characters": [
+                {
+                  "character_id": "char_elizabeth_chen",
+                  "expression": "devastated",
+                  "pose": "",
+                  "position": "left"
+                },
+                {
+                  "character_id": "char_long_chen",
+                  "expression": "neutral",
+                  "pose": "",
+                  "position": "center"
+                },
+                {
+                  "character_id": "char_yang_he",
+                  "expression": "neutral",
+                  "pose": "",
+                  "position": "right"
+                },
+                {
+                  "character_id": "char_the_curator",
+                  "expression": "neutral",
+                  "pose": "",
+                  "position": "left"
+                }
+              ],
+              "action": "Top down shot. The parents step forward offering themselves, while Elizabeth screams from the doorway. The shadows in the shop elongate like claws.",
+              "dialogue": [
+                {
+                  "character_id": "char_long_chen",
+                  "text": "Anything.",
+                  "type": "speech"
+                }
+              ],
+              "sfx": [],
+              "continues_from_previous": true,
+              "continuity_note": "End of chapter cliffhanger.",
+              "image_path": null,
+              "video_path": null
+            }
+          ],
+          "continues_from_previous_chapter": false
+        }
+      ]
+    }
+  ],
+  "original_prompt": "Long(husband, Age 40, supporting role), Yang(wife, Age 40, supporting role) and Elizabeth(daughter, Age 10, main role)'s adventure story inspired by spiritied away",
+  "reference_images": []
+}

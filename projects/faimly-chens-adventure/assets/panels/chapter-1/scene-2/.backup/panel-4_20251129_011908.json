@@ -1,0 +1,101 @@
+{
+  "type": "panel",
+  "panel_id": "ch1_s2_p4",
+  "panel_number": 4,
+  "scene_number": 2,
+  "chapter_number": 1,
+  "prompt": "Create a webtoon/manga panel in webtoon art style.\n\n## ATMOSPHERE & MOOD\nLIGHTING: Night scene - cool blue moonlight or warm artificial lights, deep shadows, high contrast\n\n## SCENE CONTINUITY (from previous panel)\nThis panel continues from the previous panel.\n\nMATCH FROM PREVIOUS PANEL (scene elements only):\n- Art style, line weight, coloring technique\n- Color palette and lighting direction\n- Background style and detail level\n- Props/objects: same shape, color, design\n- Character positions and spatial relationships\n\nDO NOT MATCH FROM PREVIOUS PANEL:\n- Character faces, hair, clothing → use CHARACTER REFERENCE SHEET instead\n\nCREATE NEW:\n- Fresh pose and body position for this action\n- New camera angle as specified\n- Focus on the hands breaking contact.\n\n## COMPOSITION\n- Shot: close-up shot focusing on face and expressions\n- Angle: eye level, straight on view\n- Location: The Twilight Bazaar (An infinite street lined with multi-story wooden stalls. Lanterns float in the air without strings. Smells of incense and roasting meat.) - Visual elements: Lighting: Bioluminescent blue and red paper lanterns, Colors: Deep indigos, vibrant reds, warm gold, Atmosphere: Chaotic, crowded with shadows, Key Object: The central clock tower with thirteen numbers\n## CHARACTERS\nEach character has specific priority instructions below. Follow them exactly.\n\n### Elizabeth Chen\n**APPEARANCE: Match CHARACTER REFERENCE SHEET exactly**\n- Face, hair, clothing, and all visual details MUST match reference sheet\n- Reference sheet is the ONLY source for character appearance\n\n**SCENE CONTINUITY (from previous panel):**\n- Maintain natural motion/position flow from previous panel\n- Character should be in a consistent spatial relationship\nPhysical: Small for her age, expressive face, hair often messy from running.\nVisual details:\n  - Hair: Chin-length bob, jet black, with a yellow hair clip on the left side\n  - Eyes: Large, dark brown eyes, expressive and watchful\n  - OUTFIT: Oversized bright crimson hoodie (hood often up)\n  - Bottom: Denim overalls with one strap always falling down\n  - Footwear: Bright yellow rainboots\n  - Accessory: A vintage leather satchel that looks too big for her\nExpression: neutral\nPosition: left of frame\n\n### Yang He\n**APPEARANCE: Match CHARACTER REFERENCE SHEET exactly**\n- Face, hair, clothing, and all visual details MUST match reference sheet\n- Reference sheet is the ONLY source for character appearance\n\n**SCENE CONTINUITY (from previous panel):**\n- Maintain natural motion/position flow from previous panel\n- Character should be in a consistent spatial relationship\nPhysical: Elegant but rigid posture, worry lines on forehead.\nVisual details:\n  - Hair: Long black hair pulled into a tight, severe bun\n  - Eyes: Sharp, almond-shaped eyes with subtle makeup\n  - OUTFIT: Pale lavender silk blouse with high collar\n  - Bottom: High-waisted beige tapered trousers\n  - Footwear: Impractical beige heels (one heel breaks in Ep 2)\n  - Accessory: A jade bangle on her left wrist (plot point)\nExpression: neutral\nPosition: center of frame\n\n\n## ACTION & EMOTION\nYang He gently pulls her hand away from Elizabeth's grip. Her touch is cold.\n\n## VISUAL EFFECTS (if appropriate)\n- Motion lines for movement\n- Speed lines for action\n- Sparkles/glow for magical/emotional moments\n- Dramatic lighting for tension\n\n## TECHNICAL REQUIREMENTS\n- FULL BLEED composition (art to all edges, NO white borders)\n- NO text, speech bubbles, or sound effects in image\n- Clean professional linework\n- Expressive faces with clear emotions\n- Dynamic poses with weight and balance\n- Rich background detail that supports the mood",
+  "parameters": {
+    "aspect_ratio": "3:4",
+    "resolution": "1K",
+    "style": "webtoon",
+    "panel_type": "panel",
+    "model": "gemini-3-pro-image-preview"
+  },
+  "references": [
+    {
+      "path": "characters/elizabeth-chen/sheet.png",
+      "role": "character reference for Elizabeth Chen"
+    },
+    {
+      "path": "characters/yang-he/sheet.png",
+      "role": "character reference for Yang He"
+    },
+    {
+      "path": "panels/chapter-1/scene-2/panel-3.png",
+      "role": "previous panel for visual continuity"
+    },
+    {
+      "path": "locations/the-twilight-bazaar/reference.png",
+      "role": "location/background reference"
+    }
+  ],
+  "panel_data": {
+    "action": "Yang He gently pulls her hand away from Elizabeth's grip. Her touch is cold.",
+    "composition": {
+      "shot_type": "close_up",
+      "angle": "eye_level"
+    },
+    "characters": [
+      {
+        "character_id": "char_elizabeth_chen",
+        "expression": "neutral",
+        "position": "left"
+      },
+      {
+        "character_id": "char_yang_he",
+        "expression": "neutral",
+        "position": "center"
+      }
+    ],
+    "continues_from_previous": true,
+    "continuity_note": "Focus on the hands breaking contact."
+  },
+  "location_id": "loc_the_twilight_bazaar",
+  "location_name": "The Twilight Bazaar",
+  "time_of_day": "night",
+  "response": {
+    "timestamp": "2025-11-28T17:16:36.689049+00:00",
+    "input": {
+      "prompt": "webtoon style. Create a webtoon/manga panel in webtoon art style.\n\n## ATMOSPHERE & MOOD\nLIGHTING: Night scene - cool blue moonlight or warm artificial lights, deep shadows, high contrast\n\n## SCENE CONTINUITY (from previous panel)\nThis panel continues from the previous panel.\n\nMATCH FROM PREVIOUS PANEL (scene elements only):\n- Art style, line weight, coloring technique\n- Color palette and lighting direction\n- Background style and detail level\n- Props/objects: same shape, color, design\n- Character positions and spatial relationships\n\nDO NOT MATCH FROM PREVIOUS PANEL:\n- Character faces, hair, clothing → use CHARACTER REFERENCE SHEET instead\n\nCREATE NEW:\n- Fresh pose and body position for this action\n- New camera angle as specified\n- Focus on the hands breaking contact.\n\n## COMPOSITION\n- Shot: close-up shot focusing on face and expressions\n- Angle: eye level, straight on view\n- Location: The Twilight Bazaar (An infinite street lined with multi-story wooden stalls. Lanterns float in the air without strings. Smells of incense and roasting meat.) - Visual elements: Lighting: Bioluminescent blue and red paper lanterns, Colors: Deep indigos, vibrant reds, warm gold, Atmosphere: Chaotic, crowded with shadows, Key Object: The central clock tower with thirteen numbers\n## CHARACTERS\nEach character has specific priority instructions below. Follow them exactly.\n\n### Elizabeth Chen\n**APPEARANCE: Match CHARACTER REFERENCE SHEET exactly**\n- Face, hair, clothing, and all visual details MUST match reference sheet\n- Reference sheet is the ONLY source for character appearance\n\n**SCENE CONTINUITY (from previous panel):**\n- Maintain natural motion/position flow from previous panel\n- Character should be in a consistent spatial relationship\nPhysical: Small for her age, expressive face, hair often messy from running.\nVisual details:\n  - Hair: Chin-length bob, jet black, with a yellow hair clip on the left side\n  - Eyes: Large, dark brown eyes, expressive and watchful\n  - OUTFIT: Oversized bright crimson hoodie (hood often up)\n  - Bottom: Denim overalls with one strap always falling down\n  - Footwear: Bright yellow rainboots\n  - Accessory: A vintage leather satchel that looks too big for her\nExpression: neutral\nPosition: left of frame\n\n### Yang He\n**APPEARANCE: Match CHARACTER REFERENCE SHEET exactly**\n- Face, hair, clothing, and all visual details MUST match reference sheet\n- Reference sheet is the ONLY source for character appearance\n\n**SCENE CONTINUITY (from previous panel):**\n- Maintain natural motion/position flow from previous panel\n- Character should be in a consistent spatial relationship\nPhysical: Elegant but rigid posture, worry lines on forehead.\nVisual details:\n  - Hair: Long black hair pulled into a tight, severe bun\n  - Eyes: Sharp, almond-shaped eyes with subtle makeup\n  - OUTFIT: Pale lavender silk blouse with high collar\n  - Bottom: High-waisted beige tapered trousers\n  - Footwear: Impractical beige heels (one heel breaks in Ep 2)\n  - Accessory: A jade bangle on her left wrist (plot point)\nExpression: neutral\nPosition: center of frame\n\n\n## ACTION & EMOTION\nYang He gently pulls her hand away from Elizabeth's grip. Her touch is cold.\n\n## VISUAL EFFECTS (if appropriate)\n- Motion lines for movement\n- Speed lines for action\n- Sparkles/glow for magical/emotional moments\n- Dramatic lighting for tension\n\n## TECHNICAL REQUIREMENTS\n- FULL BLEED composition (art to all edges, NO white borders)\n- NO text, speech bubbles, or sound effects in image\n- Clean professional linework\n- Expressive faces with clear emotions\n- Dynamic poses with weight and balance\n- Rich background detail that supports the mood",
+      "final_prompt": "Using the labeled reference images above to maintain visual consistency: webtoon style. Create a webtoon/manga panel in webtoon art style.\n\n## ATMOSPHERE & MOOD\nLIGHTING: Night scene - cool blue moonlight or warm artificial lights, deep shadows, high contrast\n\n## SCENE CONTINUITY (from previous panel)\nThis panel continues from the previous panel.\n\nMATCH FROM PREVIOUS PANEL (scene elements only):\n- Art style, line weight, coloring technique\n- Color palette and lighting direction\n- Background style and detail level\n- Props/objects: same shape, color, design\n- Character positions and spatial relationships\n\nDO NOT MATCH FROM PREVIOUS PANEL:\n- Character faces, hair, clothing → use CHARACTER REFERENCE SHEET instead\n\nCREATE NEW:\n- Fresh pose and body position for this action\n- New camera angle as specified\n- Focus on the hands breaking contact.\n\n## COMPOSITION\n- Shot: close-up shot focusing on face and expressions\n- Angle: eye level, straight on view\n- Location: The Twilight Bazaar (An infinite street lined with multi-story wooden stalls. Lanterns float in the air without strings. Smells of incense and roasting meat.) - Visual elements: Lighting: Bioluminescent blue and red paper lanterns, Colors: Deep indigos, vibrant reds, warm gold, Atmosphere: Chaotic, crowded with shadows, Key Object: The central clock tower with thirteen numbers\n## CHARACTERS\nEach character has specific priority instructions below. Follow them exactly.\n\n### Elizabeth Chen\n**APPEARANCE: Match CHARACTER REFERENCE SHEET exactly**\n- Face, hair, clothing, and all visual details MUST match reference sheet\n- Reference sheet is the ONLY source for character appearance\n\n**SCENE CONTINUITY (from previous panel):**\n- Maintain natural motion/position flow from previous panel\n- Character should be in a consistent spatial relationship\nPhysical: Small for her age, expressive face, hair often messy from running.\nVisual details:\n  - Hair: Chin-length bob, jet black, with a yellow hair clip on the left side\n  - Eyes: Large, dark brown eyes, expressive and watchful\n  - OUTFIT: Oversized bright crimson hoodie (hood often up)\n  - Bottom: Denim overalls with one strap always falling down\n  - Footwear: Bright yellow rainboots\n  - Accessory: A vintage leather satchel that looks too big for her\nExpression: neutral\nPosition: left of frame\n\n### Yang He\n**APPEARANCE: Match CHARACTER REFERENCE SHEET exactly**\n- Face, hair, clothing, and all visual details MUST match reference sheet\n- Reference sheet is the ONLY source for character appearance\n\n**SCENE CONTINUITY (from previous panel):**\n- Maintain natural motion/position flow from previous panel\n- Character should be in a consistent spatial relationship\nPhysical: Elegant but rigid posture, worry lines on forehead.\nVisual details:\n  - Hair: Long black hair pulled into a tight, severe bun\n  - Eyes: Sharp, almond-shaped eyes with subtle makeup\n  - OUTFIT: Pale lavender silk blouse with high collar\n  - Bottom: High-waisted beige tapered trousers\n  - Footwear: Impractical beige heels (one heel breaks in Ep 2)\n  - Accessory: A jade bangle on her left wrist (plot point)\nExpression: neutral\nPosition: center of frame\n\n\n## ACTION & EMOTION\nYang He gently pulls her hand away from Elizabeth's grip. Her touch is cold.\n\n## VISUAL EFFECTS (if appropriate)\n- Motion lines for movement\n- Speed lines for action\n- Sparkles/glow for magical/emotional moments\n- Dramatic lighting for tension\n\n## TECHNICAL REQUIREMENTS\n- FULL BLEED composition (art to all edges, NO white borders)\n- NO text, speech bubbles, or sound effects in image\n- Clean professional linework\n- Expressive faces with clear emotions\n- Dynamic poses with weight and balance\n- Rich background detail that supports the mood",
+      "references": [
+        {
+          "path": "characters/elizabeth-chen/sheet.png",
+          "role": "character reference for Elizabeth Chen",
+          "loaded": true
+        },
+        {
+          "path": "characters/yang-he/sheet.png",
+          "role": "character reference for Yang He",
+          "loaded": true
+        },
+        {
+          "path": "panels/chapter-1/scene-2/panel-3.png",
+          "role": "previous panel for visual continuity",
+          "loaded": true
+        },
+        {
+          "path": "locations/the-twilight-bazaar/reference.png",
+          "role": "location/background reference",
+          "loaded": true
+        }
+      ],
+      "model": "gemini-3-pro-image-preview",
+      "config": {
+        "aspect_ratio": "3:4",
+        "resolution": "1K",
+        "style": "webtoon"
+      }
+    },
+    "output": {
+      "finish_reason": "FinishReason.STOP",
+      "usage": {
+        "prompt_tokens": 1892,
+        "candidates_tokens": 1481,
+        "total_tokens": 3561
+      }
+    }
+  },
+  "generated_at": "2025-11-29T01:16:36.703464"
+}

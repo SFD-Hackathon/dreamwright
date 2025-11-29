@@ -1,0 +1,64 @@
+{
+  "type": "character",
+  "character_id": "char_long_chen",
+  "character_name": "Long Chen",
+  "role": "supporting",
+  "age": "40",
+  "style": "webtoon",
+  "visual_tags": [
+    "Hair: Short, thinning black hair, slightly messy",
+    "Eyes: Tired, heavy bags under eyes, wears wire-rimmed glasses",
+    "OUTFIT: Wrinkled charcoal grey business suit",
+    "Top: White dress shirt, top button undone, loose blue tie",
+    "Bottom: Matching grey suit trousers",
+    "Footwear: Scuffed brown leather loafers"
+  ],
+  "description": {
+    "physical": "Slouching posture, looks perpetually exhausted.",
+    "personality": "Workaholic, conflict-avoidant, loves his family but doesn't know how to show it."
+  },
+  "asset_type": "portrait",
+  "reference_sheet": "assets/characters/long-chen/sheet.png",
+  "gemini": {
+    "type": "character_portrait",
+    "character_id": "char_long_chen",
+    "character_name": "Long Chen",
+    "prompt": "Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Long Chen\nAge: 40\nPhysical appearance: Slouching posture, looks perpetually exhausted.\n\nVisual details (MUST include all):\n  - Hair: Short, thinning black hair, slightly messy\n  - Eyes: Tired, heavy bags under eyes, wears wire-rimmed glasses\n  - OUTFIT: Wrinkled charcoal grey business suit\n  - Top: White dress shirt, top button undone, loose blue tie\n  - Bottom: Matching grey suit trousers\n  - Footwear: Scuffed brown leather loafers\n\nPersonality (for expression): Workaholic, conflict-avoidant, loves his family but doesn't know how to show it.",
+    "parameters": {
+      "aspect_ratio": "9:16",
+      "resolution": "1K",
+      "style": "webtoon",
+      "model": "gemini-3-pro-image-preview",
+      "reference_image": "characters/long-chen/sheet.png"
+    },
+    "response": {
+      "timestamp": "2025-11-28T16:25:44.465520+00:00",
+      "input": {
+        "prompt": "webtoon style. Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Long Chen\nAge: 40\nPhysical appearance: Slouching posture, looks perpetually exhausted.\n\nVisual details (MUST include all):\n  - Hair: Short, thinning black hair, slightly messy\n  - Eyes: Tired, heavy bags under eyes, wears wire-rimmed glasses\n  - OUTFIT: Wrinkled charcoal grey business suit\n  - Top: White dress shirt, top button undone, loose blue tie\n  - Bottom: Matching grey suit trousers\n  - Footwear: Scuffed brown leather loafers\n\nPersonality (for expression): Workaholic, conflict-avoidant, loves his family but doesn't know how to show it.",
+        "final_prompt": "Using the labeled reference images above to maintain visual consistency: webtoon style. Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Long Chen\nAge: 40\nPhysical appearance: Slouching posture, looks perpetually exhausted.\n\nVisual details (MUST include all):\n  - Hair: Short, thinning black hair, slightly messy\n  - Eyes: Tired, heavy bags under eyes, wears wire-rimmed glasses\n  - OUTFIT: Wrinkled charcoal grey business suit\n  - Top: White dress shirt, top button undone, loose blue tie\n  - Bottom: Matching grey suit trousers\n  - Footwear: Scuffed brown leather loafers\n\nPersonality (for expression): Workaholic, conflict-avoidant, loves his family but doesn't know how to show it.",
+        "references": [
+          {
+            "path": "characters/long-chen/sheet.png",
+            "role": "existing portrait of Long Chen for consistency",
+            "loaded": true
+          }
+        ],
+        "model": "gemini-3-pro-image-preview",
+        "config": {
+          "aspect_ratio": "9:16",
+          "resolution": "1K",
+          "style": "webtoon"
+        }
+      },
+      "output": {
+        "finish_reason": "FinishReason.STOP",
+        "usage": {
+          "prompt_tokens": 503,
+          "candidates_tokens": 1274,
+          "total_tokens": 1990
+        }
+      }
+    }
+  },
+  "generated_at": "2025-11-29T00:25:44.490882"
+}

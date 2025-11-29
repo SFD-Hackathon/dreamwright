@@ -1,0 +1,65 @@
+{
+  "type": "character",
+  "character_id": "char_the_curator",
+  "character_name": "The Curator",
+  "role": "supporting",
+  "age": "Ageless (looks 30s)",
+  "style": "webtoon",
+  "visual_tags": [
+    "Hair: Silver, slicked back, waist-length ponytail",
+    "Eyes: Golden irises with slit pupils (fox-like)",
+    "Face: Wears a monocle over his left eye attached by a gold chain",
+    "OUTFIT: Deep emerald green velvet tailcoat with gold embroidery",
+    "Bottom: Black fitted dress pants",
+    "Footwear: Polished black oxford shoes",
+    "Accessory: Always holding a pocket watch that runs backwards"
+  ],
+  "description": {
+    "physical": "Tall, lanky, moves with unnatural fluidity. Pale skin.",
+    "personality": "Charismatic, transactional, manipulative but bound by rules."
+  },
+  "asset_type": "portrait",
+  "reference_sheet": "assets/characters/the-curator/sheet.png",
+  "gemini": {
+    "type": "character_portrait",
+    "character_id": "char_the_curator",
+    "character_name": "The Curator",
+    "prompt": "Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: The Curator\nAge: Ageless (looks 30s)\nPhysical appearance: Tall, lanky, moves with unnatural fluidity. Pale skin.\n\nVisual details (MUST include all):\n  - Hair: Silver, slicked back, waist-length ponytail\n  - Eyes: Golden irises with slit pupils (fox-like)\n  - Face: Wears a monocle over his left eye attached by a gold chain\n  - OUTFIT: Deep emerald green velvet tailcoat with gold embroidery\n  - Bottom: Black fitted dress pants\n  - Footwear: Polished black oxford shoes\n  - Accessory: Always holding a pocket watch that runs backwards\n\nPersonality (for expression): Charismatic, transactional, manipulative but bound by rules.",
+    "parameters": {
+      "aspect_ratio": "9:16",
+      "resolution": "1K",
+      "style": "webtoon",
+      "model": "gemini-3-pro-image-preview",
+      "reference_image": "characters/the-curator/sheet.png"
+    },
+    "response": {
+      "timestamp": "2025-11-28T16:27:07.149486+00:00",
+      "input": {
+        "prompt": "webtoon style. Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: The Curator\nAge: Ageless (looks 30s)\nPhysical appearance: Tall, lanky, moves with unnatural fluidity. Pale skin.\n\nVisual details (MUST include all):\n  - Hair: Silver, slicked back, waist-length ponytail\n  - Eyes: Golden irises with slit pupils (fox-like)\n  - Face: Wears a monocle over his left eye attached by a gold chain\n  - OUTFIT: Deep emerald green velvet tailcoat with gold embroidery\n  - Bottom: Black fitted dress pants\n  - Footwear: Polished black oxford shoes\n  - Accessory: Always holding a pocket watch that runs backwards\n\nPersonality (for expression): Charismatic, transactional, manipulative but bound by rules.",
+        "final_prompt": "Using the labeled reference images above to maintain visual consistency: webtoon style. Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: The Curator\nAge: Ageless (looks 30s)\nPhysical appearance: Tall, lanky, moves with unnatural fluidity. Pale skin.\n\nVisual details (MUST include all):\n  - Hair: Silver, slicked back, waist-length ponytail\n  - Eyes: Golden irises with slit pupils (fox-like)\n  - Face: Wears a monocle over his left eye attached by a gold chain\n  - OUTFIT: Deep emerald green velvet tailcoat with gold embroidery\n  - Bottom: Black fitted dress pants\n  - Footwear: Polished black oxford shoes\n  - Accessory: Always holding a pocket watch that runs backwards\n\nPersonality (for expression): Charismatic, transactional, manipulative but bound by rules.",
+        "references": [
+          {
+            "path": "characters/the-curator/sheet.png",
+            "role": "existing portrait of The Curator for consistency",
+            "loaded": true
+          }
+        ],
+        "model": "gemini-3-pro-image-preview",
+        "config": {
+          "aspect_ratio": "9:16",
+          "resolution": "1K",
+          "style": "webtoon"
+        }
+      },
+      "output": {
+        "finish_reason": "FinishReason.STOP",
+        "usage": {
+          "prompt_tokens": 521,
+          "candidates_tokens": 1334,
+          "total_tokens": 2063
+        }
+      }
+    }
+  },
+  "generated_at": "2025-11-29T00:27:07.171390"
+}

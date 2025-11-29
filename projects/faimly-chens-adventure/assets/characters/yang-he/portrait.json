@@ -1,0 +1,64 @@
+{
+  "type": "character",
+  "character_id": "char_yang_he",
+  "character_name": "Yang He",
+  "role": "supporting",
+  "age": "40",
+  "style": "webtoon",
+  "visual_tags": [
+    "Hair: Long black hair pulled into a tight, severe bun",
+    "Eyes: Sharp, almond-shaped eyes with subtle makeup",
+    "OUTFIT: Pale lavender silk blouse with high collar",
+    "Bottom: High-waisted beige tapered trousers",
+    "Footwear: Impractical beige heels (one heel breaks in Ep 2)",
+    "Accessory: A jade bangle on her left wrist (plot point)"
+  ],
+  "description": {
+    "physical": "Elegant but rigid posture, worry lines on forehead.",
+    "personality": "Perfectionist, high-strung, critical but deeply caring."
+  },
+  "asset_type": "portrait",
+  "reference_sheet": "assets/characters/yang-he/sheet.png",
+  "gemini": {
+    "type": "character_portrait",
+    "character_id": "char_yang_he",
+    "character_name": "Yang He",
+    "prompt": "Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Yang He\nAge: 40\nPhysical appearance: Elegant but rigid posture, worry lines on forehead.\n\nVisual details (MUST include all):\n  - Hair: Long black hair pulled into a tight, severe bun\n  - Eyes: Sharp, almond-shaped eyes with subtle makeup\n  - OUTFIT: Pale lavender silk blouse with high collar\n  - Bottom: High-waisted beige tapered trousers\n  - Footwear: Impractical beige heels (one heel breaks in Ep 2)\n  - Accessory: A jade bangle on her left wrist (plot point)\n\nPersonality (for expression): Perfectionist, high-strung, critical but deeply caring.",
+    "parameters": {
+      "aspect_ratio": "9:16",
+      "resolution": "1K",
+      "style": "webtoon",
+      "model": "gemini-3-pro-image-preview",
+      "reference_image": "characters/yang-he/sheet.png"
+    },
+    "response": {
+      "timestamp": "2025-11-28T16:26:23.136948+00:00",
+      "input": {
+        "prompt": "webtoon style. Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Yang He\nAge: 40\nPhysical appearance: Elegant but rigid posture, worry lines on forehead.\n\nVisual details (MUST include all):\n  - Hair: Long black hair pulled into a tight, severe bun\n  - Eyes: Sharp, almond-shaped eyes with subtle makeup\n  - OUTFIT: Pale lavender silk blouse with high collar\n  - Bottom: High-waisted beige tapered trousers\n  - Footwear: Impractical beige heels (one heel breaks in Ep 2)\n  - Accessory: A jade bangle on her left wrist (plot point)\n\nPersonality (for expression): Perfectionist, high-strung, critical but deeply caring.",
+        "final_prompt": "Using the labeled reference images above to maintain visual consistency: webtoon style. Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Yang He\nAge: 40\nPhysical appearance: Elegant but rigid posture, worry lines on forehead.\n\nVisual details (MUST include all):\n  - Hair: Long black hair pulled into a tight, severe bun\n  - Eyes: Sharp, almond-shaped eyes with subtle makeup\n  - OUTFIT: Pale lavender silk blouse with high collar\n  - Bottom: High-waisted beige tapered trousers\n  - Footwear: Impractical beige heels (one heel breaks in Ep 2)\n  - Accessory: A jade bangle on her left wrist (plot point)\n\nPersonality (for expression): Perfectionist, high-strung, critical but deeply caring.",
+        "references": [
+          {
+            "path": "characters/yang-he/sheet.png",
+            "role": "existing portrait of Yang He for consistency",
+            "loaded": true
+          }
+        ],
+        "model": "gemini-3-pro-image-preview",
+        "config": {
+          "aspect_ratio": "9:16",
+          "resolution": "1K",
+          "style": "webtoon"
+        }
+      },
+      "output": {
+        "finish_reason": "FinishReason.STOP",
+        "usage": {
+          "prompt_tokens": 505,
+          "candidates_tokens": 1322,
+          "total_tokens": 1997
+        }
+      }
+    }
+  },
+  "generated_at": "2025-11-29T00:26:23.147838"
+}

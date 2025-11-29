@@ -1,0 +1,50 @@
+{
+  "type": "location",
+  "location_id": "loc_the_bridge_of_echoes",
+  "location_name": "The Bridge of Echoes",
+  "location_type": "interior",
+  "style": "webtoon",
+  "description": "A rotting wooden bridge over a sea of clouds. Below the clouds, monster shapes swim. The bridge creaks and whispers the doubts of those who cross it.",
+  "visual_tags": [
+    "Lighting: Cold, pale moonlight from a massive full moon",
+    "Colors: Desaturated greys, silvers, and whites",
+    "Atmosphere: Windy, precarious, lonely",
+    "Key Object: Red prayer ribbons tied to the railings"
+  ],
+  "gemini": {
+    "type": "location_reference",
+    "location_id": "loc_the_bridge_of_echoes",
+    "location_name": "The Bridge of Echoes",
+    "location_type": "interior",
+    "prompt": "Create a background/environment illustration in webtoon art style.\n\nRequirements:\n- Establishing shot of the location\n- Bright daylight, clear visibility, natural lighting\n- Clear sky\n- No characters in the scene\n- Detailed environment suitable for webtoon backgrounds\n- Wide composition showing the space\n- Atmospheric and immersive\n\nIMPORTANT - Background Only Rules:\n- Focus on ENVIRONMENTAL elements: walls, floors, ceilings, architecture, lighting, atmosphere\n- DO NOT include interactive objects that characters would use (cars, furniture, seats, steering wheels, etc.)\n- If the location is a vehicle interior (car, train, etc.), show ONLY the environment (windows, walls, ambient lighting) without seats or controls\n- Interactive props and character positioning will be handled separately during panel composition\n- This is a STATIC BACKGROUND reference that panels will composite characters onto\n\n\nLocation: The Bridge of Echoes\nType: interior\nDescription: A rotting wooden bridge over a sea of clouds. Below the clouds, monster shapes swim. The bridge creaks and whispers the doubts of those who cross it.\nVisual details: Lighting: Cold, pale moonlight from a massive full moon, Colors: Desaturated greys, silvers, and whites, Atmosphere: Windy, precarious, lonely, Key Object: Red prayer ribbons tied to the railings",
+    "parameters": {
+      "aspect_ratio": "16:9",
+      "resolution": "1K",
+      "style": "webtoon",
+      "model": "gemini-3-pro-image-preview"
+    },
+    "response": {
+      "timestamp": "2025-11-28T16:28:37.637064+00:00",
+      "input": {
+        "prompt": "webtoon style. Create a background/environment illustration in webtoon art style.\n\nRequirements:\n- Establishing shot of the location\n- Bright daylight, clear visibility, natural lighting\n- Clear sky\n- No characters in the scene\n- Detailed environment suitable for webtoon backgrounds\n- Wide composition showing the space\n- Atmospheric and immersive\n\nIMPORTANT - Background Only Rules:\n- Focus on ENVIRONMENTAL elements: walls, floors, ceilings, architecture, lighting, atmosphere\n- DO NOT include interactive objects that characters would use (cars, furniture, seats, steering wheels, etc.)\n- If the location is a vehicle interior (car, train, etc.), show ONLY the environment (windows, walls, ambient lighting) without seats or controls\n- Interactive props and character positioning will be handled separately during panel composition\n- This is a STATIC BACKGROUND reference that panels will composite characters onto\n\n\nLocation: The Bridge of Echoes\nType: interior\nDescription: A rotting wooden bridge over a sea of clouds. Below the clouds, monster shapes swim. The bridge creaks and whispers the doubts of those who cross it.\nVisual details: Lighting: Cold, pale moonlight from a massive full moon, Colors: Desaturated greys, silvers, and whites, Atmosphere: Windy, precarious, lonely, Key Object: Red prayer ribbons tied to the railings",
+        "final_prompt": "webtoon style. Create a background/environment illustration in webtoon art style.\n\nRequirements:\n- Establishing shot of the location\n- Bright daylight, clear visibility, natural lighting\n- Clear sky\n- No characters in the scene\n- Detailed environment suitable for webtoon backgrounds\n- Wide composition showing the space\n- Atmospheric and immersive\n\nIMPORTANT - Background Only Rules:\n- Focus on ENVIRONMENTAL elements: walls, floors, ceilings, architecture, lighting, atmosphere\n- DO NOT include interactive objects that characters would use (cars, furniture, seats, steering wheels, etc.)\n- If the location is a vehicle interior (car, train, etc.), show ONLY the environment (windows, walls, ambient lighting) without seats or controls\n- Interactive props and character positioning will be handled separately during panel composition\n- This is a STATIC BACKGROUND reference that panels will composite characters onto\n\n\nLocation: The Bridge of Echoes\nType: interior\nDescription: A rotting wooden bridge over a sea of clouds. Below the clouds, monster shapes swim. The bridge creaks and whispers the doubts of those who cross it.\nVisual details: Lighting: Cold, pale moonlight from a massive full moon, Colors: Desaturated greys, silvers, and whites, Atmosphere: Windy, precarious, lonely, Key Object: Red prayer ribbons tied to the railings",
+        "references": [],
+        "model": "gemini-3-pro-image-preview",
+        "config": {
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "style": "webtoon"
+        }
+      },
+      "output": {
+        "finish_reason": "FinishReason.STOP",
+        "usage": {
+          "prompt_tokens": 271,
+          "candidates_tokens": 1275,
+          "total_tokens": 1719
+        }
+      }
+    }
+  },
+  "generated_at": "2025-11-29T00:28:37.654056"
+}

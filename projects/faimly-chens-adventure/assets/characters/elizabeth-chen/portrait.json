@@ -1,0 +1,64 @@
+{
+  "type": "character",
+  "character_id": "char_elizabeth_chen",
+  "character_name": "Elizabeth Chen",
+  "role": "protagonist",
+  "age": "10",
+  "style": "webtoon",
+  "visual_tags": [
+    "Hair: Chin-length bob, jet black, with a yellow hair clip on the left side",
+    "Eyes: Large, dark brown eyes, expressive and watchful",
+    "OUTFIT: Oversized bright crimson hoodie (hood often up)",
+    "Bottom: Denim overalls with one strap always falling down",
+    "Footwear: Bright yellow rainboots",
+    "Accessory: A vintage leather satchel that looks too big for her"
+  ],
+  "description": {
+    "physical": "Small for her age, expressive face, hair often messy from running.",
+    "personality": "Observant, initially timid but fiercely protective, resourceful."
+  },
+  "asset_type": "portrait",
+  "reference_sheet": "assets/characters/elizabeth-chen/sheet.png",
+  "gemini": {
+    "type": "character_portrait",
+    "character_id": "char_elizabeth_chen",
+    "character_name": "Elizabeth Chen",
+    "prompt": "Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Elizabeth Chen\nAge: 10\nPhysical appearance: Small for her age, expressive face, hair often messy from running.\n\nVisual details (MUST include all):\n  - Hair: Chin-length bob, jet black, with a yellow hair clip on the left side\n  - Eyes: Large, dark brown eyes, expressive and watchful\n  - OUTFIT: Oversized bright crimson hoodie (hood often up)\n  - Bottom: Denim overalls with one strap always falling down\n  - Footwear: Bright yellow rainboots\n  - Accessory: A vintage leather satchel that looks too big for her\n\nPersonality (for expression): Observant, initially timid but fiercely protective, resourceful.",
+    "parameters": {
+      "aspect_ratio": "9:16",
+      "resolution": "1K",
+      "style": "webtoon",
+      "model": "gemini-3-pro-image-preview",
+      "reference_image": "characters/elizabeth-chen/sheet.png"
+    },
+    "response": {
+      "timestamp": "2025-11-28T16:25:21.172971+00:00",
+      "input": {
+        "prompt": "webtoon style. Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Elizabeth Chen\nAge: 10\nPhysical appearance: Small for her age, expressive face, hair often messy from running.\n\nVisual details (MUST include all):\n  - Hair: Chin-length bob, jet black, with a yellow hair clip on the left side\n  - Eyes: Large, dark brown eyes, expressive and watchful\n  - OUTFIT: Oversized bright crimson hoodie (hood often up)\n  - Bottom: Denim overalls with one strap always falling down\n  - Footwear: Bright yellow rainboots\n  - Accessory: A vintage leather satchel that looks too big for her\n\nPersonality (for expression): Observant, initially timid but fiercely protective, resourceful.",
+        "final_prompt": "Using the labeled reference images above to maintain visual consistency: webtoon style. Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Elizabeth Chen\nAge: 10\nPhysical appearance: Small for her age, expressive face, hair often messy from running.\n\nVisual details (MUST include all):\n  - Hair: Chin-length bob, jet black, with a yellow hair clip on the left side\n  - Eyes: Large, dark brown eyes, expressive and watchful\n  - OUTFIT: Oversized bright crimson hoodie (hood often up)\n  - Bottom: Denim overalls with one strap always falling down\n  - Footwear: Bright yellow rainboots\n  - Accessory: A vintage leather satchel that looks too big for her\n\nPersonality (for expression): Observant, initially timid but fiercely protective, resourceful.",
+        "references": [
+          {
+            "path": "characters/elizabeth-chen/sheet.png",
+            "role": "existing portrait of Elizabeth Chen for consistency",
+            "loaded": true
+          }
+        ],
+        "model": "gemini-3-pro-image-preview",
+        "config": {
+          "aspect_ratio": "9:16",
+          "resolution": "1K",
+          "style": "webtoon"
+        }
+      },
+      "output": {
+        "finish_reason": "FinishReason.STOP",
+        "usage": {
+          "prompt_tokens": 509,
+          "candidates_tokens": 1298,
+          "total_tokens": 1993
+        }
+      }
+    }
+  },
+  "generated_at": "2025-11-29T00:25:21.190819"
+}
