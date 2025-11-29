@@ -236,8 +236,9 @@ async function openChapter(webtoonId, chapterNum, pushState = true) {
             <div class="segment" data-id="${seg.id}">
               <div class="segment-placeholder">
                 <div class="placeholder-icon">🖼️</div>
-                <span>Coming Soon</span>
+                <span>Image Coming Soon</span>
               </div>
+              ${overlayHtml}
             </div>
           `;
         }
