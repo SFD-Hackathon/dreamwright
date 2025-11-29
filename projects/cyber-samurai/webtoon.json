@@ -1,0 +1,1902 @@
+{
+  "title": "Neon Ronin: The Glitch Blade",
+  "description": "Kenji, a former corporate enforcer discarded for adhering to an obsolete code of honor, survives in the underbelly of Neo-Tokyo as a 'glitch-hunter.' He wields a unique weapon: a katana hardwired to a portable server, capable of physically severing network connections and hacking systems upon impact. When a job to steal a high-security data drive goes wrong, Kenji discovers the drive isn't just data\u2014it holds the digitized consciousness of his sister, who was murdered by the very megacorp he used to serve.\n\nHunted by 'The Shogunate,' a ruthless corporate security force led by his former rival Kuro, Kenji teams up with Riko, a chaotic teenage net-runner. Together, they must navigate the vertical slums of Sector 4 to decrypt the drive before the corporation can remotely wipe it. As the countdown to the wipe begins, Kenji must choose between his physical survival and the preservation of his sister's digital soul.\n\nThe final confrontation takes place atop the corporate spire, where steel meets silicon. Kenji must unleash the full potential of the Glitch Blade, risking his own mind to cut the connection to the mainframe and free his sister into the decentralized web, becoming a legend in the process.",
+  "premise": "In a neon-drenched Tokyo where honor is obsolete, a disgraced cyborg swordsman must hack the ultimate firewall using a blade that cuts through steel and code alike to save the soul of his murdered sister.",
+  "genre": "drama",
+  "tags": [
+    "Tradition vs. Innovation",
+    "Digital Immortality",
+    "Redemption",
+    "Corporate Greed"
+  ],
+  "style": {
+    "tone": "dramatic",
+    "target_audience": "Young Adult / Adult (Fans of Cyberpunk 2077, Blue Eye Samurai)"
+  },
+  "characters": [
+    {
+      "id": "kenji",
+      "name": "Kenji",
+      "description": "Stoic, disciplined, haunted by failure. Speaks rarely, letting his sword do the talking.",
+      "visual_traits": "Hair: Messy black topknot with shaved sides, Eyes: Sharp, dark eyes with a digital HUD monocle over the left eye, Top: Tattered grey sleeveless undershirt revealing cybernetic shoulder",
+      "age": "30s",
+      "main": true
+    },
+    {
+      "id": "riko",
+      "name": "Riko",
+      "description": "Chaotic, brilliant, sarcastic. Uses humor to mask fear.",
+      "visual_traits": "Hair: Neon pink bob cut with blunt bangs, Eyes: Bright green eyes, often wide with excitement, Top: Oversized yellow hoodie with black hazard tape stripes",
+      "age": "19",
+      "main": false
+    },
+    {
+      "id": "director_kuro",
+      "name": "Director Kuro",
+      "description": "Cold, calculating, views humans as raw data.",
+      "visual_traits": "Hair: Slicked back silver hair, immovable, Eyes: Completely black sclera with glowing white irises, Top: Pristine white mandarin-collar suit jacket",
+      "age": "40s",
+      "main": false
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Episode 1: Terminal Velocity",
+      "summary": "Kenji makes a dramatic entrance into the lower slums to secure a data packet, guided by his handler Riko. The nature of his sword\u2014a weapon that interacts with digital code\u2014is revealed.",
+      "scenes": [
+        {
+          "id": "s1",
+          "title": "Kenji is in freefall between megastructures. The atmosphere is heavy with acid rain and neon light.",
+          "segments": [
+            {
+              "id": "p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Focus on the steel of the katana blade. It reflects a pink neon billboard 'LIVE FOREVER'. The reflection suddenly pixelates and fractures.",
+              "characters": [],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "ZZZT HUMMM",
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Camera pulls back rapidly. Kenji is a small silhouette falling between two massive, rain-slicked skyscrapers. The city lights below are a blur of bokeh.",
+              "characters": [
+                "kenji"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "WHOOSH SHHHHH (RAIN)",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Kenji twists mid-air, slamming the katana into the side of the building. The friction doesn't create fire, but binary code and blue digital sparks.",
+              "characters": [
+                "kenji"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "KRRR-ACK DATA-CRUNCH",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "Focus on Kenji's face. Rain runs down his cybernetic jawline. His eyes are focused downward. The light from the sparking blade illuminates his face.",
+              "characters": [
+                "kenji"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "kenji",
+                  "text": "Braking.",
+                  "type": "thought"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "The building wall runs out. Kenji drops the last 20 feet into the steam of the slums.",
+              "characters": [
+                "kenji"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "DROP",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Impact. Kenji lands in a dirty puddle in a three-point stance. The water splashes up, freezing in the air for a moment. The blade hums, shedding digital particles.",
+              "characters": [
+                "kenji"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "THOOM SPLASH",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "The lowest level of the city. Trash piles, flickering holograms, and hostile locals.",
+          "segments": [
+            {
+              "id": "p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Kenji stands up slowly, sheathing the blade. The 'glitch' effect on the sword fades. He taps his ear.",
+              "characters": [
+                "kenji"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "CLICK",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "A holographic projection of Riko pops up from Kenji's wrist projector. She looks frantic.",
+              "characters": [
+                "riko"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "riko",
+                  "text": "You crazy chrome-head! That descent vector had a 94% fatality rate!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "View from behind Kenji. Three scavengers with crude cybernetic limbs step out of the shadows, blocking the alley. They hold rusty pipes and chains.",
+              "characters": [
+                "kenji"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "kenji",
+                  "text": "I'm on the ground, Riko. Coordinates?",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "Focus on Kenji's hand hovering over the sword hilt. In the background, the lead scavenger grins.",
+              "characters": [
+                "kenji"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "",
+                  "text": "Nice blade, corpo-trash. Hand it over.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Kenji's eyes. The iris shifts from brown to glowing blue.",
+              "characters": [
+                "kenji"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "riko",
+                  "text": "Kenji, ignore them. We don't have time for...",
+                  "type": "speech"
+                },
+                {
+                  "character_id": "kenji",
+                  "text": "Too late.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Motion blur panel. Kenji dashes forward, a streak of blue light trailing behind him. The scavengers are frozen in surprise.",
+              "characters": [
+                "kenji"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "ZWOOM SLASH",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Inside an abandoned subway car filled with servers and screens.",
+          "segments": [
+            {
+              "id": "p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Riko is surrounded by monitors. She is typing furiously with one hand and eating instant noodles with the other.",
+              "characters": [
+                "riko"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "riko",
+                  "text": "Signal mask is up. Don't let them touch the blade, Kenji! If they corrupt the drive, her soul data is gone!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Riko's glasses reflect the screens. She looks genuinely terrified beneath the sarcasm.",
+              "characters": [
+                "riko"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Focus on a small, isolated monitor in the center. It shows a loading bar: 'MEMORY RECONSTRUCTION: 12%'. A faint image of a young girl's face is visible in the static.",
+              "characters": [],
+              "dialogues": [],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "Riko slams a key. The main screen flashes red with a warning symbol: 'INTRUSION DETECTED: CELESTIAL SPIRE'.",
+              "characters": [
+                "riko"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "BEEP-BEEP-BEEP",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Riko grabs the microphone, shouting.",
+              "characters": [
+                "riko"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "riko",
+                  "text": "Kenji! It's a trap! The Director knows we're pinging the server!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Split screen. Left side: Riko's terrified face. Right side: Kenji in the alley, looking up as a massive shadow falls over him.",
+              "characters": [
+                "riko",
+                "kenji"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "director_kuro",
+                  "text": "Execute protocol: Deletion.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Episode 2: Ghost in the Drive",
+      "summary": "Kenji infiltrates a fortified server farm to retrieve the mysterious 'Black Lotus' drive. The mission complicates when the drive projects a memory of his deceased sister, triggering a lethal security response and a confrontation with a heavy combat unit.",
+      "scenes": [
+        {
+          "id": "s1",
+          "title": "Rows of towering server racks stretch infinitely into the darkness, illuminated by rhythmic pulses of blue data lights. The air is freezing to keep the processors cool.",
+          "segments": [
+            {
+              "id": "p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Establishing shot of the server room. In the center, a single heavily guarded pedestal sits bathed in a spotlight. Several unconscious guards lie in the shadows, their armor sparking with static.",
+              "characters": [],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "HUMMMMM BZZT",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Kenji steps over a guard. He flicks his sword to the side. Instead of blood, the blade sheds digital pixels that evaporate into the air.",
+              "characters": [
+                "kenji"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "riko",
+                  "text": "Signal is clean. You have thirty seconds before the silent alarm realizes its logic loop is eating itself.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "SHING DISSOLVE",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Kenji stares at the pedestal. On it sits the 'Black Lotus' drive\u2014a matte black jagged geometric shape pulsing with a faint purple vein of light.",
+              "characters": [
+                "kenji"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "kenji",
+                  "text": "It's unguarded.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "Riko's holographic avatar pops up from Kenji's wrist projector, looking around nervously.",
+              "characters": [
+                "riko",
+                "kenji"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "riko",
+                  "text": "Yeah, I see it. I don't like it either. Just grab the Lotus and let's ghost.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Kenji's cybernetic hand reaches out. The metal fingertips are inches away from the drive. The air shimmers around the object like heat haze.",
+              "characters": [
+                "kenji"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Kenji grabs the drive. Immediately, purple lightning arcs from the drive up his arm. His cybernetic eye flares intensely.",
+              "characters": [
+                "kenji"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "KRR-ZAAKT! ERROR",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "The sterile environment melts away into a digital hallucination before snapping back to a red-alert reality.",
+          "segments": [
+            {
+              "id": "p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "The room dissolves into static. Floating binary code replaces the walls. In front of Kenji, a glitching, translucent figure materializes from the drive.",
+              "characters": [
+                "kenji"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "WHIIIIIINE",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "The figure resolves. It is Akiko, Kenji's dead sister. She looks exactly as she did the day she died, but pixelated at the edges.",
+              "characters": [],
+              "dialogues": [
+                {
+                  "character_id": "kenji",
+                  "text": "Akiko...?",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Kenji falls to his knees, reaching out to touch her face. His hand passes through the hologram, scattering light.",
+              "characters": [
+                "kenji"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "Focus on the hologram's mouth. It moves out of sync with the audio.",
+              "characters": [],
+              "dialogues": [
+                {
+                  "character_id": "",
+                  "text": "Help me... Kenji... it burns...",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "The hologram screams silently and shatters into red polygons. The blue room lights turn to emergency crimson. The illusion is gone.",
+              "characters": [
+                "kenji"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "SHATTER ALARM_BLARE",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Riko yells through the comms, her waveform spiking violently red.",
+              "characters": [],
+              "dialogues": [
+                {
+                  "character_id": "riko",
+                  "text": "KENJI! SNAP OUT OF IT! WE HAVE A HARD LOCK! GET OUT!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Total lockdown. Security measures activate with lethal intent.",
+          "segments": [
+            {
+              "id": "p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Kenji stands up, drawing his Glitch Blade. Around him, the floor tiles open up and small spider-drones pour out.",
+              "characters": [
+                "kenji"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "SKITTER CLICK-CLACK",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Kenji performs a horizontal slash. The blade leaves a trail of 'glitch' visual effects. Two drones in mid-air are sliced in half, their inner circuits turning to smoke.",
+              "characters": [
+                "kenji"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "Z-Z-Z-ZIP",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "A massive boom shakes the room. Dust falls from the ceiling. A heavy blast door behind the server racks begins to buckle outward.",
+              "characters": [],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "THOOOM CREAAAK",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "The blast door flies off its hinges, crushing a server rack. In the smoke, a massive silhouette with a single glowing red eye stands tall.",
+              "characters": [],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "CRASH STOMP",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "The Heavy Combat Unit steps into the light. It's a walking tank, heavily armored, with a gatling gun spinning up on one arm.",
+              "characters": [],
+              "dialogues": [
+                {
+                  "character_id": "",
+                  "text": "INTRUDER IDENTIFIED. RONIN CLASS. TERMINATION AUTHORIZED.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "WHIRRRRR",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Kenji holds the glowing Black Lotus drive in his left hand and his sword in his right. He looks tiny compared to the Mech. He lowers his center of gravity, ready to charge.",
+              "characters": [
+                "kenji"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "kenji",
+                  "text": "Let's dance.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Episode 3: Soul Code",
+      "summary": "Kenji defends the safehouse from corporate androids while Riko uncovers a horrifying truth within the drive. A moment of respite reveals the tragic origin of the Glitch Blade, only to be shattered by the arrival of Director Kuro.",
+      "scenes": [
+        {
+          "id": "s1",
+          "title": "The rusted exterior of the subway car safehouse. Rain lashes down, mixing with steam and sparks. Kenji is cornered by three sleek corporate androids.",
+          "segments": [
+            {
+              "id": "p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Three chrome androids lunge at Kenji simultaneously. Kenji stands near the heavy blast door of the subway car, one arm clutching his bleeding side, the other raising his sword.",
+              "characters": [
+                "kenji"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "THRUMMM HISS",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Kenji swings the Glitch Blade. The blade connects with the lead android. Instead of sparking, the point of impact pixelates into digital static.",
+              "characters": [
+                "kenji"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "ZZZTTT CRACK-Glitch",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Focus on the android's head as it disintegrates into binary code and dust. The Glitch Blade hums with a violet aura.",
+              "characters": [],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "ERROR DECOMPILE",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "The blast door behind Kenji hisses open. Riko's hand reaches out, grabbing Kenji by the collar of his coat.",
+              "characters": [
+                "kenji",
+                "riko"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "riko",
+                  "text": "Get inside, you idiot! I can't keep the firewall up and the door open!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Riko drags Kenji inside just as laser fire scorches the spot where he was standing. The heavy iron door slams shut.",
+              "characters": [
+                "kenji",
+                "riko"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "SLAM PEW PEW",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Kenji slides down the wall to the floor, leaving a smear of oil and blood. He breathes heavily, the sword's light fading.",
+              "characters": [
+                "kenji"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "kenji",
+                  "text": "Clear...",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Inside the cramped subway car. Walls are covered in servers and screens. The air is thick with the hum of cooling fans and the smell of ozone.",
+          "segments": [
+            {
+              "id": "p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Riko is typing furiously at her main console. Kenji is sitting on a crate, wrapping a bandage around his cybernetic arm.",
+              "characters": [
+                "kenji",
+                "riko"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "riko",
+                  "text": "The encryption on this drive is nasty. It's... adapting. Like it's alive.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Kenji breaks a synthetic protein bar in half. He holds one half out to Riko's back.",
+              "characters": [
+                "kenji",
+                "riko"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "kenji",
+                  "text": "Eat. Your blood sugar is dropping.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Focus on the hilt of the sword resting next to Kenji. The metal looks like it has veins.",
+              "characters": [],
+              "dialogues": [
+                {
+                  "character_id": "riko",
+                  "text": "Why does that thing react to the drive? It's just steel, Kenji.",
+                  "type": "speech"
+                },
+                {
+                  "character_id": "kenji",
+                  "text": "It's not just steel. It was forged from the server rack where she died.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "Kenji looks at the blade, eyes downcast. Riko pauses typing, turning her chair to look at him.",
+              "characters": [
+                "kenji",
+                "riko"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "kenji",
+                  "text": "Her consciousness didn't vanish. It scattered. The blade... it's a magnet for her code.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Riko spins back to the screens. The code reflects red in her glasses. Her eyes go wide.",
+              "characters": [
+                "riko"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "riko",
+                  "text": "Oh god. Kenji... look at the data streams.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "The screens fill the room with an ominous red glow. Holographic schematics of human brains show them being converted into batteries.",
+              "characters": [
+                "riko"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "riko",
+                  "text": "They aren't building a better AI. They're harvesting human souls to process the data. That's what the Black Lotus is.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "The safehouse atmosphere shifts from discovery to immediate danger. Alarms blare.",
+          "segments": [
+            {
+              "id": "p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "A massive error message flashes on the main screen: 'BEACON ACTIVATED - LOCATION UPLOADED'.",
+              "characters": [],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "ALARM BEEP BEEP BEEP",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Riko frantically types, sweat on her brow. Kenji grabs his sword and stands up instantly.",
+              "characters": [
+                "kenji",
+                "riko"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "riko",
+                  "text": "I didn't do it! The drive... it phoned home the second I cracked the shell!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "The heavy blast door begins to glow bright orange in the center. Paint bubbles and peels.",
+              "characters": [],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "SIZZLE GROAN",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "The door explodes inward. Smoke and debris fill the entryway. Kenji shields Riko with his body.",
+              "characters": [
+                "kenji",
+                "riko"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "BOOM CRASH",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "A tall, imposing silhouette stands in the smoke. He wears a pristine white suit that contrasts with the filth of the slums. One eye glows red.",
+              "characters": [
+                "director_kuro"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Director Kuro steps fully into the light, adjusting his cufflink. He looks bored.",
+              "characters": [
+                "director_kuro"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "director_kuro",
+                  "text": "A touching hideout. But I believe you have something that belongs to the company.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Episode 4: System Failure",
+      "summary": "Director Kuro breaches the safehouse, forcing Kenji into a desperate duel where steel meets sorcery-like tech. Outmatched and cornered, Riko triggers a catastrophic escape protocol that sends them plunging into the depths of Sector 4, but not before a haunting revelation about the stolen data shakes Kenji's resolve.",
+      "scenes": [
+        {
+          "id": "s1",
+          "title": "The cramped interior of the subway car is bathed in rotating red emergency lights. Sparks shower from the ceiling.",
+          "segments": [
+            {
+              "id": "p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "The subway car door is ripped off its hinges by an invisible magnetic force, flying towards the camera. Debris and papers swirl violently.",
+              "characters": [
+                "director_kuro"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "K-RUNCH HISSS",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Director Kuro steps through the smoke. He wears a pristine white suit that contrasts with the grime. Behind him, rain lashes against the dark tunnel.",
+              "characters": [
+                "director_kuro"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "director_kuro",
+                  "text": "A subway car? How nostalgic. I expected better accommodations for the thief of the century.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Kenji draws the Glitch Blade. The metal doesn't just shine; it vibrates with static, causing the air around it to pixelate.",
+              "characters": [
+                "kenji"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "VZZZ-T SHING",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "Kenji lunges forward, slashing diagonally. The blade leaves a trail of corrupted binary code in the air.",
+              "characters": [
+                "kenji"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "kenji",
+                  "text": "Riko. The drive. Now.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "SWISH",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Kuro raises a hand lazily. A hexagonal hard-light shield manifests, blocking the sword. The point of impact creates a shockwave of digital distortion.",
+              "characters": [
+                "kenji",
+                "director_kuro"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "CRACK-ZZT",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Riko is under her desk, frantically typing on a portable deck with one hand while clutching the Black Lotus drive with the other.",
+              "characters": [
+                "riko"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "riko",
+                  "text": "I can't uncouple it safely! The firewall is bleeding into the local network!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "The transition from the suspended subway car down into the abyss of the slums below.",
+          "segments": [
+            {
+              "id": "p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Kenji is thrown backward by a pulse from Kuro's shield. He crashes into the server racks.",
+              "characters": [
+                "kenji"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "THUD CRASH",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Riko's finger hovers over a yellow hazard key on her keyboard marked 'EJECT'.",
+              "characters": [
+                "riko"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "riko",
+                  "text": "Screw safety! Protocol Zero!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "The floor of the subway car detonates. Not an explosion of fire, but bolts shearing. Kenji and Riko fall through the floor.",
+              "characters": [
+                "kenji",
+                "riko"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "KLANG WHOOSH",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "A long vertical shot looking down. They are free-falling from the suspended railway line into the dense, foggy neon cityscape of the slums below.",
+              "characters": [
+                "kenji",
+                "riko"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "kenji",
+                  "text": "Brace.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Kenji grabs Riko mid-air, twisting his body to take the impact. He slams his sword into a rusty ventilation shaft to slow them down.",
+              "characters": [
+                "kenji",
+                "riko"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "SCREEEEEECH",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "They land hard in a pile of wet trash bags in a dark alley. Above them, high up, the subway car explodes in a ball of fire.",
+              "characters": [
+                "kenji",
+                "riko"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "BOOM",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "A dirty alleyway illuminated by flickering pink neon signs reflecting in puddles. Steam rises from vents.",
+          "segments": [
+            {
+              "id": "p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Kenji pushes himself up. His cybernetic arm is smoking. Rain runs down his face.",
+              "characters": [
+                "kenji"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "Hiss Drip",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Riko is huddled against a graffiti-covered wall, clutching the drive to her chest. She isn't looking at the explosion above; she's staring at the drive.",
+              "characters": [
+                "riko"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "kenji",
+                  "text": "Are you hurt? Is the data intact?",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Riko looks up. Her glasses are cracked. Tears are mixing with the rain.",
+              "characters": [
+                "riko"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "riko",
+                  "text": "Kenji... before I pulled the plug... I saw the source code.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "Focus on the drive in Riko's hands. The indicator light pulses slowly, like a heartbeat.",
+              "characters": [],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "thump... thump...",
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Kenji freezes, his silhouette dark against the neon fog.",
+              "characters": [
+                "kenji"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "kenji",
+                  "text": "What are you saying?",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Riko grips his arm, looking desperate.",
+              "characters": [
+                "riko"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "riko",
+                  "text": "It's not a file, Kenji. The security protocol... the thing guarding the Black Lotus... it's Akiko.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Episode 5: Hard Reboot",
+      "summary": "Having crash-landed in the Sector 4 Slums, Kenji and Riko must navigate the dangerous underworld to find repairs for Kenji's critical systems. As the Glitch Blade destabilizes, threatening to consume Kenji's mind, they discover that Director Kuro hasn't just chased them\u2014he has turned the entire city against them.",
+      "scenes": [
+        {
+          "id": "s1",
+          "title": "A narrow, trash-filled alleyway bathed in harsh pink and teal neon light from the signs above. Steam rises from vents, obscuring the ground.",
+          "segments": [
+            {
+              "id": "p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Kenji is slumped against a graffiti-covered wall, smoke rising from his cybernetic shoulder. Riko is frantically typing on a wrist-mounted deck, kneeling beside him.",
+              "characters": [
+                "kenji",
+                "riko"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "riko",
+                  "text": "Come on, come on... reboot his servos, you piece of junk!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "HISS (steam) ZZZT (sparks)",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Focus on Kenji's hand gripping the hilt of the Glitch Blade. The space around the sword is pixelating, reality distorting into blocky artifacts.",
+              "characters": [
+                "kenji"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "HUMMMmmmm GLITCH_NOISE",
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Kenji lifts his head. His cybernetic eye is flickering between red and static white.",
+              "characters": [
+                "kenji"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "kenji",
+                  "text": "The blade... it's hungry, Riko. It tasted Kuro's code.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "Riko grabs Kenji's face with both hands, forcing him to look at her. She looks fierce despite the fear.",
+              "characters": [
+                "kenji",
+                "riko"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "riko",
+                  "text": "Let it starve. We need to move. If the corp-droids track the fall trajectory, we're scrap metal.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Kenji's point of view looking at Riko. A 'SYSTEM CRITICAL' warning overlays her face in red text. The edges of his vision are fracturing.",
+              "characters": [
+                "riko"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "kenji",
+                  "text": "My legs... servos are locked.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "BEEP... BEEP... ERROR",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Kenji forces himself up using the sword as a crutch. He towers over Riko, a broken silhouette against the neon alley exit.",
+              "characters": [
+                "kenji",
+                "riko"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "kenji",
+                  "text": "Lead the way. Quietly.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "CLANG (metal on concrete)",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "A dense, crowded street market. Makeshift stalls sell cyber-parts and synthetic meat. Holographic ads flicker erratically. The population is modified, poor, and wary.",
+          "segments": [
+            {
+              "id": "p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Overview of the market. It's a sea of people and neon. Rain falls heavily now. The atmosphere is oppressive.",
+              "characters": [],
+              "dialogues": [
+                {
+                  "character_id": "riko",
+                  "text": "Keep your head down. Hood up. Don't make eye contact with the Scrappers.",
+                  "type": "thought"
+                }
+              ],
+              "narration": null,
+              "sfx": "CROWD NOISE THUNDER",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Kenji and Riko moving through the crowd. Kenji wears a tattered cloak (found object) to hide his damage. He looks massive and out of place.",
+              "characters": [
+                "kenji",
+                "riko"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "A shady street vendor with multiple mechanical eyes stares directly at the 'camera' (at Kenji). He is holding a rusty cyber-arm.",
+              "characters": [],
+              "dialogues": [
+                {
+                  "character_id": "",
+                  "text": "Fresh parts... you look like you need an upgrade, big man.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "Kenji ignores the vendor, but stumbles. Riko catches him under the arm to steady him.",
+              "characters": [
+                "kenji",
+                "riko"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "kenji",
+                  "text": "Riko... the data stream. It's loud down here.",
+                  "type": "speech"
+                },
+                {
+                  "character_id": "riko",
+                  "text": "It's just interference. Keep moving. Doc's shop is just past the noodle stand.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Riko's eyes dart to a large holographic billboard above the crowd. The light from it reflects in her glasses.",
+              "characters": [
+                "riko"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "riko",
+                  "text": "Oh no...",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Riko's POV looking up at the billboard. It displays a massive, rotating 3D model of Kenji's face and Riko's avatar.",
+              "characters": [],
+              "dialogues": [
+                {
+                  "character_id": "",
+                  "text": "TERRORIST ALERT. WANTED FOR CORPORATE SABOTAGE.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "KLAXON",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "A cul-de-sac away from the main market. Puddles reflect the red alert lights now pulsing through the sector.",
+          "segments": [
+            {
+              "id": "p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Riko drags Kenji into the shadows of a doorway, pressing their backs against the metal shutter.",
+              "characters": [
+                "kenji",
+                "riko"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "riko",
+                  "text": "Did you see the reward? 'Citizenship'. Kuro didn't just put a price on us...",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "HEAVY BREATHING",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Kenji looks at the bounty poster projection on the opposite wall. The reward amount is staggering.",
+              "characters": [
+                "kenji"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "kenji",
+                  "text": "...He turned every starving soul in Sector 4 into a hunter.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Focus on a puddle nearby. A reflection shows a group of silhouettes gathering at the alley entrance behind them.",
+              "characters": [],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "SPLASH (footstep) CLICK-CLACK (weapons cocking)",
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "The silhouettes step forward into the light. It's not soldiers\u2014it's the civilians. The vendor from before, a mechanic, a street kid. They are holding makeshift weapons.",
+              "characters": [],
+              "dialogues": [
+                {
+                  "character_id": "",
+                  "text": "Sorry, samurai. Nothing personal.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Kenji's hand tightens on his sword hilt. The Glitch Blade flares with blue code, illuminating his stoic face.",
+              "characters": [
+                "kenji"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "kenji",
+                  "text": "Riko. Get behind me.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "VWOOM (sword energizing)",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Top-down view. Kenji and Riko are backed against the wall, surrounded by a semi-circle of dozens of desperate locals. The scene is set for a tragic confrontation.",
+              "characters": [
+                "kenji",
+                "riko"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "",
+                  "text": "We just want to see the sky again.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

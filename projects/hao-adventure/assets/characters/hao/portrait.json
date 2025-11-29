@@ -1,0 +1,28 @@
+{
+  "timestamp": "2025-11-28T09:36:24.377122+00:00",
+  "input": {
+    "prompt": "webtoon style. Create a full-body webtoon character portrait based on this person.\n\nCharacter Name: Hao\n\nStyle Requirements:\n- Clean webtoon art style with vibrant colors and clear linework\n- Full body shot in neutral standing pose\n- Simple solid color background\n- Transform the person into webtoon illustration style with slightly simplified features\n- Maintain their distinctive facial features, hair style, and proportions\n- Design a stylish, memorable outfit appropriate for a webtoon protagonist\n- Add visual appeal while keeping the essence of the original person\n\nThe character should look like an appealing webtoon protagonist version of this person.",
+    "final_prompt": "Using the labeled reference images above to maintain visual consistency: webtoon style. Create a full-body webtoon character portrait based on this person.\n\nCharacter Name: Hao\n\nStyle Requirements:\n- Clean webtoon art style with vibrant colors and clear linework\n- Full body shot in neutral standing pose\n- Simple solid color background\n- Transform the person into webtoon illustration style with slightly simplified features\n- Maintain their distinctive facial features, hair style, and proportions\n- Design a stylish, memorable outfit appropriate for a webtoon protagonist\n- Add visual appeal while keeping the essence of the original person\n\nThe character should look like an appealing webtoon protagonist version of this person.",
+    "references": [
+      {
+        "path": "user_uploads/hao.png",
+        "role": "person to transform into webtoon style",
+        "loaded": true
+      }
+    ],
+    "model": "gemini-3-pro-image-preview",
+    "config": {
+      "aspect_ratio": "2:3",
+      "resolution": "2K",
+      "style": "webtoon"
+    }
+  },
+  "output": {
+    "finish_reason": "FinishReason.STOP",
+    "usage": {
+      "prompt_tokens": 405,
+      "candidates_tokens": 1289,
+      "total_tokens": 1871
+    }
+  }
+}

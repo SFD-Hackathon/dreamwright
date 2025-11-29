@@ -1,0 +1,768 @@
+{
+  "title": "The Midnight Frequency",
+  "description": "Mia, a 17-year-old recovering from a near-drowning, discovers that the static in her noise-canceling headphones has been replaced by the whispers of the dead. While trying to ignore the supernatural world, she is ambushed at a subway station by a 'Glitch Spirit'\u2014a vengeful ghost manipulating electricity to manifest. She is barely saved by Silas, a cynical, legally blind detective who hunts spirits using sound waves rather than sight.\n\nSilas reveals that the Glitch Spirit is a serial killer who died in the subway and is now using the city's power grid to gain strength. He needs Mia's unique 'sight' to locate the spirit's physical anchor before midnight, or the ghost will become powerful enough to kill thousands. Reluctantly, Mia agrees to help, driven by the guilt of surviving her own accident.\n\nTracking the energy signature to an abandoned arcade, the duo faces the spirit on its home turf. Mia must overcome her paralysis in the face of death to act as a human lightning rod, baiting the spirit so Silas can sever its connection to the living world. The victory cements an uneasy alliance: Mia provides the eyes, and Silas provides the exorcism.",
+  "premise": "After a drowning accident leaves her attuned to the frequency of the dead, a withdrawn teen must partner with a blind exorcist to stop a digital poltergeist from claiming its next victim.",
+  "genre": "drama",
+  "tags": [
+    "Trauma and Acceptance",
+    "The Digital vs. The Spiritual",
+    "Unlikely Partnerships",
+    "Fear of the Unknown"
+  ],
+  "style": {
+    "tone": "dramatic",
+    "target_audience": "Young Adult / New Adult (Webtoon & Short-form Drama)"
+  },
+  "characters": [
+    {
+      "id": "mia_chen",
+      "name": "Mia Chen",
+      "description": "Introverted, anxious, observant, but fiercely brave when cornered.",
+      "visual_traits": "OUTFIT: Oversized bright yellow hoodie (signature color), BOTTOM: Black pleated skirt with sheer black tights, FOOTWEAR: Chunky black combat boots",
+      "age": "17",
+      "main": true
+    },
+    {
+      "id": "silas_vane",
+      "name": "Silas Vane",
+      "description": "Cynical, dry-witted, professional, secretly protective.",
+      "visual_traits": "OUTFIT: Long charcoal grey wool trench coat over a black turtleneck, BOTTOM: Tailored black slacks, FOOTWEAR: Polished dress shoes",
+      "age": "28",
+      "main": false
+    },
+    {
+      "id": "the_glitch_spirit",
+      "name": "The Glitch (Spirit)",
+      "description": "Predatory, chaotic, hungry.",
+      "visual_traits": "OUTFIT: Tattered prisoner jumpsuit made of digital noise, EFFECT: RGB color shifting/chromatic aberration surrounds it, MOTIF: Flickering lights nearby",
+      "age": "Deceased",
+      "main": false
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Static in the Rain",
+      "summary": "Mia Chen tries to drown out the world with music, but finds that the frequency of the dead is louder than her headphones. A rotting reflection and a digital monster corner her in a metro station, leading to a chance encounter with a blind exorcist.",
+      "scenes": [
+        {
+          "id": "s1",
+          "title": "Heavy rain lashes against the neon-lit pavement outside the subway entrance. The city feels empty despite the lights.",
+          "segments": [
+            {
+              "id": "p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "A high-angle shot of the city street. Rain falls in sheets, blurring the neon signs (pink and blue). Mia is a small figure in a yellow raincoat, walking alone against the flow of water in the gutter.",
+              "characters": [
+                "mia_chen"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "shhhhaaah (rain)",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Mia lifts large, noise-canceling headphones to her ears. She looks exhausted, dark circles under her eyes visible even in the dim light.",
+              "characters": [
+                "mia_chen"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "mia_chen",
+                  "text": "Just need to... turn it all off.",
+                  "type": "thought"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Focus on her thumb pressing the 'Play' icon on her cracked smartphone screen. The track title reads 'Rainy Day Lo-Fi'.",
+              "characters": [],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "CLICK",
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "Mia winces, grabbing the headphones. The background tilts slightly. Instead of music, jagged speech bubbles filled with static surround her head.",
+              "characters": [
+                "mia_chen"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "SCREEEEEE KRRRZZZT",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "She rips the headphones off, looking around frantically. The rain seems to have stopped mid-air, frozen for a split second (visual effect).",
+              "characters": [
+                "mia_chen"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "mia_chen",
+                  "text": "Hello?",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Zoom in on Mia's eye. Reflected in her pupil is not the street, but a distorted, screaming face.",
+              "characters": [
+                "mia_chen"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "HELP ME",
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "Mia has fled down into the subway station. It is tiled, white, and flickering with dying fluorescent lights. There is a large puddle of rainwater on the tiles.",
+          "segments": [
+            {
+              "id": "p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Mia stands panting on the empty platform. The station is too quiet. No trains. Just the hum of electricity.",
+              "characters": [
+                "mia_chen"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "huff... huff...",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "She looks down at a large stagnant puddle on the platform floor near the tracks. The water is black and oily.",
+              "characters": [
+                "mia_chen"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "mia_chen",
+                  "text": "Just a panic attack. Just stress.",
+                  "type": "thought"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "POV Shot looking into the puddle. Mia's reflection stares back, but the skin is gray and peeling, the eyes are missing, and water pours from the reflection's mouth.",
+              "characters": [
+                "mia_chen"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "GURGLE",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "Mia scrambles backward, falling onto the tiles. Behind her, the digital arrival screen explodes into pixelated chaos. The Glitch begins to emerge from the screen.",
+              "characters": [
+                "mia_chen",
+                "the_glitch_spirit"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "ZAP! POP!",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "The Glitch (a mass of jagged pixels and screaming faces) looms over her. Mia shields her face with her arm.",
+              "characters": [
+                "the_glitch_spirit",
+                "mia_chen"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "FOUND YOU",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "A white cane strikes the ground hard in the foreground, creating a ripple of white energy that pushes the darkness back.",
+              "characters": [],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "THACK!",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "Silas Vane enters the fray. The juxtaposition of his calm demeanor against the supernatural chaos.",
+          "segments": [
+            {
+              "id": "p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Silas stands tall, wearing a trench coat and dark circular sunglasses. He holds his cane like a weapon. He is facing slightly away from the monster.",
+              "characters": [
+                "silas_vane"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "silas_vane",
+                  "text": "Bit loud for a Tuesday, isn't it?",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "The Glitch screeches and lunges. Silas doesn't look at it, but he swings his cane in a perfect arc, hitting the digital entity.",
+              "characters": [
+                "silas_vane",
+                "the_glitch_spirit"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "SWISH CRACK",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Impact shot. The cane glows with blue runes where it connects with the Glitch. The entity shatters into harmless static.",
+              "characters": [
+                "the_glitch_spirit"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "DISSIPATE",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "Silence returns to the station. Silas adjusts his glasses. Mia is still on the floor, staring up at him.",
+              "characters": [
+                "silas_vane",
+                "mia_chen"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Silas tilts his head, as if listening to a sound only he can hear coming from Mia.",
+              "characters": [
+                "silas_vane"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "silas_vane",
+                  "text": "You're leaking spectral energy, kid.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Silas extends a hand down towards the camera (towards Mia). His expression is unreadable behind the glasses.",
+              "characters": [
+                "silas_vane"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "silas_vane",
+                  "text": "Come with me before something hungrier finds you.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Static Discharge",
+      "summary": "The confrontation in the metro station escalates as the Glitch Spirit attacks. Silas Vane intervenes with his sonic cane, dispersing the entity. Realizing the danger isn't over, Mia is forced to trust the stranger to escape the encroaching static.",
+      "scenes": [
+        {
+          "id": "s1",
+          "title": "The immediate aftermath of Silas's entrance. The digital entity lunges, clashing with Silas's exorcism tools.",
+          "segments": [
+            {
+              "id": "p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "The Glitch Spirit ignores Silas's quip. It screeches, its jaw unhinging into a maw of pixelated static, and lunges directly at Mia, who is backed against the turnstiles.",
+              "characters": [
+                "the_glitch_spirit",
+                "mia_chen"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "SCREEEEEECH KZZZT",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Silas's gloved hand grips the handle of his silver cane. He twists the handle sharply. A rune etched into the metal glows bright white.",
+              "characters": [
+                "silas_vane"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "CLICK HUMMM",
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Silas slams the tip of the cane onto the tiled floor. A visible ripple of white sound waves explodes outward, distorting the air like heat haze.",
+              "characters": [
+                "silas_vane"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "BOOOOOOM",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "The sound wave hits The Glitch. Its pixelated form shatters violently, chunks of digital matter flying apart like broken glass before dissolving into harmless mist.",
+              "characters": [
+                "the_glitch_spirit"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "SHATTER FZZT",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Mia has her hands clamped over her ears, eyes shut tight against the deafening noise. Her hair is blown back by the force of the blast.",
+              "characters": [
+                "mia_chen"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "mia_chen",
+                  "text": "Ahhh!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Silence returns to the station. Silas stands tall, adjusting his dark sunglasses. The air around him is filled with slowly fading digital sparks, like dust motes.",
+              "characters": [
+                "silas_vane"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "silas_vane",
+                  "text": "Terrible acoustics in here.",
+                  "type": "speech"
+                },
+                {
+                  "character_id": "silas_vane",
+                  "text": "Are you intact, kid?",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "fizz... pop...",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "The dust settles. Mia tries to process what happened while Silas senses the threat isn't fully gone.",
+          "segments": [
+            {
+              "id": "p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Mia scrambles to her feet, hugging her jacket tight. She stares at Silas, trembling.",
+              "characters": [
+                "mia_chen"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "mia_chen",
+                  "text": "What... what was that? Who are you?",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Silas turns his head slightly, but not directly at her. He taps his cane on the ground, sweeping it in a small arc like a blind person navigating.",
+              "characters": [
+                "silas_vane"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "silas_vane",
+                  "text": "Silas Vane. Consultant for the... esoteric.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Focus on Silas's sunglasses. They slide down his nose slightly, revealing eyes that are milky white and unfocused.",
+              "characters": [
+                "silas_vane"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "mia_chen",
+                  "text": "You're...",
+                  "type": "thought"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "Background detail: The digital billboard behind them flickers violently. The pixels start to swirl again, forming a grotesque face.",
+              "characters": [],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "VZZZT GLITCH",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Silas's head snaps toward the sound of the billboard. He looks tense.",
+              "characters": [
+                "silas_vane"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "silas_vane",
+                  "text": "Persistent bugger.",
+                  "type": "speech"
+                },
+                {
+                  "character_id": "silas_vane",
+                  "text": "We need to leave. Now.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Silas turns and marches toward the exit, not waiting for her. Mia looks back at the reforming monster, then sprints after him.",
+              "characters": [
+                "mia_chen",
+                "silas_vane"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "STOMP STOMP",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "They escape the station into the rain. Silas taps his cane, opening a glowing portal that envelops them in a protective spirit gateway.",
+          "segments": [
+            {
+              "id": "p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Outside the station entrance. Heavy rain. A matte black vintage muscle car is parked at the curb. Silas opens the passenger door.",
+              "characters": [
+                "silas_vane"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "RAIN THUNDER",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Mia stands in the rain, hesitating. She looks at the car, then at Silas.",
+              "characters": [
+                "mia_chen",
+                "silas_vane"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "mia_chen",
+                  "text": "I'm not getting in a car with a stranger.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Silas leans on the open door frame, water dripping from his hat. He points back toward the station entrance where blue static is leaking out.",
+              "characters": [
+                "silas_vane"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "silas_vane",
+                  "text": "Stranger, or the thing that wants to eat your aura? Choose quickly, I have leather seats to protect.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "Mia looks back. The static is crawling up the stairs. She grits her teeth and dives into the car.",
+              "characters": [
+                "mia_chen"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "SLAM",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Interior of the car. Warm, amber dashboard lights. Silas turns the key. The engine roars to life.",
+              "characters": [
+                "silas_vane",
+                "mia_chen"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "VROOOM PURRR",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "The car peels away from the curb, splashing through a puddle, leaving the neon-lit station behind in the rain.",
+              "characters": [],
+              "dialogues": [
+                {
+                  "character_id": "silas_vane",
+                  "text": "Buckle up. It's going to be a long night.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "SCREECH",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "type": "character",
+  "character_id": "char_yuki",
+  "character_name": "Yuki",
+  "role": "supporting",
+  "age": "Appears 20 (Actually Ancient)",
+  "style": "webtoon",
+  "visual_tags": [
+    "Hair: Platinum white bob with blunt bangs",
+    "Eyes: Golden amber eyes with slit pupils (subtle)",
+    "Face: Heart-shaped face with red makeup at the corners of eyes",
+    "Top: Red and white modified kimono top with wide sleeves",
+    "Bottom: High-waisted navy hakama-style skirt (short length)",
+    "Footwear: Traditional wooden Geta sandals with red straps",
+    "Accessories: A large fluffy white scarf (hides her tails)"
+  ],
+  "description": {
+    "physical": "Petite, ethereal, moves with dancer-like grace. Has a playful, fox-like grin.",
+    "personality": "Mischievous, wise, enigmatic, fleeting."
+  },
+  "asset_type": "portrait",
+  "reference_sheet": "assets/characters/yuki/sheet.png",
+  "gemini": {
+    "type": "character_portrait",
+    "character_id": "char_yuki",
+    "character_name": "Yuki",
+    "prompt": "Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Yuki\nAge: Appears 20 (Actually Ancient)\nPhysical appearance: Petite, ethereal, moves with dancer-like grace. Has a playful, fox-like grin.\n\nVisual details (MUST include all):\n  - Hair: Platinum white bob with blunt bangs\n  - Eyes: Golden amber eyes with slit pupils (subtle)\n  - Face: Heart-shaped face with red makeup at the corners of eyes\n  - Top: Red and white modified kimono top with wide sleeves\n  - Bottom: High-waisted navy hakama-style skirt (short length)\n  - Footwear: Traditional wooden Geta sandals with red straps\n  - Accessories: A large fluffy white scarf (hides her tails)\n\nPersonality (for expression): Mischievous, wise, enigmatic, fleeting.",
+    "parameters": {
+      "aspect_ratio": "9:16",
+      "resolution": "1K",
+      "style": "webtoon",
+      "model": "gemini-3-pro-image-preview",
+      "reference_image": "projects/hao-japan-trip/assets/characters/yuki/sheet.png"
+    },
+    "response": {
+      "timestamp": "2025-11-28T08:31:49.746367+00:00",
+      "input": {
+        "prompt": "webtoon style. Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Yuki\nAge: Appears 20 (Actually Ancient)\nPhysical appearance: Petite, ethereal, moves with dancer-like grace. Has a playful, fox-like grin.\n\nVisual details (MUST include all):\n  - Hair: Platinum white bob with blunt bangs\n  - Eyes: Golden amber eyes with slit pupils (subtle)\n  - Face: Heart-shaped face with red makeup at the corners of eyes\n  - Top: Red and white modified kimono top with wide sleeves\n  - Bottom: High-waisted navy hakama-style skirt (short length)\n  - Footwear: Traditional wooden Geta sandals with red straps\n  - Accessories: A large fluffy white scarf (hides her tails)\n\nPersonality (for expression): Mischievous, wise, enigmatic, fleeting.",
+        "final_prompt": "Using the labeled reference images above to maintain visual consistency: webtoon style. Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: Yuki\nAge: Appears 20 (Actually Ancient)\nPhysical appearance: Petite, ethereal, moves with dancer-like grace. Has a playful, fox-like grin.\n\nVisual details (MUST include all):\n  - Hair: Platinum white bob with blunt bangs\n  - Eyes: Golden amber eyes with slit pupils (subtle)\n  - Face: Heart-shaped face with red makeup at the corners of eyes\n  - Top: Red and white modified kimono top with wide sleeves\n  - Bottom: High-waisted navy hakama-style skirt (short length)\n  - Footwear: Traditional wooden Geta sandals with red straps\n  - Accessories: A large fluffy white scarf (hides her tails)\n\nPersonality (for expression): Mischievous, wise, enigmatic, fleeting.",
+        "references": [
+          {
+            "path": "projects/hao-japan-trip/assets/characters/yuki/sheet.png",
+            "role": "existing portrait of Yuki for consistency",
+            "loaded": true
+          }
+        ],
+        "model": "gemini-3-pro-image-preview",
+        "config": {
+          "aspect_ratio": "9:16",
+          "resolution": "1K",
+          "style": "webtoon"
+        }
+      },
+      "output": {
+        "finish_reason": "FinishReason.STOP",
+        "usage": {
+          "prompt_tokens": 532,
+          "candidates_tokens": 1319,
+          "total_tokens": 2016
+        }
+      }
+    }
+  },
+  "generated_at": "2025-11-28T16:38:33.039995"
+}

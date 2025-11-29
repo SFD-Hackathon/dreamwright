@@ -1,0 +1,50 @@
+{
+  "type": "location",
+  "location_id": "loc_blackwood_deep_sector",
+  "location_name": "Blackwood Deep Sector",
+  "location_type": "interior",
+  "style": "webtoon",
+  "description": "An ancient forest that feels too quiet. The trees are too tall, and the canopy blocks out most light.",
+  "visual_tags": [
+    "Lighting: Dim, diffused blue-grey twilight",
+    "Palette: Desaturated greens, greys, and blacks",
+    "Atmosphere: Claustrophobic, damp, cold",
+    "Key Object: The 'Hollow Root' tree with glowing blue sap veins"
+  ],
+  "gemini": {
+    "type": "location_reference",
+    "location_id": "loc_blackwood_deep_sector",
+    "location_name": "Blackwood Deep Sector",
+    "location_type": "interior",
+    "prompt": "Create a background/environment illustration in webtoon art style.\n\nRequirements:\n- Establishing shot of the location\n- Bright daylight, clear visibility, natural lighting\n- Clear sky\n- No characters in the scene\n- Detailed environment suitable for webtoon backgrounds\n- Wide composition showing the space\n- Atmospheric and immersive\n\nIMPORTANT - Background Only Rules:\n- Focus on ENVIRONMENTAL elements: walls, floors, ceilings, architecture, lighting, atmosphere\n- DO NOT include interactive objects that characters would use (cars, furniture, seats, steering wheels, etc.)\n- If the location is a vehicle interior (car, train, etc.), show ONLY the environment (windows, walls, ambient lighting) without seats or controls\n- Interactive props and character positioning will be handled separately during panel composition\n- This is a STATIC BACKGROUND reference that panels will composite characters onto\n\n\nLocation: Blackwood Deep Sector\nType: interior\nDescription: An ancient forest that feels too quiet. The trees are too tall, and the canopy blocks out most light.\nVisual details: Lighting: Dim, diffused blue-grey twilight, Palette: Desaturated greens, greys, and blacks, Atmosphere: Claustrophobic, damp, cold, Key Object: The 'Hollow Root' tree with glowing blue sap veins",
+    "parameters": {
+      "aspect_ratio": "16:9",
+      "resolution": "1K",
+      "style": "webtoon",
+      "model": "gemini-3-pro-image-preview"
+    },
+    "response": {
+      "timestamp": "2025-11-28T09:52:13.468719+00:00",
+      "input": {
+        "prompt": "webtoon style. Create a background/environment illustration in webtoon art style.\n\nRequirements:\n- Establishing shot of the location\n- Bright daylight, clear visibility, natural lighting\n- Clear sky\n- No characters in the scene\n- Detailed environment suitable for webtoon backgrounds\n- Wide composition showing the space\n- Atmospheric and immersive\n\nIMPORTANT - Background Only Rules:\n- Focus on ENVIRONMENTAL elements: walls, floors, ceilings, architecture, lighting, atmosphere\n- DO NOT include interactive objects that characters would use (cars, furniture, seats, steering wheels, etc.)\n- If the location is a vehicle interior (car, train, etc.), show ONLY the environment (windows, walls, ambient lighting) without seats or controls\n- Interactive props and character positioning will be handled separately during panel composition\n- This is a STATIC BACKGROUND reference that panels will composite characters onto\n\n\nLocation: Blackwood Deep Sector\nType: interior\nDescription: An ancient forest that feels too quiet. The trees are too tall, and the canopy blocks out most light.\nVisual details: Lighting: Dim, diffused blue-grey twilight, Palette: Desaturated greens, greys, and blacks, Atmosphere: Claustrophobic, damp, cold, Key Object: The 'Hollow Root' tree with glowing blue sap veins",
+        "final_prompt": "webtoon style. Create a background/environment illustration in webtoon art style.\n\nRequirements:\n- Establishing shot of the location\n- Bright daylight, clear visibility, natural lighting\n- Clear sky\n- No characters in the scene\n- Detailed environment suitable for webtoon backgrounds\n- Wide composition showing the space\n- Atmospheric and immersive\n\nIMPORTANT - Background Only Rules:\n- Focus on ENVIRONMENTAL elements: walls, floors, ceilings, architecture, lighting, atmosphere\n- DO NOT include interactive objects that characters would use (cars, furniture, seats, steering wheels, etc.)\n- If the location is a vehicle interior (car, train, etc.), show ONLY the environment (windows, walls, ambient lighting) without seats or controls\n- Interactive props and character positioning will be handled separately during panel composition\n- This is a STATIC BACKGROUND reference that panels will composite characters onto\n\n\nLocation: Blackwood Deep Sector\nType: interior\nDescription: An ancient forest that feels too quiet. The trees are too tall, and the canopy blocks out most light.\nVisual details: Lighting: Dim, diffused blue-grey twilight, Palette: Desaturated greens, greys, and blacks, Atmosphere: Claustrophobic, damp, cold, Key Object: The 'Hollow Root' tree with glowing blue sap veins",
+        "references": [],
+        "model": "gemini-3-pro-image-preview",
+        "config": {
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "style": "webtoon"
+        }
+      },
+      "output": {
+        "finish_reason": "FinishReason.STOP",
+        "usage": {
+          "prompt_tokens": 265,
+          "candidates_tokens": 1288,
+          "total_tokens": 1833
+        }
+      }
+    }
+  },
+  "generated_at": "2025-11-28T17:52:13.504140"
+}

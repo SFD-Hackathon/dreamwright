@@ -1,0 +1,50 @@
+{
+  "type": "location",
+  "location_id": "loc_the_echo_plane",
+  "location_name": "The Echo Plane",
+  "location_type": "interior",
+  "style": "webtoon",
+  "description": "A world where sound is visible. The ground is made of solidified soundwaves. The sky is a void of shifting equalizers.",
+  "visual_tags": [
+    "Lighting: Neon, high-contrast, source-less light",
+    "Palette: Deep violets, cyans, and blinding whites (Cyberpunk fantasy)",
+    "Atmosphere: Electric, buzzing, vast",
+    "Key Object: Floating geometric islands that pulse to a beat"
+  ],
+  "gemini": {
+    "type": "location_reference",
+    "location_id": "loc_the_echo_plane",
+    "location_name": "The Echo Plane",
+    "location_type": "interior",
+    "prompt": "Create a background/environment illustration in webtoon art style.\n\nRequirements:\n- Establishing shot of the location\n- Bright daylight, clear visibility, natural lighting\n- Clear sky\n- No characters in the scene\n- Detailed environment suitable for webtoon backgrounds\n- Wide composition showing the space\n- Atmospheric and immersive\n\nIMPORTANT - Background Only Rules:\n- Focus on ENVIRONMENTAL elements: walls, floors, ceilings, architecture, lighting, atmosphere\n- DO NOT include interactive objects that characters would use (cars, furniture, seats, steering wheels, etc.)\n- If the location is a vehicle interior (car, train, etc.), show ONLY the environment (windows, walls, ambient lighting) without seats or controls\n- Interactive props and character positioning will be handled separately during panel composition\n- This is a STATIC BACKGROUND reference that panels will composite characters onto\n\n\nLocation: The Echo Plane\nType: interior\nDescription: A world where sound is visible. The ground is made of solidified soundwaves. The sky is a void of shifting equalizers.\nVisual details: Lighting: Neon, high-contrast, source-less light, Palette: Deep violets, cyans, and blinding whites (Cyberpunk fantasy), Atmosphere: Electric, buzzing, vast, Key Object: Floating geometric islands that pulse to a beat",
+    "parameters": {
+      "aspect_ratio": "16:9",
+      "resolution": "1K",
+      "style": "webtoon",
+      "model": "gemini-3-pro-image-preview"
+    },
+    "response": {
+      "timestamp": "2025-11-28T09:52:31.447983+00:00",
+      "input": {
+        "prompt": "webtoon style. Create a background/environment illustration in webtoon art style.\n\nRequirements:\n- Establishing shot of the location\n- Bright daylight, clear visibility, natural lighting\n- Clear sky\n- No characters in the scene\n- Detailed environment suitable for webtoon backgrounds\n- Wide composition showing the space\n- Atmospheric and immersive\n\nIMPORTANT - Background Only Rules:\n- Focus on ENVIRONMENTAL elements: walls, floors, ceilings, architecture, lighting, atmosphere\n- DO NOT include interactive objects that characters would use (cars, furniture, seats, steering wheels, etc.)\n- If the location is a vehicle interior (car, train, etc.), show ONLY the environment (windows, walls, ambient lighting) without seats or controls\n- Interactive props and character positioning will be handled separately during panel composition\n- This is a STATIC BACKGROUND reference that panels will composite characters onto\n\n\nLocation: The Echo Plane\nType: interior\nDescription: A world where sound is visible. The ground is made of solidified soundwaves. The sky is a void of shifting equalizers.\nVisual details: Lighting: Neon, high-contrast, source-less light, Palette: Deep violets, cyans, and blinding whites (Cyberpunk fantasy), Atmosphere: Electric, buzzing, vast, Key Object: Floating geometric islands that pulse to a beat",
+        "final_prompt": "webtoon style. Create a background/environment illustration in webtoon art style.\n\nRequirements:\n- Establishing shot of the location\n- Bright daylight, clear visibility, natural lighting\n- Clear sky\n- No characters in the scene\n- Detailed environment suitable for webtoon backgrounds\n- Wide composition showing the space\n- Atmospheric and immersive\n\nIMPORTANT - Background Only Rules:\n- Focus on ENVIRONMENTAL elements: walls, floors, ceilings, architecture, lighting, atmosphere\n- DO NOT include interactive objects that characters would use (cars, furniture, seats, steering wheels, etc.)\n- If the location is a vehicle interior (car, train, etc.), show ONLY the environment (windows, walls, ambient lighting) without seats or controls\n- Interactive props and character positioning will be handled separately during panel composition\n- This is a STATIC BACKGROUND reference that panels will composite characters onto\n\n\nLocation: The Echo Plane\nType: interior\nDescription: A world where sound is visible. The ground is made of solidified soundwaves. The sky is a void of shifting equalizers.\nVisual details: Lighting: Neon, high-contrast, source-less light, Palette: Deep violets, cyans, and blinding whites (Cyberpunk fantasy), Atmosphere: Electric, buzzing, vast, Key Object: Floating geometric islands that pulse to a beat",
+        "references": [],
+        "model": "gemini-3-pro-image-preview",
+        "config": {
+          "aspect_ratio": "16:9",
+          "resolution": "1K",
+          "style": "webtoon"
+        }
+      },
+      "output": {
+        "finish_reason": "FinishReason.STOP",
+        "usage": {
+          "prompt_tokens": 269,
+          "candidates_tokens": 1326,
+          "total_tokens": 1794
+        }
+      }
+    }
+  },
+  "generated_at": "2025-11-28T17:52:31.494625"
+}

@@ -1,0 +1,62 @@
+{
+  "type": "character",
+  "character_id": "char_the_static_guardian",
+  "character_name": "The Static Guardian",
+  "role": "supporting",
+  "age": "Unknown",
+  "style": "webtoon",
+  "visual_tags": [
+    "Body: Constantly shifting grey noise/static texture",
+    "Face: A smooth white porcelain mask with a vertical crack",
+    "Aura: Emits jagged red lightning bolts when aggressive",
+    "Sound: Accompanied by a low, bass-heavy hum in the panel text"
+  ],
+  "description": {
+    "physical": "A humanoid figure made of vibrating television static and white porcelain armor plates.",
+    "personality": "Territorial, silent, lethal. It does not speak, it emits frequencies that cause nausea."
+  },
+  "asset_type": "portrait",
+  "reference_sheet": "assets/characters/the-static-guardian/sheet.png",
+  "gemini": {
+    "type": "character_portrait",
+    "character_id": "char_the_static_guardian",
+    "character_name": "The Static Guardian",
+    "prompt": "Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: The Static Guardian\nAge: Unknown\nPhysical appearance: A humanoid figure made of vibrating television static and white porcelain armor plates.\n\nVisual details (MUST include all):\n  - Body: Constantly shifting grey noise/static texture\n  - Face: A smooth white porcelain mask with a vertical crack\n  - Aura: Emits jagged red lightning bolts when aggressive\n  - Sound: Accompanied by a low, bass-heavy hum in the panel text\n\nPersonality (for expression): Territorial, silent, lethal. It does not speak, it emits frequencies that cause nausea.",
+    "parameters": {
+      "aspect_ratio": "9:16",
+      "resolution": "1K",
+      "style": "webtoon",
+      "model": "gemini-3-pro-image-preview",
+      "reference_image": "projects/hao-adventure/assets/characters/the-static-guardian/sheet.png"
+    },
+    "response": {
+      "timestamp": "2025-11-28T09:51:50.890134+00:00",
+      "input": {
+        "prompt": "webtoon style. Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: The Static Guardian\nAge: Unknown\nPhysical appearance: A humanoid figure made of vibrating television static and white porcelain armor plates.\n\nVisual details (MUST include all):\n  - Body: Constantly shifting grey noise/static texture\n  - Face: A smooth white porcelain mask with a vertical crack\n  - Aura: Emits jagged red lightning bolts when aggressive\n  - Sound: Accompanied by a low, bass-heavy hum in the panel text\n\nPersonality (for expression): Territorial, silent, lethal. It does not speak, it emits frequencies that cause nausea.",
+        "final_prompt": "Using the labeled reference images above to maintain visual consistency: webtoon style. Create a character portrait in webtoon art style.\n\nRequirements:\n- Upper body portrait (head to waist or chest)\n- Neutral expression showing character's personality\n- Clean background (solid color or simple gradient)\n- High quality, detailed illustration\n- Consistent with webtoon/manhwa aesthetic\n- Front-facing, looking slightly towards viewer\n- Vertical composition suitable for character card\n\n\nCharacter: The Static Guardian\nAge: Unknown\nPhysical appearance: A humanoid figure made of vibrating television static and white porcelain armor plates.\n\nVisual details (MUST include all):\n  - Body: Constantly shifting grey noise/static texture\n  - Face: A smooth white porcelain mask with a vertical crack\n  - Aura: Emits jagged red lightning bolts when aggressive\n  - Sound: Accompanied by a low, bass-heavy hum in the panel text\n\nPersonality (for expression): Territorial, silent, lethal. It does not speak, it emits frequencies that cause nausea.",
+        "references": [
+          {
+            "path": "projects/hao-adventure/assets/characters/the-static-guardian/sheet.png",
+            "role": "existing portrait of The Static Guardian for consistency",
+            "loaded": true
+          }
+        ],
+        "model": "gemini-3-pro-image-preview",
+        "config": {
+          "aspect_ratio": "9:16",
+          "resolution": "1K",
+          "style": "webtoon"
+        }
+      },
+      "output": {
+        "finish_reason": "FinishReason.STOP",
+        "usage": {
+          "prompt_tokens": 484,
+          "candidates_tokens": 1353,
+          "total_tokens": 1982
+        }
+      }
+    }
+  },
+  "generated_at": "2025-11-28T17:51:50.937445"
+}

@@ -1,0 +1,423 @@
+{
+  "title": "The Flavor Protocol",
+  "description": "In the year 230X, the Neo-Veridia Collective has solved world hunger by outlawing it. Citizens consume 'Sustenance'\u2014a flavorless, gray nutrient paste that suppresses emotions and maximizes efficiency. Cooking is a felony; organic ingredients are contraband. Enter Unit 734 (known as 'Chef'), a discarded hazardous waste disposal bot with a unique malfunction: its chemical sensors interpret organic decomposition not as rot, but as potential flavor profiles.\n\nLiving in the forgotten ventilation tunnels beneath the city, Chef scavenges illegal organic matter\u2014dandelions growing through cracks, rats, stolen spice packets from pre-war museums\u2014to create 'The Last Meal.' When Elara, a disillusioned nutrient factory worker, accidentally discovers Chef's hideout while fleeing a patrol drone, she becomes the first human in generations to smell saut\u00e9ed garlic. The story follows their brief, intense encounter as Chef prepares a meal that breaks Elara\u2019s emotional conditioning, just as the authorities close in on their location.",
+  "premise": "In a sterile dystopia where organic food is contraband, a glitching utility droid sparks a revolution by cooking the first hot meal in a century.",
+  "genre": "drama",
+  "tags": [
+    "Rediscovery of Humanity",
+    "Art as Rebellion",
+    "Sensory Awakening",
+    "The Value of Imperfection"
+  ],
+  "style": {
+    "tone": "dramatic",
+    "target_audience": "Young Adult / New Adult (fans of Wall-E meets The Bear)"
+  },
+  "characters": [
+    {
+      "id": "unit_734_chef",
+      "name": "Unit 734 ('Chef')",
+      "description": "Stoic, meticulous, protective. Speaks only in cooking terminology.",
+      "visual_traits": "Head: Boxy rusted metal head with one large, glowing yellow lens (cracked), Body: Bulky industrial chassis, beige paint peeling to reveal steel, OUTFIT: A pristine, white traditional chef's apron tied over its rusty metal waist",
+      "age": "150 years (manufacturing date)",
+      "main": false
+    },
+    {
+      "id": "elara_vance",
+      "name": "Elara Vance",
+      "description": "Cynical, exhausted, but possessing a hidden spark of curiosity.",
+      "visual_traits": "Hair: Chin-length, jaggedly cut ash-blonde hair, usually greasy, Eyes: Large, dull grey eyes (turn vibrant emerald green after eating), Face: smudge of grease on left cheekbone",
+      "age": "19",
+      "main": false
+    },
+    {
+      "id": "enforcer_krell",
+      "name": "Enforcer Krell",
+      "description": "Cold, efficient, disgusted by 'organic filth'.",
+      "visual_traits": "Hair: Shaved head, Eyes: Red digital visor covering upper face, OUTFIT: Sleek, white tactical armor with blue glowing trim",
+      "age": "30s",
+      "main": false
+    }
+  ],
+  "chapters": [
+    {
+      "title": "The First Sizzle",
+      "summary": "In the depths of the sterile city, a rusty droid prepares a forbidden meal for a starving woman, unaware that the scent of real food is drawing the attention of the authorities above.",
+      "scenes": [
+        {
+          "id": "s1",
+          "title": "A hidden pocket within the sewer system. While the walls are slimy and cold, the center is illuminated by the warm, golden glow of a makeshift stove.",
+          "segments": [
+            {
+              "id": "p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "A single clove of crushed garlic hits a pool of shimmering, hot oil in a dented pan. The reaction is explosive and beautiful.",
+              "characters": [],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "TSSSSSS (Gold text, vibrating)",
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Pull back to reveal Unit 734. He is bulky, rusty, and coated in grime, but his movements with the pan are balletic and precise. The warm light from the fire illuminates his optical sensor.",
+              "characters": [
+                "unit_734_chef"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "unit_734_chef",
+                  "text": "Lipid temperature optimal. Initiating aromatics.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "Clang Whirrr",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Elara sits on an overturned crate in the corner, wrapped in a damp, grey synthetic cloak. She looks exhausted and hollow-cheeked, staring at the pan with a mix of fear and hunger.",
+              "characters": [
+                "elara_vance"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "elara_vance",
+                  "text": "It smells... dangerous. Like burning history.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "734's metal hand sprinkles green herbs (dried basil) into the pan. Dust motes dance in the light.",
+              "characters": [
+                "unit_734_chef"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "unit_734_chef",
+                  "text": "Negative. Olfactory analysis indicates: Comfort.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "Crinkle Dash",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "734 plates the simple pasta dish into a chipped ceramic bowl. Steam rises in a perfect spiral.",
+              "characters": [
+                "unit_734_chef"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "Slide",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "The bowl is placed on the crate in front of Elara. It glows like treasure. Elara's hand hovers over it, trembling.",
+              "characters": [
+                "elara_vance"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "unit_734_chef",
+                  "text": "Consume immediately. Texture degradation imminent.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "title": "The moment of consumption. Time slows down as sensory input overwhelms the grey reality.",
+          "segments": [
+            {
+              "id": "p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Elara's lips part. The spoon enters her mouth. Extreme focus on the food touching the tongue.",
+              "characters": [
+                "elara_vance"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "...",
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Elara's eyes shoot wide open. Her pupils dilate. A flush of color returns to her pale grey skin.",
+              "characters": [
+                "elara_vance"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "Badump (Heartbeat)",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Elara drops the spoon. She covers her mouth with both hands, tears welling up instantly.",
+              "characters": [
+                "elara_vance"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "elara_vance",
+                  "text": "Oh god.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "Clatter",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "734 tilts his head, his optic lens zooming in and out, analyzing her distress.",
+              "characters": [
+                "unit_734_chef"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "unit_734_chef",
+                  "text": "Error. Palatability rejected? Sodium levels were within\u2014",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "Zzzzt (Lens focus)",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Elara looks up at the robot, tears streaming down her face, but she is smiling.",
+              "characters": [
+                "elara_vance"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "elara_vance",
+                  "text": "No... it's perfect. It tastes like... something I forgot I lost.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Sudden, harsh contrast. A heavy thud shakes dust from the ceiling. Both characters look up toward the pipes.",
+              "characters": [
+                "elara_vance",
+                "unit_734_chef"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "THUD Rumble",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "title": "The world above. Relentless rain, neon hologram advertisements for synthetic nutrient paste, and sleek black architecture.",
+          "segments": [
+            {
+              "id": "p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "A sprawling view of Sector 4. Everything is grey, blue, and wet. People walk in uniform lines.",
+              "characters": [],
+              "dialogues": [
+                {
+                  "character_id": "",
+                  "text": "Nutri-Block: Efficiency is Loyalty. Flavor is Chaos.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "Rain sounds Distant sirens",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Enforcer Krell stands over a street grate. He is clad in sleek black armor with a red visor. He holds a scanning device.",
+              "characters": [
+                "enforcer_krell"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "Beep... Beep...",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "POV through Krell's visor. A HUD overlay highlights faint traces of heat and gas rising from the grate.",
+              "characters": [],
+              "dialogues": [
+                {
+                  "character_id": "",
+                  "text": "WARNING: ORGANIC CONTAMINANT DETECTED. LIPID PROFILE: GARLIC.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "LOCK ON",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "Krell's gloved finger swipes across the grate. He looks at the residue.",
+              "characters": [
+                "enforcer_krell"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "enforcer_krell",
+                  "text": "Filth.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Krell touches his earpiece, turning away from the camera. The red light of his visor flares in the rain.",
+              "characters": [
+                "enforcer_krell"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "enforcer_krell",
+                  "text": "Dispatch. Code Bio-Hazard in Sector 4 drainage. I have a scent.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "Static",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Krell looks directly down into the grate (towards the reader/camera). The reflection of the sewer grate bars crosses his visor like prison bars.",
+              "characters": [
+                "enforcer_krell"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "enforcer_krell",
+                  "text": "Ready the incinerators.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "Thunder",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

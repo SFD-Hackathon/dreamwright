@@ -1,0 +1,394 @@
+{
+  "title": "The Fox Rain Blueprint",
+  "description": "Hao, a talented but overworked architect, travels to Japan on a forced vacation to cure his creative block. However, the bustling neon streets of Kyoto only overwhelm him further. While trying to escape a sudden, strange weather phenomenon\u2014a sun-shower (Fox Rain)\u2014he chases a runaway sketch page down a narrow, fog-filled alleyway that shouldn't exist.\n\nHe emerges not in the city he knows, but in 'The Twilight District,' a liminal space where spirits masquerade as humans to enjoy earthly delights. Here, he meets Yuki, a mischievous shopkeeper who claims she can fix his ruined sketches using 'Kintsugi' magic\u2014gold repair for the soul. \n\nFor one magical hour, Hao experiences the 'good time' he was promised, seeing the architecture of the spirit world. But as the sun-shower ends, he faces a choice: stay in the dream and lose his humanity, or return to the real world with his passion reignited, leaving his muse behind forever.",
+  "premise": "A burnt-out architect seeking inspiration in Kyoto accidentally wanders into a hidden spirit market that only appears during a sun-shower, where he must trade a memory for a masterpiece.",
+  "genre": "drama",
+  "tags": [
+    "Rediscovering Passion",
+    "Modernity vs. Tradition",
+    "The Fleeting Nature of Beauty",
+    "Work-Life Balance"
+  ],
+  "style": {
+    "tone": "dramatic",
+    "target_audience": "Young Adults (18-30) interested in travel, aesthetics, and low-stakes fantasy."
+  },
+  "characters": [
+    {
+      "id": "hao",
+      "name": "Hao",
+      "description": "Perfectionist, stressed, observant, internally romantic but outwardly cynical.",
+      "visual_traits": "Hair: Messy, chin-length jet black hair with an undercut, Eyes: Narrow dark grey eyes with visible dark circles, Face: Pale complexion, small mole under left eye",
+      "age": "26",
+      "main": true
+    },
+    {
+      "id": "yuki",
+      "name": "Yuki",
+      "description": "Mischievous, wise, enigmatic, fleeting.",
+      "visual_traits": "Hair: Platinum white bob with blunt bangs, Eyes: Golden amber eyes with slit pupils (subtle), Face: Heart-shaped face with red makeup at the corners of eyes",
+      "age": "Appears 20 (Actually Ancient)",
+      "main": false
+    }
+  ],
+  "chapters": [
+    {
+      "title": "The Fox Rain Blueprint",
+      "summary": "Burned-out architect Hao hits rock bottom in the rain, only to step through a sun-shower into a surreal spirit world, where he encounters a mysterious shopkeeper.",
+      "scenes": [
+        {
+          "id": "ch1_s1",
+          "title": "A crowded, rainy intersection in the real world. The noise is overwhelming, but Hao feels completely alone.",
+          "segments": [
+            {
+              "id": "ch1_s1_p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "A single heavy raindrop smacks onto the surface of a sketchbook page, turning a charcoal architectural sketch into a grey smear.",
+              "characters": [],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "PLIP SMUDGE",
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s1_p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Hao stares down at the ruined sketchbook. He looks exhausted, dark circles under his eyes, hair plastered to his forehead by the rain.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "Three weeks...",
+                  "type": "speech"
+                },
+                {
+                  "character_id": "hao",
+                  "text": "And I still have nothing.",
+                  "type": "thought"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s1_p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "High angle of the Shibuya crossing. The crowd is a blur of umbrellas and neon reflections. Hao stands still in the center, a dark anchor in the flow of motion.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "RUSH HONK CHATTER",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s1_p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "Hao looks up at the sky. Through the heavy grey rain, a beam of golden sunlight pierces through unnaturally. A Fox Rain (sun-shower).",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "Sun?",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s1_p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "The atmosphere shifts. The background noise of the city fades into a muffled hum. The neon lights blur into soft, floating orbs. Hao looks around, disoriented.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "fwoosh... silence",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s1_p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Hao takes a step forward. His foot doesn't land on asphalt.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "CLACK",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        },
+        {
+          "id": "ch1_s2",
+          "title": "The transition between worlds. A path of stone steps floating in a void that reflects a starry twilight sky.",
+          "segments": [
+            {
+              "id": "ch1_s2_p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Close up on Hao's shoe landing on an ancient, mossy stone step. Ripples spread out from the stone as if it's floating on water.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "RIPPLE",
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s2_p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Hao stands at the beginning of an endless path of vermilion Torii gates. Beneath the path is a reflection of a night sky, even though it was just afternoon.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "Where...?",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s2_p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Hao turns back, but the city is gone. Behind him is just mist and the fading golden rain.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s2_p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "A distant view of Hao walking down the path. Far ahead, a warm, inviting orange light spills from a small structure.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s2_p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Hao approaches the structure. It's an old wooden shop front. He hesitates, hand hovering over the sliding door.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "Hello?",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s2_p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "The door slides open on its own with a creak.",
+              "characters": [],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "CREAK",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        },
+        {
+          "id": "ch1_s3",
+          "title": "Inside the shop. It is filled with clocks that run backwards, floating lanterns, and impossible geometric shapes.",
+          "segments": [
+            {
+              "id": "ch1_s3_p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Hao steps inside. The room is taller on the inside than it looked outside. Shelves are stacked to the ceiling with artifacts.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s3_p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Hao's attention is caught by a glass pen resting on a desk. It glows faintly with blue light.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "Beautiful...",
+                  "type": "thought"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s3_p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "A pair of bare feet dangle into the top of the frame from a high shelf. Hao doesn't notice yet.",
+              "characters": [
+                "hao",
+                "yuki"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s3_p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "Yuki drops down gracefully behind Hao, landing without a sound. She is smiling mischievously.",
+              "characters": [
+                "hao",
+                "yuki"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "flump",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s3_p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Hao jumps and spins around as Yuki leans in close over his shoulder.",
+              "characters": [
+                "hao",
+                "yuki"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "yuki",
+                  "text": "We don't get many humans during a fox rain.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s3_p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Focus on Yuki's eyes. They are unnatural, slitted like a fox's. She holds up a finger.",
+              "characters": [
+                "yuki"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "yuki",
+                  "text": "Looking for something to fill that empty sketchbook, Architect?",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

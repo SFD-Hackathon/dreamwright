@@ -1,0 +1,739 @@
+{
+  "id": "proj_hao_japan_trip",
+  "name": "hao-japan-trip",
+  "created_at": "2025-11-28T16:53:15.352207",
+  "updated_at": "2025-11-28T16:56:02.500796",
+  "format": "webtoon",
+  "status": "in_progress",
+  "story": {
+    "id": "story_the_fox_rain_blueprint",
+    "title": "The Fox Rain Blueprint",
+    "logline": "A burnt-out architect seeking inspiration in Kyoto accidentally wanders into a hidden spirit market that only appears during a sun-shower, where he must trade a memory for a masterpiece.",
+    "genre": "drama",
+    "tone": "dramatic",
+    "themes": [
+      "Rediscovering Passion",
+      "Modernity vs. Tradition",
+      "The Fleeting Nature of Beauty",
+      "Work-Life Balance"
+    ],
+    "target_audience": "Young Adults (18-30) interested in travel, aesthetics, and low-stakes fantasy.",
+    "episode_count": 1,
+    "synopsis": "Hao, a talented but overworked architect, travels to Japan on a forced vacation to cure his creative block. However, the bustling neon streets of Kyoto only overwhelm him further. While trying to escape a sudden, strange weather phenomenon—a sun-shower (Fox Rain)—he chases a runaway sketch page down a narrow, fog-filled alleyway that shouldn't exist.\n\nHe emerges not in the city he knows, but in 'The Twilight District,' a liminal space where spirits masquerade as humans to enjoy earthly delights. Here, he meets Yuki, a mischievous shopkeeper who claims she can fix his ruined sketches using 'Kintsugi' magic—gold repair for the soul. \n\nFor one magical hour, Hao experiences the 'good time' he was promised, seeing the architecture of the spirit world. But as the sun-shower ends, he faces a choice: stay in the dream and lose his humanity, or return to the real world with his passion reignited, leaving his muse behind forever.",
+    "story_beats": [
+      {
+        "beat": "Hook",
+        "description": "Opening Panel: Extreme close-up of a raindrop hitting a sketchbook, blurring a charcoal drawing. Zoom out to reveal Hao standing amidst the chaotic, neon-lit Shibuya crossing, looking utterly defeated and isolated despite the crowd."
+      },
+      {
+        "beat": "Inciting Incident",
+        "description": "A sudden gust of wind snatches his most important blueprint. He chases it away from the main street, squeezing through a gap between two vending machines. As he passes through, the cacophony of the city abruptly cuts to silence. The lighting shifts from cold blue neon to warm amber lantern light."
+      },
+      {
+        "beat": "Rising Action",
+        "description": "Hao explores the 'Twilight District.' He sees food stalls serving glowing dumplings and cats walking on two legs. He finds his blueprint in the hands of Yuki, who runs an antique shop. She teases him about his 'soulless' lines. They bond over a montage of exploring the spirit market; she shows him the 'bones' of the ancient buildings, reigniting his architectural eye."
+      },
+      {
+        "beat": "Climax",
+        "description": "The rain begins to stop. Yuki reveals that if the ground dries while he is still there, he becomes a spirit forever. Hao frantically tries to sketch the spirit temple before he leaves, desperate to capture the inspiration. The world begins to blur and dissolve around him."
+      },
+      {
+        "beat": "Resolution",
+        "description": "Hao stumbles back out between the vending machines into the loud, grey city. He looks at his sketchbook. The drawing of the spirit temple is there, but the lines are filled with real gold leaf. He smiles, finally relaxed, and walks back into the crowd, ready to work."
+      }
+    ]
+  },
+  "characters": [
+    {
+      "id": "char_hao",
+      "name": "Hao",
+      "role": "protagonist",
+      "age": "26",
+      "description": {
+        "physical": "Tall, lean build with slightly hunched posture from desk work. Sharp jawline, messy dark hair that falls over his eyes.",
+        "personality": "Perfectionist, stressed, observant, internally romantic but outwardly cynical.",
+        "background": "A junior architect at a top firm who has lost his spark due to corporate burnout.",
+        "motivation": "To find a design that feels 'real' in a world of mass production."
+      },
+      "visual_tags": [
+        "Hair: Messy, chin-length jet black hair with an undercut",
+        "Eyes: Narrow dark grey eyes with visible dark circles",
+        "Face: Pale complexion, small mole under left eye",
+        "Top: Oversized beige cable-knit turtleneck sweater",
+        "Bottom: Black slim-fit dress pants",
+        "Footwear: White minimalist leather sneakers",
+        "Accessories: Silver round-frame glasses, brown leather sketchbook bag slung cross-body"
+      ],
+      "assets": {
+        "reference_input": null,
+        "portrait": "assets/characters/hao/portrait.png",
+        "three_view": {
+          "front": null,
+          "side": null,
+          "back": null
+        }
+      },
+      "voice_description": ""
+    },
+    {
+      "id": "char_yuki",
+      "name": "Yuki",
+      "role": "supporting",
+      "age": "Appears 20 (Actually Ancient)",
+      "description": {
+        "physical": "Petite, ethereal, moves with dancer-like grace. Has a playful, fox-like grin.",
+        "personality": "Mischievous, wise, enigmatic, fleeting.",
+        "background": "A Kitsune (fox spirit) who guards the boundary between the old world and the new.",
+        "motivation": "To help lost humans find their way, for the price of their stories."
+      },
+      "visual_tags": [
+        "Hair: Platinum white bob with blunt bangs",
+        "Eyes: Golden amber eyes with slit pupils (subtle)",
+        "Face: Heart-shaped face with red makeup at the corners of eyes",
+        "Top: Red and white modified kimono top with wide sleeves",
+        "Bottom: High-waisted navy hakama-style skirt (short length)",
+        "Footwear: Traditional wooden Geta sandals with red straps",
+        "Accessories: A large fluffy white scarf (hides her tails)"
+      ],
+      "assets": {
+        "reference_input": null,
+        "portrait": "assets/characters/yuki/portrait.png",
+        "three_view": {
+          "front": null,
+          "side": null,
+          "back": null,
+          "sheet": "assets/characters/yuki/sheet.png"
+        }
+      },
+      "voice_description": ""
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_neon_crossing_the_real_world",
+      "name": "Neon Crossing (The Real World)",
+      "type": "interior",
+      "description": "A hyper-realistic, overwhelming city intersection. Cold, wet, and crowded.",
+      "visual_tags": [
+        "Lighting: Cold blue and harsh pink neon reflections",
+        "Atmosphere: Claustrophobic, noisy, rainy",
+        "Key Object: A flickering vending machine with a 'Sold Out' sign",
+        "Colors: Steel grey, electric blue, neon pink"
+      ],
+      "assets": {
+        "reference": "assets/locations/neon-crossing-the-real-world/reference.png",
+        "reference_sheet": null
+      }
+    },
+    {
+      "id": "loc_the_twilight_antique_shop",
+      "name": "The Twilight Antique Shop",
+      "type": "interior",
+      "description": "Yuki's shop inside the spirit world. Cluttered but cozy, filled with impossible objects.",
+      "visual_tags": [
+        "Lighting: Warm, golden lantern light with floating dust motes",
+        "Atmosphere: Serene, timeless, smells of old paper and incense",
+        "Key Object: A large wooden drafting table covered in gold dust",
+        "Colors: Deep wood browns, gold, warm amber"
+      ],
+      "assets": {
+        "reference": "assets/locations/the-twilight-antique-shop/reference.png",
+        "reference_sheet": null
+      }
+    },
+    {
+      "id": "loc_the_floating_torii_path",
+      "name": "The Floating Torii Path",
+      "type": "interior",
+      "description": "The path connecting the market. Stone steps that seem to float over a reflection of the night sky.",
+      "visual_tags": [
+        "Lighting: Soft bioluminescent glow from paper lanterns",
+        "Atmosphere: Magical, expansive, silent",
+        "Key Object: Red Torii gates that seem to stretch infinitely",
+        "Colors: Vermilion red, deep indigo, soft white"
+      ],
+      "assets": {
+        "reference": "assets/locations/the-floating-torii-path/reference.png",
+        "reference_sheet": null
+      }
+    }
+  ],
+  "chapters": [
+    {
+      "id": "ch1",
+      "number": 1,
+      "title": "The Fox Rain Blueprint",
+      "summary": "Burned-out architect Hao hits rock bottom in the rain, only to step through a sun-shower into a surreal spirit world, where he encounters a mysterious shopkeeper.",
+      "status": "completed",
+      "scenes": [
+        {
+          "id": "ch1_s1",
+          "number": 1,
+          "location_id": "loc_neon_crossing_the_real_world",
+          "time_of_day": "evening",
+          "weather": "clear",
+          "character_ids": [
+            "char_hao"
+          ],
+          "description": "A crowded, rainy intersection in the real world. The noise is overwhelming, but Hao feels completely alone.",
+          "mood": "Depressive, chaotic, isolating",
+          "panels": [
+            {
+              "id": "ch1_s1_p1",
+              "number": 1,
+              "type": "panel",
+              "composition": {
+                "shot_type": "extreme_close_up",
+                "angle": "eye_level",
+                "focus": ""
+              },
+              "characters": [],
+              "action": "A single heavy raindrop smacks onto the surface of a sketchbook page, turning a charcoal architectural sketch into a grey smear.",
+              "dialogue": [],
+              "sfx": [
+                "PLIP",
+                "SMUDGE"
+              ],
+              "continues_from_previous": false,
+              "continuity_note": "Focus on the paper texture and the ruin of the drawing.",
+              "image_path": "assets/panels/chapter-1/scene-1/panel-1.png",
+              "video_path": null
+            },
+            {
+              "id": "ch1_s1_p2",
+              "number": 2,
+              "type": "panel",
+              "composition": {
+                "shot_type": "medium",
+                "angle": "eye_level",
+                "focus": ""
+              },
+              "characters": [
+                {
+                  "character_id": "char_hao",
+                  "expression": "exhausted",
+                  "pose": "",
+                  "position": "left"
+                }
+              ],
+              "action": "Hao stares down at the ruined sketchbook. He looks exhausted, dark circles under his eyes, hair plastered to his forehead by the rain.",
+              "dialogue": [
+                {
+                  "character_id": "char_hao",
+                  "text": "Three weeks...",
+                  "type": "speech"
+                },
+                {
+                  "character_id": "char_hao",
+                  "text": "And I still have nothing.",
+                  "type": "thought"
+                }
+              ],
+              "sfx": [],
+              "continues_from_previous": false,
+              "continuity_note": "",
+              "image_path": "assets/panels/chapter-1/scene-1/panel-2.png",
+              "video_path": null
+            },
+            {
+              "id": "ch1_s1_p3",
+              "number": 3,
+              "type": "panel",
+              "composition": {
+                "shot_type": "wide",
+                "angle": "high",
+                "focus": ""
+              },
+              "characters": [
+                {
+                  "character_id": "char_hao",
+                  "expression": "neutral",
+                  "pose": "",
+                  "position": "left"
+                }
+              ],
+              "action": "High angle of the Shibuya crossing. The crowd is a blur of umbrellas and neon reflections. Hao stands still in the center, a dark anchor in the flow of motion.",
+              "dialogue": [],
+              "sfx": [
+                "RUSH",
+                "HONK",
+                "CHATTER"
+              ],
+              "continues_from_previous": true,
+              "continuity_note": "Hao is holding the sketchbook from panel 1.",
+              "image_path": "assets/panels/chapter-1/scene-1/panel-3.png",
+              "video_path": null
+            },
+            {
+              "id": "ch1_s1_p4",
+              "number": 4,
+              "type": "panel",
+              "composition": {
+                "shot_type": "close_up",
+                "angle": "low",
+                "focus": ""
+              },
+              "characters": [
+                {
+                  "character_id": "char_hao",
+                  "expression": "confused",
+                  "pose": "",
+                  "position": "left"
+                }
+              ],
+              "action": "Hao looks up at the sky. Through the heavy grey rain, a beam of golden sunlight pierces through unnaturally. A Fox Rain (sun-shower).",
+              "dialogue": [
+                {
+                  "character_id": "char_hao",
+                  "text": "Sun?",
+                  "type": "speech"
+                }
+              ],
+              "sfx": [],
+              "continues_from_previous": true,
+              "continuity_note": "",
+              "image_path": "assets/panels/chapter-1/scene-1/panel-4.png",
+              "video_path": null
+            },
+            {
+              "id": "ch1_s1_p5",
+              "number": 5,
+              "type": "panel",
+              "composition": {
+                "shot_type": "medium",
+                "angle": "eye_level",
+                "focus": ""
+              },
+              "characters": [
+                {
+                  "character_id": "char_hao",
+                  "expression": "neutral",
+                  "pose": "",
+                  "position": "left"
+                }
+              ],
+              "action": "The atmosphere shifts. The background noise of the city fades into a muffled hum. The neon lights blur into soft, floating orbs. Hao looks around, disoriented.",
+              "dialogue": [],
+              "sfx": [
+                "fwoosh...",
+                "silence"
+              ],
+              "continues_from_previous": true,
+              "continuity_note": "Lighting changes from cold city blue to warm, mysterious gold.",
+              "image_path": "assets/panels/chapter-1/scene-1/panel-5.png",
+              "video_path": null
+            },
+            {
+              "id": "ch1_s1_p6",
+              "number": 6,
+              "type": "panel",
+              "composition": {
+                "shot_type": "close_up",
+                "angle": "eye_level",
+                "focus": ""
+              },
+              "characters": [
+                {
+                  "character_id": "char_hao",
+                  "expression": "neutral",
+                  "pose": "",
+                  "position": "left"
+                }
+              ],
+              "action": "Hao takes a step forward. His foot doesn't land on asphalt.",
+              "dialogue": [],
+              "sfx": [
+                "CLACK"
+              ],
+              "continues_from_previous": true,
+              "continuity_note": "Focus on the foot movement.",
+              "image_path": "assets/panels/chapter-1/scene-1/panel-6.png",
+              "video_path": null
+            }
+          ],
+          "continues_from_previous_chapter": false
+        },
+        {
+          "id": "ch1_s2",
+          "number": 2,
+          "location_id": "loc_the_floating_torii_path",
+          "time_of_day": "day",
+          "weather": "clear",
+          "character_ids": [
+            "char_hao"
+          ],
+          "description": "The transition between worlds. A path of stone steps floating in a void that reflects a starry twilight sky.",
+          "mood": "Surreal, mystical, awe-inspiring",
+          "panels": [
+            {
+              "id": "ch1_s2_p1",
+              "number": 1,
+              "type": "panel",
+              "composition": {
+                "shot_type": "extreme_close_up",
+                "angle": "low",
+                "focus": ""
+              },
+              "characters": [
+                {
+                  "character_id": "char_hao",
+                  "expression": "neutral",
+                  "pose": "",
+                  "position": "left"
+                }
+              ],
+              "action": "Close up on Hao's shoe landing on an ancient, mossy stone step. Ripples spread out from the stone as if it's floating on water.",
+              "dialogue": [],
+              "sfx": [
+                "RIPPLE"
+              ],
+              "continues_from_previous": true,
+              "continuity_note": "Same shoe as previous scene.",
+              "image_path": "assets/panels/chapter-1/scene-2/panel-1.png",
+              "video_path": null
+            },
+            {
+              "id": "ch1_s2_p2",
+              "number": 2,
+              "type": "panel",
+              "composition": {
+                "shot_type": "wide",
+                "angle": "eye_level",
+                "focus": ""
+              },
+              "characters": [
+                {
+                  "character_id": "char_hao",
+                  "expression": "surprised",
+                  "pose": "",
+                  "position": "left"
+                }
+              ],
+              "action": "Hao stands at the beginning of an endless path of vermilion Torii gates. Beneath the path is a reflection of a night sky, even though it was just afternoon.",
+              "dialogue": [
+                {
+                  "character_id": "char_hao",
+                  "text": "Where...?",
+                  "type": "speech"
+                }
+              ],
+              "sfx": [],
+              "continues_from_previous": true,
+              "continuity_note": "",
+              "image_path": "assets/panels/chapter-1/scene-2/panel-2.png",
+              "video_path": null
+            },
+            {
+              "id": "ch1_s2_p3",
+              "number": 3,
+              "type": "panel",
+              "composition": {
+                "shot_type": "medium",
+                "angle": "dutch",
+                "focus": ""
+              },
+              "characters": [
+                {
+                  "character_id": "char_hao",
+                  "expression": "scared",
+                  "pose": "",
+                  "position": "left"
+                }
+              ],
+              "action": "Hao turns back, but the city is gone. Behind him is just mist and the fading golden rain.",
+              "dialogue": [],
+              "sfx": [],
+              "continues_from_previous": true,
+              "continuity_note": "",
+              "image_path": "assets/panels/chapter-1/scene-2/panel-3.png",
+              "video_path": null
+            },
+            {
+              "id": "ch1_s2_p4",
+              "number": 4,
+              "type": "panel",
+              "composition": {
+                "shot_type": "medium",
+                "angle": "high",
+                "focus": ""
+              },
+              "characters": [
+                {
+                  "character_id": "char_hao",
+                  "expression": "neutral",
+                  "pose": "",
+                  "position": "left"
+                }
+              ],
+              "action": "A distant view of Hao walking down the path. Far ahead, a warm, inviting orange light spills from a small structure.",
+              "dialogue": [],
+              "sfx": [],
+              "continues_from_previous": false,
+              "continuity_note": "",
+              "image_path": "assets/panels/chapter-1/scene-2/panel-4.png",
+              "video_path": null
+            },
+            {
+              "id": "ch1_s2_p5",
+              "number": 5,
+              "type": "panel",
+              "composition": {
+                "shot_type": "medium",
+                "angle": "eye_level",
+                "focus": ""
+              },
+              "characters": [
+                {
+                  "character_id": "char_hao",
+                  "expression": "thoughtful",
+                  "pose": "",
+                  "position": "left"
+                }
+              ],
+              "action": "Hao approaches the structure. It's an old wooden shop front. He hesitates, hand hovering over the sliding door.",
+              "dialogue": [
+                {
+                  "character_id": "char_hao",
+                  "text": "Hello?",
+                  "type": "speech"
+                }
+              ],
+              "sfx": [],
+              "continues_from_previous": true,
+              "continuity_note": "",
+              "image_path": "assets/panels/chapter-1/scene-2/panel-5.png",
+              "video_path": null
+            },
+            {
+              "id": "ch1_s2_p6",
+              "number": 6,
+              "type": "panel",
+              "composition": {
+                "shot_type": "close_up",
+                "angle": "eye_level",
+                "focus": ""
+              },
+              "characters": [],
+              "action": "The door slides open on its own with a creak.",
+              "dialogue": [],
+              "sfx": [
+                "CREAK"
+              ],
+              "continues_from_previous": true,
+              "continuity_note": "",
+              "image_path": "assets/panels/chapter-1/scene-2/panel-6.png",
+              "video_path": null
+            }
+          ],
+          "continues_from_previous_chapter": false
+        },
+        {
+          "id": "ch1_s3",
+          "number": 3,
+          "location_id": "loc_the_twilight_antique_shop",
+          "time_of_day": "day",
+          "weather": "clear",
+          "character_ids": [
+            "char_hao",
+            "char_yuki"
+          ],
+          "description": "Inside the shop. It is filled with clocks that run backwards, floating lanterns, and impossible geometric shapes.",
+          "mood": "Cozy, mysterious, cluttered",
+          "panels": [
+            {
+              "id": "ch1_s3_p1",
+              "number": 1,
+              "type": "panel",
+              "composition": {
+                "shot_type": "wide",
+                "angle": "eye_level",
+                "focus": ""
+              },
+              "characters": [
+                {
+                  "character_id": "char_hao",
+                  "expression": "confused",
+                  "pose": "",
+                  "position": "left"
+                }
+              ],
+              "action": "Hao steps inside. The room is taller on the inside than it looked outside. Shelves are stacked to the ceiling with artifacts.",
+              "dialogue": [],
+              "sfx": [],
+              "continues_from_previous": true,
+              "continuity_note": "",
+              "image_path": "assets/panels/chapter-1/scene-3/panel-1.png",
+              "video_path": null
+            },
+            {
+              "id": "ch1_s3_p2",
+              "number": 2,
+              "type": "panel",
+              "composition": {
+                "shot_type": "close_up",
+                "angle": "eye_level",
+                "focus": ""
+              },
+              "characters": [
+                {
+                  "character_id": "char_hao",
+                  "expression": "neutral",
+                  "pose": "",
+                  "position": "left"
+                }
+              ],
+              "action": "Hao's attention is caught by a glass pen resting on a desk. It glows faintly with blue light.",
+              "dialogue": [
+                {
+                  "character_id": "char_hao",
+                  "text": "Beautiful...",
+                  "type": "thought"
+                }
+              ],
+              "sfx": [],
+              "continues_from_previous": true,
+              "continuity_note": "",
+              "image_path": "assets/panels/chapter-1/scene-3/panel-2.png",
+              "video_path": null
+            },
+            {
+              "id": "ch1_s3_p3",
+              "number": 3,
+              "type": "panel",
+              "composition": {
+                "shot_type": "medium",
+                "angle": "low",
+                "focus": ""
+              },
+              "characters": [
+                {
+                  "character_id": "char_hao",
+                  "expression": "neutral",
+                  "pose": "",
+                  "position": "left"
+                },
+                {
+                  "character_id": "char_yuki",
+                  "expression": "neutral",
+                  "pose": "",
+                  "position": "center"
+                }
+              ],
+              "action": "A pair of bare feet dangle into the top of the frame from a high shelf. Hao doesn't notice yet.",
+              "dialogue": [],
+              "sfx": [],
+              "continues_from_previous": false,
+              "continuity_note": "",
+              "image_path": "assets/panels/chapter-1/scene-3/panel-3.png",
+              "video_path": null
+            },
+            {
+              "id": "ch1_s3_p4",
+              "number": 4,
+              "type": "panel",
+              "composition": {
+                "shot_type": "medium",
+                "angle": "eye_level",
+                "focus": ""
+              },
+              "characters": [
+                {
+                  "character_id": "char_hao",
+                  "expression": "neutral",
+                  "pose": "",
+                  "position": "left"
+                },
+                {
+                  "character_id": "char_yuki",
+                  "expression": "mischievous",
+                  "pose": "",
+                  "position": "center"
+                }
+              ],
+              "action": "Yuki drops down gracefully behind Hao, landing without a sound. She is smiling mischievously.",
+              "dialogue": [],
+              "sfx": [
+                "flump"
+              ],
+              "continues_from_previous": true,
+              "continuity_note": "Hao is still looking at the pen, back to Yuki.",
+              "image_path": "assets/panels/chapter-1/scene-3/panel-4.png",
+              "video_path": null
+            },
+            {
+              "id": "ch1_s3_p5",
+              "number": 5,
+              "type": "panel",
+              "composition": {
+                "shot_type": "close_up",
+                "angle": "eye_level",
+                "focus": ""
+              },
+              "characters": [
+                {
+                  "character_id": "char_hao",
+                  "expression": "scared",
+                  "pose": "",
+                  "position": "left"
+                },
+                {
+                  "character_id": "char_yuki",
+                  "expression": "happy",
+                  "pose": "",
+                  "position": "center"
+                }
+              ],
+              "action": "Hao jumps and spins around as Yuki leans in close over his shoulder.",
+              "dialogue": [
+                {
+                  "character_id": "char_yuki",
+                  "text": "We don't get many humans during a fox rain.",
+                  "type": "speech"
+                }
+              ],
+              "sfx": [],
+              "continues_from_previous": true,
+              "continuity_note": "",
+              "image_path": "assets/panels/chapter-1/scene-3/panel-5.png",
+              "video_path": null
+            },
+            {
+              "id": "ch1_s3_p6",
+              "number": 6,
+              "type": "panel",
+              "composition": {
+                "shot_type": "extreme_close_up",
+                "angle": "eye_level",
+                "focus": ""
+              },
+              "characters": [
+                {
+                  "character_id": "char_yuki",
+                  "expression": "mischievous",
+                  "pose": "",
+                  "position": "left"
+                }
+              ],
+              "action": "Focus on Yuki's eyes. They are unnatural, slitted like a fox's. She holds up a finger.",
+              "dialogue": [
+                {
+                  "character_id": "char_yuki",
+                  "text": "Looking for something to fill that empty sketchbook, Architect?",
+                  "type": "speech"
+                }
+              ],
+              "sfx": [],
+              "continues_from_previous": true,
+              "continuity_note": "",
+              "image_path": "assets/panels/chapter-1/scene-3/panel-6.png",
+              "video_path": null
+            }
+          ],
+          "continues_from_previous_chapter": false
+        }
+      ]
+    }
+  ],
+  "original_prompt": "Hao is having a good time visiting Japan",
+  "reference_images": []
+}

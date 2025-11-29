@@ -1,0 +1,395 @@
+{
+  "title": "Static Frequency",
+  "description": "Hao, an audiophile and field recorder, is obsessed with capturing 'pure silence'\u2014a metaphor for the peace he hasn't felt since his twin sister vanished years ago. His search leads him to the Deep Sector of the Blackwood Forest, a restricted area known for magnetic anomalies. While recording near an ancient, lightning-struck banyan tree, his equipment picks up a rhythmic, mechanical thrumming that mimics a human heartbeat.\n\nAs he investigates, reality begins to distort around the tree. The moss turns from green to a digital violet, and the air ripples like water. Hao realizes the tree isn't a plant, but a wound in the world. Through the gap, he sees a landscape of floating geometric islands and hears his sister's voice calling for help. Driven by desperation, Hao steps through the anomaly just as the forest rangers arrive to stop him.\n\nHe lands in the 'Echo Plane,' a dimension where sound waves are visible light. But he isn't alone. A guardian entity\u2014a construct of static and bone\u2014blocks his path. Hao must use his recording equipment to manipulate the frequencies of this new world to survive the first encounter, realizing that to save his sister, he must master the noise that threatens to consume him.",
+  "premise": "A sound engineer searching for the quietest place on Earth captures a frequency that doesn't exist, leading him through a glitch in reality to a world where sound is a weapon.",
+  "genre": "drama",
+  "tags": [
+    "Obsession vs. Reality",
+    "Grief as a physical space",
+    "The hidden layers of the world"
+  ],
+  "style": {
+    "tone": "dramatic",
+    "target_audience": "Young Adult / New Adult (18-30)"
+  },
+  "characters": [
+    {
+      "id": "hao",
+      "name": "Hao",
+      "description": "",
+      "visual_traits": "",
+      "age": "",
+      "main": true
+    },
+    {
+      "id": "the_static_guardian",
+      "name": "The Static Guardian",
+      "description": "Territorial, silent, lethal. It does not speak, it emits frequencies that cause nausea.",
+      "visual_traits": "Body: Constantly shifting grey noise/static texture, Face: A smooth white porcelain mask with a vertical crack, Aura: Emits jagged red lightning bolts when aggressive",
+      "age": "Unknown",
+      "main": false
+    }
+  ],
+  "chapters": [
+    {
+      "title": "The Glitch",
+      "summary": "Hao, a sound engineer seeking absolute silence, records an anomaly in the Blackwood Deep Sector that shatters reality and pulls him into a dimension made of sound.",
+      "scenes": [
+        {
+          "id": "ch1_s1",
+          "title": "A dense, ancient forest where the canopy is so thick it blocks the sky. The air is damp and cold. It is unnaturally silent.",
+          "segments": [
+            {
+              "id": "ch1_s1_p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Focus on the LCD screen of a high-end audio recorder. The numbers fluctuate slightly before settling on an impossible reading: -22dB. Frost gathers on the plastic bezel.",
+              "characters": [],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "Come on... settle...",
+                  "type": "thought"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s1_p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Establishing shot of Hao sitting cross-legged on a bed of moss between massive, towering redwood-like trees. He looks tiny and vulnerable. He is wearing heavy noise-canceling headphones and a thick parka.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "...",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s1_p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Hao holds his breath, his finger hovering over the red 'RECORD' button. Vapor rises from his mouth. The forest background is perfectly still\u2014no wind, no leaves moving.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "The Blackwood Anechoic zone. The only place left on the map.",
+                  "type": "thought"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s1_p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "The finger presses the button. The red LED light ignites.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "CLICK",
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s1_p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Hao suddenly violently recoils, hands flying up to clutch the headphones against his ears. His eyes are wide with shock and pain. The background remains peaceful, creating a jarring contrast.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "SCREEEEEECH KRZZZT",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s1_p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "Insert shot of the recorder screen. The audio waveform isn't a chaotic wave; it is spiking red and forming a perfect, sharp, unnatural geometric square wave that looks like teeth.",
+              "characters": [],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "What the\u2014?!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "ERROR ERROR",
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        },
+        {
+          "id": "ch1_s2",
+          "title": "Reality begins to degrade as the sound frequency tears through the physical world.",
+          "segments": [
+            {
+              "id": "ch1_s2_p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Hao tries to rip the headphones off, but his hands are vibrating uncontrollably. The air around him is starting to shimmer with chromatic aberration (RGB split effect).",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "It won't stop! It's inside my head!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "HUMMMMMMM",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s2_p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "POV shot from Hao looking up at the trees. The trees aren't wood anymore; they are dissolving into vertical bars of black digital noise. The sky is flickering like a broken monitor.",
+              "characters": [],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "GLITCH POP",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s2_p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Hao falls to his knees. The moss beneath him has turned into grey television static. His hands are sinking into the ground as if it were liquid mercury.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "The ground... it's dissolving!",
+                  "type": "thought"
+                }
+              ],
+              "narration": null,
+              "sfx": "ZZZTTT",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s2_p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "The recorder floats in the air, suspended by gravity manipulation. The screen cracks, and the red waveform 'leaks' out of the glass, becoming a physical red ribbon of energy.",
+              "characters": [],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "SHATTER",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s2_p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Hao looks directly at the camera/reader. His eyes are reflecting the red energy. His nose is bleeding. The world behind him has gone completely white.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "This isn't a sound...",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s2_p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "The ground vanishes completely. Hao falls into a void of swirling geometric shapes and neon frequencies. He is a silhouette against the chaos.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "DROP WHOOSH",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        },
+        {
+          "id": "ch1_s3",
+          "title": "A world composed of visible sound. The ground is solidified waves, the sky is a void of shifting equalizers.",
+          "segments": [
+            {
+              "id": "ch1_s3_p1",
+              "sequence": 1,
+              "segment_type": "panel",
+              "description": "Hao lands hard on a surface that looks like ripples in water, but it is solid and hard as concrete. It glows neon cyan on impact. The sky above is black with floating equalizer bars.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "Guh...!",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "THUD (Reverb)",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s3_p2",
+              "sequence": 2,
+              "segment_type": "panel",
+              "description": "Hao pushes himself up, looking around. The environment is abstract\u2014floating platforms of soundwaves.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "hao",
+                  "text": "Where... is the forest?",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": null,
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s3_p3",
+              "sequence": 3,
+              "segment_type": "panel",
+              "description": "Hao notices a vibration in the floor. A shadow falls over him. He freezes.",
+              "characters": [
+                "hao"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "THUMP THUMP",
+              "shot_type": "close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s3_p4",
+              "sequence": 4,
+              "segment_type": "panel",
+              "description": "Reveal shot. Standing behind Hao is The Static Guardian. It is tall, humanoid, composed of buzzing black-and-white TV static held together by floating white porcelain armor plates.",
+              "characters": [
+                "hao",
+                "the_static_guardian"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "WHITE NOISE",
+              "shot_type": "wide",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s3_p5",
+              "sequence": 5,
+              "segment_type": "panel",
+              "description": "Close up on the 'face' of The Static Guardian. There are no features, just intense, swirling static where a face should be. A porcelain halo floats behind its head.",
+              "characters": [
+                "the_static_guardian"
+              ],
+              "dialogues": [],
+              "narration": null,
+              "sfx": "CRACKLE",
+              "shot_type": "extreme_close_up",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            },
+            {
+              "id": "ch1_s3_p6",
+              "sequence": 6,
+              "segment_type": "panel",
+              "description": "The Static Guardian raises a porcelain-plated arm. The air around its hand distorts. Hao scrambles backward on the ground.",
+              "characters": [
+                "hao",
+                "the_static_guardian"
+              ],
+              "dialogues": [
+                {
+                  "character_id": "the_static_guardian",
+                  "text": "YOU. ARE. NOISE.",
+                  "type": "speech"
+                }
+              ],
+              "narration": null,
+              "sfx": "CHARGE UP",
+              "shot_type": "medium",
+              "mood": "",
+              "scroll_pacing": "normal",
+              "height_hint": "standard"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
